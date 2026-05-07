@@ -349,18 +349,35 @@
       <label><input type="radio" name="mSec" value="선택-기하"> 기하</label>
     </div>
 
-    <!-- OCR 이미지 업로드 -->
-    <div id="ocrBox" style="margin-bottom:10px;padding:10px 12px;background:#f0f9ff;border:1.5px dashed #38bdf8;border-radius:8px">
+    <!-- 빠른 입력 탭 -->
+    <div style="display:flex;border:1.5px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:10px">
+      <button type="button" id="tabTextBtn" class="pdf-toggle-btn active" onclick="switchOcrTab('text')" style="flex:1;padding:7px">⌨️ 텍스트로 빠른 입력</button>
+      <button type="button" id="tabImgBtn" class="pdf-toggle-btn" onclick="switchOcrTab('img')" style="flex:1;padding:7px">📸 이미지 자동 인식 (API 키 필요)</button>
+    </div>
+
+    <!-- 텍스트 입력 방식 -->
+    <div id="ocrTabText" style="margin-bottom:10px;padding:10px 12px;background:#f0fdf4;border:1.5px solid #86efac;border-radius:8px">
+      <div style="font-size:12px;color:#166534;margin-bottom:6px;font-weight:600">정답을 순서대로 입력 (공백 또는 쉼표로 구분)</div>
+      <div style="font-size:11px;color:#64748b;margin-bottom:6px">예: <code style="background:#dcfce7;padding:1px 4px;border-radius:3px">1 3 2 4 5 2 2 3 3 5 3 3 2 4 3 4 1 3 3 4 4 1 3 5 2 1 5 2 2 5 1 4 5 2</code></div>
+      <div style="display:flex;gap:6px">
+        <input type="text" id="quickTextInput" class="fi" placeholder="1 3 2 4 5 2 2 3 3 5 ..." style="font-family:monospace;font-size:13px;letter-spacing:1px">
+        <button type="button" class="btn btn-success" style="white-space:nowrap" onclick="applyQuickText()">입력</button>
+      </div>
+      <div id="quickTextStatus" style="font-size:11px;color:#16a34a;margin-top:4px"></div>
+    </div>
+
+    <!-- 이미지 OCR 방식 -->
+    <div id="ocrTabImg" style="margin-bottom:10px;padding:10px 12px;background:#f0f9ff;border:1.5px dashed #38bdf8;border-radius:8px;display:none">
       <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px">
         <label style="cursor:pointer">
           <div class="btn btn-ghost" style="font-size:12px;pointer-events:none">📸 정답표 이미지 업로드</div>
           <input type="file" accept="image/*" id="ocrFileInput" style="display:none" onchange="startOcr(this)">
         </label>
         <button type="button" class="btn btn-ghost" style="font-size:11px" onclick="toggleApiKeyInput()">🔑 API 키 설정</button>
-        <span id="ocrMethodLabel" style="font-size:11px;color:#0369a1"></span>
+        <span id="ocrMethodLabel" style="font-size:11px"></span>
       </div>
-      <div id="apiKeyRow" style="display:none;margin-bottom:6px;display:none">
-        <div style="font-size:11px;color:#64748b;margin-bottom:3px">Anthropic API 키 (<a href="https://console.anthropic.com" target="_blank" style="color:#0369a1">console.anthropic.com</a>에서 발급)</div>
+      <div id="apiKeyRow" style="display:none;margin-bottom:6px">
+        <div style="font-size:11px;color:#64748b;margin-bottom:3px">Anthropic API 키 (<a href="https://console.anthropic.com" target="_blank" style="color:#0369a1">console.anthropic.com</a>에서 발급 — 유료)</div>
         <div style="display:flex;gap:6px">
           <input type="password" id="apiKeyInput" class="fi" placeholder="sk-ant-..." style="font-family:monospace;font-size:12px">
           <button type="button" class="btn btn-primary" style="white-space:nowrap" onclick="saveApiKey()">저장</button>
@@ -942,6 +959,35 @@
 
   function h(s) {
     return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  // ── 탭 전환 ──
+  function switchOcrTab(tab) {
+    document.getElementById('ocrTabText').style.display = tab === 'text' ? 'block' : 'none';
+    document.getElementById('ocrTabImg').style.display  = tab === 'img'  ? 'block' : 'none';
+    document.getElementById('tabTextBtn').classList.toggle('active', tab === 'text');
+    document.getElementById('tabImgBtn').classList.toggle('active', tab === 'img');
+    if (tab === 'img') updateOcrMethodLabel();
+  }
+
+  // ── 텍스트 빠른 입력 ──
+  function applyQuickText() {
+    var raw = document.getElementById('quickTextInput').value.trim();
+    if (!raw) { document.getElementById('quickTextStatus').textContent = '입력값이 없습니다.'; return; }
+    var nums = raw.split(/[\s,]+/).filter(function(s) { return s !== ''; });
+    var sub = st.sub;
+    var total = sub === 'math' ? 30 : 45;
+    if (nums.length < 1) { document.getElementById('quickTextStatus').textContent = '숫자를 입력해주세요.'; return; }
+
+    var count = 0;
+    for (var i = 0; i < nums.length && i < total; i++) {
+      var input = document.getElementById('ba_' + (i + 1));
+      if (input) { input.value = nums[i]; input.style.background = '#dcfce7'; count++; }
+    }
+    setTimeout(function() {
+      document.querySelectorAll('.bulk-ans').forEach(function(el) { el.style.background = ''; });
+    }, 2000);
+    document.getElementById('quickTextStatus').textContent = '✅ ' + count + '개 입력 완료';
   }
 
   // ── API 키 관리 ──
