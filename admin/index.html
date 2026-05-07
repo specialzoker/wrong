@@ -357,8 +357,8 @@
 
     <!-- 텍스트 입력 방식 -->
     <div id="ocrTabText" style="margin-bottom:10px;padding:10px 12px;background:#f0fdf4;border:1.5px solid #86efac;border-radius:8px">
-      <div style="font-size:12px;color:#166534;margin-bottom:6px;font-weight:600">1번부터 끝번까지 순서대로 입력 — 공통+선택과목 한번에 (공백·쉼표 있어도 없어도 OK)</div>
-      <div style="font-size:11px;color:#64748b;margin-bottom:6px">예(국어 45문항): <code style="background:#dcfce7;padding:1px 4px;border-radius:3px">13245223353324341334413521522514522555415142345</code></div>
+      <div style="font-size:12px;color:#166534;margin-bottom:6px;font-weight:600">1번부터 순서대로 입력 (공백·쉼표 있어도 없어도 OK) — 국어 56자(공통34+화작11+언매11) / 수학 30자 / 영어 45자</div>
+      <div style="font-size:11px;color:#64748b;margin-bottom:6px">예(국어 56자 공통→화작→언매): <code style="background:#dcfce7;padding:1px 4px;border-radius:3px">1324522335332434133441352152251452 45142345134 31524513245</code></div>
       <div style="display:flex;gap:6px">
         <input type="text" id="quickTextInput" class="fi" placeholder="1 3 2 4 5 2 2 3 3 5 ..." style="font-family:monospace;font-size:13px;letter-spacing:1px">
         <button type="button" class="btn btn-success" style="white-space:nowrap" onclick="applyQuickText()">입력</button>
@@ -698,58 +698,75 @@
   }
 
   // ── 답안 일괄 입력 ──
+  // 국어: ba_1~ba_34(공통) + ba_35~ba_45(화법과작문) + ba_46~ba_56(언어와매체, 실제 문항번호 35~45)
+  // 수학: ba_1~ba_30
+  // 영어: ba_1~ba_45
+  function bulkGridTotal(sub) { return sub === 'korean' ? 56 : sub === 'math' ? 30 : 45; }
+  function bulkCellId(idx) { return 'ba_' + idx; }
+  function bulkDisplayNo(sub, idx) {
+    // 국어 46~56 → 표시 번호 35~45 (언매)
+    return (sub === 'korean' && idx >= 46) ? idx - 11 : idx;
+  }
+
   function openBulkModal() {
     if (!st.examId) { alert('먼저 시험을 선택하세요.'); return; }
     var sub = st.sub;
-    var total = sub === 'math' ? 30 : 45;
+    var gridTotal = bulkGridTotal(sub);
 
-    document.getElementById('bulkKoreanSec').style.display = sub === 'korean' ? 'flex' : 'none';
-    document.getElementById('bulkMathSec').style.display   = sub === 'math'   ? 'flex' : 'none';
+    // 국어는 두 선택과목 모두 표시 → 라디오 불필요
+    document.getElementById('bulkKoreanSec').style.display = 'none';
+    document.getElementById('bulkMathSec').style.display   = sub === 'math' ? 'flex' : 'none';
 
     var d = st.db[sub];
     var exam = d && d.exams.find(function(e) { return e.exam_id === st.examId; });
     var existingQs = (d && d.questions || []).filter(function(q) { return q.exam_id === st.examId; });
+
+    // 기존 답 맵: 공통/화작은 question_no, 언매는 'L'+question_no 키
     var existMap = {};
-    existingQs.forEach(function(q) { existMap[q.question_no] = q.correct_answer; });
+    existingQs.forEach(function(q) {
+      if (sub === 'korean' && q.is_common === '언어와매체') existMap['L' + q.question_no] = q.correct_answer;
+      else existMap[q.question_no] = q.correct_answer;
+    });
 
-    document.getElementById('bulkDesc').textContent =
-      (exam ? exam.exam_name : st.examId) + ' — ' + total + '문항 답안 입력 (단답형은 숫자 그대로 입력)';
+    var qDesc = sub === 'korean' ? '공통(1~34) + 화법과작문(35~45) + 언어와매체(35~45) 순으로 입력'
+              : sub === 'math'   ? '공통(1~22) + 단답형(22) + 선택과목(23~30) 순으로 입력'
+              : '1~45번 순으로 입력';
+    document.getElementById('bulkDesc').textContent = (exam ? exam.exam_name : st.examId) + ' — ' + qDesc;
 
-    // 그리드 생성
     var grid = document.getElementById('bulkGrid');
     var html = '';
     var sa = SHORT_ANS[sub] || [];
 
-    for (var i = 1; i <= total; i++) {
+    for (var i = 1; i <= gridTotal; i++) {
+      var dispNo = bulkDisplayNo(sub, i);
+
       // 섹션 구분선
-      if ((sub === 'korean' && i === 35) || (sub === 'math' && i === 23) || (sub === 'english' && i === 18)) {
-        var secLabel = sub === 'korean' ? '▼ 선택과목 (35~45번)' : sub === 'math' ? '▼ 선택과목 (23~30번)' : '▼ 독해 (18~45번)';
-        html += '<div class="bulk-divider">' + secLabel + '</div>';
-      }
-      var isShort = sa.indexOf(i) >= 0;
-      var placeholder = isShort ? '숫자' : '1~5';
-      var prev = existMap[i] || '';
+      if (sub === 'korean' && i === 35)  html += '<div class="bulk-divider">▼ 화법과작문 (35~45번)</div>';
+      if (sub === 'korean' && i === 46)  html += '<div class="bulk-divider">▼ 언어와매체 (35~45번)</div>';
+      if (sub === 'math'   && i === 23)  html += '<div class="bulk-divider">▼ 선택과목 (23~30번)</div>';
+      if (sub === 'english'&& i === 18)  html += '<div class="bulk-divider">▼ 독해 (18~45번)</div>';
+
+      var isShort = sa.indexOf(dispNo) >= 0;
+      var prevKey = (sub === 'korean' && i >= 46) ? 'L' + dispNo : dispNo;
+      var prev = existMap[prevKey] || '';
+
       html += '<div class="bulk-cell">'
-        + '<span class="bulk-no">' + i + '</span>'
-        + '<input class="bulk-ans" type="' + (isShort ? 'text' : 'number') + '" id="ba_' + i + '" min="1" max="' + (isShort ? '999' : '5') + '" placeholder="' + placeholder + '" value="' + h(String(prev)) + '" onkeydown="bulkKeyNav(event,' + i + ',' + total + ')">'
+        + '<span class="bulk-no">' + dispNo + '</span>'
+        + '<input class="bulk-ans" type="' + (isShort ? 'text' : 'number') + '" id="ba_' + i + '" min="1" max="' + (isShort ? '999' : '5') + '" placeholder="' + (isShort ? '숫자' : '1~5') + '" value="' + h(String(prev)) + '" onkeydown="bulkKeyNav(event,' + i + ',' + gridTotal + ')">'
         + '</div>';
     }
     grid.innerHTML = html;
 
     document.getElementById('bulkModal').classList.add('open');
-    var firstInput = document.getElementById('ba_1');
-    if (firstInput) setTimeout(function() { firstInput.focus(); }, 50);
+    setTimeout(function() { var f = document.getElementById('ba_1'); if (f) f.focus(); }, 50);
   }
 
   function bulkKeyNav(e, no, total) {
-    if (e.key === 'Enter' || e.key === 'ArrowRight' || e.key === 'Tab') {
+    var map = { 'Enter': 1, 'ArrowRight': 1, 'Tab': 1, 'ArrowLeft': -1 };
+    if (map[e.key] !== undefined) {
       e.preventDefault();
-      var next = document.getElementById('ba_' + (no + 1));
+      var next = document.getElementById('ba_' + (no + map[e.key]));
       if (next) next.focus();
-    } else if (e.key === 'ArrowLeft') {
-      e.preventDefault();
-      var prev = document.getElementById('ba_' + (no - 1));
-      if (prev) prev.focus();
     } else if (e.key === 'ArrowDown') {
       e.preventDefault();
       var dn = document.getElementById('ba_' + Math.min(no + 5, total));
@@ -766,50 +783,52 @@
   function importBulk() {
     if (!st.examId) return;
     var sub = st.sub;
-    var total = sub === 'math' ? 30 : 45;
+    var gridTotal = bulkGridTotal(sub);
     var d = st.db[sub];
     if (!d) return;
     if (!d.questions) d.questions = [];
 
-    var kSec = document.querySelector('input[name="kSec"]:checked');
     var mSec = document.querySelector('input[name="mSec"]:checked');
     var bScore = document.querySelector('input[name="bScore"]:checked');
-    var selectedTrack = sub === 'korean' ? (kSec ? kSec.value : '화법과작문') : (mSec ? mSec.value : '선택-확통');
+    var mathTrack = mSec ? mSec.value : '선택-확통';
     var defaultScore = bScore ? parseInt(bScore.value) : 2;
 
     var created = 0;
-    for (var i = 1; i <= total; i++) {
+    for (var i = 1; i <= gridTotal; i++) {
       var input = document.getElementById('ba_' + i);
       var ans = input ? input.value.trim() : '';
       if (!ans) continue;
 
-      var newQ = {
-        exam_id:        st.examId,
-        question_no:    i,
-        topic:          '',
-        subtopic:       '',
-        difficulty:     '중',
-        keywords:       '',
-        question_page:  1,
-        answer_page:    1,
-        correct_answer: ans,
-        score:          defaultScore
-      };
-      newQ[FKEY[sub]] = autoSection(sub, i, selectedTrack);
+      var dispNo = bulkDisplayNo(sub, i);
+      var isCommonVal;
+      if (sub === 'korean') {
+        if (i <= 34)      isCommonVal = '공통';
+        else if (i <= 45) isCommonVal = '화법과작문';
+        else              isCommonVal = '언어와매체';
+      } else {
+        isCommonVal = autoSection(sub, dispNo, mathTrack);
+      }
 
-      d.questions = d.questions.filter(function(q) { return !(q.exam_id === st.examId && q.question_no === i); });
+      var newQ = {
+        exam_id: st.examId, question_no: dispNo,
+        topic: '', subtopic: '', difficulty: '중', keywords: '',
+        question_page: 1, answer_page: 1,
+        correct_answer: ans, score: defaultScore
+      };
+      newQ[FKEY[sub]] = isCommonVal;
+
+      // 중복 제거: 같은 exam_id + question_no + is_common 조합
+      d.questions = d.questions.filter(function(q) {
+        return !(q.exam_id === st.examId && q.question_no === dispNo && q[FKEY[sub]] === isCommonVal);
+      });
       d.questions.push(newQ);
       created++;
     }
 
-    d.questions.sort(function(a, b) {
-      if (a.exam_id !== b.exam_id) return a.exam_id < b.exam_id ? -1 : 1;
-      return a.question_no - b.question_no;
-    });
-
+    d.questions.sort(function(a, b) { return a.question_no - b.question_no; });
     closeBulkModal();
     save(); renderQArea();
-    toast(created + '개 문항 생성 완료 — 유형·난이도는 테이블에서 수정하세요', 'ok');
+    toast(created + '개 문항 생성 완료', 'ok');
   }
 
   // ── 문항 테이블 ──
@@ -983,7 +1002,7 @@
       nums = raw.split('');
     }
     var sub = st.sub;
-    var total = sub === 'math' ? 30 : 45;
+    var total = bulkGridTotal(sub);
     if (nums.length < 1) { document.getElementById('quickTextStatus').textContent = '숫자를 입력해주세요.'; return; }
 
     var count = 0;
