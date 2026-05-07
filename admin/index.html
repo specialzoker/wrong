@@ -351,16 +351,25 @@
 
     <!-- OCR 이미지 업로드 -->
     <div id="ocrBox" style="margin-bottom:10px;padding:10px 12px;background:#f0f9ff;border:1.5px dashed #38bdf8;border-radius:8px">
-      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px">
         <label style="cursor:pointer">
           <div class="btn btn-ghost" style="font-size:12px;pointer-events:none">📸 정답표 이미지 업로드</div>
           <input type="file" accept="image/*" id="ocrFileInput" style="display:none" onchange="startOcr(this)">
         </label>
-        <span style="font-size:11px;color:#0369a1">정답표 사진/스크린샷을 올리면 답안을 자동으로 읽어줍니다</span>
+        <button type="button" class="btn btn-ghost" style="font-size:11px" onclick="toggleApiKeyInput()">🔑 API 키 설정</button>
+        <span id="ocrMethodLabel" style="font-size:11px;color:#0369a1"></span>
       </div>
-      <div id="ocrStatus" style="font-size:12px;color:#0369a1;margin-top:6px;display:none"></div>
+      <div id="apiKeyRow" style="display:none;margin-bottom:6px;display:none">
+        <div style="font-size:11px;color:#64748b;margin-bottom:3px">Anthropic API 키 (<a href="https://console.anthropic.com" target="_blank" style="color:#0369a1">console.anthropic.com</a>에서 발급)</div>
+        <div style="display:flex;gap:6px">
+          <input type="password" id="apiKeyInput" class="fi" placeholder="sk-ant-..." style="font-family:monospace;font-size:12px">
+          <button type="button" class="btn btn-primary" style="white-space:nowrap" onclick="saveApiKey()">저장</button>
+          <button type="button" class="btn btn-danger" style="white-space:nowrap" onclick="clearApiKey()">삭제</button>
+        </div>
+      </div>
+      <div id="ocrStatus" style="font-size:12px;color:#0369a1;margin-top:4px;display:none"></div>
       <div id="ocrPreviewBox" style="display:none;margin-top:8px">
-        <img id="ocrPreview" style="max-width:100%;max-height:180px;border-radius:4px;border:1px solid #bae6fd">
+        <img id="ocrPreview" style="max-width:100%;max-height:160px;border-radius:4px;border:1px solid #bae6fd">
       </div>
     </div>
 
@@ -935,94 +944,117 @@
     return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   }
 
-  // ── OCR (Tesseract.js) ──
+  // ── API 키 관리 ──
+  function toggleApiKeyInput() {
+    var row = document.getElementById('apiKeyRow');
+    var visible = row.style.display !== 'none';
+    row.style.display = visible ? 'none' : 'block';
+    if (!visible) {
+      var saved = localStorage.getItem('anthropic_api_key') || '';
+      document.getElementById('apiKeyInput').value = saved;
+    }
+  }
+  function saveApiKey() {
+    var key = document.getElementById('apiKeyInput').value.trim();
+    if (key) { localStorage.setItem('anthropic_api_key', key); toast('API 키 저장 완료', 'ok'); }
+    document.getElementById('apiKeyRow').style.display = 'none';
+    updateOcrMethodLabel();
+  }
+  function clearApiKey() {
+    localStorage.removeItem('anthropic_api_key');
+    document.getElementById('apiKeyInput').value = '';
+    toast('API 키 삭제됨', 'ok');
+    updateOcrMethodLabel();
+  }
+  function updateOcrMethodLabel() {
+    var el = document.getElementById('ocrMethodLabel');
+    if (!el) return;
+    el.textContent = localStorage.getItem('anthropic_api_key') ? '🤖 AI 인식 사용 중' : '⚠ API 키 없음 (정확도 낮음)';
+    el.style.color = localStorage.getItem('anthropic_api_key') ? '#16a34a' : '#d97706';
+  }
+
+  // ── OCR 메인 ──
   function startOcr(input) {
     var file = input.files[0]; if (!file) return;
     var statusEl = document.getElementById('ocrStatus');
-    var previewBox = document.getElementById('ocrPreviewBox');
     var previewImg = document.getElementById('ocrPreview');
-    var imgUrl = URL.createObjectURL(file);
-
-    // 미리보기 표시
-    previewImg.src = imgUrl;
-    previewBox.style.display = 'block';
+    previewImg.src = URL.createObjectURL(file);
+    document.getElementById('ocrPreviewBox').style.display = 'block';
     statusEl.style.display = 'block';
-    statusEl.textContent = '⏳ Tesseract 로딩 중... (처음 실행 시 10~20초 소요)';
-
-    if (!window.Tesseract) {
-      var s = document.createElement('script');
-      s.src = 'https://unpkg.com/tesseract.js@4/dist/tesseract.min.js';
-      s.onload = function() { runOcr(imgUrl, statusEl); };
-      s.onerror = function() { statusEl.textContent = '❌ Tesseract 로드 실패. 인터넷 연결을 확인하세요.'; };
-      document.head.appendChild(s);
-    } else {
-      runOcr(imgUrl, statusEl);
-    }
     input.value = '';
+
+    var apiKey = localStorage.getItem('anthropic_api_key') || '';
+    if (apiKey) {
+      statusEl.textContent = '🤖 AI가 답안을 읽는 중...';
+      var reader = new FileReader();
+      reader.onload = function(e) {
+        var dataUrl = e.target.result;
+        var base64 = dataUrl.split(',')[1];
+        var mime = file.type || 'image/jpeg';
+        callClaudeOcr(base64, mime, apiKey, statusEl);
+      };
+      reader.readAsDataURL(file);
+    } else {
+      statusEl.innerHTML = '⚠️ <strong>API 키가 없어 정확도가 낮습니다.</strong> 위 [🔑 API 키 설정]으로 Anthropic API 키를 등록하면 정확하게 읽을 수 있어요.';
+    }
   }
 
-  function runOcr(imgUrl, statusEl) {
-    Tesseract.recognize(imgUrl, 'kor+eng', {
-      logger: function(m) {
-        if (m.status === 'recognizing text') {
-          statusEl.textContent = '🔍 인식 중... ' + Math.round(m.progress * 100) + '%';
-        } else if (m.status === 'loading tesseract core') {
-          statusEl.textContent = '⏳ OCR 엔진 로딩 중...';
-        } else if (m.status === 'loading language traineddata') {
-          statusEl.textContent = '⏳ 언어 데이터 로딩 중... (처음만)';
-        }
-      }
-    }).then(function(result) {
-      var text = result.data.text;
-      var answers = parseAnswerSheet(text);
+  // ── Claude API 호출 ──
+  function callClaudeOcr(base64, mime, apiKey, statusEl) {
+    // 현재 선택된 선택과목 확인
+    var kSec = document.querySelector('input[name="kSec"]:checked');
+    var mSec = document.querySelector('input[name="mSec"]:checked');
+    var secName = kSec ? kSec.value : (mSec ? mSec.value : '');
+
+    var prompt = '이 수능 정답표 이미지에서 각 문항의 정답을 추출해주세요.\n'
+      + '①=1 ②=2 ③=3 ④=4 ⑤=5 로 변환하여, 반드시 아래 형식으로만 응답하세요:\n\n'
+      + '1:1 2:3 3:2 4:4 5:5 6:2 7:2 8:3 ...\n\n'
+      + '공통(1~34번) 다음에 줄바꿈 후 선택과목 답을 이어서 써주세요.';
+
+    if (secName) {
+      prompt += '\n선택과목은 [' + secName + '] 부분만 추출해주세요.';
+    }
+
+    fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-allow-browser': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 512,
+        messages: [{ role: 'user', content: [
+          { type: 'image', source: { type: 'base64', media_type: mime, data: base64 } },
+          { type: 'text', text: prompt }
+        ]}]
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
+      var text = data.content[0].text;
+      var answers = parseClaudeAnswers(text);
       var count = Object.keys(answers).length;
-      if (count === 0) {
-        statusEl.innerHTML = '⚠️ 답안을 인식하지 못했어요. 이미지가 선명한지 확인하거나 직접 입력해주세요.';
-        return;
-      }
+      if (count === 0) { statusEl.textContent = '⚠️ 답안을 추출하지 못했어요. 이미지를 다시 확인해주세요.'; return; }
       applyOcrAnswers(answers);
       statusEl.innerHTML = '✅ <strong>' + count + '개</strong> 답안 자동 입력 완료! 틀린 곳은 수동으로 수정하세요.';
-    }).catch(function(err) {
-      statusEl.textContent = '❌ OCR 오류: ' + (err.message || String(err));
+    })
+    .catch(function(err) {
+      statusEl.textContent = '❌ 네트워크 오류: ' + (err.message || String(err));
     });
   }
 
-  function parseAnswerSheet(text) {
-    // 원문자 → 숫자 변환
-    var t = text
-      .replace(/①|⑴|⒈/g, '1').replace(/②|⑵|⒉/g, '2').replace(/③|⑶|⒊/g, '3')
-      .replace(/④|⑷|⒋/g, '4').replace(/⑤|⑸|⒌/g, '5')
-      .replace(/@/g, '2').replace(/\(1\)/g, '1').replace(/\(2\)/g, '2')
-      .replace(/\(3\)/g, '3').replace(/\(4\)/g, '4').replace(/\(5\)/g, '5');
-
+  function parseClaudeAnswers(text) {
     var answers = {};
-
-    // 전략 1: "번호 정답" 패턴 — ex) "12 3" or "12  3"
-    var re = /\b(\d{1,2})\s+([1-5])\b/g;
+    var re = /(\d{1,2}):([1-9]\d{0,2})/g;
     var m;
-    while ((m = re.exec(t)) !== null) {
+    while ((m = re.exec(text)) !== null) {
       var no = parseInt(m[1]);
       if (no >= 1 && no <= 45) answers[no] = m[2];
     }
-
-    // 전략 2: 연속된 숫자 쌍 정리 (번호가 순서대로 나올 때)
-    // "1 2 3 4 5 ..." 같은 출력이면 홀수 위치 = 번호, 짝수 위치 = 정답
-    if (Object.keys(answers).length < 10) {
-      var nums = t.match(/\d+/g) || [];
-      var pairs = [];
-      for (var i = 0; i < nums.length - 1; i++) {
-        var a = parseInt(nums[i]);
-        var b = parseInt(nums[i+1]);
-        if (a >= 1 && a <= 45 && b >= 1 && b <= 5) {
-          pairs.push([a, b]);
-          i++;
-        }
-      }
-      if (pairs.length >= 5) {
-        pairs.forEach(function(p) { answers[p[0]] = String(p[1]); });
-      }
-    }
-
     return answers;
   }
 
@@ -1031,13 +1063,9 @@
       var input = document.getElementById('ba_' + no);
       if (input) { input.value = answers[no]; input.style.background = '#dcfce7'; }
     });
-    // 하이라이트 잠시 후 제거
     setTimeout(function() {
-      Object.keys(answers).forEach(function(no) {
-        var input = document.getElementById('ba_' + no);
-        if (input) input.style.background = '';
-      });
-    }, 2000);
+      document.querySelectorAll('.bulk-ans').forEach(function(el) { el.style.background = ''; });
+    }, 2500);
   }
 </script>
 </body>
