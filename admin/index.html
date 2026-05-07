@@ -974,7 +974,14 @@
   function applyQuickText() {
     var raw = document.getElementById('quickTextInput').value.trim();
     if (!raw) { document.getElementById('quickTextStatus').textContent = '입력값이 없습니다.'; return; }
-    var nums = raw.split(/[\s,]+/).filter(function(s) { return s !== ''; });
+    var nums;
+    if (/[\s,]/.test(raw)) {
+      // 공백/쉼표 구분
+      nums = raw.split(/[\s,]+/).filter(function(s) { return s !== ''; });
+    } else {
+      // 공백 없이 연속 입력 — 한 글자씩 분리
+      nums = raw.split('');
+    }
     var sub = st.sub;
     var total = sub === 'math' ? 30 : 45;
     if (nums.length < 1) { document.getElementById('quickTextStatus').textContent = '숫자를 입력해주세요.'; return; }
