@@ -349,6 +349,21 @@
       <label><input type="radio" name="mSec" value="선택-기하"> 기하</label>
     </div>
 
+    <!-- OCR 이미지 업로드 -->
+    <div id="ocrBox" style="margin-bottom:10px;padding:10px 12px;background:#f0f9ff;border:1.5px dashed #38bdf8;border-radius:8px">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <label style="cursor:pointer">
+          <div class="btn btn-ghost" style="font-size:12px;pointer-events:none">📸 정답표 이미지 업로드</div>
+          <input type="file" accept="image/*" id="ocrFileInput" style="display:none" onchange="startOcr(this)">
+        </label>
+        <span style="font-size:11px;color:#0369a1">정답표 사진/스크린샷을 올리면 답안을 자동으로 읽어줍니다</span>
+      </div>
+      <div id="ocrStatus" style="font-size:12px;color:#0369a1;margin-top:6px;display:none"></div>
+      <div id="ocrPreviewBox" style="display:none;margin-top:8px">
+        <img id="ocrPreview" style="max-width:100%;max-height:180px;border-radius:4px;border:1px solid #bae6fd">
+      </div>
+    </div>
+
     <div class="bulk-grid" id="bulkGrid"></div>
 
     <div class="bulk-score-row">
@@ -918,6 +933,111 @@
 
   function h(s) {
     return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  // ── OCR (Tesseract.js) ──
+  function startOcr(input) {
+    var file = input.files[0]; if (!file) return;
+    var statusEl = document.getElementById('ocrStatus');
+    var previewBox = document.getElementById('ocrPreviewBox');
+    var previewImg = document.getElementById('ocrPreview');
+    var imgUrl = URL.createObjectURL(file);
+
+    // 미리보기 표시
+    previewImg.src = imgUrl;
+    previewBox.style.display = 'block';
+    statusEl.style.display = 'block';
+    statusEl.textContent = '⏳ Tesseract 로딩 중... (처음 실행 시 10~20초 소요)';
+
+    if (!window.Tesseract) {
+      var s = document.createElement('script');
+      s.src = 'https://unpkg.com/tesseract.js@4/dist/tesseract.min.js';
+      s.onload = function() { runOcr(imgUrl, statusEl); };
+      s.onerror = function() { statusEl.textContent = '❌ Tesseract 로드 실패. 인터넷 연결을 확인하세요.'; };
+      document.head.appendChild(s);
+    } else {
+      runOcr(imgUrl, statusEl);
+    }
+    input.value = '';
+  }
+
+  function runOcr(imgUrl, statusEl) {
+    Tesseract.recognize(imgUrl, 'kor+eng', {
+      logger: function(m) {
+        if (m.status === 'recognizing text') {
+          statusEl.textContent = '🔍 인식 중... ' + Math.round(m.progress * 100) + '%';
+        } else if (m.status === 'loading tesseract core') {
+          statusEl.textContent = '⏳ OCR 엔진 로딩 중...';
+        } else if (m.status === 'loading language traineddata') {
+          statusEl.textContent = '⏳ 언어 데이터 로딩 중... (처음만)';
+        }
+      }
+    }).then(function(result) {
+      var text = result.data.text;
+      var answers = parseAnswerSheet(text);
+      var count = Object.keys(answers).length;
+      if (count === 0) {
+        statusEl.innerHTML = '⚠️ 답안을 인식하지 못했어요. 이미지가 선명한지 확인하거나 직접 입력해주세요.';
+        return;
+      }
+      applyOcrAnswers(answers);
+      statusEl.innerHTML = '✅ <strong>' + count + '개</strong> 답안 자동 입력 완료! 틀린 곳은 수동으로 수정하세요.';
+    }).catch(function(err) {
+      statusEl.textContent = '❌ OCR 오류: ' + (err.message || String(err));
+    });
+  }
+
+  function parseAnswerSheet(text) {
+    // 원문자 → 숫자 변환
+    var t = text
+      .replace(/①|⑴|⒈/g, '1').replace(/②|⑵|⒉/g, '2').replace(/③|⑶|⒊/g, '3')
+      .replace(/④|⑷|⒋/g, '4').replace(/⑤|⑸|⒌/g, '5')
+      .replace(/@/g, '2').replace(/\(1\)/g, '1').replace(/\(2\)/g, '2')
+      .replace(/\(3\)/g, '3').replace(/\(4\)/g, '4').replace(/\(5\)/g, '5');
+
+    var answers = {};
+
+    // 전략 1: "번호 정답" 패턴 — ex) "12 3" or "12  3"
+    var re = /\b(\d{1,2})\s+([1-5])\b/g;
+    var m;
+    while ((m = re.exec(t)) !== null) {
+      var no = parseInt(m[1]);
+      if (no >= 1 && no <= 45) answers[no] = m[2];
+    }
+
+    // 전략 2: 연속된 숫자 쌍 정리 (번호가 순서대로 나올 때)
+    // "1 2 3 4 5 ..." 같은 출력이면 홀수 위치 = 번호, 짝수 위치 = 정답
+    if (Object.keys(answers).length < 10) {
+      var nums = t.match(/\d+/g) || [];
+      var pairs = [];
+      for (var i = 0; i < nums.length - 1; i++) {
+        var a = parseInt(nums[i]);
+        var b = parseInt(nums[i+1]);
+        if (a >= 1 && a <= 45 && b >= 1 && b <= 5) {
+          pairs.push([a, b]);
+          i++;
+        }
+      }
+      if (pairs.length >= 5) {
+        pairs.forEach(function(p) { answers[p[0]] = String(p[1]); });
+      }
+    }
+
+    return answers;
+  }
+
+  function applyOcrAnswers(answers) {
+    Object.keys(answers).forEach(function(no) {
+      var input = document.getElementById('ba_' + no);
+      if (input) { input.value = answers[no]; input.style.background = '#dcfce7'; }
+    });
+    // 하이라이트 잠시 후 제거
+    setTimeout(function() {
+      Object.keys(answers).forEach(function(no) {
+        var input = document.getElementById('ba_' + no);
+        if (input) input.style.background = '';
+      });
+    }, 2000);
   }
 </script>
 </body>
