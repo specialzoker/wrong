@@ -548,8 +548,10 @@
       rec.similarQuestions.forEach(function(sq, sIdx) {
         var examInfo = pdfMap[sq.exam_id] || {};
         var examName = examInfo.exam_name || sq.exam_id;
-        var pdfId    = examInfo.question_pdf_id || '';
-        var ansPdfId = examInfo.answer_pdf_id   || '';
+        var pdfId    = examInfo.question_pdf_id   || '';
+        var ansPdfId = examInfo.answer_pdf_id     || '';
+        var pdfPath  = examInfo.question_pdf_path || '';
+        var ansPdfPath = examInfo.answer_pdf_path || '';
         var cardId   = 'rec_' + rIdx + '_' + sIdx;
 
         html += '<div class="rec-card" id="card_' + cardId + '">';
@@ -562,7 +564,10 @@
         html += '</div></div>';
 
         html += '<div class="rec-expand" id="' + cardId + '">';
-        if (pdfId) {
+        if (pdfPath) {
+          html += '<div class="page-hint">📄 PDF <strong>' + sq.question_page + '페이지</strong>의 <strong>' + sq.question_no + '번</strong> 문제를 풀어보세요</div>';
+          html += '<iframe class="pdf-frame" src="../' + pdfPath + '#page=' + sq.question_page + '" loading="lazy"></iframe>';
+        } else if (pdfId) {
           html += '<div class="page-hint">📄 PDF <strong>' + sq.question_page + '페이지</strong>의 <strong>' + sq.question_no + '번</strong> 문제를 풀어보세요</div>';
           html += '<iframe class="pdf-frame" src="https://drive.google.com/file/d/' + pdfId + '/preview#page=' + sq.question_page + '" loading="lazy"></iframe>';
         } else {
@@ -576,7 +581,10 @@
         html += '<div class="answer-area" id="' + cardId + '_ans">';
         html += '<div class="answer-label">정답</div>';
         html += '<div class="answer-value">' + sq.correct_answer + '</div>';
-        if (ansPdfId) {
+        if (ansPdfPath) {
+          html += '<div class="page-hint" style="margin:8px -16px -12px;border-radius:0">📄 해설 PDF <strong>' + sq.answer_page + '페이지</strong></div>';
+          html += '<iframe class="pdf-frame" style="height:300px" src="../' + ansPdfPath + '#page=' + sq.answer_page + '" loading="lazy"></iframe>';
+        } else if (ansPdfId) {
           html += '<div class="page-hint" style="margin:8px -16px -12px;border-radius:0">📄 해설 PDF <strong>' + sq.answer_page + '페이지</strong></div>';
           html += '<iframe class="pdf-frame" style="height:300px" src="https://drive.google.com/file/d/' + ansPdfId + '/preview#page=' + sq.answer_page + '" loading="lazy"></iframe>';
         }

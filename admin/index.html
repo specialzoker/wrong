@@ -18,68 +18,40 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); font-size: 14px; min-height: 100vh; }
 
-    /* ── 툴바 ── */
     .toolbar {
-      background: var(--primary);
-      color: white;
-      padding: 0 20px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      height: 52px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      background: var(--primary); color: white; padding: 0 20px;
+      display: flex; align-items: center; gap: 10px; height: 52px;
+      position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     }
     .toolbar-title { font-size: 15px; font-weight: 700; margin-right: auto; }
     .subject-tabs { display: flex; gap: 3px; }
     .subject-tab {
-      padding: 5px 14px;
-      border: 1.5px solid rgba(255,255,255,0.35);
-      border-radius: 20px;
-      background: transparent;
-      color: rgba(255,255,255,0.75);
-      cursor: pointer;
-      font-size: 13px;
-      font-weight: 600;
-      transition: all 0.15s;
+      padding: 5px 14px; border: 1.5px solid rgba(255,255,255,0.35);
+      border-radius: 20px; background: transparent; color: rgba(255,255,255,0.75);
+      cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.15s;
     }
     .subject-tab:hover { background: rgba(255,255,255,0.15); color: white; }
     .subject-tab.active { background: white; color: var(--primary); border-color: white; }
-
     .tbtn {
-      padding: 6px 13px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 12px;
-      font-weight: 700;
-      transition: opacity 0.15s;
+      padding: 6px 13px; border: none; border-radius: 6px;
+      cursor: pointer; font-size: 12px; font-weight: 700; transition: opacity 0.15s;
     }
     .tbtn:hover { opacity: 0.85; }
     .tbtn-ghost { background: rgba(255,255,255,0.18); color: white; }
     .tbtn-green { background: #22c55e; color: white; }
     .tbtn-back  { background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.8); text-decoration: none; display: inline-flex; align-items: center; }
 
-    /* ── 레이아웃 ── */
-    .layout { display: grid; grid-template-columns: 360px 1fr; gap: 16px; padding: 16px 20px 40px; max-width: 1400px; margin: 0 auto; }
+    .layout { display: grid; grid-template-columns: 360px 1fr; gap: 16px; padding: 16px 20px 60px; max-width: 1400px; margin: 0 auto; }
     @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
 
-    /* ── 패널 ── */
     .panel { background: white; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
     .panel-header {
-      background: #f1f5f9;
-      border-bottom: 1px solid var(--border);
-      padding: 10px 16px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      background: #f1f5f9; border-bottom: 1px solid var(--border);
+      padding: 10px 16px; display: flex; align-items: center; gap: 8px;
     }
     .panel-title { font-size: 13px; font-weight: 700; color: var(--primary); flex: 1; }
     .panel-body { padding: 0; }
 
-    /* ── 버튼 ── */
     .btn { padding: 6px 12px; border: none; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 700; transition: all 0.15s; }
     .btn:hover { opacity: 0.85; }
     .btn-primary { background: var(--primary); color: white; }
@@ -87,30 +59,19 @@
     .btn-danger  { background: var(--danger); color: white; }
     .btn-ghost   { background: #e2e8f0; color: var(--text); }
 
-    /* ── 시험 목록 ── */
     .exam-item {
-      display: flex;
-      align-items: center;
-      padding: 10px 16px;
-      border-bottom: 1px solid #f1f5f9;
-      cursor: pointer;
-      transition: background 0.1s;
-      gap: 10px;
+      display: flex; align-items: center; padding: 10px 16px;
+      border-bottom: 1px solid #f1f5f9; cursor: pointer; transition: background 0.1s; gap: 10px;
     }
     .exam-item:hover { background: #f8fafc; }
     .exam-item.selected { background: var(--primary-light); border-left: 3px solid var(--primary); }
     .exam-item-info { flex: 1; min-width: 0; }
     .exam-item-name { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .exam-item-meta { font-size: 11px; color: var(--text-light); margin-top: 2px; }
-    .pdf-badge {
-      font-size: 10px; font-weight: 700;
-      padding: 2px 6px; border-radius: 10px;
-      white-space: nowrap;
-    }
+    .pdf-badge { font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 10px; white-space: nowrap; }
     .pdf-ok { background: #dcfce7; color: #15803d; }
     .pdf-no { background: #fee2e2; color: #b91c1c; }
 
-    /* ── 시험 추가 폼 ── */
     .add-exam-form { padding: 14px 16px; border-top: 2px solid var(--primary); background: #fafcff; display: none; }
     .add-exam-form.open { display: block; }
     .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; }
@@ -118,39 +79,28 @@
     .fg { display: flex; flex-direction: column; gap: 3px; }
     .fl { font-size: 10px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.05em; }
     .fi {
-      padding: 7px 10px;
-      border: 1.5px solid var(--border);
-      border-radius: 6px;
-      font-size: 13px;
-      font-family: inherit;
-      outline: none;
-      transition: border-color 0.15s;
-      width: 100%;
+      padding: 7px 10px; border: 1.5px solid var(--border); border-radius: 6px;
+      font-size: 13px; font-family: inherit; outline: none; transition: border-color 0.15s; width: 100%;
     }
     .fi:focus { border-color: var(--primary); }
     .fi-id-preview { font-size: 11px; color: var(--success); margin-top: 2px; font-family: monospace; min-height: 16px; }
 
-    /* ── 시험 편집 패널 ── */
-    .exam-edit-bar {
-      padding: 10px 16px;
-      background: var(--primary-light);
-      border-bottom: 1px solid var(--border);
-      display: none;
-    }
+    /* PDF 토글 */
+    .pdf-toggle { display: flex; border: 1.5px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 5px; }
+    .pdf-toggle-btn { flex: 1; padding: 4px 8px; font-size: 11px; font-weight: 700; border: none; cursor: pointer; background: #f1f5f9; color: var(--text-light); transition: all 0.15s; }
+    .pdf-toggle-btn.active { background: var(--primary); color: white; }
+    .pdf-path-hint { font-size: 11px; color: var(--success); margin-top: 3px; font-family: monospace; min-height: 16px; word-break: break-all; }
+    .pdf-copy-btn { font-size: 10px; padding: 2px 6px; background: #e2e8f0; border: none; border-radius: 4px; cursor: pointer; margin-top: 3px; color: var(--text); }
+
+    .exam-edit-bar { padding: 10px 16px; background: var(--primary-light); border-bottom: 1px solid var(--border); display: none; }
     .exam-edit-bar.open { display: block; }
-    .exam-edit-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-    .exam-edit-label { font-size: 12px; font-weight: 600; color: var(--primary); flex: 1; }
-    .fi-url { flex: 1; min-width: 160px; padding: 5px 8px; border: 1.5px solid var(--border); border-radius: 6px; font-size: 12px; font-family: monospace; outline: none; }
+    .exam-edit-label { font-size: 12px; font-weight: 600; color: var(--primary); margin-bottom: 8px; }
+    .fi-url { width: 100%; padding: 5px 8px; border: 1.5px solid var(--border); border-radius: 6px; font-size: 12px; font-family: monospace; outline: none; }
     .fi-url:focus { border-color: var(--primary); }
 
-    /* ── 문항 테이블 ── */
     .q-toolbar {
-      padding: 8px 12px;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
+      padding: 8px 12px; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
     }
     .q-exam-label { font-size: 13px; font-weight: 700; color: var(--primary); flex: 1; }
     .q-count { font-size: 12px; color: var(--text-light); }
@@ -158,59 +108,32 @@
     .q-scroll { overflow-x: auto; }
     .q-table { width: 100%; border-collapse: collapse; font-size: 12px; min-width: 820px; }
     .q-table th {
-      background: #f1f5f9;
-      color: var(--text-light);
-      font-size: 11px;
-      font-weight: 700;
-      padding: 7px 5px;
-      text-align: center;
-      border-bottom: 1px solid var(--border);
-      white-space: nowrap;
-      position: sticky;
-      top: 52px;
-      z-index: 10;
+      background: #f1f5f9; color: var(--text-light); font-size: 11px; font-weight: 700;
+      padding: 7px 5px; text-align: center; border-bottom: 1px solid var(--border);
+      white-space: nowrap; position: sticky; top: 52px; z-index: 10;
     }
     .q-table td { padding: 2px 3px; border-bottom: 1px solid #f8fafc; }
     .q-table tr:hover td { background: #fafbff; }
 
     .qi {
-      width: 100%;
-      padding: 5px 5px;
-      border: 1.5px solid transparent;
-      border-radius: 4px;
-      font-size: 12px;
-      font-family: inherit;
-      text-align: center;
-      background: transparent;
-      outline: none;
-      transition: border-color 0.12s, background 0.12s;
+      width: 100%; padding: 5px; border: 1.5px solid transparent; border-radius: 4px;
+      font-size: 12px; font-family: inherit; text-align: center; background: transparent; outline: none; transition: border-color 0.12s, background 0.12s;
     }
     .qi:focus { border-color: var(--primary); background: white; }
     .qi.left { text-align: left; }
     .qi-sel {
-      width: 100%;
-      padding: 4px 3px;
-      border: 1.5px solid transparent;
-      border-radius: 4px;
-      font-size: 11px;
-      font-family: inherit;
-      background: transparent;
-      text-align: center;
-      outline: none;
-      cursor: pointer;
+      width: 100%; padding: 4px 3px; border: 1.5px solid transparent; border-radius: 4px;
+      font-size: 11px; font-family: inherit; background: transparent; text-align: center; outline: none; cursor: pointer;
     }
     .qi-sel:focus { border-color: var(--primary); background: white; }
     .del-btn {
-      width: 22px; height: 22px;
-      border: none; border-radius: 50%;
-      background: #fee2e2; color: var(--danger);
-      cursor: pointer; font-size: 13px; line-height: 1;
-      display: flex; align-items: center; justify-content: center;
-      transition: all 0.12s; margin: auto;
+      width: 22px; height: 22px; border: none; border-radius: 50%;
+      background: #fee2e2; color: var(--danger); cursor: pointer; font-size: 13px; line-height: 1;
+      display: flex; align-items: center; justify-content: center; transition: all 0.12s; margin: auto;
     }
     .del-btn:hover { background: var(--danger); color: white; }
 
-    /* ── CSV 모달 ── */
+    /* ── 모달 공통 ── */
     .modal-bg { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 200; align-items: center; justify-content: center; }
     .modal-bg.open { display: flex; }
     .modal { background: white; border-radius: 12px; padding: 24px; width: min(700px, 95vw); max-height: 90vh; overflow-y: auto; }
@@ -221,12 +144,25 @@
     .modal textarea:focus { border-color: var(--primary); }
     .modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 12px; }
 
-    /* ── 상태바 ── */
+    /* ── 답안 일괄 입력 ── */
+    .bulk-modal { width: min(680px, 95vw); }
+    .bulk-sec-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 12px; padding: 10px 12px; background: #f8fafc; border-radius: 8px; border: 1px solid var(--border); }
+    .bulk-sec-row label { display: flex; align-items: center; gap: 5px; font-size: 13px; cursor: pointer; }
+    .bulk-sec-row input[type=radio] { cursor: pointer; }
+    .bulk-sec-title { font-size: 12px; font-weight: 700; color: var(--primary); }
+    .bulk-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; padding: 4px 0; }
+    .bulk-cell { display: flex; align-items: center; gap: 4px; padding: 5px 6px; background: #f8fafc; border: 1px solid var(--border); border-radius: 5px; }
+    .bulk-no { font-size: 11px; color: var(--text-light); font-weight: 700; width: 22px; text-align: right; flex-shrink: 0; }
+    .bulk-ans { width: 100%; padding: 4px 2px; border: 1.5px solid var(--border); border-radius: 4px; font-size: 13px; text-align: center; font-family: inherit; outline: none; }
+    .bulk-ans:focus { border-color: var(--primary); background: white; }
+    .bulk-divider { grid-column: 1 / -1; border-top: 2px dashed #cbd5e1; padding-top: 6px; margin-top: 2px; font-size: 11px; color: var(--text-light); font-weight: 700; }
+    .bulk-score-row { display: flex; align-items: center; gap: 8px; margin: 10px 0 4px; flex-wrap: wrap; }
+    .bulk-score-row label { font-size: 12px; display: flex; align-items: center; gap: 4px; cursor: pointer; }
+
     .statusbar {
       position: fixed; bottom: 0; left: 0; right: 0;
       background: #1e293b; color: rgba(255,255,255,0.75);
-      font-size: 11px; padding: 5px 16px; text-align: center;
-      transition: background 0.3s;
+      font-size: 11px; padding: 5px 16px; text-align: center; transition: background 0.3s;
     }
     .statusbar.ok  { background: #15803d; color: white; }
     .statusbar.err { background: #b91c1c; color: white; }
@@ -260,7 +196,6 @@
         <button class="btn btn-primary" onclick="toggleAddForm()">+ 추가</button>
       </div>
 
-      <!-- 시험 목록 -->
       <div id="examList"><div class="empty">JSON을 불러오거나 시험을 추가하세요</div></div>
 
       <!-- 시험 추가 폼 -->
@@ -268,11 +203,11 @@
         <div class="form-row">
           <div class="fg">
             <span class="fl">시험 ID</span>
-            <input class="fi" id="fId" placeholder="2025_수능" list="idHints">
+            <input class="fi" id="fId" placeholder="2026_05" list="idHints">
             <datalist id="idHints">
+              <option value="2026_05"><option value="2026_06"><option value="2026_09"><option value="2026_수능">
               <option value="2025_수능"><option value="2025_06"><option value="2025_09">
               <option value="2024_수능"><option value="2024_06"><option value="2024_09">
-              <option value="2023_수능"><option value="2023_06"><option value="2023_09">
             </datalist>
           </div>
           <div class="fg">
@@ -283,24 +218,49 @@
         <div class="form-row single">
           <div class="fg">
             <span class="fl">시험명</span>
-            <input class="fi" id="fName" placeholder="2025학년도 수능">
+            <input class="fi" id="fName" placeholder="2026년 5월 모의고사">
           </div>
         </div>
-        <div class="form-row single">
+
+        <!-- 문제 PDF -->
+        <div class="form-row single" style="margin-bottom:6px">
           <div class="fg">
-            <span class="fl">문제 PDF — 구글 드라이브 공유 링크 붙여넣기</span>
-            <input class="fi" id="fQUrl" placeholder="https://drive.google.com/file/d/..." oninput="previewFileId('fQUrl','fQIdPrev')">
-            <div class="fi-id-preview" id="fQIdPrev"></div>
+            <span class="fl">문제 PDF</span>
+            <div class="pdf-toggle">
+              <button type="button" class="pdf-toggle-btn active" id="fQDriveBtn" onclick="pdfMode('fQ','drive')">🔗 Google Drive</button>
+              <button type="button" class="pdf-toggle-btn" id="fQLocalBtn" onclick="pdfMode('fQ','local')">📁 로컬 파일</button>
+            </div>
+            <div id="fQDriveArea">
+              <input class="fi" id="fQUrl" placeholder="https://drive.google.com/file/d/..." oninput="previewDriveId('fQUrl','fQIdPrev')">
+              <div class="fi-id-preview" id="fQIdPrev"></div>
+            </div>
+            <div id="fQLocalArea" style="display:none">
+              <input class="fi" type="file" id="fQFile" accept=".pdf" onchange="onLocalPdf(this,'fQ','fQPathHint')">
+              <div class="pdf-path-hint" id="fQPathHint">파일 선택 시 저장 경로가 표시됩니다</div>
+            </div>
           </div>
         </div>
-        <div class="form-row single">
+
+        <!-- 정답 PDF -->
+        <div class="form-row single" style="margin-bottom:8px">
           <div class="fg">
-            <span class="fl">정답 PDF — 구글 드라이브 공유 링크 붙여넣기</span>
-            <input class="fi" id="fAUrl" placeholder="https://drive.google.com/file/d/..." oninput="previewFileId('fAUrl','fAIdPrev')">
-            <div class="fi-id-preview" id="fAIdPrev"></div>
+            <span class="fl">정답 PDF</span>
+            <div class="pdf-toggle">
+              <button type="button" class="pdf-toggle-btn active" id="fADriveBtn" onclick="pdfMode('fA','drive')">🔗 Google Drive</button>
+              <button type="button" class="pdf-toggle-btn" id="fALocalBtn" onclick="pdfMode('fA','local')">📁 로컬 파일</button>
+            </div>
+            <div id="fADriveArea">
+              <input class="fi" id="fAUrl" placeholder="https://drive.google.com/file/d/..." oninput="previewDriveId('fAUrl','fAIdPrev')">
+              <div class="fi-id-preview" id="fAIdPrev"></div>
+            </div>
+            <div id="fALocalArea" style="display:none">
+              <input class="fi" type="file" id="fAFile" accept=".pdf" onchange="onLocalPdf(this,'fA','fAPathHint')">
+              <div class="pdf-path-hint" id="fAPathHint">파일 선택 시 저장 경로가 표시됩니다</div>
+            </div>
           </div>
         </div>
-        <div style="display:flex;gap:8px;margin-top:4px">
+
+        <div style="display:flex;gap:8px">
           <button class="btn btn-success" onclick="addExam()">시험 추가</button>
           <button class="btn btn-ghost" onclick="toggleAddForm()">취소</button>
         </div>
@@ -314,17 +274,40 @@
       <!-- PDF 수정 바 -->
       <div class="exam-edit-bar" id="editBar">
         <div class="exam-edit-label" id="editBarTitle">선택된 시험</div>
-        <div class="exam-edit-row" style="margin-top:8px">
-          <span style="font-size:11px;color:var(--text-light);font-weight:600;white-space:nowrap">문제 PDF URL</span>
-          <input class="fi-url" id="editQUrl" placeholder="구글 드라이브 링크" oninput="previewFileId('editQUrl','editQPrev')">
-          <span class="fi-id-preview" id="editQPrev" style="white-space:nowrap"></span>
+
+        <div style="margin-bottom:6px">
+          <div style="font-size:11px;font-weight:600;color:var(--text-light);margin-bottom:3px">문제 PDF</div>
+          <div class="pdf-toggle" style="max-width:280px">
+            <button type="button" class="pdf-toggle-btn active" id="eQDriveBtn" onclick="pdfMode('eQ','drive')">🔗 Drive</button>
+            <button type="button" class="pdf-toggle-btn" id="eQLocalBtn" onclick="pdfMode('eQ','local')">📁 로컬</button>
+          </div>
+          <div id="eQDriveArea">
+            <input class="fi-url" id="editQUrl" placeholder="구글 드라이브 링크 또는 파일 ID" oninput="previewDriveId('editQUrl','editQPrev')" style="width:100%">
+            <div class="fi-id-preview" id="editQPrev"></div>
+          </div>
+          <div id="eQLocalArea" style="display:none">
+            <input class="fi" type="file" id="eQFile" accept=".pdf" onchange="onLocalPdf(this,'eQ','eQPathHint')" style="font-size:12px">
+            <div class="pdf-path-hint" id="eQPathHint"></div>
+          </div>
         </div>
-        <div class="exam-edit-row" style="margin-top:6px">
-          <span style="font-size:11px;color:var(--text-light);font-weight:600;white-space:nowrap">정답 PDF URL</span>
-          <input class="fi-url" id="editAUrl" placeholder="구글 드라이브 링크" oninput="previewFileId('editAUrl','editAPrev')">
-          <span class="fi-id-preview" id="editAPrev" style="white-space:nowrap"></span>
+
+        <div style="margin-bottom:8px">
+          <div style="font-size:11px;font-weight:600;color:var(--text-light);margin-bottom:3px">정답 PDF</div>
+          <div class="pdf-toggle" style="max-width:280px">
+            <button type="button" class="pdf-toggle-btn active" id="eADriveBtn" onclick="pdfMode('eA','drive')">🔗 Drive</button>
+            <button type="button" class="pdf-toggle-btn" id="eALocalBtn" onclick="pdfMode('eA','local')">📁 로컬</button>
+          </div>
+          <div id="eADriveArea">
+            <input class="fi-url" id="editAUrl" placeholder="구글 드라이브 링크 또는 파일 ID" oninput="previewDriveId('editAUrl','editAPrev')" style="width:100%">
+            <div class="fi-id-preview" id="editAPrev"></div>
+          </div>
+          <div id="eALocalArea" style="display:none">
+            <input class="fi" type="file" id="eAFile" accept=".pdf" onchange="onLocalPdf(this,'eA','eAPathHint')" style="font-size:12px">
+            <div class="pdf-path-hint" id="eAPathHint"></div>
+          </div>
         </div>
-        <div style="margin-top:8px;display:flex;gap:8px">
+
+        <div style="display:flex;gap:8px">
           <button class="btn btn-success" onclick="savePdfEdit()">PDF 저장</button>
           <button class="btn btn-ghost" onclick="closeEditBar()">닫기</button>
         </div>
@@ -334,6 +317,7 @@
       <div class="q-toolbar">
         <span class="q-exam-label" id="qExamLabel">← 왼쪽에서 시험을 선택하세요</span>
         <span class="q-count" id="qCount"></span>
+        <button class="btn btn-success" onclick="openBulkModal()" style="font-size:12px">📝 답안 일괄 입력</button>
         <button class="btn btn-ghost" onclick="openCsvModal()">📋 시트에서 붙여넣기</button>
         <button class="btn btn-primary" onclick="addRow()">+ 행 추가</button>
       </div>
@@ -346,7 +330,42 @@
   </div>
 </div>
 
-<!-- CSV 모달 -->
+<!-- 답안 일괄 입력 모달 -->
+<div class="modal-bg" id="bulkModal">
+  <div class="modal bulk-modal">
+    <h3>📝 답안 일괄 입력</h3>
+    <p class="modal-desc" id="bulkDesc">정답표를 보고 답안을 입력하면 전체 문항이 자동 생성됩니다.</p>
+
+    <!-- 선택과목 (국어/수학) -->
+    <div id="bulkKoreanSec" class="bulk-sec-row" style="display:none">
+      <span class="bulk-sec-title">선택과목 (35~45번):</span>
+      <label><input type="radio" name="kSec" value="화법과작문" checked> 화법과작문</label>
+      <label><input type="radio" name="kSec" value="언어와매체"> 언어와매체</label>
+    </div>
+    <div id="bulkMathSec" class="bulk-sec-row" style="display:none">
+      <span class="bulk-sec-title">선택과목 (23~30번):</span>
+      <label><input type="radio" name="mSec" value="선택-확통" checked> 확률과통계</label>
+      <label><input type="radio" name="mSec" value="선택-미적분"> 미적분</label>
+      <label><input type="radio" name="mSec" value="선택-기하"> 기하</label>
+    </div>
+
+    <div class="bulk-grid" id="bulkGrid"></div>
+
+    <div class="bulk-score-row">
+      <span style="font-size:12px;font-weight:700;color:var(--text-light)">기본 배점:</span>
+      <label><input type="radio" name="bScore" value="2" checked> 2점</label>
+      <label><input type="radio" name="bScore" value="3"> 3점</label>
+      <span style="font-size:11px;color:var(--text-light);margin-left:8px">※ 배점은 나중에 개별 수정 가능</span>
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeBulkModal()">취소</button>
+      <button class="btn btn-success" onclick="importBulk()">문항 생성</button>
+    </div>
+  </div>
+</div>
+
+<!-- CSV 붙여넣기 모달 -->
 <div class="modal-bg" id="csvModal">
   <div class="modal">
     <h3>구글 시트에서 문항 붙여넣기</h3>
@@ -383,13 +402,20 @@
     english: ['듣기', '독해']
   };
 
-  var st = {
-    sub: 'korean',
-    db:  { korean: null, math: null, english: null },
-    examId: null
-  };
+  // 단답형 문항 번호 (0점 이외, 직접 숫자 입력)
+  var SHORT_ANS = { korean: [], math: [22, 29, 30], english: [] };
 
-  // ── 초기화 ──
+  // 과목별 구분 규칙 (함수: questionNo → fkey 값)
+  function autoSection(sub, no, selected) {
+    if (sub === 'korean') return no <= 34 ? '공통' : selected;
+    if (sub === 'math')   return no <= 22 ? '공통' : selected;
+    if (sub === 'english') return no <= 17 ? '듣기' : '독해';
+    return '';
+  }
+
+  var st = { sub: 'korean', db: { korean: null, math: null, english: null }, examId: null };
+  var localPdfPaths = {}; // prefix → { path, file }
+
   window.onload = function() {
     ['korean','math','english'].forEach(function(s) {
       var saved = localStorage.getItem('ad_' + s);
@@ -406,7 +432,7 @@
   function toast(msg, cls) {
     var el = document.getElementById('statusbar');
     el.textContent = msg; el.className = 'statusbar ' + (cls || '');
-    setTimeout(function() { el.textContent = '자동 저장 활성화 — 변경사항이 브라우저에 저장됩니다'; el.className = 'statusbar'; }, 2000);
+    setTimeout(function() { el.textContent = '자동 저장 활성화 — 변경사항이 브라우저에 저장됩니다'; el.className = 'statusbar'; }, 3000);
   }
 
   // ── 과목 전환 ──
@@ -437,6 +463,12 @@
   }
 
   // ── 시험 목록 ──
+  function hasPdf(exam) {
+    var hasQ = (exam.question_pdf_id && exam.question_pdf_id.length > 10) || (exam.question_pdf_path && exam.question_pdf_path.length > 3);
+    var hasA = (exam.answer_pdf_id   && exam.answer_pdf_id.length   > 10) || (exam.answer_pdf_path   && exam.answer_pdf_path.length   > 3);
+    return { q: hasQ, a: hasA };
+  }
+
   function renderExamList() {
     var el = document.getElementById('examList');
     var d = st.db[st.sub];
@@ -447,8 +479,7 @@
     (d.questions||[]).forEach(function(q) { qmap[q.exam_id] = (qmap[q.exam_id]||0) + 1; });
 
     el.innerHTML = d.exams.map(function(exam) {
-      var hq = exam.question_pdf_id && exam.question_pdf_id.length > 10;
-      var ha = exam.answer_pdf_id   && exam.answer_pdf_id.length   > 10;
+      var p = hasPdf(exam);
       var sel = st.examId === exam.exam_id;
       var safeId = exam.exam_id.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
       return '<div class="exam-item' + (sel?' selected':'') + '" onclick="selectExam(\'' + safeId + '\')">'
@@ -456,8 +487,8 @@
         + '<div class="exam-item-name">' + h(exam.exam_name) + '</div>'
         + '<div class="exam-item-meta">' + h(exam.exam_id) + ' · ' + (exam.exam_date||'날짜 없음') + ' · ' + (qmap[exam.exam_id]||0) + '문항</div>'
         + '</div>'
-        + '<span class="pdf-badge ' + (hq?'pdf-ok':'pdf-no') + '">' + (hq?'문제✓':'문제✗') + '</span>'
-        + '<span class="pdf-badge ' + (ha?'pdf-ok':'pdf-no') + '">' + (ha?'정답✓':'정답✗') + '</span>'
+        + '<span class="pdf-badge ' + (p.q?'pdf-ok':'pdf-no') + '">' + (p.q?'문제✓':'문제✗') + '</span>'
+        + '<span class="pdf-badge ' + (p.a?'pdf-ok':'pdf-no') + '">' + (p.a?'정답✓':'정답✗') + '</span>'
         + '<button class="btn btn-danger" style="font-size:11px;padding:3px 8px;flex-shrink:0" onclick="event.stopPropagation();delExam(\'' + safeId + '\')">삭제</button>'
         + '</div>';
     }).join('');
@@ -465,19 +496,29 @@
 
   function selectExam(id) {
     st.examId = id;
-    renderExamList();
-    renderQArea();
-    // PDF 편집 바 채우기
+    renderExamList(); renderQArea();
     var d = st.db[st.sub];
     var exam = d && d.exams.find(function(e) { return e.exam_id === id; });
-    if (exam) {
-      document.getElementById('editBarTitle').textContent = '📎 ' + exam.exam_name + ' — PDF 수정';
+    if (!exam) return;
+    document.getElementById('editBarTitle').textContent = '📎 ' + exam.exam_name + ' — PDF 수정';
+
+    // Drive 모드로 초기화
+    pdfMode('eQ', 'drive'); pdfMode('eA', 'drive');
+    if (exam.question_pdf_path) {
+      document.getElementById('eQPathHint').textContent = exam.question_pdf_path;
+      pdfMode('eQ', 'local');
+    } else {
       document.getElementById('editQUrl').value = exam.question_pdf_id || '';
-      document.getElementById('editAUrl').value = exam.answer_pdf_id   || '';
       document.getElementById('editQPrev').textContent = exam.question_pdf_id ? '현재 ID: ' + exam.question_pdf_id : '';
-      document.getElementById('editAPrev').textContent = exam.answer_pdf_id   ? '현재 ID: ' + exam.answer_pdf_id   : '';
-      document.getElementById('editBar').classList.add('open');
     }
+    if (exam.answer_pdf_path) {
+      document.getElementById('eAPathHint').textContent = exam.answer_pdf_path;
+      pdfMode('eA', 'local');
+    } else {
+      document.getElementById('editAUrl').value = exam.answer_pdf_id || '';
+      document.getElementById('editAPrev').textContent = exam.answer_pdf_id ? '현재 ID: ' + exam.answer_pdf_id : '';
+    }
+    document.getElementById('editBar').classList.add('open');
   }
 
   function delExam(id) {
@@ -489,19 +530,60 @@
     save(); render();
   }
 
-  // ── PDF 편집 ──
+  // ── PDF 모드 토글 ──
+  function pdfMode(prefix, mode) {
+    var isDrive = mode === 'drive';
+    var driveBtn = document.getElementById(prefix + 'DriveBtn');
+    var localBtn = document.getElementById(prefix + 'LocalBtn');
+    var driveArea = document.getElementById(prefix + 'DriveArea');
+    var localArea = document.getElementById(prefix + 'LocalArea');
+    if (driveBtn) { driveBtn.classList.toggle('active', isDrive); }
+    if (localBtn) { localBtn.classList.toggle('active', !isDrive); }
+    if (driveArea) { driveArea.style.display = isDrive ? '' : 'none'; }
+    if (localArea) { localArea.style.display = isDrive ? 'none' : ''; }
+  }
+
+  function onLocalPdf(input, prefix, hintId) {
+    var file = input.files[0]; if (!file) return;
+    var examId = (prefix === 'eQ' || prefix === 'eA') ? st.examId : document.getElementById('fId').value.trim();
+    var type = (prefix === 'fQ' || prefix === 'eQ') ? 'q' : 'a';
+    var ext = '.pdf';
+    var suggested = 'pdfs/' + (examId || 'exam') + '_' + LABEL[st.sub] + '_' + type + ext;
+    suggested = suggested.replace(/\s+/g, '_');
+    localPdfPaths[prefix] = { path: suggested, file: file };
+    var hint = document.getElementById(hintId);
+    hint.innerHTML = '저장 경로: <strong>' + suggested + '</strong><br>'
+      + '<span style="color:#64748b">→ <code>C:\\Users\\user\\wrong\\' + suggested.replace(/\//g,'\\') + '</code> 에 복사하세요</span>';
+  }
+
+  // ── PDF 편집 저장 ──
   function closeEditBar() { document.getElementById('editBar').classList.remove('open'); }
+
   function savePdfEdit() {
     if (!st.examId) return;
     var d = st.db[st.sub];
     var exam = d && d.exams.find(function(e) { return e.exam_id === st.examId; });
     if (!exam) return;
-    var qId = extractDriveId(document.getElementById('editQUrl').value);
-    var aId = extractDriveId(document.getElementById('editAUrl').value);
-    exam.question_pdf_id = qId || exam.question_pdf_id;
-    exam.answer_pdf_id   = aId || exam.answer_pdf_id;
+
+    var eQMode = document.getElementById('eQDriveBtn').classList.contains('active') ? 'drive' : 'local';
+    var eAMode = document.getElementById('eADriveBtn').classList.contains('active') ? 'drive' : 'local';
+
+    if (eQMode === 'drive') {
+      var qId = extractDriveId(document.getElementById('editQUrl').value);
+      if (qId) { exam.question_pdf_id = qId; delete exam.question_pdf_path; }
+    } else {
+      if (localPdfPaths['eQ']) { exam.question_pdf_path = localPdfPaths['eQ'].path; delete exam.question_pdf_id; }
+    }
+
+    if (eAMode === 'drive') {
+      var aId = extractDriveId(document.getElementById('editAUrl').value);
+      if (aId) { exam.answer_pdf_id = aId; delete exam.answer_pdf_path; }
+    } else {
+      if (localPdfPaths['eA']) { exam.answer_pdf_path = localPdfPaths['eA'].path; delete exam.answer_pdf_id; }
+    }
+
     save(); renderExamList();
-    toast('PDF ID 저장 완료', 'ok');
+    toast('PDF 저장 완료', 'ok');
   }
 
   // ── 시험 추가 ──
@@ -509,39 +591,52 @@
   function toggleAddForm() {
     addOpen = !addOpen;
     document.getElementById('addExamForm').classList.toggle('open', addOpen);
+    if (addOpen) { pdfMode('fQ','drive'); pdfMode('fA','drive'); }
   }
 
   function addExam() {
     var id   = document.getElementById('fId').value.trim();
     var name = document.getElementById('fName').value.trim();
     var date = document.getElementById('fDate').value;
-    var qUrl = document.getElementById('fQUrl').value.trim();
-    var aUrl = document.getElementById('fAUrl').value.trim();
     if (!id || !name) { alert('시험 ID와 시험명은 필수입니다.'); return; }
 
     if (!st.db[st.sub]) st.db[st.sub] = { exams: [], questions: [] };
     var d = st.db[st.sub];
     if (d.exams.some(function(e) { return e.exam_id === id; })) { alert('이미 같은 ID가 있습니다: ' + id); return; }
 
-    d.exams.push({
+    var exam = {
       exam_id: id, exam_name: name,
       subject: LABEL[st.sub], exam_date: date,
-      total_questions: st.sub === 'math' ? 30 : 45,
-      question_pdf_id: extractDriveId(qUrl),
-      answer_pdf_id:   extractDriveId(aUrl)
-    });
+      total_questions: st.sub === 'math' ? 30 : 45
+    };
 
-    ['fId','fName','fDate','fQUrl','fAUrl'].forEach(function(x) { document.getElementById(x).value = ''; });
-    ['fQIdPrev','fAIdPrev'].forEach(function(x) { document.getElementById(x).textContent = ''; });
+    var fQMode = document.getElementById('fQDriveBtn').classList.contains('active') ? 'drive' : 'local';
+    var fAMode = document.getElementById('fADriveBtn').classList.contains('active') ? 'drive' : 'local';
+
+    if (fQMode === 'drive') {
+      exam.question_pdf_id = extractDriveId(document.getElementById('fQUrl').value);
+    } else if (localPdfPaths['fQ']) {
+      exam.question_pdf_path = localPdfPaths['fQ'].path;
+    }
+
+    if (fAMode === 'drive') {
+      exam.answer_pdf_id = extractDriveId(document.getElementById('fAUrl').value);
+    } else if (localPdfPaths['fA']) {
+      exam.answer_pdf_path = localPdfPaths['fA'].path;
+    }
+
+    d.exams.push(exam);
+    ['fId','fName','fDate','fQUrl','fAUrl'].forEach(function(x) { var el=document.getElementById(x); if(el) el.value=''; });
+    ['fQIdPrev','fAIdPrev'].forEach(function(x) { var el=document.getElementById(x); if(el) el.textContent=''; });
+    localPdfPaths['fQ'] = null; localPdfPaths['fA'] = null;
     addOpen = false;
     document.getElementById('addExamForm').classList.remove('open');
-
     st.examId = id;
     save(); render();
-    toast('"' + name + '" 추가 완료', 'ok');
+    toast('"' + name + '" 추가 완료 — 이제 [📝 답안 일괄 입력]으로 문항을 생성하세요', 'ok');
   }
 
-  // ── 드라이브 ID 추출 ──
+  // ── Drive ID 추출 ──
   function extractDriveId(url) {
     if (!url) return '';
     url = String(url).trim();
@@ -551,13 +646,129 @@
     return '';
   }
 
-  function previewFileId(inputId, previewId) {
+  function previewDriveId(inputId, previewId) {
     var url = document.getElementById(inputId).value;
     var id  = extractDriveId(url);
     var el  = document.getElementById(previewId);
-    if (id)      { el.textContent = '✓ ' + id; el.style.color = 'var(--success)'; }
+    if (!el) return;
+    if (id)       { el.textContent = '✓ ' + id; el.style.color = 'var(--success)'; }
     else if (url) { el.textContent = '⚠ ID 인식 불가'; el.style.color = 'var(--danger)'; }
     else          { el.textContent = ''; }
+  }
+
+  // ── 답안 일괄 입력 ──
+  function openBulkModal() {
+    if (!st.examId) { alert('먼저 시험을 선택하세요.'); return; }
+    var sub = st.sub;
+    var total = sub === 'math' ? 30 : 45;
+
+    document.getElementById('bulkKoreanSec').style.display = sub === 'korean' ? 'flex' : 'none';
+    document.getElementById('bulkMathSec').style.display   = sub === 'math'   ? 'flex' : 'none';
+
+    var d = st.db[sub];
+    var exam = d && d.exams.find(function(e) { return e.exam_id === st.examId; });
+    var existingQs = (d && d.questions || []).filter(function(q) { return q.exam_id === st.examId; });
+    var existMap = {};
+    existingQs.forEach(function(q) { existMap[q.question_no] = q.correct_answer; });
+
+    document.getElementById('bulkDesc').textContent =
+      (exam ? exam.exam_name : st.examId) + ' — ' + total + '문항 답안 입력 (단답형은 숫자 그대로 입력)';
+
+    // 그리드 생성
+    var grid = document.getElementById('bulkGrid');
+    var html = '';
+    var sa = SHORT_ANS[sub] || [];
+
+    for (var i = 1; i <= total; i++) {
+      // 섹션 구분선
+      if ((sub === 'korean' && i === 35) || (sub === 'math' && i === 23) || (sub === 'english' && i === 18)) {
+        var secLabel = sub === 'korean' ? '▼ 선택과목 (35~45번)' : sub === 'math' ? '▼ 선택과목 (23~30번)' : '▼ 독해 (18~45번)';
+        html += '<div class="bulk-divider">' + secLabel + '</div>';
+      }
+      var isShort = sa.indexOf(i) >= 0;
+      var placeholder = isShort ? '숫자' : '1~5';
+      var prev = existMap[i] || '';
+      html += '<div class="bulk-cell">'
+        + '<span class="bulk-no">' + i + '</span>'
+        + '<input class="bulk-ans" type="' + (isShort ? 'text' : 'number') + '" id="ba_' + i + '" min="1" max="' + (isShort ? '999' : '5') + '" placeholder="' + placeholder + '" value="' + h(String(prev)) + '" onkeydown="bulkKeyNav(event,' + i + ',' + total + ')">'
+        + '</div>';
+    }
+    grid.innerHTML = html;
+
+    document.getElementById('bulkModal').classList.add('open');
+    var firstInput = document.getElementById('ba_1');
+    if (firstInput) setTimeout(function() { firstInput.focus(); }, 50);
+  }
+
+  function bulkKeyNav(e, no, total) {
+    if (e.key === 'Enter' || e.key === 'ArrowRight' || e.key === 'Tab') {
+      e.preventDefault();
+      var next = document.getElementById('ba_' + (no + 1));
+      if (next) next.focus();
+    } else if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      var prev = document.getElementById('ba_' + (no - 1));
+      if (prev) prev.focus();
+    } else if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      var dn = document.getElementById('ba_' + Math.min(no + 5, total));
+      if (dn) dn.focus();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      var up = document.getElementById('ba_' + Math.max(no - 5, 1));
+      if (up) up.focus();
+    }
+  }
+
+  function closeBulkModal() { document.getElementById('bulkModal').classList.remove('open'); }
+
+  function importBulk() {
+    if (!st.examId) return;
+    var sub = st.sub;
+    var total = sub === 'math' ? 30 : 45;
+    var d = st.db[sub];
+    if (!d) return;
+    if (!d.questions) d.questions = [];
+
+    var kSec = document.querySelector('input[name="kSec"]:checked');
+    var mSec = document.querySelector('input[name="mSec"]:checked');
+    var bScore = document.querySelector('input[name="bScore"]:checked');
+    var selectedTrack = sub === 'korean' ? (kSec ? kSec.value : '화법과작문') : (mSec ? mSec.value : '선택-확통');
+    var defaultScore = bScore ? parseInt(bScore.value) : 2;
+
+    var created = 0;
+    for (var i = 1; i <= total; i++) {
+      var input = document.getElementById('ba_' + i);
+      var ans = input ? input.value.trim() : '';
+      if (!ans) continue;
+
+      var newQ = {
+        exam_id:        st.examId,
+        question_no:    i,
+        topic:          '',
+        subtopic:       '',
+        difficulty:     '중',
+        keywords:       '',
+        question_page:  1,
+        answer_page:    1,
+        correct_answer: ans,
+        score:          defaultScore
+      };
+      newQ[FKEY[sub]] = autoSection(sub, i, selectedTrack);
+
+      d.questions = d.questions.filter(function(q) { return !(q.exam_id === st.examId && q.question_no === i); });
+      d.questions.push(newQ);
+      created++;
+    }
+
+    d.questions.sort(function(a, b) {
+      if (a.exam_id !== b.exam_id) return a.exam_id < b.exam_id ? -1 : 1;
+      return a.question_no - b.question_no;
+    });
+
+    closeBulkModal();
+    save(); renderQArea();
+    toast(created + '개 문항 생성 완료 — 유형·난이도는 테이블에서 수정하세요', 'ok');
   }
 
   // ── 문항 테이블 ──
@@ -590,7 +801,7 @@
     var subDL   = 'dl-sub-'   + sub;
     var colLabel = sub === 'english' ? '구분(듣기/독해)' : '구분(공통/선택)';
 
-    var rows = qs.map(function(q, i) {
+    var rows = qs.map(function(q) {
       var selOpts = fopts.map(function(o) {
         return '<option value="' + o + '"' + (q[fkey]===o?' selected':'') + '>' + o + '</option>';
       }).join('');
@@ -613,13 +824,12 @@
 
     area.innerHTML = '<table class="q-table">'
       + '<thead><tr><th>번호</th><th>유형</th><th>세부유형</th><th>난이도</th><th>문제P</th><th>정답P</th><th>정답</th><th>배점</th><th>' + colLabel + '</th><th></th></tr></thead>'
-      + '<tbody>' + (rows || '<tr><td colspan="10" class="empty">행을 추가하거나 시트에서 붙여넣으세요</td></tr>') + '</tbody>'
+      + '<tbody>' + (rows || '<tr><td colspan="10" class="empty">[📝 답안 일괄 입력] 버튼으로 한번에 생성하세요</td></tr>') + '</tbody>'
       + '</table>';
   }
 
   function updQ(origNo, field, value) {
-    var d = st.db[st.sub];
-    if (!d) return;
+    var d = st.db[st.sub]; if (!d) return;
     var q = (d.questions||[]).find(function(x) { return x.exam_id === st.examId && x.question_no == origNo; });
     if (!q) return;
     q[field] = value;
@@ -660,7 +870,6 @@
     if (!st.db[st.sub]) st.db[st.sub] = { exams: [], questions: [] };
     var d = st.db[st.sub];
     if (!d.questions) d.questions = [];
-
     var fkey = FKEY[st.sub];
     var defaultSec = FOPTS[st.sub][0];
     var imported = 0;
@@ -668,14 +877,12 @@
     text.split('\n').forEach(function(line) {
       line = line.trim(); if (!line) return;
       var cols = line.split('\t');
-      // exam_id 열 포함 여부 자동 감지 (첫 열이 숫자가 아니면 exam_id로 간주)
       var off = (!isNaN(cols[0]) && cols[0] !== '') ? 0 : 1;
       var qNo = parseInt(cols[off]);
       if (isNaN(qNo)) return;
 
       var newQ = {
-        exam_id:        st.examId,
-        question_no:    qNo,
+        exam_id: st.examId, question_no: qNo,
         topic:          (cols[off+1]||'').trim(),
         subtopic:       (cols[off+2]||'').trim(),
         difficulty:     (cols[off+3]||'중').trim(),
@@ -686,7 +893,6 @@
         score:          parseInt(cols[off+8])||2
       };
       newQ[fkey] = (cols[off+9]||defaultSec).trim() || defaultSec;
-
       d.questions = d.questions.filter(function(q) { return !(q.exam_id === st.examId && q.question_no === qNo); });
       d.questions.push(newQ);
       imported++;
@@ -710,7 +916,6 @@
     toast(st.sub + '.json 다운로드 완료 — data/ 폴더에 저장 후 git push 하세요', 'ok');
   }
 
-  // ── XSS 방지 이스케이프 ──
   function h(s) {
     return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   }
