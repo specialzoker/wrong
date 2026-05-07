@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:           #f0f4ff;
+      --card:         #ffffff;
+      --primary:      #1a3a8b;
+      --primary-light:#e8eeff;
+      --primary-mid:  #3a5cbf;
+      --accent:       #1565c0;
+      --accent-dark:  #0d47a1;
+      --accent-vivid: #1976d2;
+      --listening:    #0277bd;
+      --reading:      #283593;
+      --text:         #1a1a2e;
+      --text-light:   #5c6680;
+      --border:       #d8e0f5;
+      --shadow:       0 2px 14px rgba(26,58,139,0.10);
+      --radius:       14px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Noto Sans KR', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #0d2060 0%, #1a3a8b 55%, #1565c0 100%);
+      color: white;
+      padding: 28px 20px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: ''; position: absolute; top: -40px; right: -40px;
+      width: 200px; height: 200px; background: rgba(255,255,255,0.04); border-radius: 50%;
+    }
+    .header::after {
+      content: ''; position: absolute; bottom: -60px; left: -30px;
+      width: 160px; height: 160px; background: rgba(255,255,255,0.03); border-radius: 50%;
+    }
+    .back-link {
+      display: inline-flex; align-items: center; gap: 4px;
+      color: rgba(255,255,255,0.75); font-size: 12px;
+      text-decoration: none; margin-bottom: 12px;
+      position: relative; z-index: 1;
+    }
+    .back-link:hover { color: white; }
+    .header-icon { font-size: 32px; margin-bottom: 8px; display: block; position: relative; z-index: 1; }
+    .header h1 {
+      font-size: 19px; font-weight: 800; letter-spacing: -0.5px; line-height: 1.45;
+      position: relative; z-index: 1;
+    }
+    .header-msg {
+      font-size: 13px; opacity: 0.88; margin-top: 8px;
+      background: rgba(255,255,255,0.10);
+      display: inline-block; padding: 5px 14px; border-radius: 20px;
+      position: relative; z-index: 1;
+    }
+
+    .container { max-width: 640px; margin: 0 auto; padding: 20px 16px 48px; }
+
+    .step-indicator {
+      display: flex; gap: 6px; margin-bottom: 24px; justify-content: center; align-items: center;
+    }
+    .step-dot {
+      width: 9px; height: 9px; border-radius: 50%;
+      background: var(--border); transition: all 0.3s;
+    }
+    .step-dot.active { background: var(--primary); transform: scale(1.4); box-shadow: 0 0 0 3px rgba(26,58,139,0.15); }
+    .step-dot.done { background: var(--primary-mid); opacity: 0.5; }
+
+    .card {
+      background: var(--card); border-radius: var(--radius);
+      box-shadow: var(--shadow); border: 1px solid var(--border);
+      padding: 24px; margin-bottom: 14px;
+    }
+
+    .card-title {
+      font-size: 15px; font-weight: 700; margin-bottom: 18px;
+      color: var(--primary); display: flex; align-items: center; gap: 10px;
+    }
+    .card-title .num {
+      background: var(--primary); color: white;
+      width: 26px; height: 26px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: 700; flex-shrink: 0;
+    }
+
+    .name-input {
+      width: 100%; padding: 14px 16px;
+      border: 2px solid var(--border); border-radius: 10px;
+      font-size: 16px; font-family: inherit; outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      margin-bottom: 6px; color: var(--text);
+    }
+    .name-input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(26,58,139,0.10); }
+    .name-hint { font-size: 12px; color: var(--text-light); margin-bottom: 8px; }
+
+    .exam-list { display: flex; flex-direction: column; gap: 8px; }
+    .exam-btn {
+      padding: 14px 16px; border: 2px solid var(--border); border-radius: 10px;
+      background: white; cursor: pointer; text-align: left; font-size: 14px;
+      font-family: inherit; transition: all 0.2s;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .exam-btn:hover { border-color: var(--primary); background: var(--primary-light); transform: translateX(2px); }
+    .exam-btn.selected { border-color: var(--primary); background: var(--primary-light); font-weight: 700; }
+    .exam-btn .tag { font-size: 12px; color: var(--text-light); }
+
+    .section-label {
+      font-size: 12px; font-weight: 700; color: white;
+      margin: 16px 0 10px; padding: 5px 12px; border-radius: 6px;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .section-label.listening { background: var(--listening); }
+    .section-label.reading   { background: var(--reading); }
+
+    .q-grid {
+      display: grid; grid-template-columns: repeat(5, 1fr); gap: 7px;
+    }
+    .q-check {
+      aspect-ratio: 1; border: 2px solid var(--border); border-radius: 9px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; font-weight: 600; cursor: pointer;
+      transition: all 0.15s; user-select: none; background: white; color: var(--text);
+    }
+    .q-check:hover { border-color: var(--accent-vivid); background: #e8f4ff; }
+    .q-check.listening-wrong {
+      background: var(--listening); border-color: #01579b; color: white;
+      transform: scale(0.92); box-shadow: 0 2px 6px rgba(2,119,189,0.30);
+    }
+    .q-check.reading-wrong {
+      background: var(--reading); border-color: #1a237e; color: white;
+      transform: scale(0.92); box-shadow: 0 2px 6px rgba(40,53,147,0.30);
+    }
+
+    .btn {
+      width: 100%; padding: 15px; border: none; border-radius: 10px;
+      font-size: 15px; font-weight: 700; font-family: inherit;
+      cursor: pointer; transition: all 0.2s; margin-top: 16px;
+    }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-primary:hover { background: var(--accent-dark); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(26,58,139,0.25); }
+    .btn-primary:disabled { opacity: 0.35; cursor: not-allowed; transform: none; box-shadow: none; }
+    .btn-outline { background: white; color: var(--primary); border: 2px solid var(--primary); }
+    .btn-outline:hover { background: var(--primary-light); }
+
+    .result-group { margin-bottom: 28px; }
+    .result-header {
+      border-radius: 12px; padding: 14px 18px; margin-bottom: 12px;
+      background: linear-gradient(135deg, var(--primary-light) 0%, #dce4ff 100%);
+      border-left: 4px solid var(--primary);
+    }
+    .result-header.listening-header { border-left-color: var(--listening); background: linear-gradient(135deg, #e1f5fe 0%, #d0eaff 100%); }
+    .result-header.reading-header   { border-left-color: var(--reading);   background: linear-gradient(135deg, #e8eaf6 0%, #dde0ff 100%); }
+    .result-header .wrong-info {
+      font-size: 15px; font-weight: 800; color: var(--primary);
+      display: flex; align-items: center; gap: 6px;
+    }
+    .result-header.listening-header .wrong-info { color: var(--listening); }
+    .result-header.reading-header   .wrong-info { color: var(--reading); }
+    .result-header .wrong-detail { font-size: 12px; color: var(--text-light); margin-top: 3px; }
+
+    .rec-card {
+      border: 1px solid var(--border); border-radius: 11px;
+      margin-bottom: 8px; overflow: hidden; background: white; transition: box-shadow 0.2s;
+    }
+    .rec-card:hover { box-shadow: 0 2px 12px rgba(26,58,139,0.10); }
+    .rec-top {
+      padding: 13px 16px; display: flex; justify-content: space-between; align-items: center;
+      cursor: pointer; transition: background 0.2s;
+    }
+    .rec-top:hover { background: #f5f7ff; }
+    .rec-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .rec-meta  { font-size: 12px; color: var(--text-light); margin-top: 2px; }
+    .rec-arrow { font-size: 16px; color: var(--text-light); transition: transform 0.2s; }
+
+    .rec-badge { font-size: 11px; padding: 3px 9px; border-radius: 6px; font-weight: 700; }
+    .badge-하 { background: #e3f2fd; color: #1565c0; }
+    .badge-중 { background: #e8eaf6; color: #283593; }
+    .badge-상 { background: #fce4ec; color: #b71c1c; }
+
+    .rec-expand { display: none; border-top: 1px solid var(--border); }
+    .rec-expand.open { display: block; }
+
+    .pdf-frame { width: 100%; height: 500px; border: none; background: #eee; display: block; }
+
+    .page-hint {
+      padding: 9px 16px; background: #eef2ff;
+      font-size: 13px; color: var(--text-light); text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .page-hint strong { color: var(--primary); }
+
+    .answer-toggle { padding: 12px 16px; text-align: center; }
+    .btn-answer {
+      padding: 10px 22px; border: 2px solid var(--accent-vivid); border-radius: 8px;
+      background: white; color: var(--accent-vivid); font-size: 13px; font-weight: 700;
+      font-family: inherit; cursor: pointer; transition: all 0.2s;
+    }
+    .btn-answer:hover { background: var(--accent-vivid); color: white; }
+
+    .answer-area {
+      display: none; padding: 16px;
+      background: linear-gradient(135deg, #e8f0fe 0%, #dce8ff 100%);
+      border-top: 1px solid var(--border); text-align: center;
+    }
+    .answer-area.open { display: block; }
+    .answer-value { font-size: 32px; font-weight: 900; color: var(--primary); margin: 8px 0; }
+    .answer-label { font-size: 12px; color: var(--text-light); }
+
+    .loading { text-align: center; padding: 40px; color: var(--text-light); font-size: 14px; }
+    .spinner {
+      width: 36px; height: 36px; border: 3px solid var(--border);
+      border-top-color: var(--primary); border-radius: 50%;
+      animation: spin 0.8s linear infinite; margin: 0 auto 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .count-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      background: var(--accent-vivid); color: white;
+      min-width: 22px; height: 22px; padding: 0 6px;
+      border-radius: 11px; font-size: 12px; font-weight: 700; margin-left: 8px;
+    }
+
+    .legend {
+      display: flex; gap: 12px; flex-wrap: wrap;
+      margin-bottom: 14px; font-size: 12px; color: var(--text-light);
+    }
+    .legend-item { display: flex; align-items: center; gap: 5px; }
+    .legend-dot { width: 12px; height: 12px; border-radius: 3px; }
+    .legend-dot.l { background: var(--listening); }
+    .legend-dot.r { background: var(--reading); }
+
+    .hidden { display: none; }
+    .empty-msg { text-align: center; padding: 30px; color: var(--text-light); font-size: 14px; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <a class="back-link" href="../">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+    과목 선택으로
+  </a>
+  <span class="header-icon">📝</span>
+  <h1>오답문제 해결하여 수능 만점 받기(영어편)<br>
+    <span style="font-size:13px;font-weight:400;opacity:0.85;">만든사람 : 경기진협 자료개발국 간사, 광명북고 진로진학부장 정현석</span>
+  </h1>
+  <div id="headerMsg" class="header-msg">틀린 문제를 체크하면 유사 유형을 추천해줍니다</div>
+</div>
+
+<div class="container">
+  <div class="step-indicator">
+    <div class="step-dot active" id="dot0"></div>
+    <div class="step-dot" id="dot1"></div>
+    <div class="step-dot" id="dot2"></div>
+    <div class="step-dot" id="dot3"></div>
+  </div>
+
+  <!-- STEP 0: 이름 입력 -->
+  <div id="step0">
+    <div class="card">
+      <div class="card-title"><span class="num">1</span> 이름을 입력하세요</div>
+      <input type="text" id="studentNameInput" class="name-input" placeholder="예: 홍길동"
+        oninput="updateNameBtn()" onkeydown="if(event.key==='Enter') submitName()">
+      <div class="name-hint">오답 기록이 브라우저에 저장됩니다</div>
+      <button class="btn btn-primary" id="nameNextBtn" disabled onclick="submitName()">다음 →</button>
+    </div>
+  </div>
+
+  <!-- STEP 1: 시험 선택 -->
+  <div id="step1" class="hidden">
+    <div class="card">
+      <div class="card-title"><span class="num">2</span> 모의고사를 선택하세요</div>
+      <div class="exam-list" id="examList">
+        <div class="loading"><div class="spinner"></div>시험 목록을 불러오는 중...</div>
+      </div>
+    </div>
+    <button class="btn btn-outline" onclick="goBack(0)">← 이름 다시 입력</button>
+  </div>
+
+  <!-- STEP 2: 오답 체크 -->
+  <div id="step2" class="hidden">
+    <div class="card">
+      <div class="card-title">
+        <span class="num">3</span>
+        틀린 문항을 선택하세요
+        <span class="count-badge hidden" id="wrongCount">0</span>
+      </div>
+      <div class="legend">
+        <div class="legend-item"><div class="legend-dot l"></div> 듣기 (1~17번)</div>
+        <div class="legend-item"><div class="legend-dot r"></div> 독해 (18~45번)</div>
+      </div>
+      <div class="section-label listening">🎧 듣기 영역 (1~17번)</div>
+      <div class="q-grid" id="listeningGrid"></div>
+      <div class="section-label reading" style="margin-top:20px">📖 독해 영역 (18~45번)</div>
+      <div class="q-grid" id="readingGrid"></div>
+      <button class="btn btn-primary" id="submitBtn" disabled onclick="submitWrong()">추천 문제 받기</button>
+      <button class="btn btn-outline" onclick="goBack(1)">← 시험 다시 선택</button>
+    </div>
+  </div>
+
+  <!-- STEP 3: 결과 -->
+  <div id="step3" class="hidden">
+    <div id="resultArea"></div>
+    <button class="btn btn-outline" onclick="goBack(2)" style="margin-top:8px">← 다른 문제 체크하기</button>
+    <button class="btn btn-outline" onclick="goBack(1)">← 시험 다시 선택</button>
+  </div>
+
+  <!-- 로딩 -->
+  <div id="loadingOverlay" class="hidden">
+    <div class="card">
+      <div class="loading"><div class="spinner"></div>데이터를 불러오는 중...</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var state = {
+    studentName: '',
+    exams: [],
+    selectedExam: null,
+    wrongNumbers: [],
+    questions: [],
+    allData: null
+  };
+
+  window.onload = function() {
+    document.getElementById('studentNameInput').focus();
+    showStep('loading');
+
+    fetch('../data/english.json')
+      .then(function(r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function(data) {
+        state.allData = data;
+        state.exams = data.exams || [];
+        showStep(0);
+      })
+      .catch(function(err) {
+        document.getElementById('loadingOverlay').innerHTML =
+          '<div class="card"><div class="empty-msg">데이터를 불러오지 못했습니다.<br><small>' + err.message + '</small><br><small style="color:#aaa">로컬에서 실행 시 웹서버가 필요합니다</small></div></div>';
+      });
+  };
+
+  function updateNameBtn() {
+    var val = document.getElementById('studentNameInput').value.trim();
+    document.getElementById('nameNextBtn').disabled = val.length === 0;
+  }
+
+  function submitName() {
+    var val = document.getElementById('studentNameInput').value.trim();
+    if (!val) return;
+    state.studentName = val;
+    document.getElementById('headerMsg').textContent = val + ' 학생의 오답 유사문제를 추천해 드려요 💪';
+    showStep(1);
+    renderExamList();
+  }
+
+  function renderExamList() {
+    if (!state.exams || state.exams.length === 0) {
+      document.getElementById('examList').innerHTML =
+        '<div class="empty-msg">시험 목록이 없습니다.<br><small>data/english.json 파일을 확인해주세요.</small></div>';
+      return;
+    }
+    var html = '';
+    state.exams.forEach(function(exam) {
+      var hasData = exam.question_pdf_id && exam.question_pdf_id !== '' && exam.question_pdf_id.indexOf('여기에입력') < 0;
+      var safeId = String(exam.exam_id).replace(/'/g, "\\'");
+      html += '<button class="exam-btn" onclick="selectExam(\'' + safeId + '\', this)">'
+        + '<span style="font-weight:600">' + exam.exam_name + '</span>'
+        + '<span class="tag">' + (hasData ? '✓ PDF 연결됨' : 'PDF 미등록') + '</span>'
+        + '</button>';
+    });
+    document.getElementById('examList').innerHTML = html;
+  }
+
+  function selectExam(examId, btnEl) {
+    state.selectedExam = null;
+    for (var i = 0; i < state.exams.length; i++) {
+      if (String(state.exams[i].exam_id) === String(examId)) {
+        state.selectedExam = state.exams[i];
+        break;
+      }
+    }
+    if (!state.selectedExam) { alert('시험 정보를 찾을 수 없습니다.'); return; }
+
+    document.querySelectorAll('.exam-btn').forEach(function(b) { b.classList.remove('selected'); });
+    btnEl.classList.add('selected');
+
+    state.wrongNumbers = [];
+    state.questions = state.allData.questions.filter(function(q) {
+      return String(q.exam_id) === String(examId);
+    });
+
+    renderStep2();
+    showStep(2);
+  }
+
+  function renderStep2() {
+    var lHtml = '';
+    for (var i = 1; i <= 17; i++) {
+      lHtml += '<div class="q-check" data-no="' + i + '" data-section="listening" onclick="toggleWrong(this,' + i + ',\'listening\')">' + i + '</div>';
+    }
+    document.getElementById('listeningGrid').innerHTML = lHtml;
+
+    var rHtml = '';
+    for (var i = 18; i <= 45; i++) {
+      rHtml += '<div class="q-check" data-no="' + i + '" data-section="reading" onclick="toggleWrong(this,' + i + ',\'reading\')">' + i + '</div>';
+    }
+    document.getElementById('readingGrid').innerHTML = rHtml;
+
+    updateSubmitBtn();
+  }
+
+  function toggleWrong(el, no, section) {
+    var idx = state.wrongNumbers.indexOf(no);
+    if (idx >= 0) {
+      state.wrongNumbers.splice(idx, 1);
+      el.classList.remove('listening-wrong', 'reading-wrong');
+    } else {
+      state.wrongNumbers.push(no);
+      el.classList.add(section + '-wrong');
+    }
+    updateSubmitBtn();
+  }
+
+  function updateSubmitBtn() {
+    var count = state.wrongNumbers.length;
+    var btn = document.getElementById('submitBtn');
+    var badge = document.getElementById('wrongCount');
+    btn.disabled = count === 0;
+    btn.textContent = count > 0 ? count + '개 문항 추천 받기' : '틀린 문항을 선택하세요';
+    if (count > 0) { badge.classList.remove('hidden'); badge.textContent = count; }
+    else { badge.classList.add('hidden'); }
+  }
+
+  function submitWrong() {
+    var result = getRecommendationsLocal(
+      state.selectedExam.exam_id,
+      state.wrongNumbers,
+      state.studentName
+    );
+    renderResults(result);
+    showStep(3);
+  }
+
+  function getRecommendationsLocal(examId, wrongNumbers, studentName) {
+    var allQuestions = state.allData.questions;
+
+    var wrongQuestions = allQuestions.filter(function(q) {
+      if (q.exam_id !== examId) return false;
+      return wrongNumbers.some(function(n) { return Number(n) === Number(q.question_no); });
+    });
+
+    var recommendations = [];
+    wrongQuestions.forEach(function(wrongQ) {
+      var similar = allQuestions.filter(function(q) {
+        if (q.exam_id === examId) return false;
+        return q.topic === wrongQ.topic && q.subtopic === wrongQ.subtopic;
+      });
+
+      if (similar.length < 5) {
+        var topicMatch = allQuestions.filter(function(q) {
+          if (q.exam_id === examId) return false;
+          if (q.topic !== wrongQ.topic) return false;
+          return !similar.some(function(s) {
+            return s.exam_id === q.exam_id && s.question_no === q.question_no;
+          });
+        });
+        similar = similar.concat(topicMatch);
+      }
+
+      similar = similar.slice(0, 30);
+      recommendations.push({ wrongQuestion: wrongQ, similarQuestions: similar });
+    });
+
+    var examPdfMap = {};
+    state.allData.exams.forEach(function(exam) {
+      examPdfMap[String(exam.exam_id)] = {
+        exam_name: exam.exam_name,
+        question_pdf_id: exam.question_pdf_id || '',
+        answer_pdf_id: exam.answer_pdf_id || ''
+      };
+    });
+
+    saveWrongRecordLocal(examId, wrongNumbers, studentName);
+    return { recommendations: recommendations, examPdfMap: examPdfMap };
+  }
+
+  function saveWrongRecordLocal(examId, wrongNumbers, studentName) {
+    try {
+      var records = JSON.parse(localStorage.getItem('wrongRecords_english') || '[]');
+      records.push({
+        date: new Date().toISOString(),
+        studentName: studentName || 'web_user',
+        examId: examId,
+        wrongNumbers: wrongNumbers.join(',')
+      });
+      localStorage.setItem('wrongRecords_english', JSON.stringify(records));
+    } catch(e) {}
+  }
+
+  function renderResults(result) {
+    var recs = result.recommendations;
+    var pdfMap = result.examPdfMap;
+    var html = '<div class="card"><div class="card-title"><span class="num">4</span> 추천 유사 문제</div>';
+
+    if (!recs || recs.length === 0) {
+      html += '<div class="empty-msg">추천할 문제가 없습니다.<br><small>data/english.json에 데이터가 있는지 확인해주세요.</small></div></div>';
+      document.getElementById('resultArea').innerHTML = html;
+      return;
+    }
+    html += '</div>';
+
+    recs.forEach(function(rec, rIdx) {
+      var wq = rec.wrongQuestion;
+      var isListening = Number(wq.question_no) <= 17;
+      var sectionClass = isListening ? 'listening-header' : 'reading-header';
+      var sectionIcon  = isListening ? '🎧' : '📖';
+      var sectionLabel = isListening ? '듣기' : '독해';
+
+      html += '<div class="result-group">';
+      html += '<div class="result-header ' + sectionClass + '">';
+      html += '<div class="wrong-info">' + sectionIcon + ' ' + wq.question_no + '번 오답 <span style="font-size:12px;font-weight:500;opacity:0.7">(' + sectionLabel + ')</span></div>';
+      html += '<div class="wrong-detail">' + wq.topic + ' > ' + wq.subtopic + ' | 난이도: ' + wq.difficulty + ' | 배점: ' + wq.score + '점</div>';
+      html += '</div>';
+
+      if (rec.similarQuestions.length === 0) {
+        html += '<div class="empty-msg">이 유형의 유사 문제가 아직 등록되지 않았어요.</div>';
+      }
+
+      rec.similarQuestions.forEach(function(sq, sIdx) {
+        var examInfo = pdfMap[sq.exam_id] || {};
+        var examName = examInfo.exam_name || sq.exam_id;
+        var pdfId    = examInfo.question_pdf_id || '';
+        var ansPdfId = examInfo.answer_pdf_id   || '';
+        var cardId   = 'rec_' + rIdx + '_' + sIdx;
+
+        html += '<div class="rec-card" id="card_' + cardId + '">';
+        html += '<div class="rec-top" onclick="toggleExpand(\'' + cardId + '\')">';
+        html += '<div><div class="rec-title">' + examName + ' &nbsp;' + sq.question_no + '번</div>';
+        html += '<div class="rec-meta">' + sq.topic + ' > ' + sq.subtopic + '</div></div>';
+        html += '<div style="display:flex;align-items:center;gap:8px">';
+        html += '<span class="rec-badge badge-' + sq.difficulty + '">' + sq.difficulty + '</span>';
+        html += '<span class="rec-arrow" id="arrow_' + cardId + '">▾</span>';
+        html += '</div></div>';
+
+        html += '<div class="rec-expand" id="' + cardId + '">';
+        if (pdfId) {
+          html += '<div class="page-hint">📄 PDF <strong>' + sq.question_page + '페이지</strong>의 <strong>' + sq.question_no + '번</strong> 문제를 풀어보세요</div>';
+          html += '<iframe class="pdf-frame" src="https://drive.google.com/file/d/' + pdfId + '/preview#page=' + sq.question_page + '" loading="lazy"></iframe>';
+        } else {
+          html += '<div class="empty-msg">PDF가 아직 등록되지 않았어요.</div>';
+        }
+
+        html += '<div class="answer-toggle">';
+        html += '<button class="btn-answer" onclick="toggleAnswer(\'' + cardId + '_ans\')">정답 보기 👁</button>';
+        html += '</div>';
+
+        html += '<div class="answer-area" id="' + cardId + '_ans">';
+        html += '<div class="answer-label">정답</div>';
+        html += '<div class="answer-value">' + sq.correct_answer + '</div>';
+        if (ansPdfId) {
+          html += '<div class="page-hint" style="margin:8px -16px -12px;border-radius:0">📄 해설 PDF <strong>' + sq.answer_page + '페이지</strong></div>';
+          html += '<iframe class="pdf-frame" style="height:300px" src="https://drive.google.com/file/d/' + ansPdfId + '/preview#page=' + sq.answer_page + '" loading="lazy"></iframe>';
+        }
+        html += '</div>';
+        html += '</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+    });
+
+    document.getElementById('resultArea').innerHTML = html;
+  }
+
+  function showStep(n) {
+    ['step0', 'step1', 'step2', 'step3', 'loadingOverlay'].forEach(function(id) {
+      document.getElementById(id).classList.add('hidden');
+    });
+    if (n === 'loading') {
+      document.getElementById('loadingOverlay').classList.remove('hidden');
+      return;
+    }
+    document.getElementById('step' + n).classList.remove('hidden');
+    ['dot0', 'dot1', 'dot2', 'dot3'].forEach(function(id, i) {
+      var dot = document.getElementById(id);
+      dot.className = 'step-dot';
+      if (i === n) dot.classList.add('active');
+      if (i < n)  dot.classList.add('done');
+    });
+    window.scrollTo(0, 0);
+  }
+
+  function goBack(step) {
+    if (step <= 1) { state.wrongNumbers = []; state.selectedExam = null; }
+    showStep(step);
+  }
+
+  function toggleExpand(expandId) {
+    var expand = document.getElementById(expandId);
+    var arrow  = document.getElementById('arrow_' + expandId);
+    if (expand) expand.classList.toggle('open');
+    if (arrow)  arrow.textContent = expand && expand.classList.contains('open') ? '▴' : '▾';
+  }
+
+  function toggleAnswer(id) {
+    var el = document.getElementById(id);
+    if (el) el.classList.toggle('open');
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>수능 오답 유사문제 추천</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #f7f7f5; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem 1rem; }
+    .hub { max-width: 720px; width: 100%; }
+    .header { text-align: center; margin-bottom: 2.5rem; }
+    .header .label { font-size: 13px; color: #888; margin-bottom: 6px; letter-spacing: 0.05em; }
+    .header h1 { font-size: 24px; font-weight: 500; margin-bottom: 8px; color: #111; }
+    .header p { font-size: 13px; color: #888; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
+    .card { background: white; border: 1px solid #ebebeb; border-radius: 14px; padding: 1.5rem; text-decoration: none; color: inherit; display: block; transition: border-color 0.15s, box-shadow 0.15s; }
+    .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.07); }
+    .icon { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
+    .subject-label { font-size: 11px; font-weight: 500; margin-bottom: 4px; letter-spacing: 0.06em; }
+    .subject-name { font-size: 17px; font-weight: 500; margin-bottom: 6px; color: #111; }
+    .desc { font-size: 12px; color: #888; line-height: 1.5; margin-bottom: 14px; }
+    .cta { display: flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 500; }
+    .footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <div class="hub">
+    <div class="header">
+      <p class="label">수능 만점 프로젝트</p>
+      <h1>오답 유사문제 추천</h1>
+      <p>틀린 문제를 입력하면 유사한 문제를 추천해 드려요.</p>
+    </div>
+    <div class="grid">
+
+      <!-- 국어 -->
+      <a class="card" href="./korean/"
+        onmouseover="this.style.borderColor='#A32D2D'" onmouseout="this.style.borderColor='#ebebeb'">
+        <div class="icon" style="background: #FCEBEB;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A32D2D" stroke-width="1.8"><path d="M4 6h16M4 10h12M4 14h8M4 18h6"/></svg>
+        </div>
+        <p class="subject-label" style="color: #A32D2D;">SUBJECT 01</p>
+        <p class="subject-name">국어</p>
+        <p class="desc">오답 입력 후<br>유사 문제 추천받기</p>
+        <div class="cta" style="color: #A32D2D;">시작하기
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A32D2D" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <!-- 영어 -->
+      <a class="card" href="./english/"
+        onmouseover="this.style.borderColor='#185FA5'" onmouseout="this.style.borderColor='#ebebeb'">
+        <div class="icon" style="background: #E6F1FB;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#185FA5" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M8 12s1.5 2 4 2 4-2 4-2"/><circle cx="9" cy="9" r="0.8" fill="#185FA5"/><circle cx="15" cy="9" r="0.8" fill="#185FA5"/></svg>
+        </div>
+        <p class="subject-label" style="color: #185FA5;">SUBJECT 02</p>
+        <p class="subject-name">영어</p>
+        <p class="desc">오답 입력 후<br>유사 문제 추천받기</p>
+        <div class="cta" style="color: #185FA5;">시작하기
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#185FA5" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <!-- 수학 -->
+      <a class="card" href="./math/"
+        onmouseover="this.style.borderColor='#3B6D11'" onmouseout="this.style.borderColor='#ebebeb'">
+        <div class="icon" style="background: #EAF3DE;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3B6D11" stroke-width="1.8"><path d="M12 3L3 9v12h6v-7h6v7h6V9z"/></svg>
+        </div>
+        <p class="subject-label" style="color: #3B6D11;">SUBJECT 03</p>
+        <p class="subject-name">수학</p>
+        <p class="desc">오답 입력 후<br>유사 문제 추천받기</p>
+        <div class="cta" style="color: #3B6D11;">시작하기
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#3B6D11" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+    </div>
+    <div style="margin-top: 2.5rem; display: flex; flex-direction: column; align-items: center; gap: 12px;">
+      <p style="font-size: 12px; color: #bbb; text-align: center;">오답을 입력하면 유사 문제를 추천해 드립니다</p>
+      <div style="background: white; border: 1px solid #ebebeb; border-radius: 14px; padding: 1.25rem 2rem; text-align: center; max-width: 420px; width: 100%;">
+        <p style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; color: #aaa; margin: 0 0 10px;">MADE BY</p>
+        <p style="font-size: 20px; font-weight: 600; color: #111; margin: 0 0 10px;">정현석</p>
+        <div style="display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;">
+          <span style="background: #f3f3f1; color: #555; font-size: 12px; padding: 4px 12px; border-radius: 100px;">광명북고 진로진학부장</span>
+          <span style="background: #f3f3f1; color: #555; font-size: 12px; padding: 4px 12px; border-radius: 100px;">경기진협 자료개발국 간사</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
