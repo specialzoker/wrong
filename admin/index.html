@@ -1176,7 +1176,10 @@
 
       return batches.reduce(function(chain, batch, idx) {
         return chain.then(function(allResults) {
-          statusEl.textContent = '🤖 Groq AI 분석 중... (' + (idx + 1) + '/' + batches.length + ' 배치)';
+          // 첫 번째 배치 이후엔 12초 대기 (TPM 한도 초과 방지)
+          var waitMs = idx === 0 ? 0 : 12000;
+          return new Promise(function(resolve) { setTimeout(resolve, waitMs); }).then(function() {
+          statusEl.textContent = '🤖 Groq AI 분석 중... (' + (idx + 1) + '/' + batches.length + ' 배치)' + (waitMs ? ' ⏳' : '');
           var content = batch.map(function(img) {
             return {type: 'image_url', image_url: {url: 'data:image/jpeg;base64,' + img}};
           });
@@ -1193,6 +1196,7 @@
             if (m) { try { allResults = allResults.concat(JSON.parse(m[0])); } catch(e) {} }
             return allResults;
           });
+          }); // setTimeout Promise
         });
       }, Promise.resolve([]));
     }).then(function(allResults) {
