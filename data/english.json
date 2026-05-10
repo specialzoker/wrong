@@ -1,20 +1,27 @@
 {
   "exams": [
     {
+      "exam_id": "2026-5",
+      "exam_name": "2026년 5월 모의고사",
+      "subject": "영어",
+      "exam_date": "2026-05-06",
+      "total_questions": 45,
+      "question_pdf_path": "pdfs/2026_05_영어_q.pdf",
+      "answer_pdf_path": "pdfs/2026_05_영어_a.pdf"
+    },
+    {
       "exam_id": "2023-sn",
       "exam_name": "2023학년도 수능",
       "subject": "영어",
-      "exam_date": "45",
-      "total_questions": 45,
-      "question_pdf_id": "",
-      "answer_pdf_id": ""
+      "exam_date": "2023-11-16",
+      "total_questions": 45
     },
     {
       "exam_id": "2024-sn",
       "exam_name": "2024학년도 수능",
       "subject": "영어",
-      "exam_date": "45",
-      "total_questions": "https://drive.google.com/file/d/11PzwbtJTeLUpHzZjJNFNH6yfLiCkyN1T/view?usp=sharing",
+      "exam_date": "2024-11-14",
+      "total_questions": 45,
       "question_pdf_id": "11PzwbtJTeLUpHzZjJNFNH6yfLiCkyN1T",
       "answer_pdf_id": "1Fn7DMxaovGZ6VPbaf658FqNMSIiulkqh"
     },
@@ -22,8 +29,8 @@
       "exam_id": "2025-sn",
       "exam_name": "2025학년도 수능",
       "subject": "영어",
-      "exam_date": "45",
-      "total_questions": "https://drive.google.com/file/d/1VVRbSKLIjFwok5m1OMQwlxlEyu4uQPqK/view?usp=sharing",
+      "exam_date": "2025-11-13",
+      "total_questions": 45,
       "question_pdf_id": "1VVRbSKLIjFwok5m1OMQwlxlEyu4uQPqK",
       "answer_pdf_id": "1pr-7j-XyGDxNxxVTskfVkbSJv29vHI-O"
     },
@@ -31,61 +38,632 @@
       "exam_id": "2026-sn",
       "exam_name": "2026학년도 수능",
       "subject": "영어",
-      "exam_date": "45",
-      "total_questions": "https://drive.google.com/file/d/1agHaWe5ACxlEoJ01x9nbNrpdmnPeF_p4/view?usp=sharing",
+      "exam_date": "2026-11-19",
+      "total_questions": 45,
       "question_pdf_id": "1agHaWe5ACxlEoJ01x9nbNrpdmnPeF_p4",
       "answer_pdf_id": "1NmsWz9EZ_G6r_grcP4cH6wAJYiXu8VlY"
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "exam_name": "2024년도 6월 모의고사",
       "subject": "영어",
-      "exam_date": "45",
-      "total_questions": "https://drive.google.com/file/d/1XuBTpzSDkJnZuGq-qFfybU0FnOw8Ojh0/view?usp=sharing",
+      "exam_date": "2024-06-04",
+      "total_questions": 45,
       "question_pdf_id": "1XuBTpzSDkJnZuGq-qFfybU0FnOw8Ojh0",
       "answer_pdf_id": "1i1oqCldk6BPMEh2p5f3qtHh9gtOE1dXC"
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "exam_name": "2024년도 9월 모의고사",
       "subject": "영어",
-      "exam_date": "45",
-      "total_questions": "https://drive.google.com/file/d/1AL4cbZQPDZVd7KaX_rHFozC1m8Ifat62/view?usp=sharing",
+      "exam_date": "2024-09-04",
+      "total_questions": 45,
       "question_pdf_id": "1AL4cbZQPDZVd7KaX_rHFozC1m8Ifat62",
       "answer_pdf_id": "1HSe49ngcy9itFFSQoR1qU2YbSIKq31cH"
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "exam_name": "2025년도 6월 모의고사",
       "subject": "영어",
-      "exam_date": "45",
-      "total_questions": "https://drive.google.com/file/d/1AkQKJAXDLZPm6_AWlT_6ymOZ9GWlmCqQ/view?usp=sharing",
+      "exam_date": "2025-06-03",
+      "total_questions": 45,
       "question_pdf_id": "1AkQKJAXDLZPm6_AWlT_6ymOZ9GWlmCqQ",
       "answer_pdf_id": "1LrL5etWP3DGojWZmF-gnAGHk6wi9bnM2"
     },
     {
-      "exam_id": "Mon Sep 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-9",
       "exam_name": "2025년도 9월 모의고사",
       "subject": "영어",
-      "exam_date": "45",
-      "total_questions": 45,
-      "question_pdf_id": "",
-      "answer_pdf_id": ""
+      "exam_date": "2025-09-04",
+      "total_questions": 45
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "exam_name": "2026년 3월 모의고사",
       "subject": "영어",
-      "exam_date": "45",
-      "total_questions": "https://drive.google.com/file/d/1KS79MT9dFqP5YYH-fTSfzxVwoaKOb-T3/view?usp=sharing",
+      "exam_date": "2026-03-13",
+      "total_questions": 45,
       "question_pdf_id": "1KS79MT9dFqP5YYH-fTSfzxVwoaKOb-T3",
       "answer_pdf_id": "1Qzp_srzrral0sNAk6CpPolrmXS5KdP05"
     }
   ],
   "questions": [
     {
+      "exam_id": "2026-5",
+      "question_no": 1,
+      "topic": "듣기",
+      "subtopic": "목적 파악",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 2,
+      "topic": "듣기",
+      "subtopic": "의견 파악",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 3,
+      "topic": "듣기",
+      "subtopic": "관계·상황 파악",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 4,
+      "topic": "듣기",
+      "subtopic": "그림 정보 일치",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 5,
+      "topic": "듣기",
+      "subtopic": "할 일 파악",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 6,
+      "topic": "듣기",
+      "subtopic": "이유 파악",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 7,
+      "topic": "듣기",
+      "subtopic": "금액·수 정보",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 8,
+      "topic": "듣기",
+      "subtopic": "내용 일치",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 9,
+      "topic": "듣기",
+      "subtopic": "도표 이해",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 10,
+      "topic": "듣기",
+      "subtopic": "짧은 대화 (응답)",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 11,
+      "topic": "듣기",
+      "subtopic": "짧은 대화 (응답)",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 12,
+      "topic": "듣기",
+      "subtopic": "담화 내용 파악",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 13,
+      "topic": "듣기",
+      "subtopic": "담화 내용 파악",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 14,
+      "topic": "듣기",
+      "subtopic": "담화 내용 파악",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 15,
+      "topic": "듣기",
+      "subtopic": "담화 내용 파악",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 16,
+      "topic": "듣기",
+      "subtopic": "담화 세트",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 17,
+      "topic": "듣기",
+      "subtopic": "담화 세트",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "듣기"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 18,
+      "topic": "독해",
+      "subtopic": "글의 목적",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 19,
+      "topic": "독해",
+      "subtopic": "심경·분위기",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 20,
+      "topic": "독해",
+      "subtopic": "내용 일치",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 21,
+      "topic": "독해",
+      "subtopic": "함의 추론",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 3,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 22,
+      "topic": "독해",
+      "subtopic": "내용 일치",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 23,
+      "topic": "독해",
+      "subtopic": "안내문 일치",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 24,
+      "topic": "독해",
+      "subtopic": "어법",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 3,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 25,
+      "topic": "독해",
+      "subtopic": "어휘",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 26,
+      "topic": "독해",
+      "subtopic": "빈칸 추론",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 27,
+      "topic": "독해",
+      "subtopic": "빈칸 추론",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 28,
+      "topic": "독해",
+      "subtopic": "빈칸 추론",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 29,
+      "topic": "독해",
+      "subtopic": "빈칸 추론",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 3,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 30,
+      "topic": "독해",
+      "subtopic": "빈칸 추론",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 3,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 31,
+      "topic": "독해",
+      "subtopic": "흐름에 무관한 문장",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 32,
+      "topic": "독해",
+      "subtopic": "글의 순서",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 33,
+      "topic": "독해",
+      "subtopic": "글의 순서",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 34,
+      "topic": "독해",
+      "subtopic": "글의 순서",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 3,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 36,
+      "topic": "독해",
+      "subtopic": "문장 삽입",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 37,
+      "topic": "독해",
+      "subtopic": "문장 삽입",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 3,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 38,
+      "topic": "독해",
+      "subtopic": "요약문 완성",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 3,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 39,
+      "topic": "독해",
+      "subtopic": "장문 독해 (낱말)",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 3,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 40,
+      "topic": "독해",
+      "subtopic": "장문 독해 (낱말)",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 3,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 41,
+      "topic": "독해",
+      "subtopic": "장문 독해 (빈칸)",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 42,
+      "topic": "독해",
+      "subtopic": "장문 독해 (빈칸)",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 43,
+      "topic": "독해",
+      "subtopic": "장문 독해 (내용)",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 44,
+      "topic": "독해",
+      "subtopic": "장문 독해 (내용)",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "section": "독해"
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 45,
+      "topic": "독해",
+      "subtopic": "장문 독해 (내용)",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "section": "독해"
+    },
+    {
       "exam_id": "2026-sn",
       "question_no": 1,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -93,12 +671,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 2,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -106,12 +684,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 3,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -119,12 +697,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 4,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -132,12 +710,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 5,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -145,12 +723,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 6,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -158,12 +736,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 7,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -171,12 +749,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 8,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -184,12 +762,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 9,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -197,12 +775,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 10,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -210,12 +788,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 11,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -223,12 +801,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 12,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -236,12 +814,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 13,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -249,12 +827,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 14,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -262,12 +840,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 15,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -275,12 +853,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 16,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -288,12 +866,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 17,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -301,12 +879,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 18,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -314,12 +892,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 19,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -327,12 +905,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 20,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -340,12 +918,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 21,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -353,12 +931,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 22,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -366,12 +944,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 23,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -379,12 +957,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 24,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "상",
@@ -392,12 +970,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 25,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -405,12 +983,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 26,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -418,12 +996,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 27,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "Listing / Enumeration (단순 나열)",
       "difficulty": "중",
@@ -431,12 +1009,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 28,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -444,12 +1022,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 29,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "중",
@@ -457,12 +1035,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 30,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "상",
@@ -470,12 +1048,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 31,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -483,12 +1061,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 32,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -496,12 +1074,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 33,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -509,12 +1087,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 34,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -522,12 +1100,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 35,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -535,12 +1113,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 36,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence (과정/시간 순서)",
       "difficulty": "중",
@@ -548,12 +1126,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 37,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence (과정/시간 순서)",
       "difficulty": "상",
@@ -561,12 +1139,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 38,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence (과정/시간 순서)",
       "difficulty": "중",
@@ -574,12 +1152,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 39,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence (과정/시간 순서)",
       "difficulty": "상",
@@ -587,12 +1165,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 40,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "요약/완성",
       "difficulty": "중",
@@ -600,12 +1178,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 41,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "상",
@@ -613,12 +1191,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2026-sn",
       "question_no": 42,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -626,12 +1204,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 43,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -639,12 +1217,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 44,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -652,12 +1230,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2026-sn",
       "question_no": 45,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -665,12 +1243,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 1,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -678,12 +1256,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 2,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -691,12 +1269,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 3,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -704,12 +1282,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 4,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -717,12 +1295,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 5,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -730,12 +1308,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 6,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "상",
@@ -743,12 +1321,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 7,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -756,12 +1334,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 8,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -769,12 +1347,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 9,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -782,12 +1360,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 10,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -795,12 +1373,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 11,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -808,12 +1386,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 12,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -821,12 +1399,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 13,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -834,12 +1412,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 14,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -847,12 +1425,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 15,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "상",
@@ -860,12 +1438,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 16,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -873,12 +1451,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 17,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -886,12 +1464,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 18,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -899,12 +1477,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 19,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -912,12 +1490,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 20,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -925,12 +1503,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 21,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "상",
@@ -938,12 +1516,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 22,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -951,12 +1529,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 23,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -964,12 +1542,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 24,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "상",
@@ -977,12 +1555,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 25,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -990,12 +1568,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 26,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -1003,12 +1581,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 27,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "Listing / Enumeration",
       "difficulty": "중",
@@ -1016,12 +1594,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 28,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -1029,12 +1607,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 29,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "상",
@@ -1042,12 +1620,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 30,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "중",
@@ -1055,12 +1633,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 31,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -1068,12 +1646,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 32,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -1081,12 +1659,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 33,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -1094,12 +1672,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 34,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -1107,12 +1685,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 35,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -1120,12 +1698,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 36,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -1133,12 +1711,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 37,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -1146,12 +1724,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 38,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -1159,12 +1737,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 39,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -1172,12 +1750,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 40,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "요약/완성",
       "difficulty": "중",
@@ -1185,12 +1763,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 41,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -1198,12 +1776,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 42,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "상",
@@ -1211,12 +1789,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 43,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -1224,12 +1802,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 44,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -1237,12 +1815,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2026-3",
       "question_no": 45,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -1250,12 +1828,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 1,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1263,12 +1841,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 2,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -1276,12 +1854,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 3,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1289,12 +1867,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 4,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1302,12 +1880,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 5,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1315,12 +1893,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 6,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1328,12 +1906,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 7,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1341,12 +1919,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 8,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1354,12 +1932,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 9,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1367,12 +1945,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 10,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1380,12 +1958,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 11,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -1393,12 +1971,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 12,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -1406,12 +1984,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 13,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -1419,12 +1997,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 14,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -1432,12 +2010,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 15,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "상",
@@ -1445,12 +2023,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 16,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1458,12 +2036,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 17,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1471,12 +2049,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 18,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -1484,12 +2062,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 19,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -1497,12 +2075,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 20,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -1510,12 +2088,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 21,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "상",
@@ -1523,12 +2101,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 22,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -1536,12 +2114,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 23,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -1549,12 +2127,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 24,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -1562,12 +2140,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 25,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -1575,12 +2153,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 26,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -1588,12 +2166,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 27,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "Listing / Enumeration",
       "difficulty": "중",
@@ -1601,12 +2179,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 28,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -1614,12 +2192,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 29,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "중",
@@ -1627,12 +2205,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 30,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "상",
@@ -1640,12 +2218,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 31,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -1653,12 +2231,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 32,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -1666,12 +2244,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 33,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -1679,12 +2257,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 34,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -1692,12 +2270,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 35,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -1705,12 +2283,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 36,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -1718,12 +2296,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 37,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -1731,12 +2309,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 38,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -1744,12 +2322,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 39,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -1757,12 +2335,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 40,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "요약/완성",
       "difficulty": "중",
@@ -1770,12 +2348,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 41,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -1783,12 +2361,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 42,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "상",
@@ -1796,12 +2374,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2025-sn",
       "question_no": 43,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -1809,12 +2387,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 44,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -1822,12 +2400,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2025-sn",
       "question_no": 45,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -1835,12 +2413,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 1,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1848,12 +2426,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 2,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -1861,12 +2439,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 3,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1874,12 +2452,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 4,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1887,12 +2465,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 5,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1900,12 +2478,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 6,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "상",
@@ -1913,12 +2491,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 7,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1926,12 +2504,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 8,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1939,12 +2517,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 9,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1952,12 +2530,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 10,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -1965,12 +2543,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 11,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -1978,12 +2556,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 12,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -1991,12 +2569,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 13,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -2004,12 +2582,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 14,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -2017,12 +2595,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 15,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "상",
@@ -2030,12 +2608,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 16,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2043,12 +2621,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 17,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2056,12 +2634,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 18,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -2069,12 +2647,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 19,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -2082,12 +2660,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 20,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -2095,12 +2673,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 21,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "상",
@@ -2108,12 +2686,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 22,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -2121,12 +2699,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 23,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -2134,12 +2712,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 24,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "상",
@@ -2147,12 +2725,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 25,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -2160,12 +2738,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 26,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -2173,12 +2751,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 27,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "Listing / Enumeration",
       "difficulty": "중",
@@ -2186,12 +2764,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 28,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -2199,12 +2777,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 29,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "중",
@@ -2212,12 +2790,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 30,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "상",
@@ -2225,12 +2803,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 31,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -2238,12 +2816,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 32,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -2251,12 +2829,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 33,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -2264,12 +2842,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 34,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -2277,12 +2855,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 35,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -2290,12 +2868,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 36,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -2303,12 +2881,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 37,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -2316,12 +2894,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 38,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -2329,12 +2907,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 39,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -2342,12 +2920,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
       "exam_id": "2024-sn",
       "question_no": 40,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "요약/완성",
       "difficulty": "중",
@@ -2355,12 +2933,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 41,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -2368,12 +2946,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 42,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -2381,12 +2959,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 43,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -2394,12 +2972,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 44,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -2407,12 +2985,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
       "exam_id": "2024-sn",
       "question_no": 45,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -2420,12 +2998,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 1,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2433,12 +3011,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 2,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -2446,12 +3024,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 3,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2459,12 +3037,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 4,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2472,12 +3050,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 5,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2485,12 +3063,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 6,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2498,12 +3076,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 7,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2511,12 +3089,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 8,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2524,12 +3102,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 9,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2537,12 +3115,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 10,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2550,12 +3128,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 11,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -2563,12 +3141,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 12,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -2576,12 +3154,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 13,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -2589,12 +3167,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 14,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -2602,12 +3180,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 15,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "상",
@@ -2615,12 +3193,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 16,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2628,12 +3206,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 17,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -2641,12 +3219,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 18,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -2654,12 +3232,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 19,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -2667,12 +3245,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 20,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -2680,12 +3258,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 21,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -2693,12 +3271,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 22,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -2706,12 +3284,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 23,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -2719,12 +3297,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 24,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "상",
@@ -2732,12 +3310,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 25,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -2745,12 +3323,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 26,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -2758,12 +3336,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 27,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "Listing / Enumeration",
       "difficulty": "중",
@@ -2771,12 +3349,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 28,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -2784,12 +3362,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 29,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "중",
@@ -2797,12 +3375,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 30,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "상",
@@ -2810,12 +3388,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 31,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -2823,12 +3401,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 32,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -2836,12 +3414,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 33,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -2849,12 +3427,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 34,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -2862,12 +3440,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 35,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -2875,12 +3453,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 36,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -2888,12 +3466,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 37,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -2901,12 +3479,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 38,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -2914,12 +3492,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 39,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -2927,12 +3505,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 40,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "요약/완성",
       "difficulty": "중",
@@ -2940,12 +3518,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 41,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -2953,12 +3531,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 42,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "상",
@@ -2966,12 +3544,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 43,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -2979,12 +3557,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 44,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -2992,12 +3570,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-6",
       "question_no": 45,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -3005,12 +3583,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 1,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3018,12 +3596,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 2,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -3031,12 +3609,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 3,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3044,12 +3622,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 4,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3057,12 +3635,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 5,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3070,12 +3648,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 6,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3083,12 +3661,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 7,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3096,12 +3674,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 8,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3109,12 +3687,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 9,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3122,12 +3700,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 10,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3135,12 +3713,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 11,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -3148,12 +3726,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 12,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -3161,12 +3739,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 13,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -3174,12 +3752,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 14,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -3187,12 +3765,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 15,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "상",
@@ -3200,12 +3778,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 16,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3213,12 +3791,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 17,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3226,12 +3804,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 18,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -3239,12 +3817,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 19,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -3252,12 +3830,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 20,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -3265,12 +3843,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 21,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -3278,12 +3856,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 22,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -3291,12 +3869,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 23,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "상",
@@ -3304,12 +3882,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 24,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -3317,12 +3895,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 25,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -3330,12 +3908,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 26,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -3343,12 +3921,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 27,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "Listing / Enumeration",
       "difficulty": "중",
@@ -3356,12 +3934,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 28,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -3369,12 +3947,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 29,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "중",
@@ -3382,12 +3960,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 30,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "상",
@@ -3395,12 +3973,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 31,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -3408,12 +3986,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 32,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -3421,12 +3999,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 33,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -3434,12 +4012,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 34,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -3447,12 +4025,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 35,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -3460,12 +4038,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 36,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -3473,12 +4051,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 37,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -3486,12 +4064,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 38,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -3499,12 +4077,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 39,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -3512,12 +4090,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 40,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "요약/완성",
       "difficulty": "중",
@@ -3525,12 +4103,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 41,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -3538,12 +4116,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 42,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "상",
@@ -3551,12 +4129,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 43,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -3564,12 +4142,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 44,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -3577,12 +4155,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2024-9",
       "question_no": 45,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -3590,12 +4168,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 1,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3603,12 +4181,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 2,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -3616,12 +4194,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 3,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3629,12 +4207,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 4,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3642,12 +4220,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 5,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3655,12 +4233,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 6,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3668,12 +4246,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 7,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3681,12 +4259,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 8,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3694,12 +4272,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 9,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3707,12 +4285,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 10,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3720,12 +4298,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 11,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -3733,12 +4311,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 12,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -3746,12 +4324,12 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 13,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "중",
@@ -3759,12 +4337,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 14,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "논리적 응답",
       "difficulty": "상",
@@ -3772,12 +4350,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 15,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "상",
@@ -3785,12 +4363,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 16,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3798,12 +4376,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 17,
+      "section": "듣기",
       "topic": "듣기",
       "subtopic": "의사소통/정보",
       "difficulty": "중",
@@ -3811,12 +4389,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 18,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -3824,12 +4402,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 19,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "중",
@@ -3837,12 +4415,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 20,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -3850,12 +4428,12 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 21,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "함축 의미",
       "difficulty": "상",
@@ -3863,12 +4441,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 22,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -3876,12 +4454,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 23,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -3889,12 +4467,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 24,
+      "section": "독해",
       "topic": "핵심 파악",
       "subtopic": "대의 파악",
       "difficulty": "중",
@@ -3902,12 +4480,12 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 25,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -3915,12 +4493,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 26,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -3928,12 +4506,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 27,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "Listing / Enumeration",
       "difficulty": "중",
@@ -3941,12 +4519,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 28,
+      "section": "독해",
       "topic": "세부 정보",
       "subtopic": "사실 관계",
       "difficulty": "중",
@@ -3954,12 +4532,12 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 29,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "중",
@@ -3967,12 +4545,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 30,
+      "section": "독해",
       "topic": "언어 형식",
       "subtopic": "어법/어휘",
       "difficulty": "상",
@@ -3980,12 +4558,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 31,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -3993,12 +4571,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 32,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -4006,12 +4584,12 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 33,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "중",
@@ -4019,12 +4597,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 34,
+      "section": "독해",
       "topic": "빈칸 추론",
       "subtopic": "맥락 추론",
       "difficulty": "상",
@@ -4032,12 +4610,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 35,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "글의 일관성",
       "difficulty": "중",
@@ -4045,12 +4623,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 36,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -4058,12 +4636,12 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 37,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -4071,12 +4649,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 38,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "중",
@@ -4084,12 +4662,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 39,
+      "section": "독해",
       "topic": "순서/삽입",
       "subtopic": "Process & Sequence",
       "difficulty": "상",
@@ -4097,12 +4675,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 40,
+      "section": "독해",
       "topic": "간접 쓰기",
       "subtopic": "요약/완성",
       "difficulty": "중",
@@ -4110,12 +4688,12 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 41,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -4123,12 +4701,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 42,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "상",
@@ -4136,12 +4714,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3,
-      "section": "공통"
+      "score": 3
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 43,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -4149,12 +4727,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 44,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -4162,12 +4740,12 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     },
     {
-      "exam_id": "Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)",
+      "exam_id": "2025-6",
       "question_no": 45,
+      "section": "독해",
       "topic": "복합 지문",
       "subtopic": "장문 독해",
       "difficulty": "중",
@@ -4175,8 +4753,7 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2,
-      "section": "공통"
+      "score": 2
     }
   ]
 }
