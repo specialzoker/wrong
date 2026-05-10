@@ -1396,16 +1396,31 @@
   }
 
   // ── JSON 다운로드 ──
+  var EXAM_ID_NORMALIZE = {
+    'Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)': '2024-6',
+    'Sun Sep 01 2024 00:00:00 GMT+0900 (Korean Standard Time)': '2024-9',
+    'Sun Jun 01 2025 00:00:00 GMT+0900 (Korean Standard Time)': '2025-6',
+    'Mon Sep 01 2025 00:00:00 GMT+0900 (Korean Standard Time)': '2025-9',
+    'Sun Mar 01 2026 00:00:00 GMT+0900 (Korean Standard Time)': '2026-3',
+    '2026-05': '2026-5',
+    '2026_05': '2026-5',
+  };
+  function normalizeId(id) { return EXAM_ID_NORMALIZE[id] || id; }
+
   function downloadJson() {
     var d = st.db[st.sub];
     if (!d) { alert('데이터가 없습니다. JSON을 불러오거나 데이터를 입력하세요.'); return; }
-    var blob = new Blob([JSON.stringify(d, null, 2)], { type: 'application/json' });
+    // exam_id 정규화 후 내보내기
+    var out = JSON.parse(JSON.stringify(d));
+    out.exams.forEach(function(e) { e.exam_id = normalizeId(e.exam_id); });
+    out.questions.forEach(function(q) { q.exam_id = normalizeId(q.exam_id); });
+    var blob = new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' });
     var a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = st.sub + '.json';
     a.click();
     URL.revokeObjectURL(a.href);
-    toast(st.sub + '.json 다운로드 완료 — data/ 폴더에 저장 후 git push 하세요', 'ok');
+    toast('✅ ' + st.sub + '.json 다운로드 — data/' + st.sub + '.json으로 저장 후 git push 하세요', 'ok');
   }
 
   function h(s) {
