@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>데이터 관리자 — 수능 오답 추천</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <style>
     :root {
       --primary: #1a3a8b;
@@ -360,7 +361,7 @@
     <!-- 탭2: 답안 읽기 -->
     <div id="clsTabAns" style="display:none">
       <div style="padding:12px;background:#fef3c7;border:1.5px dashed #f59e0b;border-radius:8px;margin-bottom:10px">
-        <div style="font-size:12px;color:#92400e;font-weight:600;margin-bottom:8px">📷 답안지 이미지를 업로드하면 Gemini AI가 정답을 자동으로 읽어 입력합니다</div>
+        <div style="font-size:12px;color:#92400e;font-weight:600;margin-bottom:8px">📷 답안지 이미지를 업로드하면 Groq(Llama) AI가 정답을 자동으로 읽어 입력합니다</div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
           <label style="cursor:pointer">
             <div class="btn" style="font-size:12px;background:#f59e0b;color:white;pointer-events:none">📷 답안지 이미지 업로드</div>
@@ -383,7 +384,7 @@
     <!-- 탭3: AI 분류 -->
     <div id="clsTabAi" style="display:none">
       <div style="padding:12px;background:#faf5ff;border:1.5px dashed #a855f7;border-radius:8px;margin-bottom:10px">
-        <div style="font-size:12px;color:#6b21a8;font-weight:600;margin-bottom:8px">문제지 PDF를 업로드하면 Gemini AI가 유형·세부유형·배점을 자동으로 읽어줍니다</div>
+        <div style="font-size:12px;color:#6b21a8;font-weight:600;margin-bottom:8px">문제지 PDF를 업로드하면 Groq(Llama) AI가 유형·세부유형·배점을 자동으로 읽어줍니다</div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
           <label style="cursor:pointer">
             <div class="btn" style="font-size:12px;background:#7c3aed;color:white;pointer-events:none">📄 문제지 PDF 업로드</div>
@@ -396,7 +397,7 @@
           <button type="button" class="btn btn-ghost" style="font-size:11px;padding:2px 8px;margin-left:6px" onclick="toggleApiKeyInput()">설정</button>
         </div>
         <div id="apiKeyRow" style="display:none;margin-top:6px">
-          <input type="password" id="apiKeyInput" class="fi" placeholder="AIza..." style="font-size:12px">
+          <input type="password" id="apiKeyInput" class="fi" placeholder="gsk_..." style="font-size:12px">
           <div style="display:flex;gap:6px;margin-top:4px">
             <button type="button" class="btn btn-success" style="font-size:12px" onclick="saveApiKey()">저장</button>
             <button type="button" class="btn btn-ghost" style="font-size:12px;color:#dc2626" onclick="clearApiKey()">삭제</button>
@@ -458,9 +459,9 @@
         <span id="ocrMethodLabel" style="font-size:11px"></span>
       </div>
       <div id="apiKeyRow" style="display:none;margin-bottom:6px">
-        <div style="font-size:11px;color:#64748b;margin-bottom:3px">Gemini API 키 (<a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:#0369a1">aistudio.google.com</a>에서 무료 발급)</div>
+        <div style="font-size:11px;color:#64748b;margin-bottom:3px">Groq API 키 (<a href="https://console.groq.com/keys" target="_blank" style="color:#0369a1">console.groq.com</a>에서 무료 발급 — 카드 불필요)</div>
         <div style="display:flex;gap:6px">
-          <input type="password" id="apiKeyInput" class="fi" placeholder="AIza..." style="font-family:monospace;font-size:12px">
+          <input type="password" id="apiKeyInput" class="fi" placeholder="gsk_..." style="font-family:monospace;font-size:12px">
           <button type="button" class="btn btn-primary" style="white-space:nowrap" onclick="saveApiKey()">저장</button>
           <button type="button" class="btn btn-danger" style="white-space:nowrap" onclick="clearApiKey()">삭제</button>
         </div>
@@ -1070,7 +1071,7 @@
   function updateClsApiKeyLabel() {
     var el = document.getElementById('clsApiKeyStatus');
     if (!el) return;
-    var has = !!localStorage.getItem('gemini_api_key');
+    var has = !!localStorage.getItem('groq_api_key');
     el.textContent = has ? '✅ 설정됨' : '❌ 없음';
     el.style.color  = has ? '#16a34a' : '#dc2626';
   }
@@ -1114,71 +1115,90 @@
     document.getElementById('classifyStatus').textContent = '✅ ' + updated + '개 문항 분류 적용 완료!';
   }
 
-  // ── AI 자동 분류 (PDF → Claude API) ──
+  // ── AI 자동 분류 (PDF → PDF.js → Groq) ──
   function startAiClassify(input) {
     var file = input.files[0]; if (!file) return;
     document.getElementById('clsAiFileName').textContent = file.name;
-    var apiKey = localStorage.getItem('gemini_api_key');
+    var apiKey = localStorage.getItem('groq_api_key');
     if (!apiKey) { document.getElementById('clsAiStatus').textContent = '❌ API 키를 먼저 설정하세요.'; return; }
     var statusEl = document.getElementById('clsAiStatus');
-    statusEl.textContent = '📄 PDF 읽는 중...';
+    statusEl.textContent = '📄 PDF 변환 중...';
 
-    var reader = new FileReader();
-    reader.onload = function(ev) {
-      var b64 = ev.target.result.split(',')[1];
-      statusEl.textContent = '🤖 Claude AI 분석 중... (30-60초)';
-      var sub = st.sub;
-      var topicList = sub === 'korean'
-        ? '독서, 현대시, 현대소설, 고전시가, 고전산문, 복합지문, 화법, 작문, 언어, 매체'
-        : sub === 'math'
-        ? '공통(대수/미적분/기하), 확률과통계, 미적분, 기하'
-        : '듣기, 독해';
-      var subtopicList = sub === 'korean'
-        ? '내용 파악, 외적 준거, 표현 기법, 어휘, 인물 분석, 작품 구조, 시어의 의미, 말하기 방식, 자료 활용, 대화 분석, 반응 이해, 글쓰기 계획, 내용 생성, 고쳐쓰기, 단어 형성, 음운 변동, 문법 요소, 문장 구조, 매체 특성, 매체 언어'
-        : '내용 파악, 개념 적용, 계산, 증명, 풀이';
+    if (typeof pdfjsLib === 'undefined') {
+      statusEl.textContent = '❌ PDF.js 로드 실패. 페이지를 새로고침 후 다시 시도하세요.'; return;
+    }
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
-      var prompt = '이 국어 시험지 PDF를 분석해서 각 문항의 정보를 JSON으로 출력하세요.\n' +
-        '형식: [{\"q\":번호,\"section\":\"common|hwajak|eonmae\",\"topic\":\"유형\",\"subtopic\":\"세부유형\",\"score\":배점}]\n' +
-        '- section: 공통=common, 화법과작문=hwajak, 언어와매체=eonmae\n' +
-        '- topic 목록: ' + topicList + '\n' +
-        '- subtopic 목록: ' + subtopicList + '\n' +
-        '- score: 문항 옆 [3점] 표시 있으면 3, 없으면 2\n' +
-        '- JSON 배열만 출력하고 다른 설명 없이\n' +
-        '- 화작/언매 35~45번은 section을 hwajak/eonmae로 구분해서 각각 출력';
+    var sub = st.sub;
+    var topicList = sub === 'korean'
+      ? '독서, 현대시, 현대소설, 고전시가, 고전산문, 복합지문, 화법, 작문, 언어, 매체'
+      : sub === 'math'
+      ? '수학I(지수와 로그, 삼각함수, 수열), 수학II(함수의 극한, 미분, 적분), 확률과통계, 미적분, 기하'
+      : '듣기, 독해';
+    var subtopicList = sub === 'korean'
+      ? '내용 파악, 외적 준거, 표현 기법, 어휘, 인물 분석, 시어의 의미, 말하기 방식, 자료 활용, 대화 분석, 반응 이해, 글쓰기 계획, 내용 생성, 고쳐쓰기, 단어 형성, 음운 변동, 문법 요소, 문장 구조, 매체 특성, 매체 언어'
+      : sub === 'math'
+      ? '지수와 로그, 삼각함수, 수열, 함수의 극한, 미분, 적분, 경우의 수, 확률, 통계, 수열의 극한, 미분법, 적분법, 이차곡선, 벡터, 공간도형'
+      : '목적 파악, 의견 파악, 관계·상황 파악, 그림 정보 일치, 할 일 파악, 이유 파악, 금액·수 정보, 내용 일치, 도표 이해, 짧은 대화(응답), 담화 내용 파악, 담화 세트, 함의 추론, 안내문 일치, 어법, 어휘, 빈칸 추론, 흐름에 무관한 문장, 글의 순서, 문장 삽입, 요약문 완성, 장문 독해(낱말), 장문 독해(빈칸), 장문 독해(내용)';
+    var prompt = sub === 'korean'
+      ? '이 한국 국어 시험지 이미지들을 분석해서 각 문항의 정보를 JSON 배열로만 출력하세요.\n형식: [{"q":번호,"section":"common|hwajak|eonmae","topic":"유형","subtopic":"세부유형","score":배점}]\n- section: 공통=common, 화법과작문=hwajak, 언어와매체=eonmae\n- topic 목록: ' + topicList + '\n- subtopic 목록: ' + subtopicList + '\n- score: [3점] 표시 있으면 3, 없으면 2\n- 화작/언매 35~45번은 각각 hwajak/eonmae로 구분해서 둘 다 출력\n- JSON 배열만 출력 (다른 설명 없이)'
+      : sub === 'math'
+      ? '이 한국 수학 시험지 이미지들을 분석해서 각 문항의 정보를 JSON 배열로만 출력하세요.\n형식: [{"q":번호,"section":"common|hwaktong|mijeok|giha","topic":"유형","subtopic":"세부유형","score":배점}]\n- section: 공통(1-22번)=common, 확통=hwaktong, 미적분=mijeok, 기하=giha\n- topic/subtopic 목록: ' + subtopicList + '\n- score: 2점/3점/4점 중 ([4점] [3점] 표시 확인)\n- JSON 배열만 출력'
+      : '이 한국 영어 시험지 이미지들을 분석해서 각 문항의 정보를 JSON 배열로만 출력하세요.\n형식: [{"q":번호,"section":"common","topic":"듣기|독해","subtopic":"세부유형","score":배점}]\n- 1~17번=듣기, 18~45번=독해\n- subtopic 목록: ' + subtopicList + '\n- score: [3점] 표시 있으면 3, 없으면 2\n- JSON 배열만 출력';
 
-      fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [
-            { inline_data: { mime_type: 'application/pdf', data: b64 } },
-            { text: prompt }
-          ]}]
-        })
-      })
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
-        var text = data.candidates[0].content.parts[0].text;
-        var m = text.match(/\[[\s\S]*\]/);
-        if (!m) { statusEl.textContent = '⚠ JSON을 찾지 못했습니다. 결과:\n' + text.substring(0,200); return; }
-        document.getElementById('classifyInput').value = m[0];
-        switchClsTab('paste');
-        statusEl.textContent = '✅ AI 분류 완료! "붙여넣기" 탭에서 적용하세요.';
-        document.getElementById('clsAiStatus').textContent = '';
-      })
-      .catch(function(err) {
-        statusEl.textContent = '❌ 오류: ' + (err.message || String(err));
+    file.arrayBuffer().then(function(buf) {
+      return pdfjsLib.getDocument({data: buf}).promise;
+    }).then(function(pdf) {
+      var maxPages = Math.min(pdf.numPages, 12);
+      statusEl.textContent = '📄 PDF 변환 중... (0/' + maxPages + ')';
+      var pageNums = [];
+      for (var i = 1; i <= maxPages; i++) pageNums.push(i);
+      return pageNums.reduce(function(chain, pageNum) {
+        return chain.then(function(imgs) {
+          statusEl.textContent = '📄 PDF 변환 중... (' + pageNum + '/' + maxPages + ')';
+          return pdf.getPage(pageNum).then(function(page) {
+            var vp = page.getViewport({scale: 1.2});
+            var cv = document.createElement('canvas');
+            cv.width = vp.width; cv.height = vp.height;
+            return page.render({canvasContext: cv.getContext('2d'), viewport: vp}).promise.then(function() {
+              imgs.push(cv.toDataURL('image/jpeg', 0.7).split(',')[1]);
+              return imgs;
+            });
+          });
+        });
+      }, Promise.resolve([]));
+    }).then(function(images) {
+      statusEl.textContent = '🤖 Groq AI 분석 중... (30~60초)';
+      var content = images.map(function(img) {
+        return {type: 'image_url', image_url: {url: 'data:image/jpeg;base64,' + img}};
       });
-    };
-    reader.readAsDataURL(file);
+      content.push({type: 'text', text: prompt});
+      return fetch('https://api.groq.com/openai/v1/chat/completions', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + apiKey},
+        body: JSON.stringify({model: 'llama-3.2-90b-vision-preview', messages: [{role: 'user', content: content}], max_tokens: 4096})
+      });
+    }).then(function(r) { return r.json(); })
+    .then(function(data) {
+      if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
+      var text = data.choices[0].message.content;
+      var m = text.match(/\[[\s\S]*\]/);
+      if (!m) { statusEl.textContent = '⚠ JSON을 찾지 못했습니다. 결과:\n' + text.substring(0,200); return; }
+      document.getElementById('classifyInput').value = m[0];
+      switchClsTab('paste');
+      statusEl.textContent = '✅ AI 분류 완료! "붙여넣기" 탭에서 적용하세요.';
+      document.getElementById('clsAiStatus').textContent = '';
+    }).catch(function(err) {
+      statusEl.textContent = '❌ 오류: ' + (err.message || String(err));
+    });
   }
 
   // ── 답안 이미지 읽기 (classifyModal 탭2) ──
   function startAnsOcr(input) {
     var file = input.files[0]; if (!file) return;
     document.getElementById('clsAnsFileName').textContent = file.name;
-    var apiKey = localStorage.getItem('gemini_api_key');
+    var apiKey = localStorage.getItem('groq_api_key');
     if (!apiKey) {
       document.getElementById('clsAnsStatus').textContent = '❌ API 키 필요 — "AI 분류(PDF)" 탭에서 먼저 설정하세요.';
       return;
@@ -1210,20 +1230,22 @@
           + '①~⑤=1~5로 변환. 1~45번 전부 포함.';
       }
 
-      fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey, {
+      fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + apiKey},
         body: JSON.stringify({
-          contents: [{ parts: [
-            { inline_data: { mime_type: mime, data: b64 } },
-            { text: prompt }
-          ]}]
+          model: 'llama-3.2-90b-vision-preview',
+          messages: [{role: 'user', content: [
+            {type: 'image_url', image_url: {url: 'data:' + mime + ';base64,' + b64}},
+            {type: 'text', text: prompt}
+          ]}],
+          max_tokens: 1024
         })
       })
       .then(function(r) { return r.json(); })
       .then(function(data) {
         if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
-        var text = data.candidates[0].content.parts[0].text;
+        var text = data.choices[0].message.content;
         var parsed = null;
         try { var m = text.match(/\{[\s\S]*\}/); if (m) parsed = JSON.parse(m[0]); } catch(e) {}
         if (!parsed) { statusEl.textContent = '⚠ 답안을 찾지 못했어요. 이미지를 다시 확인해주세요.'; return; }
@@ -1322,19 +1344,19 @@
     var visible = row.style.display !== 'none';
     row.style.display = visible ? 'none' : 'block';
     if (!visible) {
-      var saved = localStorage.getItem('gemini_api_key') || '';
+      var saved = localStorage.getItem('groq_api_key') || '';
       document.getElementById('apiKeyInput').value = saved;
     }
   }
   function saveApiKey() {
     var key = document.getElementById('apiKeyInput').value.trim();
-    if (key) { localStorage.setItem('gemini_api_key', key); toast('API 키 저장 완료', 'ok'); }
+    if (key) { localStorage.setItem('groq_api_key', key); toast('API 키 저장 완료', 'ok'); }
     document.getElementById('apiKeyRow').style.display = 'none';
     updateOcrMethodLabel();
     updateClsApiKeyLabel();
   }
   function clearApiKey() {
-    localStorage.removeItem('gemini_api_key');
+    localStorage.removeItem('groq_api_key');
     document.getElementById('apiKeyInput').value = '';
     toast('API 키 삭제됨', 'ok');
     updateOcrMethodLabel();
@@ -1342,8 +1364,8 @@
   function updateOcrMethodLabel() {
     var el = document.getElementById('ocrMethodLabel');
     if (!el) return;
-    el.textContent = localStorage.getItem('gemini_api_key') ? '🤖 AI 인식 사용 중' : '⚠ API 키 없음 (정확도 낮음)';
-    el.style.color = localStorage.getItem('gemini_api_key') ? '#16a34a' : '#d97706';
+    el.textContent = localStorage.getItem('groq_api_key') ? '🤖 AI 인식 사용 중' : '⚠ API 키 없음 (정확도 낮음)';
+    el.style.color = localStorage.getItem('groq_api_key') ? '#16a34a' : '#d97706';
   }
 
   // ── OCR 메인 ──
@@ -1356,7 +1378,7 @@
     statusEl.style.display = 'block';
     input.value = '';
 
-    var apiKey = localStorage.getItem('gemini_api_key') || '';
+    var apiKey = localStorage.getItem('groq_api_key') || '';
     if (apiKey) {
       statusEl.textContent = '🤖 AI가 답안을 읽는 중...';
       var reader = new FileReader();
@@ -1388,20 +1410,22 @@
       prompt += '\n선택과목은 [' + secName + '] 부분만 추출해주세요.';
     }
 
-    fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey, {
+    fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + apiKey},
       body: JSON.stringify({
-        contents: [{ parts: [
-          { inline_data: { mime_type: mime, data: base64 } },
-          { text: prompt }
-        ]}]
+        model: 'llama-3.2-90b-vision-preview',
+        messages: [{role: 'user', content: [
+          {type: 'image_url', image_url: {url: 'data:' + mime + ';base64,' + base64}},
+          {type: 'text', text: prompt}
+        ]}],
+        max_tokens: 512
       })
     })
     .then(function(r) { return r.json(); })
     .then(function(data) {
       if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
-      var text = data.candidates[0].content.parts[0].text;
+      var text = data.choices[0].message.content;
       var answers = parseClaudeAnswers(text);
       var count = Object.keys(answers).length;
       if (count === 0) { statusEl.textContent = '⚠️ 답안을 추출하지 못했어요. 이미지를 다시 확인해주세요.'; return; }
