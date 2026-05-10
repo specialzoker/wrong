@@ -1331,6 +1331,7 @@
     if (key) { localStorage.setItem('gemini_api_key', key); toast('API 키 저장 완료', 'ok'); }
     document.getElementById('apiKeyRow').style.display = 'none';
     updateOcrMethodLabel();
+    updateClsApiKeyLabel();
   }
   function clearApiKey() {
     localStorage.removeItem('gemini_api_key');
