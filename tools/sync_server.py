@@ -4,7 +4,14 @@
 실행: python tools/sync_server.py
 """
 from http.server import HTTPServer, BaseHTTPRequestHandler
-import json, subprocess, os, sys
+import json, subprocess, os, sys, io
+
+# Windows cp949 콘솔에서도 한글/이모지 출력 가능하도록 stdout UTF-8 강제
+try:
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+except Exception:
+    pass
 
 ROOT     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, 'data')
