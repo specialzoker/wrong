@@ -1150,7 +1150,7 @@
     file.arrayBuffer().then(function(buf) {
       return pdfjsLib.getDocument({data: buf}).promise;
     }).then(function(pdf) {
-      var maxPages = Math.min(pdf.numPages, 12);
+      var maxPages = Math.min(pdf.numPages, 20);
       statusEl.textContent = '📄 PDF 변환 중... (0/' + maxPages + ')';
       var pageNums = [];
       for (var i = 1; i <= maxPages; i++) pageNums.push(i);
@@ -1169,25 +1169,44 @@
         });
       }, Promise.resolve([]));
     }).then(function(images) {
-      statusEl.textContent = '🤖 Groq AI 분석 중... (30~60초)';
-      var content = images.map(function(img) {
-        return {type: 'image_url', image_url: {url: 'data:image/jpeg;base64,' + img}};
+      // 5장씩 나눠서 배치 처리
+      var batches = [];
+      for (var i = 0; i < images.length; i += 5) batches.push(images.slice(i, i + 5));
+      statusEl.textContent = '🤖 Groq AI 분석 중... (1/' + batches.length + ' 배치)';
+
+      return batches.reduce(function(chain, batch, idx) {
+        return chain.then(function(allResults) {
+          statusEl.textContent = '🤖 Groq AI 분석 중... (' + (idx + 1) + '/' + batches.length + ' 배치)';
+          var content = batch.map(function(img) {
+            return {type: 'image_url', image_url: {url: 'data:image/jpeg;base64,' + img}};
+          });
+          content.push({type: 'text', text: prompt});
+          return fetch('https://api.groq.com/openai/v1/chat/completions', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + apiKey},
+            body: JSON.stringify({model: 'meta-llama/llama-4-scout-17b-16e-instruct', messages: [{role: 'user', content: content}], max_tokens: 2048})
+          }).then(function(r) { return r.json(); })
+          .then(function(data) {
+            if (data.error) throw new Error(data.error.message);
+            var text = data.choices[0].message.content;
+            var m = text.match(/\[[\s\S]*\]/);
+            if (m) { try { allResults = allResults.concat(JSON.parse(m[0])); } catch(e) {} }
+            return allResults;
+          });
+        });
+      }, Promise.resolve([]));
+    }).then(function(allResults) {
+      if (allResults.length === 0) { statusEl.textContent = '⚠ 분류 결과가 없습니다.'; return; }
+      // 중복 제거 (q+section 기준)
+      var seen = {};
+      var deduped = allResults.filter(function(item) {
+        var key = item.q + '_' + (item.section || '');
+        if (seen[key]) return false;
+        seen[key] = true; return true;
       });
-      content.push({type: 'text', text: prompt});
-      return fetch('https://api.groq.com/openai/v1/chat/completions', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + apiKey},
-        body: JSON.stringify({model: 'meta-llama/llama-4-scout-17b-16e-instruct', messages: [{role: 'user', content: content}], max_tokens: 4096})
-      });
-    }).then(function(r) { return r.json(); })
-    .then(function(data) {
-      if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
-      var text = data.choices[0].message.content;
-      var m = text.match(/\[[\s\S]*\]/);
-      if (!m) { statusEl.textContent = '⚠ JSON을 찾지 못했습니다. 결과:\n' + text.substring(0,200); return; }
-      document.getElementById('classifyInput').value = m[0];
+      document.getElementById('classifyInput').value = JSON.stringify(deduped, null, 2);
       switchClsTab('paste');
-      statusEl.textContent = '✅ AI 분류 완료! "붙여넣기" 탭에서 적용하세요.';
+      statusEl.textContent = '✅ AI 분류 완료! "붙여넣기" 탭에서 확인 후 적용하세요.';
       document.getElementById('clsAiStatus').textContent = '';
     }).catch(function(err) {
       statusEl.textContent = '❌ 오류: ' + (err.message || String(err));
