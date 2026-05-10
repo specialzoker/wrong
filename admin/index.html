@@ -654,6 +654,15 @@
     return { q: hasQ, a: hasA };
   }
 
+  function sortExamsByDate(exams) {
+    var validDate = /^\d{4}-\d{2}-\d{2}$/;
+    return exams.slice().sort(function(a, b) {
+      var ad = validDate.test(a.exam_date || '') ? a.exam_date : '';
+      var bd = validDate.test(b.exam_date || '') ? b.exam_date : '';
+      return bd.localeCompare(ad); // 내림차순 (최신 위)
+    });
+  }
+
   function renderExamList() {
     var importBtn = document.getElementById('importKoreanBtn');
     if (importBtn) importBtn.style.display = '';
@@ -666,7 +675,7 @@
     var qmap = {};
     (d.questions||[]).forEach(function(q) { qmap[q.exam_id] = (qmap[q.exam_id]||0) + 1; });
 
-    el.innerHTML = d.exams.map(function(exam) {
+    el.innerHTML = sortExamsByDate(d.exams).map(function(exam) {
       var p = hasPdf(exam);
       var sel = st.examId === exam.exam_id;
       var safeId = exam.exam_id.replace(/\\/g,'\\\\').replace(/'/g,"\\'");

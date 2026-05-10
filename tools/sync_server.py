@@ -27,11 +27,26 @@ ID_MAP = {
     '2025-06': '2025-6', '2025-09': '2025-9',
 }
 
+import re
+DATE_RE = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+SUNEUNG_DATES = {
+    '2023-sn': '2022-11-17', '2024-sn': '2023-11-16',
+    '2025-sn': '2024-11-14', '2026-sn': '2025-11-13',
+}
+
 def norm(data):
     for e in data.get('exams', []):
         e['exam_id'] = ID_MAP.get(e['exam_id'], e['exam_id'])
+        # 알려진 수능 날짜 보정
+        if e['exam_id'] in SUNEUNG_DATES:
+            e['exam_date'] = SUNEUNG_DATES[e['exam_id']]
     for q in data.get('questions', []):
         q['exam_id'] = ID_MAP.get(q['exam_id'], q['exam_id'])
+    # 시험일자 내림차순 정렬 (최신 위, 무효 날짜는 뒤)
+    def sort_key(e):
+        d = e.get('exam_date', '')
+        return d if DATE_RE.match(str(d)) else ''
+    data['exams'] = sorted(data.get('exams', []), key=sort_key, reverse=True)
     return data
 
 class Handler(BaseHTTPRequestHandler):
