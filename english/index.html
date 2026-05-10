@@ -342,6 +342,16 @@
     document.getElementById('studentNameInput').focus();
     showStep('loading');
 
+    // 어드민 localStorage 우선 (로컬 실행 시)
+    var localData = null;
+    try { localData = JSON.parse(localStorage.getItem('ad_english') || ''); } catch(e) {}
+    if (localData && localData.exams && localData.exams.length) {
+      state.allData = localData;
+      state.exams = localData.exams;
+      showStep(0);
+      return;
+    }
+
     fetch('../data/english.json')
       .then(function(r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -354,7 +364,7 @@
       })
       .catch(function(err) {
         document.getElementById('loadingOverlay').innerHTML =
-          '<div class="card"><div class="empty-msg">데이터를 불러오지 못했습니다.<br><small>' + err.message + '</small><br><small style="color:#aaa">로컬에서 실행 시 웹서버가 필요합니다</small></div></div>';
+          '<div class="card"><div class="empty-msg">데이터를 불러오지 못했습니다.<br><small>' + err.message + '</small><br><small style="color:#aaa">어드민 페이지에서 먼저 데이터를 입력하세요</small></div></div>';
       });
   };
 

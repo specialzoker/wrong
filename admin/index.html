@@ -596,8 +596,10 @@
   function importFromKorean() {
     var url = st.sub === 'english'
       ? 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_english_init.json'
-      : 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_math_init.json';
-    var label = st.sub === 'english' ? '영어' : '수학';
+      : st.sub === 'math'
+      ? 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_math_init.json'
+      : 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_korean_init.json';
+    var label = st.sub === 'english' ? '영어' : st.sub === 'math' ? '수학' : '국어';
     fetch(url).then(function(r) { return r.json(); }).then(function(data) {
       if (!st.db[st.sub]) st.db[st.sub] = { exams: [], questions: [] };
       var d = st.db[st.sub];
@@ -641,9 +643,8 @@
   }
 
   function renderExamList() {
-    // 국어가 아닐 때만 '국어에서 복사' 버튼 표시
     var importBtn = document.getElementById('importKoreanBtn');
-    if (importBtn) importBtn.style.display = st.sub !== 'korean' ? '' : 'none';
+    if (importBtn) importBtn.style.display = '';
 
     var el = document.getElementById('examList');
     var d = st.db[st.sub];
