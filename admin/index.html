@@ -1137,8 +1137,8 @@
         if (sec === 'hwaktong')  return q.is_common === '선택-확통';
         if (sec === 'mijeok')    return q.is_common === '선택-미적분';
         if (sec === 'giha')      return q.is_common === '선택-기하';
-        if (sec === 'listening') return q.is_common === '듣기';
-        if (sec === 'reading')   return q.is_common === '독해';
+        if (sec === 'listening') return q.section === '듣기';
+        if (sec === 'reading')   return q.section === '독해';
         return true;
       });
       targets.forEach(function(q) {
