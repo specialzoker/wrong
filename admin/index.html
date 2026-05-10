@@ -194,7 +194,10 @@
     <div class="panel">
       <div class="panel-header">
         <span class="panel-title">📋 시험 목록</span>
-        <button class="btn btn-primary" onclick="toggleAddForm()">+ 추가</button>
+        <div style="display:flex;gap:6px;align-items:center">
+          <button id="importKoreanBtn" class="btn" style="background:#0ea5e9;color:white;font-size:11px;padding:5px 10px;display:none" onclick="importFromKorean()">📥 국어에서 복사</button>
+          <button class="btn btn-primary" onclick="toggleAddForm()">+ 추가</button>
+        </div>
       </div>
 
       <div id="examList"><div class="empty">JSON을 불러오거나 시험을 추가하세요</div></div>
@@ -590,6 +593,30 @@
   }
 
   // ── 시험 목록 ──
+  function importFromKorean() {
+    var korData = st.db['korean'];
+    if (!korData || !korData.exams || !korData.exams.length) {
+      alert('국어 시험 데이터가 없습니다. 먼저 국어 탭에서 JSON을 불러오세요.'); return;
+    }
+    if (!st.db[st.sub]) st.db[st.sub] = { exams: [], questions: [] };
+    var d = st.db[st.sub];
+    var added = 0;
+    korData.exams.forEach(function(e) {
+      if (d.exams.some(function(x) { return x.exam_id === e.exam_id; })) return; // 이미 있으면 스킵
+      d.exams.push({
+        exam_id:         e.exam_id,
+        exam_name:       e.exam_name,
+        subject:         LABEL[st.sub],
+        exam_date:       e.exam_date,
+        total_questions: st.sub === 'math' ? 30 : 45
+        // PDF 경로는 과목마다 다르므로 복사 안 함
+      });
+      added++;
+    });
+    save(); render();
+    toast(added + '개 시험 추가 완료! PDF 경로는 각 시험에서 직접 설정하세요.', 'ok');
+  }
+
   function hasPdf(exam) {
     var hasQ = (exam.question_pdf_id && exam.question_pdf_id.length > 10) || (exam.question_pdf_path && exam.question_pdf_path.length > 3);
     var hasA = (exam.answer_pdf_id   && exam.answer_pdf_id.length   > 10) || (exam.answer_pdf_path   && exam.answer_pdf_path.length   > 3);
@@ -597,6 +624,10 @@
   }
 
   function renderExamList() {
+    // 국어가 아닐 때만 '국어에서 복사' 버튼 표시
+    var importBtn = document.getElementById('importKoreanBtn');
+    if (importBtn) importBtn.style.display = st.sub !== 'korean' ? '' : 'none';
+
     var el = document.getElementById('examList');
     var d = st.db[st.sub];
     if (!d || !d.exams || !d.exams.length) {
