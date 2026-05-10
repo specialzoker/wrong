@@ -318,6 +318,7 @@
         <span class="q-exam-label" id="qExamLabel">← 왼쪽에서 시험을 선택하세요</span>
         <span class="q-count" id="qCount"></span>
         <button class="btn btn-success" onclick="openBulkModal()" style="font-size:12px">📝 답안 일괄 입력</button>
+        <button class="btn" style="font-size:12px;background:#7c3aed;color:white" onclick="openClassifyModal()">📊 유형·배점 입력</button>
         <button class="btn btn-ghost" onclick="openCsvModal()">📋 시트에서 붙여넣기</button>
         <button class="btn btn-primary" onclick="addRow()">+ 행 추가</button>
       </div>
@@ -325,6 +326,62 @@
       <!-- 문항 테이블 -->
       <div class="q-scroll">
         <div id="qArea"><div class="empty">시험을 선택하면 문항을 입력할 수 있어요</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 유형·배점 일괄 분류 모달 -->
+<div class="modal-bg" id="classifyModal">
+  <div class="modal" style="width:min(700px,95vw)">
+    <h3>📊 유형·배점 일괄 입력</h3>
+    <p class="modal-desc">아래 JSON을 붙여넣으면 모든 문항의 <strong>유형·세부유형·배점</strong>이 한번에 채워집니다.<br>
+      <span style="color:#7c3aed;font-size:11px">형식: [{"q":번호,"section":"common|hwajak|eonmae","topic":"유형","subtopic":"세부유형","score":배점}, ...]</span>
+    </p>
+
+    <!-- 탭 -->
+    <div style="display:flex;gap:4px;margin-bottom:10px">
+      <button type="button" id="clsTabPasteBtn" class="pdf-toggle-btn active" onclick="switchClsTab('paste')" style="flex:1;padding:7px">📋 JSON 붙여넣기</button>
+      <button type="button" id="clsTabAiBtn"    class="pdf-toggle-btn"        onclick="switchClsTab('ai')"    style="flex:1;padding:7px">🤖 AI 자동 분류 (PDF 분석)</button>
+    </div>
+
+    <!-- 탭1: 붙여넣기 -->
+    <div id="clsTabPaste">
+      <textarea id="classifyInput" class="fi" style="height:260px;font-family:monospace;font-size:11px;line-height:1.5"
+        placeholder='[&#10;  {"q":1,"section":"common","topic":"독서","subtopic":"내용 파악","score":2},&#10;  {"q":2,"section":"common","topic":"독서","subtopic":"내용 파악","score":3},&#10;  ...&#10;  {"q":35,"section":"hwajak","topic":"화법","subtopic":"말하기 방식","score":2},&#10;  {"q":35,"section":"eonmae","topic":"언어","subtopic":"단어 형성","score":2}&#10;]'></textarea>
+      <div id="classifyStatus" style="font-size:12px;color:#16a34a;margin-top:6px;min-height:18px"></div>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-ghost" onclick="closeClassifyModal()">닫기</button>
+        <button type="button" class="btn" style="background:#7c3aed;color:white" onclick="applyClassification()">✅ 적용</button>
+      </div>
+    </div>
+
+    <!-- 탭2: AI 분류 -->
+    <div id="clsTabAi" style="display:none">
+      <div style="padding:12px;background:#faf5ff;border:1.5px dashed #a855f7;border-radius:8px;margin-bottom:10px">
+        <div style="font-size:12px;color:#6b21a8;font-weight:600;margin-bottom:8px">문제지 PDF를 업로드하면 Claude AI가 유형·세부유형·배점을 자동으로 읽어줍니다</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <label style="cursor:pointer">
+            <div class="btn" style="font-size:12px;background:#7c3aed;color:white;pointer-events:none">📄 문제지 PDF 업로드</div>
+            <input type="file" accept=".pdf,application/pdf" id="clsAiFile" style="display:none" onchange="startAiClassify(this)">
+          </label>
+          <span id="clsAiFileName" style="font-size:12px;color:#64748b"></span>
+        </div>
+        <div style="margin-top:8px;font-size:11px;color:#64748b">
+          🔑 API 키: <span id="clsApiKeyStatus" style="font-weight:600"></span>
+          <button type="button" class="btn btn-ghost" style="font-size:11px;padding:2px 8px;margin-left:6px" onclick="toggleApiKeyInput()">설정</button>
+        </div>
+        <div id="apiKeyRow" style="display:none;margin-top:6px">
+          <input type="password" id="apiKeyInput" class="fi" placeholder="sk-ant-..." style="font-size:12px">
+          <div style="display:flex;gap:6px;margin-top:4px">
+            <button type="button" class="btn btn-success" style="font-size:12px" onclick="saveApiKey()">저장</button>
+            <button type="button" class="btn btn-ghost" style="font-size:12px;color:#dc2626" onclick="clearApiKey()">삭제</button>
+          </div>
+        </div>
+      </div>
+      <div id="clsAiStatus" style="font-size:12px;color:#6b21a8;min-height:18px"></div>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-ghost" onclick="closeClassifyModal()">닫기</button>
       </div>
     </div>
   </div>
@@ -961,6 +1018,141 @@
     closeCsvModal();
     save(); renderQArea();
     toast(imported + '개 문항 가져오기 완료', 'ok');
+  }
+
+  // ── 유형·배점 일괄 분류 ──
+  function openClassifyModal() {
+    if (!st.examId) { alert('먼저 시험을 선택하세요.'); return; }
+    document.getElementById('classifyModal').classList.add('open');
+    document.getElementById('classifyInput').value = '';
+    document.getElementById('classifyStatus').textContent = '';
+    document.getElementById('clsAiFileName').textContent = '';
+    document.getElementById('clsAiStatus').textContent = '';
+    updateClsApiKeyLabel();
+    switchClsTab('paste');
+  }
+  function closeClassifyModal() { document.getElementById('classifyModal').classList.remove('open'); }
+  function switchClsTab(tab) {
+    document.getElementById('clsTabPaste').style.display = tab === 'paste' ? '' : 'none';
+    document.getElementById('clsTabAi').style.display    = tab === 'ai'    ? '' : 'none';
+    document.getElementById('clsTabPasteBtn').classList.toggle('active', tab === 'paste');
+    document.getElementById('clsTabAiBtn').classList.toggle('active', tab === 'ai');
+  }
+  function updateClsApiKeyLabel() {
+    var el = document.getElementById('clsApiKeyStatus');
+    if (!el) return;
+    var has = !!localStorage.getItem('anthropic_api_key');
+    el.textContent = has ? '✅ 설정됨' : '❌ 없음';
+    el.style.color  = has ? '#16a34a' : '#dc2626';
+  }
+
+  function applyClassification() {
+    var raw = document.getElementById('classifyInput').value.trim();
+    if (!raw) { document.getElementById('classifyStatus').textContent = '⚠ 데이터를 붙여넣으세요.'; return; }
+    var data;
+    try { data = JSON.parse(raw); }
+    catch(e) { document.getElementById('classifyStatus').textContent = '❌ JSON 오류: ' + e.message; return; }
+    if (!Array.isArray(data)) { document.getElementById('classifyStatus').textContent = '❌ 배열 형식이어야 합니다.'; return; }
+
+    var sub = st.sub;
+    var d = st.db[sub];
+    if (!d || !d.questions) { document.getElementById('classifyStatus').textContent = '❌ 문항이 없습니다.'; return; }
+
+    var updated = 0;
+    data.forEach(function(item) {
+      var qno = parseInt(item.q);
+      var sec = item.section || '';  // 'common','hwajak','eonmae' or ''
+      var targets = (d.questions || []).filter(function(q) {
+        if (q.exam_id !== st.examId) return false;
+        if (q.question_no !== qno) return false;
+        if (sec === 'common')  return q.is_common === '공통';
+        if (sec === 'hwajak')  return q.is_common === '화법과작문';
+        if (sec === 'eonmae')  return q.is_common === '언어와매체';
+        return true;
+      });
+      targets.forEach(function(q) {
+        if (item.topic    !== undefined) q.topic    = item.topic;
+        if (item.subtopic !== undefined) q.subtopic = item.subtopic;
+        if (item.score    !== undefined) q.score    = item.score;
+        if (item.keywords !== undefined) q.keywords = item.keywords;
+        updated++;
+      });
+    });
+    save(); renderQArea();
+    document.getElementById('classifyStatus').textContent = '✅ ' + updated + '개 문항 분류 적용 완료!';
+  }
+
+  // ── AI 자동 분류 (PDF → Claude API) ──
+  function startAiClassify(input) {
+    var file = input.files[0]; if (!file) return;
+    document.getElementById('clsAiFileName').textContent = file.name;
+    var apiKey = localStorage.getItem('anthropic_api_key');
+    if (!apiKey) { document.getElementById('clsAiStatus').textContent = '❌ API 키를 먼저 설정하세요.'; return; }
+    var statusEl = document.getElementById('clsAiStatus');
+    statusEl.textContent = '📄 PDF 읽는 중...';
+
+    var reader = new FileReader();
+    reader.onload = function(ev) {
+      var b64 = ev.target.result.split(',')[1];
+      statusEl.textContent = '🤖 Claude AI 분석 중... (30-60초)';
+      var sub = st.sub;
+      var topicList = sub === 'korean'
+        ? '독서, 현대시, 현대소설, 고전시가, 고전산문, 복합지문, 화법, 작문, 언어, 매체'
+        : sub === 'math'
+        ? '공통(대수/미적분/기하), 확률과통계, 미적분, 기하'
+        : '듣기, 독해';
+      var subtopicList = sub === 'korean'
+        ? '내용 파악, 외적 준거, 표현 기법, 어휘, 인물 분석, 작품 구조, 시어의 의미, 말하기 방식, 자료 활용, 대화 분석, 반응 이해, 글쓰기 계획, 내용 생성, 고쳐쓰기, 단어 형성, 음운 변동, 문법 요소, 문장 구조, 매체 특성, 매체 언어'
+        : '내용 파악, 개념 적용, 계산, 증명, 풀이';
+
+      var prompt = '이 국어 시험지 PDF를 분석해서 각 문항의 정보를 JSON으로 출력하세요.\n' +
+        '형식: [{\"q\":번호,\"section\":\"common|hwajak|eonmae\",\"topic\":\"유형\",\"subtopic\":\"세부유형\",\"score\":배점}]\n' +
+        '- section: 공통=common, 화법과작문=hwajak, 언어와매체=eonmae\n' +
+        '- topic 목록: ' + topicList + '\n' +
+        '- subtopic 목록: ' + subtopicList + '\n' +
+        '- score: 문항 옆 [3점] 표시 있으면 3, 없으면 2\n' +
+        '- JSON 배열만 출력하고 다른 설명 없이\n' +
+        '- 화작/언매 35~45번은 section을 hwajak/eonmae로 구분해서 각각 출력';
+
+      fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+          'anthropic-dangerous-allow-browser': 'true'
+        },
+        body: JSON.stringify({
+          model: 'claude-opus-4-5',
+          max_tokens: 4096,
+          messages: [{
+            role: 'user',
+            content: [{
+              type: 'document',
+              source: { type: 'base64', media_type: 'application/pdf', data: b64 }
+            }, {
+              type: 'text',
+              text: prompt
+            }]
+          }]
+        })
+      })
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
+        var text = data.content[0].text;
+        var m = text.match(/\[[\s\S]*\]/);
+        if (!m) { statusEl.textContent = '⚠ JSON을 찾지 못했습니다. 결과:\n' + text.substring(0,200); return; }
+        document.getElementById('classifyInput').value = m[0];
+        switchClsTab('paste');
+        statusEl.textContent = '✅ AI 분류 완료! "붙여넣기" 탭에서 적용하세요.';
+        document.getElementById('clsAiStatus').textContent = '';
+      })
+      .catch(function(err) {
+        statusEl.textContent = '❌ 오류: ' + (err.message || String(err));
+      });
+    };
+    reader.readAsDataURL(file);
   }
 
   // ── JSON 다운로드 ──
