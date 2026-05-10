@@ -352,20 +352,21 @@
       return;
     }
 
-    fetch('../data/english.json')
-      .then(function(r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-      })
-      .then(function(data) {
-        state.allData = data;
-        state.exams = data.exams || [];
-        showStep(0);
-      })
-      .catch(function(err) {
+    var urls = [
+      '../data/english.json',
+      'https://raw.githubusercontent.com/specialzoker/wrong/main/data/english.json?t=' + Date.now()
+    ];
+    (function tryNext(i) {
+      if (i >= urls.length) {
         document.getElementById('loadingOverlay').innerHTML =
-          '<div class="card"><div class="empty-msg">데이터를 불러오지 못했습니다.<br><small>' + err.message + '</small><br><small style="color:#aaa">어드민 페이지에서 먼저 데이터를 입력하세요</small></div></div>';
-      });
+          '<div class="card"><div class="empty-msg">데이터를 불러오지 못했습니다.<br><small style="color:#aaa">어드민 페이지에서 먼저 데이터를 입력하세요</small></div></div>';
+        return;
+      }
+      fetch(urls[i])
+        .then(function(r) { if (!r.ok) throw new Error(); return r.json(); })
+        .then(function(data) { state.allData = data; state.exams = data.exams || []; showStep(0); })
+        .catch(function() { tryNext(i + 1); });
+    })(0);
   };
 
   function updateNameBtn() {
