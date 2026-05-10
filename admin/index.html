@@ -1095,12 +1095,14 @@
       var targets = (d.questions || []).filter(function(q) {
         if (q.exam_id !== st.examId) return false;
         if (q.question_no !== qno) return false;
-        if (sec === 'common')   return q.is_common === '공통';
-        if (sec === 'hwajak')   return q.is_common === '화법과작문';
-        if (sec === 'eonmae')   return q.is_common === '언어와매체';
-        if (sec === 'hwaktong') return q.is_common === '선택-확통';
-        if (sec === 'mijeok')   return q.is_common === '선택-미적분';
-        if (sec === 'giha')     return q.is_common === '선택-기하';
+        if (sec === 'common')    return q.is_common === '공통';
+        if (sec === 'hwajak')    return q.is_common === '화법과작문';
+        if (sec === 'eonmae')    return q.is_common === '언어와매체';
+        if (sec === 'hwaktong')  return q.is_common === '선택-확통';
+        if (sec === 'mijeok')    return q.is_common === '선택-미적분';
+        if (sec === 'giha')      return q.is_common === '선택-기하';
+        if (sec === 'listening') return q.is_common === '듣기';
+        if (sec === 'reading')   return q.is_common === '독해';
         return true;
       });
       targets.forEach(function(q) {
@@ -1145,7 +1147,7 @@
       ? '이 한국 국어 시험지 이미지들을 분석해서 각 문항의 정보를 JSON 배열로만 출력하세요.\n형식: [{"q":번호,"section":"common|hwajak|eonmae","topic":"유형","subtopic":"세부유형","score":배점}]\n- section: 공통=common, 화법과작문=hwajak, 언어와매체=eonmae\n- topic 목록: ' + topicList + '\n- subtopic 목록: ' + subtopicList + '\n- score: [3점] 표시 있으면 3, 없으면 2\n- 화작/언매 35~45번은 각각 hwajak/eonmae로 구분해서 둘 다 출력\n- JSON 배열만 출력 (다른 설명 없이)'
       : sub === 'math'
       ? '이 한국 수학 시험지 이미지들을 분석해서 각 문항의 정보를 JSON 배열로만 출력하세요.\n형식: [{"q":번호,"section":"common|hwaktong|mijeok|giha","topic":"유형","subtopic":"세부유형","score":배점}]\n- section: 공통(1-22번)=common, 확통=hwaktong, 미적분=mijeok, 기하=giha\n- topic/subtopic 목록: ' + subtopicList + '\n- score: 2점/3점/4점 중 ([4점] [3점] 표시 확인)\n- JSON 배열만 출력'
-      : '이 한국 영어 시험지 이미지들을 분석해서 각 문항의 정보를 JSON 배열로만 출력하세요.\n형식: [{"q":번호,"section":"common","topic":"듣기|독해","subtopic":"세부유형","score":배점}]\n- 1~17번=듣기, 18~45번=독해\n- subtopic 목록: ' + subtopicList + '\n- score: [3점] 표시 있으면 3, 없으면 2\n- JSON 배열만 출력';
+      : '이 한국 영어 시험지 이미지들을 분석해서 각 문항의 정보를 JSON 배열로만 출력하세요.\n형식: [{"q":번호,"section":"listening|reading","topic":"듣기|독해","subtopic":"세부유형","score":배점}]\n- 1~17번: section=listening, topic=듣기\n- 18~45번: section=reading, topic=독해\n- subtopic 목록: ' + subtopicList + '\n- score: [3점] 표시 있으면 3, 없으면 2\n- JSON 배열만 출력';
 
     file.arrayBuffer().then(function(buf) {
       return pdfjsLib.getDocument({data: buf}).promise;
