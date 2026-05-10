@@ -349,7 +349,11 @@
 
     <!-- 탭1: 붙여넣기 -->
     <div id="clsTabPaste">
-      <textarea id="classifyInput" class="fi" style="height:260px;font-family:monospace;font-size:11px;line-height:1.5"
+      <div id="clsTemplateBar" style="margin-bottom:6px;display:none">
+        <span style="font-size:11px;color:#64748b;margin-right:6px">📋 템플릿:</span>
+        <span id="clsTemplateBtns"></span>
+      </div>
+      <textarea id="classifyInput" class="fi" style="height:240px;font-family:monospace;font-size:11px;line-height:1.5"
         placeholder='[&#10;  {"q":1,"section":"common","topic":"독서","subtopic":"내용 파악","score":2},&#10;  {"q":2,"section":"common","topic":"독서","subtopic":"내용 파악","score":3},&#10;  ...&#10;  {"q":35,"section":"hwajak","topic":"화법","subtopic":"말하기 방식","score":2},&#10;  {"q":35,"section":"eonmae","topic":"언어","subtopic":"단어 형성","score":2}&#10;]'></textarea>
       <div id="classifyStatus" style="font-size:12px;color:#16a34a;margin-top:6px;min-height:18px"></div>
       <div class="modal-actions">
@@ -1057,7 +1061,39 @@
     document.getElementById('clsAnsStatus').textContent = '';
     document.getElementById('clsAnsPreviewBox').style.display = 'none';
     updateClsApiKeyLabel();
+    renderClsTemplateBtns();
     switchClsTab('paste');
+  }
+  function renderClsTemplateBtns() {
+    var bar  = document.getElementById('clsTemplateBar');
+    var btns = document.getElementById('clsTemplateBtns');
+    var sub  = st.sub;
+    var list = [];
+    if (sub === 'english') {
+      list = [{label:'영어 (듣기+독해)', file:'template_english_cls.json'}];
+    } else if (sub === 'math') {
+      list = [
+        {label:'수학 확통', file:'template_math_hwaktong_cls.json'},
+        {label:'수학 미적분', file:'template_math_mijeok_cls.json'},
+        {label:'수학 기하', file:'template_math_giha_cls.json'},
+      ];
+    } else if (sub === 'korean') {
+      list = [];  // 국어는 매년 달라서 템플릿 없음
+    }
+    if (list.length === 0) { bar.style.display = 'none'; return; }
+    bar.style.display = '';
+    btns.innerHTML = list.map(function(t) {
+      return '<button type="button" onclick="loadClsTemplate(\''+t.file+'\')" style="margin-right:4px;padding:3px 10px;border:1.5px solid #7c3aed;border-radius:14px;background:white;color:#7c3aed;font-size:11px;font-weight:700;cursor:pointer">'+t.label+'</button>';
+    }).join('');
+  }
+  function loadClsTemplate(fname) {
+    var url = 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/' + fname;
+    fetch(url).then(function(r){return r.text();}).then(function(text){
+      document.getElementById('classifyInput').value = text;
+      document.getElementById('classifyStatus').textContent = '✅ 템플릿 불러옴 — "적용" 버튼을 누르세요';
+    }).catch(function(e){
+      document.getElementById('classifyStatus').textContent = '❌ 템플릿 로드 실패: ' + e.message;
+    });
   }
   function closeClassifyModal() { document.getElementById('classifyModal').classList.remove('open'); }
   function switchClsTab(tab) {

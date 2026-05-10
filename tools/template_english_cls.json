@@ -1,317 +1,47 @@
 ﻿[
-  {
-    "q": 1,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "���� �ľ�",
-    "score": 2
-  },
-  {
-    "q": 2,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "�ǰ� �ľ�",
-    "score": 2
-  },
-  {
-    "q": 3,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "���衤��Ȳ �ľ�",
-    "score": 2
-  },
-  {
-    "q": 4,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "�׸� ���� ��ġ",
-    "score": 2
-  },
-  {
-    "q": 5,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "�� �� �ľ�",
-    "score": 2
-  },
-  {
-    "q": 6,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "���� �ľ�",
-    "score": 2
-  },
-  {
-    "q": 7,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "�ݾס��� ����",
-    "score": 2
-  },
-  {
-    "q": 8,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "���� ��ġ",
-    "score": 2
-  },
-  {
-    "q": 9,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "��ǥ ����",
-    "score": 2
-  },
-  {
-    "q": 10,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "ª�� ��ȭ (����)",
-    "score": 2
-  },
-  {
-    "q": 11,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "ª�� ��ȭ (����)",
-    "score": 2
-  },
-  {
-    "q": 12,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "��ȭ ���� �ľ�",
-    "score": 2
-  },
-  {
-    "q": 13,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "��ȭ ���� �ľ�",
-    "score": 2
-  },
-  {
-    "q": 14,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "��ȭ ���� �ľ�",
-    "score": 2
-  },
-  {
-    "q": 15,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "��ȭ ���� �ľ�",
-    "score": 2
-  },
-  {
-    "q": 16,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "��ȭ ��Ʈ",
-    "score": 2
-  },
-  {
-    "q": 17,
-    "section": "common",
-    "topic": "���",
-    "subtopic": "��ȭ ��Ʈ",
-    "score": 2
-  },
-  {
-    "q": 18,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���� �ľ�",
-    "score": 2
-  },
-  {
-    "q": 19,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�ɰ桤������",
-    "score": 2
-  },
-  {
-    "q": 20,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���� ����",
-    "score": 2
-  },
-  {
-    "q": 21,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���� �߷�",
-    "score": 3
-  },
-  {
-    "q": 22,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���� ��ġ",
-    "score": 2
-  },
-  {
-    "q": 23,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�ȳ��� ��ġ",
-    "score": 2
-  },
-  {
-    "q": 24,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���",
-    "score": 3
-  },
-  {
-    "q": 25,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "����",
-    "score": 2
-  },
-  {
-    "q": 26,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "��ĭ �߷�",
-    "score": 2
-  },
-  {
-    "q": 27,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "��ĭ �߷�",
-    "score": 2
-  },
-  {
-    "q": 28,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "��ĭ �߷�",
-    "score": 2
-  },
-  {
-    "q": 29,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "��ĭ �߷�",
-    "score": 3
-  },
-  {
-    "q": 30,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "��ĭ �߷�",
-    "score": 3
-  },
-  {
-    "q": 31,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�帧�� ������ ����",
-    "score": 2
-  },
-  {
-    "q": 32,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�帧�� ������ ����",
-    "score": 2
-  },
-  {
-    "q": 33,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���� ����",
-    "score": 2
-  },
-  {
-    "q": 34,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���� ����",
-    "score": 3
-  },
-  {
-    "q": 35,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���� ����",
-    "score": 3
-  },
-  {
-    "q": 36,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���� ����",
-    "score": 2
-  },
-  {
-    "q": 37,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "���� ����",
-    "score": 3
-  },
-  {
-    "q": 38,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "��๮ �ϼ�",
-    "score": 3
-  },
-  {
-    "q": 39,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�幮 ���� (����)",
-    "score": 3
-  },
-  {
-    "q": 40,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�幮 ���� (����)",
-    "score": 3
-  },
-  {
-    "q": 41,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�幮 ���� (��ĭ)",
-    "score": 2
-  },
-  {
-    "q": 42,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�幮 ���� (��ĭ)",
-    "score": 2
-  },
-  {
-    "q": 43,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�幮 ���� (����)",
-    "score": 2
-  },
-  {
-    "q": 44,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�幮 ���� (����)",
-    "score": 2
-  },
-  {
-    "q": 45,
-    "section": "common",
-    "topic": "����",
-    "subtopic": "�幮 ���� (����)",
-    "score": 2
-  }
+  {"q":1,"section":"listening","topic":"듣기","subtopic":"목적 파악","score":2},
+  {"q":2,"section":"listening","topic":"듣기","subtopic":"의견 파악","score":2},
+  {"q":3,"section":"listening","topic":"듣기","subtopic":"관계·상황 파악","score":2},
+  {"q":4,"section":"listening","topic":"듣기","subtopic":"그림 정보 일치","score":2},
+  {"q":5,"section":"listening","topic":"듣기","subtopic":"할 일 파악","score":2},
+  {"q":6,"section":"listening","topic":"듣기","subtopic":"이유 파악","score":2},
+  {"q":7,"section":"listening","topic":"듣기","subtopic":"금액·수 정보","score":2},
+  {"q":8,"section":"listening","topic":"듣기","subtopic":"내용 일치","score":2},
+  {"q":9,"section":"listening","topic":"듣기","subtopic":"도표 이해","score":2},
+  {"q":10,"section":"listening","topic":"듣기","subtopic":"짧은 대화 (응답)","score":2},
+  {"q":11,"section":"listening","topic":"듣기","subtopic":"짧은 대화 (응답)","score":2},
+  {"q":12,"section":"listening","topic":"듣기","subtopic":"담화 내용 파악","score":2},
+  {"q":13,"section":"listening","topic":"듣기","subtopic":"담화 내용 파악","score":2},
+  {"q":14,"section":"listening","topic":"듣기","subtopic":"담화 내용 파악","score":2},
+  {"q":15,"section":"listening","topic":"듣기","subtopic":"담화 내용 파악","score":2},
+  {"q":16,"section":"listening","topic":"듣기","subtopic":"담화 세트","score":2},
+  {"q":17,"section":"listening","topic":"듣기","subtopic":"담화 세트","score":2},
+  {"q":18,"section":"reading","topic":"독해","subtopic":"글의 목적","score":2},
+  {"q":19,"section":"reading","topic":"독해","subtopic":"심경·분위기","score":2},
+  {"q":20,"section":"reading","topic":"독해","subtopic":"내용 일치","score":2},
+  {"q":21,"section":"reading","topic":"독해","subtopic":"함의 추론","score":3},
+  {"q":22,"section":"reading","topic":"독해","subtopic":"내용 일치","score":2},
+  {"q":23,"section":"reading","topic":"독해","subtopic":"안내문 일치","score":2},
+  {"q":24,"section":"reading","topic":"독해","subtopic":"어법","score":3},
+  {"q":25,"section":"reading","topic":"독해","subtopic":"어휘","score":2},
+  {"q":26,"section":"reading","topic":"독해","subtopic":"빈칸 추론","score":2},
+  {"q":27,"section":"reading","topic":"독해","subtopic":"빈칸 추론","score":2},
+  {"q":28,"section":"reading","topic":"독해","subtopic":"빈칸 추론","score":2},
+  {"q":29,"section":"reading","topic":"독해","subtopic":"빈칸 추론","score":3},
+  {"q":30,"section":"reading","topic":"독해","subtopic":"빈칸 추론","score":3},
+  {"q":31,"section":"reading","topic":"독해","subtopic":"흐름에 무관한 문장","score":2},
+  {"q":32,"section":"reading","topic":"독해","subtopic":"글의 순서","score":2},
+  {"q":33,"section":"reading","topic":"독해","subtopic":"글의 순서","score":2},
+  {"q":34,"section":"reading","topic":"독해","subtopic":"글의 순서","score":3},
+  {"q":35,"section":"reading","topic":"독해","subtopic":"문장 삽입","score":3},
+  {"q":36,"section":"reading","topic":"독해","subtopic":"문장 삽입","score":2},
+  {"q":37,"section":"reading","topic":"독해","subtopic":"문장 삽입","score":3},
+  {"q":38,"section":"reading","topic":"독해","subtopic":"요약문 완성","score":3},
+  {"q":39,"section":"reading","topic":"독해","subtopic":"장문 독해 (낱말)","score":3},
+  {"q":40,"section":"reading","topic":"독해","subtopic":"장문 독해 (낱말)","score":3},
+  {"q":41,"section":"reading","topic":"독해","subtopic":"장문 독해 (빈칸)","score":2},
+  {"q":42,"section":"reading","topic":"독해","subtopic":"장문 독해 (빈칸)","score":2},
+  {"q":43,"section":"reading","topic":"독해","subtopic":"장문 독해 (내용)","score":2},
+  {"q":44,"section":"reading","topic":"독해","subtopic":"장문 독해 (내용)","score":2},
+  {"q":45,"section":"reading","topic":"독해","subtopic":"장문 독해 (내용)","score":2}
 ]
