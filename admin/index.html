@@ -185,6 +185,7 @@
   <input type="file" id="fileInput" accept=".json" style="display:none" onchange="handleFileLoad(event)">
   <button class="tbtn tbtn-ghost" onclick="document.getElementById('fileInput').click()">📂 JSON 불러오기</button>
   <button class="tbtn tbtn-green" onclick="downloadJson()">💾 JSON 저장</button>
+  <button class="tbtn" style="background:#7c3aed;color:white" onclick="deployToGitHub()">🚀 GitHub에 배포</button>
   <a class="tbtn tbtn-back" href="../">← 사이트로</a>
 </div>
 
@@ -1406,6 +1407,28 @@
     '2026_05': '2026-5',
   };
   function normalizeId(id) { return EXAM_ID_NORMALIZE[id] || id; }
+
+  function deployToGitHub() {
+    var d = st.db[st.sub];
+    if (!d) { alert('데이터가 없습니다.'); return; }
+    var out = JSON.parse(JSON.stringify(d));
+    out.exams.forEach(function(e) { e.exam_id = normalizeId(e.exam_id); });
+    out.questions.forEach(function(q) { q.exam_id = normalizeId(q.exam_id); });
+    toast('🚀 GitHub 배포 중...', '');
+    fetch('http://localhost:7777/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ subject: st.sub, data: out })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.ok) toast('✅ GitHub 배포 완료! (' + res.exams + '시험 ' + res.questions + '문항)', 'ok');
+      else toast('❌ 오류: ' + res.error, 'err');
+    })
+    .catch(function() {
+      toast('❌ 동기화 서버가 꺼져 있습니다. 동기화서버_실행.bat을 먼저 실행하세요.', 'err');
+    });
+  }
 
   function downloadJson() {
     var d = st.db[st.sub];
