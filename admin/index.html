@@ -1194,10 +1194,31 @@
     var d = st.db[sub];
     if (!d || !d.questions) { document.getElementById('classifyStatus').textContent = '❌ 문항이 없습니다.'; return; }
 
+    // 섹션 별칭 정규화 — 다양한 표기를 허용
+    function normSec(s) {
+      s = String(s || '').toLowerCase().trim();
+      if (['common','공통'].indexOf(s) >= 0) return 'common';
+      if (['hwajak','hwajak','화작','화법과작문','화법'].indexOf(s) >= 0) return 'hwajak';
+      if (['eonmae','언매','언어와매체','언어','매체'].indexOf(s) >= 0) return 'eonmae';
+      if (['hwaktong','hwaktonge','hwakt','확통','확률과통계','확률과 통계','선택-확통'].indexOf(s) >= 0) return 'hwaktong';
+      if (['mijeok','mijeokbun','mijeokbu','미적분','선택-미적분'].indexOf(s) >= 0) return 'mijeok';
+      if (['giha','기하','선택-기하'].indexOf(s) >= 0) return 'giha';
+      if (['listening','듣기'].indexOf(s) >= 0) return 'listening';
+      if (['reading','독해'].indexOf(s) >= 0) return 'reading';
+      return s;
+    }
+    // ① ② ③ ④ ⑤ 등 원숫자를 일반 숫자로
+    var CIRCLE_MAP = {'①':'1','②':'2','③':'3','④':'4','⑤':'5','⑥':'6','⑦':'7','⑧':'8','⑨':'9','⑩':'10'};
+    function normAnswer(a) {
+      if (a === undefined || a === null) return undefined;
+      var s = String(a).trim();
+      return CIRCLE_MAP[s] || s;
+    }
+
     var updated = 0;
     data.forEach(function(item) {
       var qno = parseInt(item.q);
-      var sec = item.section || '';  // 'common','hwajak','eonmae' or ''
+      var sec = normSec(item.section);
       var targets = (d.questions || []).filter(function(q) {
         if (q.exam_id !== st.examId) return false;
         if (q.question_no !== qno) return false;
@@ -1211,11 +1232,17 @@
         if (sec === 'reading')   return q.section === '독해';
         return true;
       });
+      // 정답 정규화: answer_value 우선, 없으면 answer(원숫자), 없으면 correct_answer
+      var ansVal;
+      if (item.answer_value !== undefined) ansVal = String(item.answer_value);
+      else if (item.answer !== undefined)  ansVal = normAnswer(item.answer);
+      else if (item.correct_answer !== undefined) ansVal = normAnswer(item.correct_answer);
       targets.forEach(function(q) {
         if (item.topic    !== undefined) q.topic    = item.topic;
         if (item.subtopic !== undefined) q.subtopic = item.subtopic;
         if (item.score    !== undefined) q.score    = item.score;
         if (item.keywords !== undefined) q.keywords = item.keywords;
+        if (ansVal        !== undefined) q.correct_answer = ansVal;
         updated++;
       });
     });
