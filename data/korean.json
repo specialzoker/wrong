@@ -1,6 +1,87 @@
 {
   "exams": [
     {
+      "exam_id": "2023-sn",
+      "exam_name": "2023학년도 수능",
+      "subject": "국어",
+      "exam_date": "45",
+      "total_questions": "https://drive.google.com/file/d/13jWKc-oiyasIhl7gx-EqojlyPq5KnQ5M/view?usp=drive_link",
+      "question_pdf_id": "13jWKc-oiyasIhl7gx-EqojlyPq5KnQ5M",
+      "answer_pdf_id": "1iWSySNu1DgsNXF8Y-FK1DSGLBAYW0R_x"
+    },
+    {
+      "exam_id": "2024-6",
+      "exam_name": "2024년 6월 모의고사",
+      "subject": "국어",
+      "exam_date": "45",
+      "total_questions": "https://drive.google.com/file/d/1oaznkrk_CLrGEmRiy7x14WrQfte1Agg3/view?usp=sharing",
+      "question_pdf_id": "1oaznkrk_CLrGEmRiy7x14WrQfte1Agg3",
+      "answer_pdf_id": "1kPXRSki-BkykraDjh6PdYiEc5Ssas1Bo"
+    },
+    {
+      "exam_id": "2024-9",
+      "exam_name": "2024년 9월 모의고사",
+      "subject": "국어",
+      "exam_date": "45",
+      "total_questions": "https://drive.google.com/file/d/1NGdT2iTtIY6-_m6GCoYnWxK4iovV66iF/view?usp=sharing",
+      "question_pdf_id": "1NGdT2iTtIY6-_m6GCoYnWxK4iovV66iF",
+      "answer_pdf_id": "15l9Ko45rGMWcuo3Ic986DadaPYICwjAj"
+    },
+    {
+      "exam_id": "2024-sn",
+      "exam_name": "2024학년도 수능",
+      "subject": "국어",
+      "exam_date": "45",
+      "total_questions": "https://drive.google.com/file/d/1NGdT2iTtIY6-_m6GCoYnWxK4iovV66iF/view?usp=sharing",
+      "question_pdf_id": "1NGdT2iTtIY6-_m6GCoYnWxK4iovV66iF",
+      "answer_pdf_id": "1T7P9n6jcBh_QpF9iqzK8iQJ06fAKP9PE"
+    },
+    {
+      "exam_id": "2025-6",
+      "exam_name": "2025년 6월 모의고사",
+      "subject": "국어",
+      "exam_date": "45",
+      "total_questions": "https://drive.google.com/file/d/11jDk57T7zPEEXGzKxYRIRsLtm5YWoGT8/view?usp=sharing",
+      "question_pdf_id": "11jDk57T7zPEEXGzKxYRIRsLtm5YWoGT8",
+      "answer_pdf_id": "1wNHko3lWvPObVwc8hmBQ-xNlQZ32yXYt"
+    },
+    {
+      "exam_id": "2025-9",
+      "exam_name": "2025년 9월 모의고사",
+      "subject": "국어",
+      "exam_date": "45",
+      "total_questions": "https://drive.google.com/file/d/1syOuI2VMPr5ZenAt3BLBe-RhHRewgbOW/view?usp=sharing",
+      "question_pdf_id": "1syOuI2VMPr5ZenAt3BLBe-RhHRewgbOW",
+      "answer_pdf_id": "1Y77OAcnn9-mou7zNsYD1YDS8nkE_WzPY"
+    },
+    {
+      "exam_id": "2025-sn",
+      "exam_name": "2025학년도 수능",
+      "subject": "국어",
+      "exam_date": "45",
+      "total_questions": "https://drive.google.com/file/d/1oiWborn_sL9zQVsyH3E25xsmi1zBlHVj/view?usp=sharing",
+      "question_pdf_id": "1oiWborn_sL9zQVsyH3E25xsmi1zBlHVj",
+      "answer_pdf_id": "1V0rr2ZvwJ1llga9FEEL8cI_uQJrQQQDl"
+    },
+    {
+      "exam_id": "2026-sn",
+      "exam_name": "2026학년도 수능",
+      "subject": "국어",
+      "exam_date": "45",
+      "total_questions": "https://drive.google.com/file/d/1ipqracT_ERwNxKCpsTKhJrZn3zEgEJYN/view?usp=sharing",
+      "question_pdf_id": "1ipqracT_ERwNxKCpsTKhJrZn3zEgEJYN",
+      "answer_pdf_id": "1AuLsAVDx9fth4tjSbixa4zCymUJROb9I"
+    },
+    {
+      "exam_id": "2026-3",
+      "exam_name": "2026년 3월 모의고사",
+      "subject": "국어",
+      "exam_date": "45",
+      "total_questions": "https://drive.google.com/file/d/1k0vEMmp6BDUd2zlp-hXYWrIrc_Qoi-YQ/view?usp=sharing",
+      "question_pdf_id": "1k0vEMmp6BDUd2zlp-hXYWrIrc_Qoi-YQ",
+      "answer_pdf_id": "1dXNxMFF45QJjaYcvlZkbYy3VAM2aMbPX"
+    },
+    {
       "exam_id": "2026-5",
       "exam_name": "2026년도 5월 모의고사",
       "subject": "국어",
@@ -10,43 +91,11 @@
       "answer_pdf_path": "pdfs/2026_05_국어_a.pdf"
     },
     {
-      "exam_id": "2026-3",
-      "exam_name": "2026년 3월 모의고사",
-      "exam_date": "2026-03-26",
-      "question_pdf_id": "1k0vEMmp6BDUd2zlp-hXYWrIrc_Qoi-YQ",
-      "answer_pdf_id": "1dXNxMFF45QJjaYcvlZkbYy3VAM2aMbPX"
-    },
-    {
-      "exam_id": "2026-sn",
-      "exam_name": "2026학년도 수능",
-      "subject": "국어",
-      "exam_date": "2025-11-13",
-      "total_questions": "https://drive.google.com/file/d/1ipqracT_ERwNxKCpsTKhJrZn3zEgEJYN/view?usp=sharing",
-      "question_pdf_id": "1ipqracT_ERwNxKCpsTKhJrZn3zEgEJYN",
-      "answer_pdf_id": "1AuLsAVDx9fth4tjSbixa4zCymUJROb9I"
-    },
-    {
-      "exam_id": "2025-9",
-      "exam_name": "2025년 9월 모의고사",
-      "exam_date": "2025-09-03",
-      "question_pdf_id": "1syOuI2VMPr5ZenAt3BLBe-RhHRewgbOW",
-      "answer_pdf_id": "1Y77OAcnn9-mou7zNsYD1YDS8nkE_WzPY"
-    },
-    {
-      "exam_id": "2025-6",
-      "exam_name": "2025년 6월 모의고사",
-      "exam_date": "2025-06-03",
-      "question_pdf_id": "11jDk57T7zPEEXGzKxYRIRsLtm5YWoGT8",
-      "answer_pdf_id": "1wNHko3lWvPObVwc8hmBQ-xNlQZ32yXYt"
-    },
-    {
-      "exam_id": "2025-sn",
-      "exam_name": "2025학년도 수능",
-      "subject": "국어",
-      "exam_date": "2024-11-14",
-      "total_questions": "https://drive.google.com/file/d/1oiWborn_sL9zQVsyH3E25xsmi1zBlHVj/view?usp=sharing",
-      "question_pdf_id": "1oiWborn_sL9zQVsyH3E25xsmi1zBlHVj",
-      "answer_pdf_id": "1V0rr2ZvwJ1llga9FEEL8cI_uQJrQQQDl"
+      "exam_id": "2024-6",
+      "exam_name": "2024년 6월 모의고사",
+      "exam_date": "2024-06-04",
+      "question_pdf_id": "1oaznkrk_CLrGEmRiy7x14WrQfte1Agg3",
+      "answer_pdf_id": "1kPXRSki-BkykraDjh6PdYiEc5Ssas1Bo"
     },
     {
       "exam_id": "2024-9",
@@ -56,29 +105,25 @@
       "answer_pdf_id": "15l9Ko45rGMWcuo3Ic986DadaPYICwjAj"
     },
     {
-      "exam_id": "2024-6",
-      "exam_name": "2024년 6월 모의고사",
-      "exam_date": "2024-06-04",
-      "question_pdf_id": "1oaznkrk_CLrGEmRiy7x14WrQfte1Agg3",
-      "answer_pdf_id": "1kPXRSki-BkykraDjh6PdYiEc5Ssas1Bo"
+      "exam_id": "2025-6",
+      "exam_name": "2025년 6월 모의고사",
+      "exam_date": "2025-06-03",
+      "question_pdf_id": "11jDk57T7zPEEXGzKxYRIRsLtm5YWoGT8",
+      "answer_pdf_id": "1wNHko3lWvPObVwc8hmBQ-xNlQZ32yXYt"
     },
     {
-      "exam_id": "2024-sn",
-      "exam_name": "2024학년도 수능",
-      "subject": "국어",
-      "exam_date": "2023-11-16",
-      "total_questions": "https://drive.google.com/file/d/1NGdT2iTtIY6-_m6GCoYnWxK4iovV66iF/view?usp=sharing",
-      "question_pdf_id": "1NGdT2iTtIY6-_m6GCoYnWxK4iovV66iF",
-      "answer_pdf_id": "1T7P9n6jcBh_QpF9iqzK8iQJ06fAKP9PE"
+      "exam_id": "2025-9",
+      "exam_name": "2025년 9월 모의고사",
+      "exam_date": "2025-09-03",
+      "question_pdf_id": "1syOuI2VMPr5ZenAt3BLBe-RhHRewgbOW",
+      "answer_pdf_id": "1Y77OAcnn9-mou7zNsYD1YDS8nkE_WzPY"
     },
     {
-      "exam_id": "2023-sn",
-      "exam_name": "2023학년도 수능",
-      "subject": "국어",
-      "exam_date": "2022-11-17",
-      "total_questions": "https://drive.google.com/file/d/13jWKc-oiyasIhl7gx-EqojlyPq5KnQ5M/view?usp=drive_link",
-      "question_pdf_id": "13jWKc-oiyasIhl7gx-EqojlyPq5KnQ5M",
-      "answer_pdf_id": "1iWSySNu1DgsNXF8Y-FK1DSGLBAYW0R_x"
+      "exam_id": "2026-3",
+      "exam_name": "2026년 3월 모의고사",
+      "exam_date": "2026-03-26",
+      "question_pdf_id": "1k0vEMmp6BDUd2zlp-hXYWrIrc_Qoi-YQ",
+      "answer_pdf_id": "1dXNxMFF45QJjaYcvlZkbYy3VAM2aMbPX"
     }
   ],
   "questions": [
@@ -192,7 +237,10 @@
       "topic": "독서",
       "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "이항 대립 구조, 개념 분석",
+      "keywords": [
+        "이항 대립 구조",
+        "해체적 읽기"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
@@ -307,9 +355,13 @@
       "exam_id": "2026-5",
       "question_no": 2,
       "topic": "독서",
-      "subtopic": "내용 파악",
+      "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "이항 대립 구조, 홍길동전",
+      "keywords": [
+        "홍길동전",
+        "해체적 읽기",
+        "보기"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
@@ -424,9 +476,13 @@
       "exam_id": "2026-5",
       "question_no": 3,
       "topic": "독서",
-      "subtopic": "어휘",
+      "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "이항 대립 구조, 어휘 의미",
+      "keywords": [
+        "[A]",
+        "보기",
+        "비교"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -543,7 +599,12 @@
       "topic": "독서",
       "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "러셀, 명제론, 언어 게임",
+      "keywords": [
+        "러셀",
+        "리오타르",
+        "명제",
+        "언어 게임"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -660,7 +721,11 @@
       "topic": "독서",
       "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "러셀, 리오타르, 언어 게임",
+      "keywords": [
+        "직접적 인식",
+        "공약불가능성",
+        "문장 우주"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -777,7 +842,11 @@
       "topic": "독서",
       "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "러셀, 직접적 인식, 언어 게임",
+      "keywords": [
+        "지식 유형",
+        "서사적 지식",
+        "과학적 지식"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -892,9 +961,13 @@
       "exam_id": "2026-5",
       "question_no": 7,
       "topic": "독서",
-      "subtopic": "내용 파악",
+      "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "리오타르, 언어 게임, 공약불가능성",
+      "keywords": [
+        "스트로슨",
+        "현재 프랑스의 왕",
+        "명제 분석"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -1009,9 +1082,13 @@
       "exam_id": "2026-5",
       "question_no": 8,
       "topic": "독서",
-      "subtopic": "내용 파악",
+      "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "러셀, 리오타르, 구체적 사례 적용",
+      "keywords": [
+        "폭죽 소리",
+        "러셀",
+        "리오타르"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
@@ -1128,7 +1205,10 @@
       "topic": "독서",
       "subtopic": "어휘",
       "difficulty": "중",
-      "keywords": "리오타르, 어휘 의미",
+      "keywords": [
+        "문맥적 의미",
+        "어휘"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
@@ -1245,7 +1325,10 @@
       "topic": "독서",
       "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "볼록 렌즈, 비점수차, 상점",
+      "keywords": [
+        "볼록 렌즈",
+        "비점 수차"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -1360,13 +1443,16 @@
       "exam_id": "2026-5",
       "question_no": 11,
       "topic": "독서",
-      "subtopic": "내용 파악",
+      "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "비점수차, 자오면, 구결면",
+      "keywords": [
+        "P0~P4",
+        "보기 그림 적용"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
+      "score": 3,
       "is_common": "공통"
     },
     {
@@ -1477,9 +1563,14 @@
       "exam_id": "2026-5",
       "question_no": 12,
       "topic": "독서",
-      "subtopic": "내용 파악",
+      "subtopic": "추론",
       "difficulty": "중",
-      "keywords": "볼록 렌즈, 비점수차, 이유 파악",
+      "keywords": [
+        "일차상",
+        "이차상",
+        "수직",
+        "이유"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
@@ -1594,13 +1685,15 @@
       "exam_id": "2026-5",
       "question_no": 13,
       "topic": "독서",
-      "subtopic": "내용 파악",
+      "subtopic": "어휘",
       "difficulty": "중",
-      "keywords": "볼록 렌즈, 비점수차, 최소 착란원",
+      "keywords": [
+        "어휘 바꿔쓰기"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3,
+      "score": 2,
       "is_common": "공통"
     },
     {
@@ -1713,7 +1806,10 @@
       "topic": "독서",
       "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "구분소유권, 집합건물, 전유부분",
+      "keywords": [
+        "집합건물법",
+        "구분소유권"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -1830,7 +1926,10 @@
       "topic": "독서",
       "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "구분소유권, 공용부분, 지분",
+      "keywords": [
+        "전유부분",
+        "공용부분"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
@@ -1945,9 +2044,13 @@
       "exam_id": "2026-5",
       "question_no": 16,
       "topic": "독서",
-      "subtopic": "내용 파악",
+      "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "구분소유권, 구체적 적용",
+      "keywords": [
+        "갑",
+        "을",
+        "보기 사례"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -2062,9 +2165,13 @@
       "exam_id": "2026-5",
       "question_no": 17,
       "topic": "독서",
-      "subtopic": "어휘",
+      "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "구분소유권, 어휘 의미",
+      "keywords": [
+        "관리단",
+        "관리인",
+        "[A]"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
@@ -2179,9 +2286,13 @@
       "exam_id": "2026-5",
       "question_no": 18,
       "topic": "현대소설",
-      "subtopic": "표현 기법",
+      "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "사환아이, 서술 방식",
+      "keywords": [
+        "사환아이",
+        "영희",
+        "공고문"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
@@ -2296,9 +2407,12 @@
       "exam_id": "2026-5",
       "question_no": 19,
       "topic": "현대소설",
-      "subtopic": "표현 기법",
+      "subtopic": "서술 방식",
       "difficulty": "중",
-      "keywords": "사환아이, 서술 방식 ㉠~㉤",
+      "keywords": [
+        "㉠~㉤",
+        "서술 방식"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
@@ -2413,9 +2527,12 @@
       "exam_id": "2026-5",
       "question_no": 20,
       "topic": "현대소설",
-      "subtopic": "내용 파악",
+      "subtopic": "소재의 상징",
       "difficulty": "중",
-      "keywords": "사환아이, ⓐⓑ 분석",
+      "keywords": [
+        "공고문 ⓐ",
+        "메모 ⓑ"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -2532,7 +2649,11 @@
       "topic": "현대소설",
       "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "사환아이, 종합 감상",
+      "keywords": [
+        "산업화",
+        "노동자",
+        "불안정 현실"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -2646,10 +2767,14 @@
     {
       "exam_id": "2026-5",
       "question_no": 22,
-      "topic": "복합지문",
+      "topic": "현대시",
       "subtopic": "표현 기법",
       "difficulty": "중",
-      "keywords": "현대시(안개), 고전산문(난초)",
+      "keywords": [
+        "흐르는 거리",
+        "따뜻한 동행",
+        "난설"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
@@ -2764,9 +2889,12 @@
       "exam_id": "2026-5",
       "question_no": 23,
       "topic": "현대시",
-      "subtopic": "표현 기법",
+      "subtopic": "시어의 의미",
       "difficulty": "중",
-      "keywords": "안개, ㉠~㉤ 표현 분석",
+      "keywords": [
+        "㉠~㉤",
+        "시어 이해"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
@@ -2880,10 +3008,13 @@
     {
       "exam_id": "2026-5",
       "question_no": 24,
-      "topic": "복합지문",
+      "topic": "현대시",
       "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "안개, 시적 상상력, 보기 감상",
+      "keywords": [
+        "시적 상상력",
+        "이미지 형상화"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -3000,7 +3131,12 @@
       "topic": "고전산문",
       "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "난초, 주인, 객, 내용 이해",
+      "keywords": [
+        "난설",
+        "주인",
+        "객",
+        "난초"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -3114,10 +3250,14 @@
     {
       "exam_id": "2026-5",
       "question_no": 26,
-      "topic": "복합지문",
-      "subtopic": "표현 기법",
+      "topic": "복합 문학",
+      "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "안개, 난초, 감상 비교",
+      "keywords": [
+        "(가)화자",
+        "(다)글쓴이",
+        "감상"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
@@ -3231,10 +3371,14 @@
     {
       "exam_id": "2026-5",
       "question_no": 27,
-      "topic": "복합지문",
+      "topic": "고전시가",
       "subtopic": "표현 기법",
       "difficulty": "중",
-      "keywords": "고전시가(영회잡곡), (가)~(다) 표현",
+      "keywords": [
+        "노인가",
+        "대구",
+        "의인화"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -3351,7 +3495,11 @@
       "topic": "고전시가",
       "subtopic": "시어의 의미",
       "difficulty": "중",
-      "keywords": "영회잡곡, 시어 분석, 백발",
+      "keywords": [
+        "㉠~㉤",
+        "불사약",
+        "옥식"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -3466,9 +3614,12 @@
       "exam_id": "2026-5",
       "question_no": 29,
       "topic": "고전시가",
-      "subtopic": "내용 파악",
+      "subtopic": "소재의 상징성",
       "difficulty": "중",
-      "keywords": "영회잡곡, 노년, 내용 이해",
+      "keywords": [
+        "ⓐ 긴 창",
+        "ⓑ 동문"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -3582,10 +3733,13 @@
     {
       "exam_id": "2026-5",
       "question_no": 30,
-      "topic": "복합지문",
+      "topic": "고전시가",
       "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "고전시가, 노년의 삶, 보기 감상",
+      "keywords": [
+        "노년의 삶",
+        "자연의 섭리"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -3700,9 +3854,13 @@
       "exam_id": "2026-5",
       "question_no": 31,
       "topic": "고전소설",
-      "subtopic": "내용 파악",
+      "subtopic": "인물 분석",
       "difficulty": "중",
-      "keywords": "방주, 효열부인, 내용 이해",
+      "keywords": [
+        "방주",
+        "부인",
+        "황건역사"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
@@ -3819,7 +3977,11 @@
       "topic": "고전소설",
       "subtopic": "표현 기법",
       "difficulty": "중",
-      "keywords": "방주, 효열부인, 서술 방식",
+      "keywords": [
+        "[A]",
+        "[B]",
+        "발화 방식"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -3934,9 +4096,14 @@
       "exam_id": "2026-5",
       "question_no": 33,
       "topic": "고전소설",
-      "subtopic": "인물 분석",
+      "subtopic": "내용 파악",
       "difficulty": "중",
-      "keywords": "방주, 효열부인, ㉠~㉢ 인물",
+      "keywords": [
+        "㉠~㉢",
+        "명령",
+        "답례",
+        "하례"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -4053,7 +4220,11 @@
       "topic": "고전소설",
       "subtopic": "외적 준거",
       "difficulty": "중",
-      "keywords": "방주, 효열부인, 종합 감상",
+      "keywords": [
+        "유교적 가치",
+        "시련",
+        "초월적 존재"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -4274,7 +4445,10 @@
       "topic": "화법",
       "subtopic": "말하기 방식",
       "difficulty": "중",
-      "keywords": "발표, 흉배, 왕실 복식",
+      "keywords": [
+        "발표",
+        "말하기 방식"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -4285,9 +4459,14 @@
       "exam_id": "2026-5",
       "question_no": 35,
       "topic": "언어",
-      "subtopic": "단어 형성",
+      "subtopic": "형태론",
       "difficulty": "중",
-      "keywords": "용언, 있다, 동사, 형용사",
+      "keywords": [
+        "있다",
+        "동사",
+        "형용사",
+        "품사"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -4508,7 +4687,10 @@
       "topic": "화법",
       "subtopic": "자료 활용",
       "difficulty": "중",
-      "keywords": "발표, 흉배, 자료 제시",
+      "keywords": [
+        "자료 활용",
+        "자료1~3"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -4519,9 +4701,13 @@
       "exam_id": "2026-5",
       "question_no": 36,
       "topic": "언어",
-      "subtopic": "문법 요소",
+      "subtopic": "국어사·중세국어",
       "difficulty": "중",
-      "keywords": "용언, 있다, 중세 국어 탐구",
+      "keywords": [
+        "중세국어",
+        "잇다",
+        "이시-"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -4742,7 +4928,10 @@
       "topic": "화법",
       "subtopic": "반응 이해",
       "difficulty": "중",
-      "keywords": "발표, 흉배, 청중 반응",
+      "keywords": [
+        "청중 반응",
+        "학생1·2·3"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -4753,9 +4942,13 @@
       "exam_id": "2026-5",
       "question_no": 37,
       "topic": "언어",
-      "subtopic": "음운 변동",
+      "subtopic": "통사론",
       "difficulty": "중",
-      "keywords": "음운 변동, 음절 구조",
+      "keywords": [
+        "관형어",
+        "안긴절",
+        "주체 높임"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
@@ -4974,9 +5167,12 @@
       "exam_id": "2026-5",
       "question_no": 38,
       "topic": "작문",
-      "subtopic": "내용 생성",
+      "subtopic": "글쓰기 방식",
       "difficulty": "중",
-      "keywords": "건의문, 텃밭 잡초, 토끼풀",
+      "keywords": [
+        "건의문",
+        "글쓰기 방식"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -4987,9 +5183,13 @@
       "exam_id": "2026-5",
       "question_no": 38,
       "topic": "언어",
-      "subtopic": "음운 변동",
+      "subtopic": "음운론",
       "difficulty": "중",
-      "keywords": "흙일, 짓밟다, 직행열차",
+      "keywords": [
+        "흙일",
+        "짓밟다",
+        "직행열차"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -5207,10 +5407,13 @@
     {
       "exam_id": "2026-5",
       "question_no": 39,
-      "topic": "작문",
-      "subtopic": "고쳐쓰기",
+      "topic": "화법+작문",
+      "subtopic": "담화 내용 반영",
       "difficulty": "중",
-      "keywords": "건의문, 고쳐쓰기 계획",
+      "keywords": [
+        "고쳐쓰기 계획",
+        "대화 반영"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -5221,9 +5424,12 @@
       "exam_id": "2026-5",
       "question_no": 39,
       "topic": "언어",
-      "subtopic": "문장 구조",
+      "subtopic": "형태론",
       "difficulty": "중",
-      "keywords": "음운 변동, 탐구 적용",
+      "keywords": [
+        "사동문",
+        "주동문"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -5441,10 +5647,13 @@
     {
       "exam_id": "2026-5",
       "question_no": 40,
-      "topic": "화법",
-      "subtopic": "대화 분석",
+      "topic": "작문",
+      "subtopic": "내용 생성",
       "difficulty": "중",
-      "keywords": "건의문, 동아리 대화",
+      "keywords": [
+        "마무리 작성",
+        "비유적 표현"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -5455,9 +5664,13 @@
       "exam_id": "2026-5",
       "question_no": 40,
       "topic": "매체",
-      "subtopic": "매체 특성",
+      "subtopic": "텔레비전 방송",
       "difficulty": "중",
-      "keywords": "가짜 뉴스, TV 방송, 허위 조작 정보",
+      "keywords": [
+        "진행자",
+        "교수",
+        "정보 전달"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -5678,7 +5891,10 @@
       "topic": "화법",
       "subtopic": "대화 분석",
       "difficulty": "중",
-      "keywords": "건의문, 학생 대화 분석",
+      "keywords": [
+        "학생 1",
+        "대화 역할"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
@@ -5689,9 +5905,12 @@
       "exam_id": "2026-5",
       "question_no": 41,
       "topic": "매체",
-      "subtopic": "매체 특성",
+      "subtopic": "매체 수용과 생산",
       "difficulty": "중",
-      "keywords": "가짜 뉴스, 시청자 수용 양상",
+      "keywords": [
+        "시청자 게시판",
+        "수용 양상"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -5909,10 +6128,14 @@
     {
       "exam_id": "2026-5",
       "question_no": 42,
-      "topic": "작문",
-      "subtopic": "말하기 방식",
+      "topic": "화법+작문",
+      "subtopic": "대화 분석",
       "difficulty": "중",
-      "keywords": "건의문, [A][B] 대화 분석",
+      "keywords": [
+        "[A]",
+        "[B]",
+        "학생 2·3"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -5923,13 +6146,16 @@
       "exam_id": "2026-5",
       "question_no": 42,
       "topic": "매체",
-      "subtopic": "매체 언어",
+      "subtopic": "복합 매체 분석",
       "difficulty": "중",
-      "keywords": "가짜 뉴스, 발표 자료 비교",
+      "keywords": [
+        "슬라이드",
+        "정보 제시 방식"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2,
+      "score": 3,
       "is_common": "언어와매체"
     },
     {
@@ -6146,7 +6372,10 @@
       "topic": "작문",
       "subtopic": "글쓰기 계획",
       "difficulty": "중",
-      "keywords": "사운드스케이프, 쓰기 계획",
+      "keywords": [
+        "글쓰기 계획",
+        "반영 여부"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
@@ -6157,9 +6386,12 @@
       "exam_id": "2026-5",
       "question_no": 43,
       "topic": "매체",
-      "subtopic": "매체 특성",
+      "subtopic": "매체 언어",
       "difficulty": "중",
-      "keywords": "가짜 뉴스, 내용 분석",
+      "keywords": [
+        "ⓐ~ⓔ",
+        "문법 요소"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
@@ -6380,7 +6612,10 @@
       "topic": "작문",
       "subtopic": "내용 생성",
       "difficulty": "중",
-      "keywords": "사운드스케이프, 내용 수정",
+      "keywords": [
+        "[A] 고쳐쓰기",
+        "친구 조언"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
@@ -6391,9 +6626,12 @@
       "exam_id": "2026-5",
       "question_no": 44,
       "topic": "매체",
-      "subtopic": "매체 특성",
+      "subtopic": "누리 소통망(SNS)",
       "difficulty": "중",
-      "keywords": "온라인 게시판, 누리 소통망",
+      "keywords": [
+        "매체 활용",
+        "(가) 대화"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -6614,7 +6852,10 @@
       "topic": "작문",
       "subtopic": "자료 활용",
       "difficulty": "중",
-      "keywords": "사운드스케이프, 자료 활용",
+      "keywords": [
+        "자료 활용",
+        "ㄱ·ㄴ·ㄷ"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
@@ -6625,9 +6866,12 @@
       "exam_id": "2026-5",
       "question_no": 45,
       "topic": "매체",
-      "subtopic": "매체 특성",
+      "subtopic": "누리 소통망(SNS)",
       "difficulty": "중",
-      "keywords": "온라인 게시판, 가상 게시판",
+      "keywords": [
+        "(나) 게시판",
+        "대화 반영"
+      ],
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
