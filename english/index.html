@@ -391,7 +391,7 @@
     }
     var html = '';
     state.exams.forEach(function(exam) {
-      var hasData = exam.question_pdf_id && exam.question_pdf_id !== '' && exam.question_pdf_id.indexOf('여기에입력') < 0;
+      var hasData = (exam.question_pdf_id && exam.question_pdf_id !== '' && exam.question_pdf_id.indexOf('여기에입력') < 0) || (exam.question_pdf_path && exam.question_pdf_path.length > 3);
       var safeId = String(exam.exam_id).replace(/'/g, "\\'");
       html += '<button class="exam-btn" onclick="selectExam(\'' + safeId + '\', this)">'
         + '<span style="font-weight:600">' + exam.exam_name + '</span>'
