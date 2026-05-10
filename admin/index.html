@@ -360,7 +360,7 @@
     <!-- 탭2: 답안 읽기 -->
     <div id="clsTabAns" style="display:none">
       <div style="padding:12px;background:#fef3c7;border:1.5px dashed #f59e0b;border-radius:8px;margin-bottom:10px">
-        <div style="font-size:12px;color:#92400e;font-weight:600;margin-bottom:8px">📷 답안지 이미지를 업로드하면 Claude AI가 정답을 자동으로 읽어 입력합니다</div>
+        <div style="font-size:12px;color:#92400e;font-weight:600;margin-bottom:8px">📷 답안지 이미지를 업로드하면 Gemini AI가 정답을 자동으로 읽어 입력합니다</div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
           <label style="cursor:pointer">
             <div class="btn" style="font-size:12px;background:#f59e0b;color:white;pointer-events:none">📷 답안지 이미지 업로드</div>
@@ -383,7 +383,7 @@
     <!-- 탭3: AI 분류 -->
     <div id="clsTabAi" style="display:none">
       <div style="padding:12px;background:#faf5ff;border:1.5px dashed #a855f7;border-radius:8px;margin-bottom:10px">
-        <div style="font-size:12px;color:#6b21a8;font-weight:600;margin-bottom:8px">문제지 PDF를 업로드하면 Claude AI가 유형·세부유형·배점을 자동으로 읽어줍니다</div>
+        <div style="font-size:12px;color:#6b21a8;font-weight:600;margin-bottom:8px">문제지 PDF를 업로드하면 Gemini AI가 유형·세부유형·배점을 자동으로 읽어줍니다</div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
           <label style="cursor:pointer">
             <div class="btn" style="font-size:12px;background:#7c3aed;color:white;pointer-events:none">📄 문제지 PDF 업로드</div>
@@ -396,7 +396,7 @@
           <button type="button" class="btn btn-ghost" style="font-size:11px;padding:2px 8px;margin-left:6px" onclick="toggleApiKeyInput()">설정</button>
         </div>
         <div id="apiKeyRow" style="display:none;margin-top:6px">
-          <input type="password" id="apiKeyInput" class="fi" placeholder="sk-ant-..." style="font-size:12px">
+          <input type="password" id="apiKeyInput" class="fi" placeholder="AIza..." style="font-size:12px">
           <div style="display:flex;gap:6px;margin-top:4px">
             <button type="button" class="btn btn-success" style="font-size:12px" onclick="saveApiKey()">저장</button>
             <button type="button" class="btn btn-ghost" style="font-size:12px;color:#dc2626" onclick="clearApiKey()">삭제</button>
@@ -458,9 +458,9 @@
         <span id="ocrMethodLabel" style="font-size:11px"></span>
       </div>
       <div id="apiKeyRow" style="display:none;margin-bottom:6px">
-        <div style="font-size:11px;color:#64748b;margin-bottom:3px">Anthropic API 키 (<a href="https://console.anthropic.com" target="_blank" style="color:#0369a1">console.anthropic.com</a>에서 발급 — 유료)</div>
+        <div style="font-size:11px;color:#64748b;margin-bottom:3px">Gemini API 키 (<a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:#0369a1">aistudio.google.com</a>에서 무료 발급)</div>
         <div style="display:flex;gap:6px">
-          <input type="password" id="apiKeyInput" class="fi" placeholder="sk-ant-..." style="font-family:monospace;font-size:12px">
+          <input type="password" id="apiKeyInput" class="fi" placeholder="AIza..." style="font-family:monospace;font-size:12px">
           <button type="button" class="btn btn-primary" style="white-space:nowrap" onclick="saveApiKey()">저장</button>
           <button type="button" class="btn btn-danger" style="white-space:nowrap" onclick="clearApiKey()">삭제</button>
         </div>
@@ -1070,7 +1070,7 @@
   function updateClsApiKeyLabel() {
     var el = document.getElementById('clsApiKeyStatus');
     if (!el) return;
-    var has = !!localStorage.getItem('anthropic_api_key');
+    var has = !!localStorage.getItem('gemini_api_key');
     el.textContent = has ? '✅ 설정됨' : '❌ 없음';
     el.style.color  = has ? '#16a34a' : '#dc2626';
   }
@@ -1118,7 +1118,7 @@
   function startAiClassify(input) {
     var file = input.files[0]; if (!file) return;
     document.getElementById('clsAiFileName').textContent = file.name;
-    var apiKey = localStorage.getItem('anthropic_api_key');
+    var apiKey = localStorage.getItem('gemini_api_key');
     if (!apiKey) { document.getElementById('clsAiStatus').textContent = '❌ API 키를 먼저 설정하세요.'; return; }
     var statusEl = document.getElementById('clsAiStatus');
     statusEl.textContent = '📄 PDF 읽는 중...';
@@ -1146,33 +1146,20 @@
         '- JSON 배열만 출력하고 다른 설명 없이\n' +
         '- 화작/언매 35~45번은 section을 hwajak/eonmae로 구분해서 각각 출력';
 
-      fetch('https://api.anthropic.com/v1/messages', {
+      fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey, {
         method: 'POST',
-        headers: {
-          'content-type': 'application/json',
-          'x-api-key': apiKey,
-          'anthropic-version': '2023-06-01',
-          'anthropic-dangerous-allow-browser': 'true'
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          model: 'claude-opus-4-5',
-          max_tokens: 4096,
-          messages: [{
-            role: 'user',
-            content: [{
-              type: 'document',
-              source: { type: 'base64', media_type: 'application/pdf', data: b64 }
-            }, {
-              type: 'text',
-              text: prompt
-            }]
-          }]
+          contents: [{ parts: [
+            { inline_data: { mime_type: 'application/pdf', data: b64 } },
+            { text: prompt }
+          ]}]
         })
       })
       .then(function(r) { return r.json(); })
       .then(function(data) {
         if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
-        var text = data.content[0].text;
+        var text = data.candidates[0].content.parts[0].text;
         var m = text.match(/\[[\s\S]*\]/);
         if (!m) { statusEl.textContent = '⚠ JSON을 찾지 못했습니다. 결과:\n' + text.substring(0,200); return; }
         document.getElementById('classifyInput').value = m[0];
@@ -1191,7 +1178,7 @@
   function startAnsOcr(input) {
     var file = input.files[0]; if (!file) return;
     document.getElementById('clsAnsFileName').textContent = file.name;
-    var apiKey = localStorage.getItem('anthropic_api_key');
+    var apiKey = localStorage.getItem('gemini_api_key');
     if (!apiKey) {
       document.getElementById('clsAnsStatus').textContent = '❌ API 키 필요 — "AI 분류(PDF)" 탭에서 먼저 설정하세요.';
       return;
@@ -1223,27 +1210,20 @@
           + '①~⑤=1~5로 변환. 1~45번 전부 포함.';
       }
 
-      fetch('https://api.anthropic.com/v1/messages', {
+      fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-api-key': apiKey,
-          'anthropic-version': '2023-06-01',
-          'anthropic-dangerous-allow-browser': 'true'
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          model: 'claude-haiku-4-5-20251001',
-          max_tokens: 1024,
-          messages: [{ role: 'user', content: [
-            { type: 'image', source: { type: 'base64', media_type: mime, data: b64 } },
-            { type: 'text', text: prompt }
+          contents: [{ parts: [
+            { inline_data: { mime_type: mime, data: b64 } },
+            { text: prompt }
           ]}]
         })
       })
       .then(function(r) { return r.json(); })
       .then(function(data) {
         if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
-        var text = data.content[0].text;
+        var text = data.candidates[0].content.parts[0].text;
         var parsed = null;
         try { var m = text.match(/\{[\s\S]*\}/); if (m) parsed = JSON.parse(m[0]); } catch(e) {}
         if (!parsed) { statusEl.textContent = '⚠ 답안을 찾지 못했어요. 이미지를 다시 확인해주세요.'; return; }
@@ -1342,18 +1322,18 @@
     var visible = row.style.display !== 'none';
     row.style.display = visible ? 'none' : 'block';
     if (!visible) {
-      var saved = localStorage.getItem('anthropic_api_key') || '';
+      var saved = localStorage.getItem('gemini_api_key') || '';
       document.getElementById('apiKeyInput').value = saved;
     }
   }
   function saveApiKey() {
     var key = document.getElementById('apiKeyInput').value.trim();
-    if (key) { localStorage.setItem('anthropic_api_key', key); toast('API 키 저장 완료', 'ok'); }
+    if (key) { localStorage.setItem('gemini_api_key', key); toast('API 키 저장 완료', 'ok'); }
     document.getElementById('apiKeyRow').style.display = 'none';
     updateOcrMethodLabel();
   }
   function clearApiKey() {
-    localStorage.removeItem('anthropic_api_key');
+    localStorage.removeItem('gemini_api_key');
     document.getElementById('apiKeyInput').value = '';
     toast('API 키 삭제됨', 'ok');
     updateOcrMethodLabel();
@@ -1361,8 +1341,8 @@
   function updateOcrMethodLabel() {
     var el = document.getElementById('ocrMethodLabel');
     if (!el) return;
-    el.textContent = localStorage.getItem('anthropic_api_key') ? '🤖 AI 인식 사용 중' : '⚠ API 키 없음 (정확도 낮음)';
-    el.style.color = localStorage.getItem('anthropic_api_key') ? '#16a34a' : '#d97706';
+    el.textContent = localStorage.getItem('gemini_api_key') ? '🤖 AI 인식 사용 중' : '⚠ API 키 없음 (정확도 낮음)';
+    el.style.color = localStorage.getItem('gemini_api_key') ? '#16a34a' : '#d97706';
   }
 
   // ── OCR 메인 ──
@@ -1375,7 +1355,7 @@
     statusEl.style.display = 'block';
     input.value = '';
 
-    var apiKey = localStorage.getItem('anthropic_api_key') || '';
+    var apiKey = localStorage.getItem('gemini_api_key') || '';
     if (apiKey) {
       statusEl.textContent = '🤖 AI가 답안을 읽는 중...';
       var reader = new FileReader();
@@ -1407,27 +1387,20 @@
       prompt += '\n선택과목은 [' + secName + '] 부분만 추출해주세요.';
     }
 
-    fetch('https://api.anthropic.com/v1/messages', {
+    fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-allow-browser': 'true'
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 512,
-        messages: [{ role: 'user', content: [
-          { type: 'image', source: { type: 'base64', media_type: mime, data: base64 } },
-          { type: 'text', text: prompt }
+        contents: [{ parts: [
+          { inline_data: { mime_type: mime, data: base64 } },
+          { text: prompt }
         ]}]
       })
     })
     .then(function(r) { return r.json(); })
     .then(function(data) {
       if (data.error) { statusEl.textContent = '❌ API 오류: ' + data.error.message; return; }
-      var text = data.content[0].text;
+      var text = data.candidates[0].content.parts[0].text;
       var answers = parseClaudeAnswers(text);
       var count = Object.keys(answers).length;
       if (count === 0) { statusEl.textContent = '⚠️ 답안을 추출하지 못했어요. 이미지를 다시 확인해주세요.'; return; }
