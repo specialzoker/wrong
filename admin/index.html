@@ -594,43 +594,44 @@
 
   // ── 시험 목록 ──
   function importFromKorean() {
-    if (st.sub === 'english') {
-      // 영어: 미리 만들어둔 전체 데이터(시험+문항) 불러오기
-      var url = 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_english_init.json';
-      fetch(url).then(function(r) { return r.json(); }).then(function(data) {
-        if (!st.db[st.sub]) st.db[st.sub] = { exams: [], questions: [] };
-        var d = st.db[st.sub];
-        var addedE = 0, addedQ = 0;
-        (data.exams || []).forEach(function(e) {
-          if (d.exams.some(function(x) { return x.exam_id === e.exam_id; })) return;
+    var url = st.sub === 'english'
+      ? 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_english_init.json'
+      : 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_math_init.json';
+    var label = st.sub === 'english' ? '영어' : '수학';
+    fetch(url).then(function(r) { return r.json(); }).then(function(data) {
+      if (!st.db[st.sub]) st.db[st.sub] = { exams: [], questions: [] };
+      var d = st.db[st.sub];
+      var addedE = 0, updatedE = 0, addedQ = 0;
+
+      // 시험: 없으면 추가, 있으면 PDF 링크만 업데이트
+      (data.exams || []).forEach(function(e) {
+        var existing = d.exams.find(function(x) { return x.exam_id === e.exam_id; });
+        if (!existing) {
           d.exams.push(e); addedE++;
+        } else {
+          // PDF 링크가 없는 경우만 업데이트
+          var changed = false;
+          if (e.question_pdf_id && !existing.question_pdf_id) { existing.question_pdf_id = e.question_pdf_id; changed = true; }
+          if (e.answer_pdf_id   && !existing.answer_pdf_id)   { existing.answer_pdf_id   = e.answer_pdf_id;   changed = true; }
+          if (e.question_pdf_path && !existing.question_pdf_path) { existing.question_pdf_path = e.question_pdf_path; changed = true; }
+          if (e.answer_pdf_path   && !existing.answer_pdf_path)   { existing.answer_pdf_path   = e.answer_pdf_path;   changed = true; }
+          if (changed) updatedE++;
+        }
+      });
+
+      // 문항: 없는 것만 추가
+      (data.questions || []).forEach(function(q) {
+        var isMath = st.sub === 'math';
+        var dup = d.questions.some(function(x) {
+          return x.exam_id === q.exam_id && x.question_no === q.question_no
+            && (!isMath || x.is_common === q.is_common);
         });
-        (data.questions || []).forEach(function(q) {
-          var dup = d.questions.some(function(x) { return x.exam_id === q.exam_id && x.question_no === q.question_no; });
-          if (!dup) { d.questions.push(q); addedQ++; }
-        });
-        save(); render();
-        toast('영어 데이터 추가 완료! 시험 ' + addedE + '개, 문항 ' + addedQ + '개', 'ok');
-      }).catch(function(e) { alert('불러오기 실패: ' + e.message); });
-    } else {
-      // 수학: 미리 만들어둔 전체 데이터(시험+문항) 불러오기
-      var url = 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_math_init.json';
-      fetch(url).then(function(r) { return r.json(); }).then(function(data) {
-        if (!st.db[st.sub]) st.db[st.sub] = { exams: [], questions: [] };
-        var d = st.db[st.sub];
-        var addedE = 0, addedQ = 0;
-        (data.exams || []).forEach(function(e) {
-          if (d.exams.some(function(x) { return x.exam_id === e.exam_id; })) return;
-          d.exams.push(e); addedE++;
-        });
-        (data.questions || []).forEach(function(q) {
-          var dup = d.questions.some(function(x) { return x.exam_id === q.exam_id && x.question_no === q.question_no && x.is_common === q.is_common; });
-          if (!dup) { d.questions.push(q); addedQ++; }
-        });
-        save(); render();
-        toast('수학 데이터 추가 완료! 시험 ' + addedE + '개, 문항 ' + addedQ + '개', 'ok');
-      }).catch(function(e) { alert('불러오기 실패: ' + e.message); });
-    }
+        if (!dup) { d.questions.push(q); addedQ++; }
+      });
+
+      save(); render();
+      toast(label + ' 데이터 완료! 시험 추가 ' + addedE + '개·PDF 업데이트 ' + updatedE + '개, 문항 ' + addedQ + '개', 'ok');
+    }).catch(function(e) { alert('불러오기 실패: ' + e.message); });
   }
 
   function hasPdf(exam) {
