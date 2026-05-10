@@ -600,7 +600,7 @@
       ? 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_math_init.json'
       : 'https://raw.githubusercontent.com/specialzoker/wrong/main/tools/ad_korean_init.json';
     var label = st.sub === 'english' ? '영어' : st.sub === 'math' ? '수학' : '국어';
-    fetch(url).then(function(r) { return r.json(); }).then(function(data) {
+    fetch(url).then(function(r) { if (!r.ok) throw new Error('GitHub에서 파일을 찾을 수 없습니다 (HTTP ' + r.status + '). push 후 다시 시도하세요.'); return r.json(); }).then(function(data) {
       if (!st.db[st.sub]) st.db[st.sub] = { exams: [], questions: [] };
       var d = st.db[st.sub];
       var addedE = 0, updatedE = 0, addedQ = 0;
