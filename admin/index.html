@@ -1192,7 +1192,9 @@
 
     var sub = st.sub;
     var d = st.db[sub];
-    if (!d || !d.questions) { document.getElementById('classifyStatus').textContent = '❌ 문항이 없습니다.'; return; }
+    if (!d) { document.getElementById('classifyStatus').textContent = '❌ 데이터가 없습니다.'; return; }
+    if (!st.examId) { document.getElementById('classifyStatus').textContent = '❌ 시험을 먼저 선택하세요.'; return; }
+    if (!d.questions) d.questions = [];
 
     // 섹션 별칭 정규화 — 다양한 표기를 허용
     function normSec(s) {
@@ -1215,7 +1217,33 @@
       return CIRCLE_MAP[s] || s;
     }
 
-    var updated = 0;
+    // 섹션 → is_common(국어/수학) 또는 section(영어) 값 매핑
+    var SEC_TO_VAL = {
+      'common': '공통', 'hwajak': '화법과작문', 'eonmae': '언어와매체',
+      'hwaktong': '선택-확통', 'mijeok': '선택-미적분', 'giha': '선택-기하',
+      'listening': '듣기', 'reading': '독해'
+    };
+
+    function createNewQuestion(qno, sec, item, ansVal) {
+      var fkey = FKEY[sub];                  // 'is_common' or 'section'
+      var val  = SEC_TO_VAL[sec] || FOPTS[sub][0];
+      var q = {
+        exam_id: st.examId,
+        question_no: qno,
+        topic: item.topic || '',
+        subtopic: item.subtopic || '',
+        difficulty: '중',
+        keywords: item.keywords || '',
+        question_page: 1,
+        answer_page: 1,
+        correct_answer: ansVal !== undefined ? ansVal : '',
+        score: item.score !== undefined ? item.score : 2
+      };
+      q[fkey] = val;
+      return q;
+    }
+
+    var updated = 0, created = 0;
     data.forEach(function(item) {
       var qno = parseInt(item.q);
       var sec = normSec(item.section);
@@ -1237,6 +1265,15 @@
       if (item.answer_value !== undefined) ansVal = String(item.answer_value);
       else if (item.answer !== undefined)  ansVal = normAnswer(item.answer);
       else if (item.correct_answer !== undefined) ansVal = normAnswer(item.correct_answer);
+
+      // 매칭되는 문항이 없으면 새로 생성
+      if (targets.length === 0) {
+        var newQ = createNewQuestion(qno, sec, item, ansVal);
+        d.questions.push(newQ);
+        created++;
+        return;
+      }
+
       targets.forEach(function(q) {
         if (item.topic    !== undefined) q.topic    = item.topic;
         if (item.subtopic !== undefined) q.subtopic = item.subtopic;
@@ -1247,7 +1284,11 @@
       });
     });
     save(); renderQArea();
-    document.getElementById('classifyStatus').textContent = '✅ ' + updated + '개 문항 분류 적용 완료!';
+    var msg = '✅ 적용 완료 — ';
+    if (created)  msg += '신규 생성 ' + created + '개';
+    if (created && updated) msg += ', ';
+    if (updated) msg += '기존 갱신 ' + updated + '개';
+    document.getElementById('classifyStatus').textContent = msg;
   }
 
   // ── AI 자동 분류 (PDF → PDF.js → Groq) ──
