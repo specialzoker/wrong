@@ -4,7 +4,7 @@
 실행: python tools/sync_server.py
 """
 from http.server import HTTPServer, BaseHTTPRequestHandler
-import json, subprocess, os, sys, io
+import json, subprocess, os, sys, io, base64
 
 # Windows cp949 콘솔에서도 한글/이모지 출력 가능하도록 stdout UTF-8 강제
 try:
@@ -15,6 +15,8 @@ except Exception:
 
 ROOT     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, 'data')
+PDFS_DIR = os.path.join(ROOT, 'pdfs')
+os.makedirs(PDFS_DIR, exist_ok=True)
 
 ID_MAP = {
     'Sat Jun 01 2024 00:00:00 GMT+0900 (Korean Standard Time)': '2024-6',
@@ -62,6 +64,11 @@ class Handler(BaseHTTPRequestHandler):
         try:
             length = int(self.headers.get('Content-Length', 0))
             body   = json.loads(self.rfile.read(length))
+
+            # PDF 업로드 분기
+            if body.get('type') == 'pdf':
+                return self._handle_pdf(body)
+
             sub    = body.get('subject', '')
             data   = body.get('data', {})
 
@@ -74,7 +81,9 @@ class Handler(BaseHTTPRequestHandler):
                 json.dump(data, f, ensure_ascii=False, indent=2)
             print(f'[저장] {path}  ({len(data["exams"])}시험 {len(data["questions"])}문항)')
 
+            # data + pdfs 모두 git에 추가
             subprocess.run(['git', 'add', path],                      cwd=ROOT, check=True)
+            subprocess.run(['git', 'add', 'pdfs/'],                   cwd=ROOT)  # PDF 변경 있으면 같이
             subprocess.run(['git', 'commit', '-m', f'{sub} 데이터 업데이트 (어드민 동기화)'], cwd=ROOT)
             subprocess.run(['git', 'push', 'origin', 'main'],         cwd=ROOT, check=True)
             print('[git push 완료]')
@@ -84,6 +93,38 @@ class Handler(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps({'ok': True, 'exams': len(data['exams']), 'questions': len(data['questions'])}).encode())
         except Exception as e:
             print(f'[오류] {e}')
+            self.send_response(500); self._cors(); self.end_headers()
+            self.wfile.write(json.dumps({'ok': False, 'error': str(e)}).encode())
+
+    def _handle_pdf(self, body):
+        """PDF 파일을 pdfs/ 폴더에 저장."""
+        try:
+            filename = body.get('filename', '')   # 예: "pdfs/2026_05_영어_q.pdf"
+            content_b64 = body.get('content', '') # base64 인코딩된 파일 내용
+
+            if not filename or not filename.startswith('pdfs/'):
+                raise ValueError('filename must start with "pdfs/"')
+            if '..' in filename or filename.count('/') > 1:
+                raise ValueError('invalid filename')
+
+            # base64 헤더(data:application/pdf;base64,) 제거
+            if ',' in content_b64:
+                content_b64 = content_b64.split(',', 1)[1]
+            raw = base64.b64decode(content_b64)
+
+            target_path = os.path.join(ROOT, filename)
+            os.makedirs(os.path.dirname(target_path), exist_ok=True)
+            with open(target_path, 'wb') as f:
+                f.write(raw)
+
+            size_kb = len(raw) // 1024
+            print(f'[PDF 저장] {filename}  ({size_kb} KB)')
+
+            self.send_response(200); self._cors()
+            self.send_header('Content-Type', 'application/json'); self.end_headers()
+            self.wfile.write(json.dumps({'ok': True, 'filename': filename, 'size': len(raw)}).encode())
+        except Exception as e:
+            print(f'[PDF 오류] {e}')
             self.send_response(500); self._cors(); self.end_headers()
             self.wfile.write(json.dumps({'ok': False, 'error': str(e)}).encode())
 

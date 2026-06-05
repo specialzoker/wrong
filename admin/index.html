@@ -749,8 +749,37 @@
     suggested = suggested.replace(/\s+/g, '_');
     localPdfPaths[prefix] = { path: suggested, file: file };
     var hint = document.getElementById(hintId);
-    hint.innerHTML = '저장 경로: <strong>' + suggested + '</strong><br>'
-      + '<span style="color:#64748b">→ <code>C:\\Users\\user\\wrong\\' + suggested.replace(/\//g,'\\') + '</code> 에 복사하세요</span>';
+    hint.innerHTML = '⏳ 업로드 중... <strong>' + suggested + '</strong>';
+
+    // 파일을 base64로 읽어 동기화 서버로 업로드
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var b64 = e.target.result; // "data:application/pdf;base64,...."
+      fetch('http://localhost:7777/', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ type: 'pdf', filename: suggested, content: b64 })
+      })
+      .then(function(r) { return r.json(); })
+      .then(function(res) {
+        if (res.ok) {
+          var sizeKB = Math.round(res.size / 1024);
+          hint.innerHTML = '✅ 업로드 완료: <strong>' + suggested + '</strong> (' + sizeKB + ' KB)<br>'
+            + '<span style="color:#16a34a">파일이 pdfs/ 폴더에 저장되었습니다. 🚀 배포 시 GitHub에도 자동 push됩니다.</span>';
+        } else {
+          hint.innerHTML = '❌ 업로드 실패: ' + (res.error || '알 수 없는 오류') + '<br>'
+            + '<span style="color:#dc2626">동기화 서버(localhost:7777)가 실행 중인지 확인하세요.</span>';
+        }
+      })
+      .catch(function(err) {
+        hint.innerHTML = '❌ 동기화 서버에 연결 실패<br>'
+          + '<span style="color:#dc2626">동기화서버_실행.bat을 먼저 실행해 주세요. (' + err.message + ')</span>';
+      });
+    };
+    reader.onerror = function() {
+      hint.innerHTML = '❌ 파일 읽기 실패';
+    };
+    reader.readAsDataURL(file);
   }
 
   // ── PDF 편집 저장 ──
