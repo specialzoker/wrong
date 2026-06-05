@@ -347,6 +347,19 @@
       <span style="color:#0891b2;font-size:11px">예: <code>1: 1-7</code> → 1페이지에 1~7번 문제, <code>3: 22</code> → 3페이지에 22번 문제</span>
     </p>
 
+    <!-- PDF 자동 감지 -->
+    <div style="background:#f0fdfa;border:1.5px solid #5eead4;border-radius:8px;padding:12px;margin-bottom:14px">
+      <div style="font-size:13px;font-weight:700;color:#0f766e;margin-bottom:6px">⚡ PDF 자동 감지 (추천)</div>
+      <div style="font-size:11px;color:#0d9488;margin-bottom:8px">문제 PDF를 업로드하면 각 페이지의 문항 번호를 자동으로 읽어 아래에 채워줍니다.</div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <input type="file" id="pageAutoFile" accept=".pdf" onchange="autoDetectPages(this,'q')" style="font-size:12px">
+        <span style="font-size:11px;color:#64748b">← 문제 PDF</span>
+        <input type="file" id="pageAutoFileA" accept=".pdf" onchange="autoDetectPages(this,'a')" style="font-size:12px">
+        <span style="font-size:11px;color:#64748b">← 정답 PDF (선택)</span>
+      </div>
+      <div id="pageAutoStatus" style="font-size:11px;color:#0f766e;margin-top:6px;min-height:16px"></div>
+    </div>
+
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px">
       <div>
         <div style="font-size:12px;font-weight:700;color:#1e293b;margin-bottom:5px">📄 문제 PDF 페이지 매핑</div>
@@ -1289,6 +1302,114 @@
     if (aUpdated) msg += '정답P ' + aUpdated + '개';
     status.textContent = msg;
   }
+
+  // ── PDF에서 페이지별 문항 번호 자동 감지 ──
+  function autoDetectPages(input, which) {
+    var file = input.files[0]; if (!file) return;
+    var statusEl = document.getElementById('pageAutoStatus');
+    statusEl.style.color = '#0f766e';
+    statusEl.textContent = '📄 PDF 읽는 중...';
+
+    if (typeof pdfjsLib === 'undefined') {
+      statusEl.style.color = '#dc2626';
+      statusEl.textContent = '❌ PDF.js 로드 실패. 새로고침 후 다시 시도하세요.'; return;
+    }
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+    // 최대 문항 번호 (페이지 감지 범위 한정)
+    var maxQ = st.sub === 'math' ? 30 : 45;
+
+    file.arrayBuffer().then(function(buf) {
+      return pdfjsLib.getDocument({data: buf}).promise;
+    }).then(function(pdf) {
+      var np = pdf.numPages;
+      var pageNums = [];
+      for (var i = 1; i <= np; i++) pageNums.push(i);
+
+      // 페이지별로 "이 페이지에 등장하는 문항 번호 집합" 수집
+      return pageNums.reduce(function(chain, pageNum) {
+        return chain.then(function(acc) {
+          statusEl.textContent = '📄 페이지 분석 중... (' + pageNum + '/' + np + ')';
+          return pdf.getPage(pageNum).then(function(page) {
+            return page.getTextContent().then(function(tc) {
+              var nums = detectQuestionNumbers(tc, maxQ);
+              acc.push({ page: pageNum, nums: nums });
+              return acc;
+            });
+          });
+        });
+      }, Promise.resolve([]));
+    }).then(function(pageData) {
+      // 각 문항 번호를 "처음 등장한 페이지"에 배정
+      var qToPage = {};
+      pageData.forEach(function(pd) {
+        pd.nums.forEach(function(n) {
+          if (qToPage[n] === undefined) qToPage[n] = pd.page;
+        });
+      });
+
+      // 연속 번호를 페이지별 범위 텍스트로 변환
+      var text = buildPageMappingText(qToPage, maxQ);
+      if (!text) {
+        statusEl.style.color = '#d97706';
+        statusEl.textContent = '⚠ 문항 번호를 감지하지 못했습니다. 수동으로 입력해 주세요.';
+        return;
+      }
+      var box = which === 'a' ? 'pageAInput' : 'pageQInput';
+      document.getElementById(box).value = text;
+      statusEl.style.color = '#16a34a';
+      statusEl.textContent = '✅ ' + (which === 'a' ? '정답' : '문제') + ' PDF 감지 완료! 아래에서 확인 후 [✅ 적용]을 누르세요.';
+    }).catch(function(err) {
+      statusEl.style.color = '#dc2626';
+      statusEl.textContent = '❌ 분석 실패: ' + err.message;
+    });
+  }
+
+  // 텍스트 콘텐츠에서 문항 번호 추출
+  function detectQuestionNumbers(tc, maxQ) {
+    var found = {};
+    var CIRCLE = {'①':1,'②':2,'③':3,'④':4,'⑤':5};
+    // 줄 단위로 재구성 (y좌표 기준)
+    var lines = {};
+    tc.items.forEach(function(it) {
+      var y = Math.round(it.transform[5]);
+      if (!lines[y]) lines[y] = [];
+      lines[y].push({ x: it.transform[4], s: it.str });
+    });
+    Object.keys(lines).forEach(function(y) {
+      var parts = lines[y].sort(function(a,b){return a.x-b.x;});
+      var lineStr = parts.map(function(p){return p.s;}).join('').trim();
+      // 줄 시작이 "12." "12 " 형태 → 문항 번호로 간주 (보기 ①②③⑤ 제외)
+      var m = lineStr.match(/^(\d{1,2})\s*[.．]/);
+      if (m) {
+        var n = parseInt(m[1]);
+        if (n >= 1 && n <= maxQ) found[n] = true;
+      }
+    });
+    return Object.keys(found).map(Number).sort(function(a,b){return a-b;});
+  }
+
+  // qToPage 객체 → "1: 1-7\n2: 8-17" 형태 텍스트
+  function buildPageMappingText(qToPage, maxQ) {
+    var nums = Object.keys(qToPage).map(Number).sort(function(a,b){return a-b;});
+    if (!nums.length) return '';
+    // 페이지별로 묶기
+    var pageToNums = {};
+    nums.forEach(function(n) {
+      var p = qToPage[n];
+      if (!pageToNums[p]) pageToNums[p] = [];
+      pageToNums[p].push(n);
+    });
+    var pages = Object.keys(pageToNums).map(Number).sort(function(a,b){return a-b;});
+    var lines = pages.map(function(p) {
+      var arr = pageToNums[p].sort(function(a,b){return a-b;});
+      var lo = arr[0], hi = arr[arr.length-1];
+      return lo === hi ? (p + ': ' + lo) : (p + ': ' + lo + '-' + hi);
+    });
+    return lines.join('\n');
+  }
+
   function renderClsTemplateBtns() {
     var bar  = document.getElementById('clsTemplateBar');
     var btns = document.getElementById('clsTemplateBtns');
