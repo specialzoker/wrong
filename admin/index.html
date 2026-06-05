@@ -324,6 +324,7 @@
         <span class="q-count" id="qCount"></span>
         <button class="btn btn-success" onclick="openBulkModal()" style="font-size:12px">📝 답안 일괄 입력</button>
         <button class="btn" style="font-size:12px;background:#7c3aed;color:white" onclick="openClassifyModal()">📊 유형·배점 입력</button>
+        <button class="btn" style="font-size:12px;background:#0891b2;color:white" onclick="openPageModal()">📄 페이지 일괄 입력</button>
         <button class="btn btn-ghost" onclick="openCsvModal()">📋 시트에서 붙여넣기</button>
         <button class="btn btn-primary" onclick="addRow()">+ 행 추가</button>
       </div>
@@ -332,6 +333,42 @@
       <div class="q-scroll">
         <div id="qArea"><div class="empty">시험을 선택하면 문항을 입력할 수 있어요</div></div>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- 페이지 일괄 입력 모달 -->
+<div class="modal-bg" id="pageModal">
+  <div class="modal" style="width:min(700px,95vw)">
+    <h3>📄 페이지 일괄 입력</h3>
+    <p class="modal-desc">
+      각 PDF 페이지에 들어있는 문항 번호 범위를 입력하세요.<br>
+      <strong>형식 한 줄에 하나씩:</strong> <code>페이지번호: 시작번호-끝번호</code> 또는 <code>페이지번호: 번호</code><br>
+      <span style="color:#0891b2;font-size:11px">예: <code>1: 1-7</code> → 1페이지에 1~7번 문제, <code>3: 22</code> → 3페이지에 22번 문제</span>
+    </p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px">
+      <div>
+        <div style="font-size:12px;font-weight:700;color:#1e293b;margin-bottom:5px">📄 문제 PDF 페이지 매핑</div>
+        <textarea id="pageQInput" style="width:100%;height:200px;border:1.5px solid #e2e8f0;border-radius:6px;font-size:12px;font-family:monospace;padding:10px;resize:vertical;outline:none"
+          placeholder="1: 1-7&#10;2: 8-17&#10;3: 18-25&#10;4: 26-32&#10;5: 33-39&#10;6: 40-45"></textarea>
+      </div>
+      <div>
+        <div style="font-size:12px;font-weight:700;color:#1e293b;margin-bottom:5px">📄 정답 PDF 페이지 매핑 (선택)</div>
+        <textarea id="pageAInput" style="width:100%;height:200px;border:1.5px solid #e2e8f0;border-radius:6px;font-size:12px;font-family:monospace;padding:10px;resize:vertical;outline:none"
+          placeholder="비워두면 모든 문항 정답페이지 = 1&#10;&#10;예:&#10;1: 1-22&#10;2: 23-45"></textarea>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:6px;align-items:center;margin-top:10px;padding:8px 12px;background:#ecfeff;border-radius:6px;font-size:11px;color:#0891b2">
+      💡 수학 23~30번 같은 선택과목은 같은 페이지에 일괄 적용됩니다 (확통·미적분·기하 모두)
+    </div>
+
+    <div id="pageStatus" style="font-size:12px;color:#16a34a;margin-top:10px;min-height:18px"></div>
+
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closePageModal()">닫기</button>
+      <button class="btn" style="background:#0891b2;color:white" onclick="applyPageMapping()">✅ 적용</button>
     </div>
   </div>
 </div>
@@ -1182,6 +1219,75 @@
     updateClsApiKeyLabel();
     renderClsTemplateBtns();
     switchClsTab('paste');
+  }
+
+  // ── 페이지 일괄 입력 ──
+  function openPageModal() {
+    if (!st.examId) { alert('시험을 먼저 선택하세요'); return; }
+    document.getElementById('pageQInput').value = '';
+    document.getElementById('pageAInput').value = '';
+    document.getElementById('pageStatus').textContent = '';
+    document.getElementById('pageModal').classList.add('open');
+  }
+  function closePageModal() { document.getElementById('pageModal').classList.remove('open'); }
+
+  function parsePageMapping(text) {
+    // 각 줄: "페이지: 시작-끝" or "페이지: 번호"
+    var map = {}; // qNo → page
+    var lines = text.split(/\r?\n/);
+    var errors = [];
+    lines.forEach(function(line, idx) {
+      line = line.trim();
+      if (!line || line.startsWith('//') || line.startsWith('#')) return;
+      var m = line.match(/^(\d+)\s*[:\-=]\s*(\d+)(?:\s*[-~–]\s*(\d+))?\s*$/);
+      if (!m) { errors.push((idx+1) + '행: "' + line + '"'); return; }
+      var page = parseInt(m[1]);
+      var start = parseInt(m[2]);
+      var end = m[3] ? parseInt(m[3]) : start;
+      for (var n = start; n <= end; n++) map[n] = page;
+    });
+    return { map: map, errors: errors };
+  }
+
+  function applyPageMapping() {
+    var qText = document.getElementById('pageQInput').value.trim();
+    var aText = document.getElementById('pageAInput').value.trim();
+    var status = document.getElementById('pageStatus');
+    if (!qText && !aText) { status.textContent = '⚠ 매핑 데이터를 입력하세요.'; return; }
+
+    var d = st.db[st.sub];
+    if (!d || !d.questions) { status.textContent = '❌ 문항이 없습니다.'; return; }
+
+    var qResult = qText ? parsePageMapping(qText) : { map:{}, errors:[] };
+    var aResult = aText ? parsePageMapping(aText) : { map:{}, errors:[] };
+
+    var allErrors = qResult.errors.concat(aResult.errors);
+    if (allErrors.length) {
+      status.style.color = '#dc2626';
+      status.textContent = '❌ 형식 오류 (' + allErrors.length + '곳): ' + allErrors.join(', ');
+      return;
+    }
+
+    var qUpdated = 0, aUpdated = 0;
+    d.questions.forEach(function(q) {
+      if (q.exam_id !== st.examId) return;
+      if (qResult.map[q.question_no] !== undefined) {
+        q.question_page = qResult.map[q.question_no];
+        qUpdated++;
+      }
+      if (aResult.map[q.question_no] !== undefined) {
+        q.answer_page = aResult.map[q.question_no];
+        aUpdated++;
+      }
+    });
+
+    save(); renderQArea();
+    status.style.color = '#16a34a';
+    var msg = '✅ 적용 완료 — ';
+    if (qUpdated) msg += '문제P ' + qUpdated + '개';
+    if (qUpdated && aUpdated) msg += ', ';
+    if (aUpdated) msg += '정답P ' + aUpdated + '개';
+    status.textContent = msg;
   }
   function renderClsTemplateBtns() {
     var bar  = document.getElementById('clsTemplateBar');

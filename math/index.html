@@ -627,7 +627,7 @@
         html += '<div class="rec-expand" id="' + cardId + '">';
         if (pdfPath) {
           html += '<div class="page-hint">📄 PDF <strong>' + sq.question_page + '페이지</strong>의 <strong>' + sq.question_no + '번</strong> 문제를 풀어보세요</div>';
-          html += '<iframe class="pdf-frame" src="../' + pdfPath + '#page=' + sq.question_page + '" loading="lazy"></iframe>';
+          html += '<iframe class="pdf-frame" src="../' + pdfPath + '#page=' + sq.question_page + '&toolbar=0&navpanes=0&view=FitH" loading="lazy"></iframe>';
         } else if (pdfId) {
           html += '<div class="page-hint">📄 PDF <strong>' + sq.question_page + '페이지</strong>의 <strong>' + sq.question_no + '번</strong> 문제를 풀어보세요</div>';
           html += '<iframe class="pdf-frame" src="https://drive.google.com/file/d/' + pdfId + '/preview?rm=minimal#page=' + sq.question_page + '" loading="lazy"></iframe>';
@@ -644,7 +644,7 @@
         html += '<div class="answer-value">' + sq.correct_answer + '</div>';
         if (ansPdfPath) {
           html += '<div class="page-hint" style="margin:8px -16px -12px;border-radius:0">📄 정답 PDF <strong>' + sq.answer_page + '페이지</strong></div>';
-          html += '<iframe class="pdf-frame" style="height:300px" src="../' + ansPdfPath + '#page=' + sq.answer_page + '" loading="lazy"></iframe>';
+          html += '<iframe class="pdf-frame" style="height:300px" src="../' + ansPdfPath + '#page=' + sq.answer_page + '&toolbar=0&navpanes=0&view=FitH" loading="lazy"></iframe>';
         } else if (ansPdfId) {
           html += '<div class="page-hint" style="margin:8px -16px -12px;border-radius:0">📄 정답 PDF <strong>' + sq.answer_page + '페이지</strong></div>';
           html += '<iframe class="pdf-frame" style="height:300px" src="https://drive.google.com/file/d/' + ansPdfId + '/preview?rm=minimal#page=' + sq.answer_page + '" loading="lazy"></iframe>';
