@@ -1327,67 +1327,88 @@
       var pageNums = [];
       for (var i = 1; i <= np; i++) pageNums.push(i);
 
-      // 페이지별로 "이 페이지에 등장하는 문항 번호 집합" 수집
+      // 페이지별로 "읽기 순서대로 정렬된 줄 목록" 수집 (2단 좌→우)
       return pageNums.reduce(function(chain, pageNum) {
         return chain.then(function(acc) {
           statusEl.textContent = '📄 페이지 분석 중... (' + pageNum + '/' + np + ')';
           return pdf.getPage(pageNum).then(function(page) {
+            var vp = page.getViewport({scale: 1});
             return page.getTextContent().then(function(tc) {
-              var nums = detectQuestionNumbers(tc, maxQ);
-              acc.push({ page: pageNum, nums: nums });
+              acc.push({ page: pageNum, lines: extractOrderedLines(tc, vp.width) });
               return acc;
             });
           });
         });
       }, Promise.resolve([]));
     }).then(function(pageData) {
-      // 각 문항 번호를 "처음 등장한 페이지"에 배정
-      var qToPage = {};
-      pageData.forEach(function(pd) {
-        pd.nums.forEach(function(n) {
-          if (qToPage[n] === undefined) qToPage[n] = pd.page;
-        });
-      });
+      // 순차 번호 추적으로 문항→페이지 배정
+      var qToPage = sequentialAssign(pageData, maxQ);
 
-      // 연속 번호를 페이지별 범위 텍스트로 변환
       var text = buildPageMappingText(qToPage, maxQ);
-      if (!text) {
+      var detected = Object.keys(qToPage).length;
+      if (!text || detected < 3) {
         statusEl.style.color = '#d97706';
-        statusEl.textContent = '⚠ 문항 번호를 감지하지 못했습니다. 수동으로 입력해 주세요.';
+        statusEl.textContent = '⚠ 문항 번호를 충분히 감지하지 못했습니다 (' + detected + '개). 스캔 PDF이거나 특수 편집일 수 있어요. 수동 입력해 주세요.';
         return;
       }
       var box = which === 'a' ? 'pageAInput' : 'pageQInput';
       document.getElementById(box).value = text;
       statusEl.style.color = '#16a34a';
-      statusEl.textContent = '✅ ' + (which === 'a' ? '정답' : '문제') + ' PDF 감지 완료! 아래에서 확인 후 [✅ 적용]을 누르세요.';
+      statusEl.textContent = '✅ ' + (which === 'a' ? '정답' : '문제') + ' PDF 감지 완료 (' + detected + '문항)! 아래에서 확인·수정 후 [✅ 적용]을 누르세요.';
     }).catch(function(err) {
       statusEl.style.color = '#dc2626';
       statusEl.textContent = '❌ 분석 실패: ' + err.message;
     });
   }
 
-  // 텍스트 콘텐츠에서 문항 번호 추출
-  function detectQuestionNumbers(tc, maxQ) {
-    var found = {};
-    var CIRCLE = {'①':1,'②':2,'③':3,'④':4,'⑤':5};
-    // 줄 단위로 재구성 (y좌표 기준)
-    var lines = {};
+  // 텍스트 콘텐츠 → 읽기 순서대로 정렬된 줄 배열 (2단 좌→우 처리)
+  function extractOrderedLines(tc, pageWidth) {
+    var mid = pageWidth / 2;
+    var left = [], right = [];
     tc.items.forEach(function(it) {
-      var y = Math.round(it.transform[5]);
-      if (!lines[y]) lines[y] = [];
-      lines[y].push({ x: it.transform[4], s: it.str });
+      if (!it.str || !it.str.trim()) return;
+      var x = it.transform[4], y = it.transform[5];
+      (x < mid ? left : right).push({ x: x, y: y, s: it.str });
     });
-    Object.keys(lines).forEach(function(y) {
-      var parts = lines[y].sort(function(a,b){return a.x-b.x;});
-      var lineStr = parts.map(function(p){return p.s;}).join('').trim();
-      // 줄 시작이 "12." "12 " 형태 → 문항 번호로 간주 (보기 ①②③⑤ 제외)
-      var m = lineStr.match(/^(\d{1,2})\s*[.．]/);
-      if (m) {
+    function toLines(items) {
+      var byY = {};
+      items.forEach(function(it) {
+        var key = Math.round(it.y);
+        if (!byY[key]) byY[key] = [];
+        byY[key].push(it);
+      });
+      // y 내림차순(위→아래), 각 줄은 x 오름차순(좌→우)
+      return Object.keys(byY).map(Number).sort(function(a, b){ return b - a; })
+        .map(function(y) {
+          return byY[y].sort(function(a, b){ return a.x - b.x; })
+                       .map(function(p){ return p.s; }).join('').trim();
+        });
+    }
+    return toLines(left).concat(toLines(right));
+  }
+
+  // 페이지 순서대로 줄을 훑으며 1→maxQ 순차 매칭 (행번호·보기 오탐 차단)
+  function sequentialAssign(pageData, maxQ) {
+    var qToPage = {};
+    var expected = 1;
+    pageData.forEach(function(pd) {
+      pd.lines.forEach(function(lineStr) {
+        if (expected > maxQ) return;
+        // 줄 시작이 "12." "12 " 형태 → 문항 번호 후보
+        var m = lineStr.match(/^(\d{1,2})\s*[.．]/);
+        if (!m) return;
         var n = parseInt(m[1]);
-        if (n >= 1 && n <= maxQ) found[n] = true;
-      }
+        if (n < 1 || n > maxQ) return;
+        // 다음 기대 번호이거나(정상), 한 칸 건너뜀(레이아웃상 누락)만 인정
+        if (n === expected || n === expected + 1) {
+          for (var k = expected; k <= n; k++) {
+            if (qToPage[k] === undefined) qToPage[k] = pd.page;
+          }
+          expected = n + 1;
+        }
+      });
     });
-    return Object.keys(found).map(Number).sort(function(a,b){return a-b;});
+    return qToPage;
   }
 
   // qToPage 객체 → "1: 1-7\n2: 8-17" 형태 텍스트
