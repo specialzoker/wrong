@@ -645,7 +645,7 @@
         html += '<div class="rec-expand" id="' + cardId + '">';
         if (pdfPath) {
           html += '<div class="page-hint">📄 PDF <strong>' + sq.question_page + '페이지</strong>의 <strong>' + sq.question_no + '번</strong> 문제를 풀어보세요</div>';
-          html += '<iframe class="pdf-frame" src="../' + pdfPath + '#page=' + sq.question_page + '&toolbar=0&navpanes=0&view=FitH" loading="lazy"></iframe>';
+          html += '<div class="doc-slot" data-src="../' + pdfPath + '" data-page="' + sq.question_page + '" data-height="500"></div>';
         } else if (pdfId) {
           html += '<div class="page-hint">📄 PDF <strong>' + sq.question_page + '페이지</strong>의 <strong>' + sq.question_no + '번</strong> 문제를 풀어보세요</div>';
           html += '<iframe class="pdf-frame" src="https://drive.google.com/file/d/' + pdfId + '/preview#page=' + sq.question_page + '" loading="lazy"></iframe>';
@@ -661,8 +661,8 @@
         html += '<div class="answer-label">정답</div>';
         html += '<div class="answer-value">' + sq.correct_answer + '</div>';
         if (ansPdfPath) {
-          html += '<div class="page-hint" style="margin:8px -16px -12px;border-radius:0">📄 정답 PDF <strong>' + sq.answer_page + '페이지</strong></div>';
-          html += '<iframe class="pdf-frame" style="height:300px" src="../' + ansPdfPath + '#page=' + sq.answer_page + '&toolbar=0&navpanes=0&view=FitH" loading="lazy"></iframe>';
+          html += '<div class="page-hint" style="margin:8px -16px -12px;border-radius:0">📄 정답 <strong>' + sq.answer_page + '페이지</strong></div>';
+          html += '<div class="doc-slot" data-src="../' + ansPdfPath + '" data-page="' + sq.answer_page + '" data-height="300"></div>';
         } else if (ansPdfId) {
           html += '<div class="page-hint" style="margin:8px -16px -12px;border-radius:0">📄 정답 PDF <strong>' + sq.answer_page + '페이지</strong></div>';
           html += '<iframe class="pdf-frame" style="height:300px" src="https://drive.google.com/file/d/' + ansPdfId + '/preview#page=' + sq.answer_page + '" loading="lazy"></iframe>';
@@ -676,6 +676,42 @@
     });
 
     document.getElementById('resultArea').innerHTML = html;
+    hydrateDocSlots();
+  }
+
+  // 로컬 문서 슬롯: 파일 실제 형식을 감지해 PDF면 iframe, 이미지면 img로 렌더
+  var _docTypeCache = {};
+  function hydrateDocSlots() {
+    var slots = document.querySelectorAll('.doc-slot');
+    slots.forEach(function(slot) {
+      if (slot.getAttribute('data-done')) return;
+      var src    = slot.getAttribute('data-src');
+      var page   = slot.getAttribute('data-page') || '1';
+      var height = slot.getAttribute('data-height') || '500';
+
+      function inject(type) {
+        slot.setAttribute('data-done', '1');
+        if (type === 'img') {
+          slot.innerHTML = '<img src="' + src + '" style="width:100%;display:block" loading="lazy">';
+        } else {
+          slot.innerHTML = '<iframe class="pdf-frame" style="height:' + height + 'px" src="' + src + '#page=' + page + '&toolbar=0&navpanes=0&view=FitH" loading="lazy"></iframe>';
+        }
+      }
+
+      if (_docTypeCache[src]) { inject(_docTypeCache[src]); return; }
+
+      fetch(src, { headers: { 'Range': 'bytes=0-7' } })
+        .then(function(r) { return r.blob(); })
+        .then(function(blob) { return blob.slice(0, 8).arrayBuffer(); })
+        .then(function(buf) {
+          var b = new Uint8Array(buf);
+          var isPdf = b[0] === 0x25 && b[1] === 0x50 && b[2] === 0x44 && b[3] === 0x46;
+          var type = isPdf ? 'pdf' : 'img';
+          _docTypeCache[src] = type;
+          inject(type);
+        })
+        .catch(function() { inject('pdf'); });
+    });
   }
 
   function showStep(n) {
