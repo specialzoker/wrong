@@ -505,8 +505,10 @@
     state.allData.exams.forEach(function(exam) {
       examPdfMap[String(exam.exam_id)] = {
         exam_name: exam.exam_name,
-        question_pdf_id: exam.question_pdf_id || '',
-        answer_pdf_id: exam.answer_pdf_id || ''
+        question_pdf_id:   exam.question_pdf_id   || '',
+        answer_pdf_id:     exam.answer_pdf_id     || '',
+        question_pdf_path: exam.question_pdf_path || '',
+        answer_pdf_path:   exam.answer_pdf_path   || ''
       };
     });
 
