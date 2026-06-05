@@ -764,8 +764,28 @@
       .then(function(res) {
         if (res.ok) {
           var sizeKB = Math.round(res.size / 1024);
-          hint.innerHTML = '✅ 업로드 완료: <strong>' + suggested + '</strong> (' + sizeKB + ' KB)<br>'
-            + '<span style="color:#16a34a">파일이 pdfs/ 폴더에 저장되었습니다. 🚀 배포 시 GitHub에도 자동 push됩니다.</span>';
+          // ── 자동 연결: 기존 시험 편집(eQ/eA)이면 곧바로 데이터 업데이트 ──
+          var autoSaved = false;
+          if ((prefix === 'eQ' || prefix === 'eA') && st.examId) {
+            var d = st.db[st.sub];
+            var exam = d && d.exams.find(function(e) { return e.exam_id === st.examId; });
+            if (exam) {
+              if (prefix === 'eQ') {
+                exam.question_pdf_path = suggested;
+                delete exam.question_pdf_id;
+              } else {
+                exam.answer_pdf_path = suggested;
+                delete exam.answer_pdf_id;
+              }
+              save();          // localStorage 갱신
+              renderExamList(); // 좌측 목록의 ✓ 배지 갱신
+              autoSaved = true;
+            }
+          }
+          var savedMsg = autoSaved
+            ? '<span style="color:#16a34a">✅ 자동 저장됨! 🚀 배포 버튼만 누르시면 됩니다.</span>'
+            : '<span style="color:#16a34a">파일이 pdfs/ 폴더에 저장되었습니다.</span>';
+          hint.innerHTML = '✅ 업로드 완료: <strong>' + suggested + '</strong> (' + sizeKB + ' KB)<br>' + savedMsg;
         } else {
           hint.innerHTML = '❌ 업로드 실패: ' + (res.error || '알 수 없는 오류') + '<br>'
             + '<span style="color:#dc2626">동기화 서버(localhost:7777)가 실행 중인지 확인하세요.</span>';
