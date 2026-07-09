@@ -570,6 +570,11 @@
         similar = similar.concat(topicMatch);
       }
 
+      // 난이도 내림차순 정렬(상>중>하) 후 상위 30개 → 초과분(쉬운 것)은 자동 제거
+      var DIFF_RANK = { '상': 3, '중': 2, '하': 1 };
+      similar.sort(function(a, b) {
+        return (DIFF_RANK[b.difficulty] || 0) - (DIFF_RANK[a.difficulty] || 0);
+      });
       similar = similar.slice(0, 30);
       recommendations.push({ wrongQuestion: wrongQ, similarQuestions: similar });
     });
