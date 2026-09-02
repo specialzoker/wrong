@@ -1,6 +1,15 @@
 {
   "exams": [
     {
+      "exam_id": "2026_09",
+      "exam_name": "2026년 9월 모의고사",
+      "subject": "국어",
+      "exam_date": "2026-09-02",
+      "total_questions": 45,
+      "question_pdf_path": "pdfs/2026_09_국어_q.pdf",
+      "answer_pdf_path": "pdfs/2026_09_국어_a.pdf"
+    },
+    {
       "exam_id": "2026_07",
       "exam_name": "2026년 7월 모의고사",
       "subject": "국어",
@@ -7305,6 +7314,999 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "2",
+      "score": 2,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 1,
+      "topic": "독서",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "전기류",
+        "진로 독서",
+        "도해 조직자",
+        "대립 척도표"
+      ],
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 2,
+      "topic": "독서",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "자기 성찰",
+        "최종 판단 유보",
+        "주체적 평가"
+      ],
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 3,
+      "topic": "독서",
+      "subtopic": "외적 준거",
+      "difficulty": "중",
+      "keywords": [
+        "요리사 자서전",
+        "독서록",
+        "도해 조직자",
+        "보기"
+      ],
+      "question_page": 1,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 3,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 4,
+      "topic": "독서",
+      "subtopic": "추론",
+      "difficulty": "중",
+      "keywords": [
+        "종 차별주의",
+        "고차원적 정신 능력",
+        "유대감",
+        "추론"
+      ],
+      "question_page": 2,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 5,
+      "topic": "독서",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "윤리적 행동주의",
+        "존슨",
+        "스미즈",
+        "독립성 논변"
+      ],
+      "question_page": 3,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 6,
+      "topic": "독서",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "㉮ 윤리적 행동주의",
+        "행동 동등성",
+        "도덕적 지위"
+      ],
+      "question_page": 3,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 7,
+      "topic": "독서",
+      "subtopic": "적용·추론",
+      "difficulty": "중",
+      "keywords": [
+        "표준적 입장",
+        "㉠ ㉡",
+        "행위자·피행위자"
+      ],
+      "question_page": 3,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 8,
+      "topic": "독서",
+      "subtopic": "외적 준거",
+      "difficulty": "중",
+      "keywords": [
+        "인격체",
+        "인격 종",
+        "속성 P",
+        "보기"
+      ],
+      "question_page": 3,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 3,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 9,
+      "topic": "독서",
+      "subtopic": "어휘",
+      "difficulty": "중",
+      "keywords": [
+        "ⓐ 구별된다",
+        "ⓑ 부여하기",
+        "바꿔쓰기"
+      ],
+      "question_page": 3,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 10,
+      "topic": "독서",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "어댑터",
+        "변압기",
+        "정류기",
+        "정전압 소자"
+      ],
+      "question_page": 4,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 11,
+      "topic": "독서",
+      "subtopic": "추론",
+      "difficulty": "중",
+      "keywords": [
+        "특별한 경우",
+        "선형 방식",
+        "노이즈",
+        "전압 변동"
+      ],
+      "question_page": 4,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 12,
+      "topic": "독서",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "㉠ 선형",
+        "㉡ 스위칭",
+        "비교 회로",
+        "온오프비"
+      ],
+      "question_page": 4,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 13,
+      "topic": "독서",
+      "subtopic": "외적 준거",
+      "difficulty": "중",
+      "keywords": [
+        "스위칭 어댑터",
+        "일차·이차 측",
+        "온오프비",
+        "보기"
+      ],
+      "question_page": 5,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 3,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 14,
+      "topic": "독서",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "오피니언 리더",
+        "2단계 유통 이론",
+        "라자스펠트",
+        "대인 커뮤니케이션"
+      ],
+      "question_page": 5,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 15,
+      "topic": "독서",
+      "subtopic": "추론",
+      "difficulty": "중",
+      "keywords": [
+        "㉠ 미디어 영향력 미미",
+        "이유",
+        "1차적 사회 집단"
+      ],
+      "question_page": 5,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 16,
+      "topic": "독서",
+      "subtopic": "외적 준거",
+      "difficulty": "중",
+      "keywords": [
+        "㉮ 2단계 유통",
+        "㉯ 비판론",
+        "갑·을",
+        "보기"
+      ],
+      "question_page": 6,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 3,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 17,
+      "topic": "독서",
+      "subtopic": "어휘",
+      "difficulty": "중",
+      "keywords": [
+        "ⓐ 벗어나",
+        "문맥적 의미"
+      ],
+      "question_page": 6,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 18,
+      "topic": "고전소설",
+      "subtopic": "인물 분석",
+      "difficulty": "중",
+      "keywords": [
+        "한 소년",
+        "장 소저",
+        "김희경",
+        "등과"
+      ],
+      "question_page": 7,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 19,
+      "topic": "고전소설",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "㉠~㉢",
+        "등과",
+        "부친 신원",
+        "맹약"
+      ],
+      "question_page": 7,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 20,
+      "topic": "고전소설",
+      "subtopic": "인물 분석",
+      "difficulty": "중",
+      "keywords": [
+        "[A][B]",
+        "남복 입기",
+        "윤리적 의무",
+        "사회적 성취"
+      ],
+      "question_page": 7,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 21,
+      "topic": "고전소설",
+      "subtopic": "외적 준거",
+      "difficulty": "중",
+      "keywords": [
+        "보조적 인물",
+        "시비 영춘",
+        "주종 관계",
+        "보기"
+      ],
+      "question_page": 7,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 3,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 22,
+      "topic": "현대시",
+      "subtopic": "표현 기법",
+      "difficulty": "중",
+      "keywords": [
+        "가오리 날아오르다",
+        "잘 익은 사과",
+        "공작관문고 자서",
+        "공통점"
+      ],
+      "question_page": 8,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 23,
+      "topic": "현대시",
+      "subtopic": "시어의 의미",
+      "difficulty": "중",
+      "keywords": [
+        "[A]",
+        "그럴 즈음",
+        "대낮",
+        "시적 공간"
+      ],
+      "question_page": 9,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 24,
+      "topic": "현대시",
+      "subtopic": "외적 준거",
+      "difficulty": "중",
+      "keywords": [
+        "상상력",
+        "시적 현실",
+        "이미지",
+        "보기"
+      ],
+      "question_page": 9,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 3,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 25,
+      "topic": "고전수필",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "(다) 공작관문고 자서",
+        "이명",
+        "코골이",
+        "도"
+      ],
+      "question_page": 9,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 26,
+      "topic": "복합 문학",
+      "subtopic": "외적 준거",
+      "difficulty": "중",
+      "keywords": [
+        "[C]",
+        "㉮~㉲",
+        "창작·감상",
+        "수업 활동"
+      ],
+      "question_page": 9,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 27,
+      "topic": "현대시",
+      "subtopic": "시어의 의미",
+      "difficulty": "중",
+      "keywords": [
+        "㉠~㉤",
+        "둥싯",
+        "치르르치르르",
+        "오물오물"
+      ],
+      "question_page": 10,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 28,
+      "topic": "현대소설",
+      "subtopic": "내용 파악",
+      "difficulty": "중",
+      "keywords": [
+        "판옥",
+        "삼룡",
+        "편지",
+        "이민"
+      ],
+      "question_page": 11,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 29,
+      "topic": "현대소설",
+      "subtopic": "서술 방식",
+      "difficulty": "중",
+      "keywords": [
+        "[A]~[E]",
+        "간접 인용",
+        "관용 표현"
+      ],
+      "question_page": 11,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 30,
+      "topic": "현대소설",
+      "subtopic": "소재의 상징",
+      "difficulty": "중",
+      "keywords": [
+        "㉠~㉢",
+        "편지",
+        "서사적 기능",
+        "결정 번복"
+      ],
+      "question_page": 11,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 31,
+      "topic": "현대소설",
+      "subtopic": "외적 준거",
+      "difficulty": "중",
+      "keywords": [
+        "디아스포라",
+        "고향 상실",
+        "환멸",
+        "의지",
+        "보기"
+      ],
+      "question_page": 11,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 3,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 32,
+      "topic": "고전시가",
+      "subtopic": "표현 기법",
+      "difficulty": "중",
+      "keywords": [
+        "㉠~㉤",
+        "계절적 배경",
+        "의문형 종결",
+        "고사"
+      ],
+      "question_page": 12,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 33,
+      "topic": "고전시가",
+      "subtopic": "시어의 의미",
+      "difficulty": "중",
+      "keywords": [
+        "꿈",
+        "[A]",
+        "말소리 울리는 듯",
+        "생시"
+      ],
+      "question_page": 12,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 34,
+      "topic": "고전시가",
+      "subtopic": "외적 준거",
+      "difficulty": "중",
+      "keywords": [
+        "유배 가사",
+        "사대부 정체성",
+        "심적 고통",
+        "보기"
+      ],
+      "question_page": 12,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 3,
+      "is_common": "공통"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 35,
+      "topic": "화법",
+      "subtopic": "말하기 방식",
+      "difficulty": "중",
+      "keywords": [
+        "강연",
+        "이해 여부 확인",
+        "안내",
+        "비언어적 표현"
+      ],
+      "question_page": 13,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 36,
+      "topic": "화법",
+      "subtopic": "자료 활용",
+      "difficulty": "중",
+      "keywords": [
+        "㉠~㉤ 자료",
+        "제토",
+        "인양",
+        "자료 활용"
+      ],
+      "question_page": 13,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 37,
+      "topic": "화법",
+      "subtopic": "반응 이해",
+      "difficulty": "중",
+      "keywords": [
+        "학생 대화",
+        "배경지식",
+        "유용성",
+        "탐색"
+      ],
+      "question_page": 13,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 38,
+      "topic": "화법",
+      "subtopic": "대화 분석",
+      "difficulty": "중",
+      "keywords": [
+        "메모",
+        "언급되지 않은 내용",
+        "축제 후기"
+      ],
+      "question_page": 14,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 39,
+      "topic": "화법",
+      "subtopic": "대화 분석",
+      "difficulty": "중",
+      "keywords": [
+        "㉠~㉤",
+        "세부 정보 요청",
+        "의문 제기",
+        "재진술"
+      ],
+      "question_page": 15,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 40,
+      "topic": "화법+작문",
+      "subtopic": "담화 내용 반영",
+      "difficulty": "중",
+      "keywords": [
+        "편집부 요청 사항",
+        "ⓐ~ⓒ",
+        "초고 반영"
+      ],
+      "question_page": 15,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 3,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 41,
+      "topic": "작문",
+      "subtopic": "자료 활용",
+      "difficulty": "중",
+      "keywords": [
+        "사전 조사 결과",
+        "㉮~㉰",
+        "글쓰기 계획 반영"
+      ],
+      "question_page": 15,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 42,
+      "topic": "작문",
+      "subtopic": "초고 수정",
+      "difficulty": "중",
+      "keywords": [
+        "마지막 문단 고쳐쓰기",
+        "중복 삭제",
+        "의의",
+        "조언"
+      ],
+      "question_page": 15,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 43,
+      "topic": "작문",
+      "subtopic": "글쓰기 방식",
+      "difficulty": "중",
+      "keywords": [
+        "글쓰기 방식",
+        "활성화 방안",
+        "주체별 서술"
+      ],
+      "question_page": 16,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 44,
+      "topic": "작문",
+      "subtopic": "초고 수정",
+      "difficulty": "중",
+      "keywords": [
+        "[A] 마무리",
+        "문제·전망",
+        "사례 도출"
+      ],
+      "question_page": 16,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 45,
+      "topic": "작문",
+      "subtopic": "자료 활용",
+      "difficulty": "중",
+      "keywords": [
+        "ㄱ·ㄴ·ㄷ 자료",
+        "조사·인터뷰·보고서",
+        "자료 활용"
+      ],
+      "question_page": 16,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 3,
+      "is_common": "화법과작문"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 35,
+      "topic": "언어",
+      "subtopic": "형태론",
+      "difficulty": "중",
+      "keywords": [
+        "색채어",
+        "자음·모음 교체",
+        "접사",
+        "선명함"
+      ],
+      "question_page": 13,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 36,
+      "topic": "언어",
+      "subtopic": "국어사·중세국어",
+      "difficulty": "중",
+      "keywords": [
+        "15세기 국어",
+        "-아/어 ᄒᆞ다",
+        "불규칙 활용",
+        "학습 활동"
+      ],
+      "question_page": 13,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 37,
+      "topic": "언어",
+      "subtopic": "담화와 화용론",
+      "difficulty": "중",
+      "keywords": [
+        "자기",
+        "대용 표현",
+        "언어적 맥락",
+        "한정"
+      ],
+      "question_page": 13,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 38,
+      "topic": "언어",
+      "subtopic": "음운론",
+      "difficulty": "중",
+      "keywords": [
+        "한자어 ㄹ 뒤 경음화",
+        "조건",
+        "결격",
+        "[A]"
+      ],
+      "question_page": 14,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 39,
+      "topic": "언어",
+      "subtopic": "통사론",
+      "difficulty": "중",
+      "keywords": [
+        "㉠~㉢",
+        "안긴절",
+        "보어",
+        "필수적 부사어",
+        "관형어"
+      ],
+      "question_page": 15,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 3,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 40,
+      "topic": "매체",
+      "subtopic": "온라인 소통 매체",
+      "difficulty": "중",
+      "keywords": [
+        "실시간 인터넷 방송",
+        "자막",
+        "하이퍼링크",
+        "정보 전달"
+      ],
+      "question_page": 15,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 41,
+      "topic": "매체",
+      "subtopic": "매체 언어의 특성",
+      "difficulty": "중",
+      "keywords": [
+        "(나) 카드 뉴스",
+        "제작 계획",
+        "그래프",
+        "표제어"
+      ],
+      "question_page": 15,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 42,
+      "topic": "매체",
+      "subtopic": "매체 수용과 생산",
+      "difficulty": "중",
+      "keywords": [
+        "시청자 반응",
+        "꿈나무·강물·햇살가득",
+        "신뢰성 의문"
+      ],
+      "question_page": 15,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 43,
+      "topic": "매체",
+      "subtopic": "매체 언어의 특성",
+      "difficulty": "중",
+      "keywords": [
+        "㉠~㉤",
+        "-면서·-ㄹ 수 있다·-겠-",
+        "문법 요소"
+      ],
+      "question_page": 16,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 44,
+      "topic": "매체",
+      "subtopic": "매체 자료의 수용",
+      "difficulty": "중",
+      "keywords": [
+        "둘레길 앱",
+        "주변 명소",
+        "경유지",
+        "대화 이해"
+      ],
+      "question_page": 16,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 3,
+      "is_common": "언어와매체"
+    },
+    {
+      "exam_id": "2026_09",
+      "question_no": 45,
+      "topic": "매체",
+      "subtopic": "온라인 소통 매체",
+      "difficulty": "중",
+      "keywords": [
+        "매체 활용 방식",
+        "투표함·파일 전송·예약 메시지",
+        "기능"
+      ],
+      "question_page": 16,
+      "answer_page": 1,
+      "correct_answer": "5",
       "score": 2,
       "is_common": "언어와매체"
     }
