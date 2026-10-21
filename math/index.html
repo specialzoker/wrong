@@ -551,6 +551,8 @@
       // 점수 2 이상(같은 유형 이상)을 우선 추천하고, 5개 미만이면 같은 영역(1점)까지 넓힌다
       var sameTrack = function(q) { return wrongQ.is_common === '공통' ? q.is_common === '공통' : q.is_common === wrongQ.is_common; };
       var DIFF_RANK = { '상': 3, '중': 2, '하': 1 };
+      var REC_MAX = 10, REC_PER_EXAM = 5, EXAM_DATE = {};
+      (state.allData.exams || []).forEach(function(e) { EXAM_DATE[e.exam_id] = e.exam_date || ''; });
       var scored = [];
       allQuestions.forEach(function(q) {
         if (q.exam_id === examId || !sameTrack(q)) return;
@@ -559,11 +561,20 @@
       });
       var strong = scored.filter(function(x) { return x.s >= 2; });
       var pool = strong.length >= 5 ? strong : scored;
-      // 점수 높은 순, 같은 점수 안에서는 난이도 내림차순(상>중>하) → 상위 30개
+      // 유사도 높은 순 → 같으면 최근 시험 먼저 → 난이도(상>중>하). 시험당 최대 5개, 총 10개
       pool.sort(function(a, b) {
-        return (b.s - a.s) || ((DIFF_RANK[b.q.difficulty] || 0) - (DIFF_RANK[a.q.difficulty] || 0));
+        return (b.s - a.s)
+          || String(EXAM_DATE[b.q.exam_id] || '').localeCompare(String(EXAM_DATE[a.q.exam_id] || ''))
+          || ((DIFF_RANK[b.q.difficulty] || 0) - (DIFF_RANK[a.q.difficulty] || 0))
+          || (Number(a.q.question_no) - Number(b.q.question_no));
       });
-      var similar = pool.slice(0, 30).map(function(x) { return x.q; });
+      var similar = [], perExam = {};
+      for (var pi = 0; pi < pool.length && similar.length < REC_MAX; pi++) {
+        var pid = pool[pi].q.exam_id;
+        if ((perExam[pid] || 0) >= REC_PER_EXAM) continue;
+        perExam[pid] = (perExam[pid] || 0) + 1;
+        similar.push(pool[pi].q);
+      }
       recommendations.push({ wrongQuestion: wrongQ, similarQuestions: similar });
     });
 
