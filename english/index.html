@@ -505,6 +505,8 @@
       allQuestions.forEach(function(q) {
         if (q.exam_id === examId || !sameTrack(q)) return;
         var s = simScore(wrongQ, q);
+        // 같은 유형(2점 이상)이면서 소재(domain)까지 같으면 우선
+        if (s >= 2 && wrongQ.domain && q.domain === wrongQ.domain) s += 0.5;
         if (s > 0) scored.push({ q: q, s: s });
       });
       var strong = scored.filter(function(x) { return x.s >= 2; });
@@ -588,6 +590,7 @@
         html += '<div><div class="rec-title">' + examName + ' &nbsp;' + sq.question_no + '번</div>';
         html += '<div class="rec-meta">' + sq.topic + ' > ' + sq.subtopic + ((sq.unit || sq.detail) ? ' > ' + (sq.unit || sq.detail) : '')
           + ((wq.code && (wq.unit || wq.detail) && sq.code === wq.code) ? ' <b style="color:var(--accent)">· 같은 세부유형</b>' : '')
+          + ((wq.domain && sq.domain === wq.domain) ? ' <b style="color:var(--primary)">· 같은 소재(' + (sq.domain_name || sq.domain) + ')</b>' : '')
           + '</div></div>';
         html += '<div style="display:flex;align-items:center;gap:8px">';
         html += '<span class="rec-badge badge-' + sq.difficulty + '">' + sq.difficulty + '</span>';

@@ -135,20 +135,26 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L01",
+      "code_src": "auto",
+      "detail": "목적 파악"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 2,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "논리적 응답",
+      "subtopic": "의사소통/정보",
       "difficulty": "중",
       "keywords": "여자 의견, 실내 암벽 등반, 문제 해결",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L02",
+      "code_src": "auto",
+      "detail": "의견 파악"
     },
     {
       "exam_id": "2026-sn",
@@ -161,7 +167,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L03",
+      "code_src": "auto",
+      "detail": "요지 파악"
     },
     {
       "exam_id": "2026-sn",
@@ -174,7 +183,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L04",
+      "code_src": "auto",
+      "detail": "그림 불일치"
     },
     {
       "exam_id": "2026-sn",
@@ -187,7 +199,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L05",
+      "code_src": "auto",
+      "detail": "할 일 파악"
     },
     {
       "exam_id": "2026-sn",
@@ -200,7 +215,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L06",
+      "code_src": "auto",
+      "detail": "숫자 계산(금액)"
     },
     {
       "exam_id": "2026-sn",
@@ -213,7 +231,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L07",
+      "code_src": "auto",
+      "detail": "이유 파악"
     },
     {
       "exam_id": "2026-sn",
@@ -226,7 +247,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L08",
+      "code_src": "auto",
+      "detail": "언급 안 된 것"
     },
     {
       "exam_id": "2026-sn",
@@ -239,7 +263,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L09",
+      "code_src": "auto",
+      "detail": "내용 불일치"
     },
     {
       "exam_id": "2026-sn",
@@ -252,7 +279,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L10",
+      "code_src": "auto",
+      "detail": "도표 파악"
     },
     {
       "exam_id": "2026-sn",
@@ -265,7 +295,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2026-sn",
@@ -278,7 +311,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2026-sn",
@@ -291,7 +327,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2026-sn",
@@ -304,20 +343,26 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 15,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "의사소통/정보",
+      "subtopic": "논리적 응답",
       "difficulty": "중",
       "keywords": "상황 설명, Olivia, 자전거 역사 프로젝트",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L13",
+      "code_src": "auto",
+      "detail": "상황 응답"
     },
     {
       "exam_id": "2026-sn",
@@ -330,7 +375,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L14",
+      "code_src": "auto",
+      "detail": "담화 주제 파악"
     },
     {
       "exam_id": "2026-sn",
@@ -343,33 +391,42 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L15",
+      "code_src": "auto",
+      "detail": "담화 세부 내용"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 18,
       "section": "독해",
-      "topic": "간접 쓰기",
-      "subtopic": "글의 일관성",
+      "topic": "핵심 파악",
+      "subtopic": "대의 파악",
       "difficulty": "중",
       "keywords": "목적, 동아리 개설 제안서, Amanda Clark",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R101",
+      "code_src": "auto",
+      "detail": "글의 목적"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 19,
       "section": "독해",
-      "topic": "핵심 파악",
-      "subtopic": "함축 의미",
+      "topic": "순서/삽입",
+      "subtopic": "Anecdote (일화/스토리텔링)",
       "difficulty": "중",
       "keywords": "심경 변화, Sophie, confused→pleased",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R202",
+      "code_src": "auto",
+      "detail": "심경 변화"
     },
     {
       "exam_id": "2026-sn",
@@ -382,7 +439,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R102",
+      "code_src": "auto",
+      "detail": "필자의 주장"
     },
     {
       "exam_id": "2026-sn",
@@ -395,7 +455,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R201",
+      "code_src": "auto",
+      "detail": "밑줄 친 표현 의미"
     },
     {
       "exam_id": "2026-sn",
@@ -408,7 +471,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R103",
+      "code_src": "auto",
+      "detail": "요지"
     },
     {
       "exam_id": "2026-sn",
@@ -421,7 +487,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R104",
+      "code_src": "auto",
+      "detail": "주제"
     },
     {
       "exam_id": "2026-sn",
@@ -434,7 +503,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "R105",
+      "code_src": "auto",
+      "detail": "제목"
     },
     {
       "exam_id": "2026-sn",
@@ -447,7 +519,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R301",
+      "code_src": "auto",
+      "detail": "도표 분석"
     },
     {
       "exam_id": "2026-sn",
@@ -460,20 +535,26 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R302",
+      "code_src": "auto",
+      "detail": "내용 일치·불일치"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 27,
       "section": "독해",
       "topic": "세부 정보",
-      "subtopic": "Listing / Enumeration (단순 나열)",
+      "subtopic": "사실 관계",
       "difficulty": "중",
       "keywords": "안내문 불일치, School Bell Sound Contest, 선택 수",
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R303",
+      "code_src": "auto",
+      "detail": "안내문 불일치"
     },
     {
       "exam_id": "2026-sn",
@@ -486,7 +567,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R304",
+      "code_src": "auto",
+      "detail": "안내문 일치"
     },
     {
       "exam_id": "2026-sn",
@@ -499,7 +583,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R401",
+      "code_src": "auto",
+      "detail": "어법(문법)"
     },
     {
       "exam_id": "2026-sn",
@@ -512,7 +599,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R402",
+      "code_src": "auto",
+      "detail": "어휘(문맥 부적절)"
     },
     {
       "exam_id": "2026-sn",
@@ -525,7 +615,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2026-sn",
@@ -538,7 +630,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2026-sn",
@@ -551,7 +645,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2026-sn",
@@ -564,7 +660,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2026-sn",
@@ -577,59 +675,74 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R601",
+      "code_src": "auto",
+      "detail": "무관한 문장 찾기"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 36,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence (과정/시간 순서)",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "글 순서, 시계, 반복적 과정",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 37,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence (과정/시간 순서)",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "글 순서, 철학, 인지과학, 경험적 보완",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 38,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence (과정/시간 순서)",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "문장 삽입, 내러티브, 정체성",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 39,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence (과정/시간 순서)",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "문장 삽입, 비디오 게임, 아바타 지각",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2026-sn",
@@ -642,7 +755,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R604",
+      "code_src": "auto",
+      "detail": "요약문 완성"
     },
     {
       "exam_id": "2026-sn",
@@ -655,7 +771,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "R701",
+      "code_src": "auto",
+      "detail": "제목(장문)"
     },
     {
       "exam_id": "2026-sn",
@@ -668,7 +787,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R702",
+      "code_src": "auto",
+      "detail": "어휘(장문)"
     },
     {
       "exam_id": "2026-sn",
@@ -681,7 +803,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R703",
+      "code_src": "auto",
+      "detail": "순서(장문)"
     },
     {
       "exam_id": "2026-sn",
@@ -694,7 +819,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R704",
+      "code_src": "auto",
+      "detail": "지칭(장문)"
     },
     {
       "exam_id": "2026-sn",
@@ -707,7 +835,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R705",
+      "code_src": "auto",
+      "detail": "내용 일치(장문)"
     },
     {
       "exam_id": "2026-3",
@@ -720,20 +851,26 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L01",
+      "code_src": "auto",
+      "detail": "목적 파악"
     },
     {
       "exam_id": "2026-3",
       "question_no": 2,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "논리적 응답",
+      "subtopic": "의사소통/정보",
       "difficulty": "중",
       "keywords": "여자 의견, 복습, 기억에 오래 남음",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L02",
+      "code_src": "auto",
+      "detail": "의견 파악"
     },
     {
       "exam_id": "2026-3",
@@ -746,7 +883,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L03",
+      "code_src": "auto",
+      "detail": "요지 파악"
     },
     {
       "exam_id": "2026-3",
@@ -759,7 +899,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L04",
+      "code_src": "auto",
+      "detail": "그림 불일치"
     },
     {
       "exam_id": "2026-3",
@@ -772,7 +915,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L05",
+      "code_src": "auto",
+      "detail": "할 일 파악"
     },
     {
       "exam_id": "2026-3",
@@ -785,7 +931,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "L06",
+      "code_src": "auto",
+      "detail": "숫자 계산(금액)"
     },
     {
       "exam_id": "2026-3",
@@ -798,7 +947,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L07",
+      "code_src": "auto",
+      "detail": "이유 파악"
     },
     {
       "exam_id": "2026-3",
@@ -811,7 +963,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L08",
+      "code_src": "auto",
+      "detail": "언급 안 된 것"
     },
     {
       "exam_id": "2026-3",
@@ -824,7 +979,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L09",
+      "code_src": "auto",
+      "detail": "내용 불일치"
     },
     {
       "exam_id": "2026-3",
@@ -837,7 +995,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L10",
+      "code_src": "auto",
+      "detail": "도표 파악"
     },
     {
       "exam_id": "2026-3",
@@ -850,7 +1011,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2026-3",
@@ -863,7 +1027,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2026-3",
@@ -876,7 +1043,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2026-3",
@@ -889,20 +1059,26 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2026-3",
       "question_no": 15,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "의사소통/정보",
+      "subtopic": "논리적 응답",
       "difficulty": "상",
       "keywords": "상황 설명, Sophia, 캐릭터 협업 마케팅",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "L13",
+      "code_src": "auto",
+      "detail": "상황 응답"
     },
     {
       "exam_id": "2026-3",
@@ -915,7 +1091,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L14",
+      "code_src": "auto",
+      "detail": "담화 주제 파악"
     },
     {
       "exam_id": "2026-3",
@@ -928,33 +1107,42 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L15",
+      "code_src": "auto",
+      "detail": "담화 세부 내용"
     },
     {
       "exam_id": "2026-3",
       "question_no": 18,
       "section": "독해",
-      "topic": "간접 쓰기",
-      "subtopic": "글의 일관성",
+      "topic": "핵심 파악",
+      "subtopic": "대의 파악",
       "difficulty": "중",
       "keywords": "목적, 칼럼 휴재 공지, 작가 건강 문제",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R101",
+      "code_src": "auto",
+      "detail": "글의 목적"
     },
     {
       "exam_id": "2026-3",
       "question_no": 19,
       "section": "독해",
-      "topic": "핵심 파악",
-      "subtopic": "함축 의미",
+      "topic": "순서/삽입",
+      "subtopic": "Anecdote (일화/스토리텔링)",
       "difficulty": "중",
       "keywords": "심경 변화, 첫 출근, isolated to welcomed",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R202",
+      "code_src": "auto",
+      "detail": "심경 변화"
     },
     {
       "exam_id": "2026-3",
@@ -967,7 +1155,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R102",
+      "code_src": "auto",
+      "detail": "필자의 주장"
     },
     {
       "exam_id": "2026-3",
@@ -980,7 +1171,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R201",
+      "code_src": "auto",
+      "detail": "밑줄 친 표현 의미"
     },
     {
       "exam_id": "2026-3",
@@ -993,7 +1187,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R103",
+      "code_src": "auto",
+      "detail": "요지"
     },
     {
       "exam_id": "2026-3",
@@ -1006,7 +1203,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R104",
+      "code_src": "auto",
+      "detail": "주제"
     },
     {
       "exam_id": "2026-3",
@@ -1019,7 +1219,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "R105",
+      "code_src": "auto",
+      "detail": "제목"
     },
     {
       "exam_id": "2026-3",
@@ -1032,7 +1235,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R301",
+      "code_src": "auto",
+      "detail": "도표 분석"
     },
     {
       "exam_id": "2026-3",
@@ -1045,20 +1251,26 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R302",
+      "code_src": "auto",
+      "detail": "내용 일치·불일치"
     },
     {
       "exam_id": "2026-3",
       "question_no": 27,
       "section": "독해",
       "topic": "세부 정보",
-      "subtopic": "Listing / Enumeration",
+      "subtopic": "사실 관계",
       "difficulty": "중",
       "keywords": "안내문 불일치, River Breeze Campsite, 드론 비행 금지",
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R303",
+      "code_src": "auto",
+      "detail": "안내문 불일치"
     },
     {
       "exam_id": "2026-3",
@@ -1071,7 +1283,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R304",
+      "code_src": "auto",
+      "detail": "안내문 일치"
     },
     {
       "exam_id": "2026-3",
@@ -1084,7 +1299,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R401",
+      "code_src": "auto",
+      "detail": "어법(문법)"
     },
     {
       "exam_id": "2026-3",
@@ -1097,7 +1315,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R402",
+      "code_src": "auto",
+      "detail": "어휘(문맥 부적절)"
     },
     {
       "exam_id": "2026-3",
@@ -1110,7 +1331,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2026-3",
@@ -1123,7 +1346,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2026-3",
@@ -1136,7 +1361,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2026-3",
@@ -1149,7 +1376,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2026-3",
@@ -1162,59 +1391,74 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R601",
+      "code_src": "auto",
+      "detail": "무관한 문장 찾기"
     },
     {
       "exam_id": "2026-3",
       "question_no": 36,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "글 순서, 도덕적 고려, 숙고 종결자",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2026-3",
       "question_no": 37,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "글 순서, 우주 팽창, 허무로의 팽창",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2026-3",
       "question_no": 38,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "문장 삽입, 제스처와 언어 차이",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2026-3",
       "question_no": 39,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "문장 삽입, 인식론적 공동체, 전문 지식 접근",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2026-3",
@@ -1227,7 +1471,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R604",
+      "code_src": "auto",
+      "detail": "요약문 완성"
     },
     {
       "exam_id": "2026-3",
@@ -1240,7 +1487,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R701",
+      "code_src": "auto",
+      "detail": "제목(장문)"
     },
     {
       "exam_id": "2026-3",
@@ -1253,7 +1503,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R702",
+      "code_src": "auto",
+      "detail": "어휘(장문)"
     },
     {
       "exam_id": "2026-3",
@@ -1266,7 +1519,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R703",
+      "code_src": "auto",
+      "detail": "순서(장문)"
     },
     {
       "exam_id": "2026-3",
@@ -1279,7 +1535,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R704",
+      "code_src": "auto",
+      "detail": "지칭(장문)"
     },
     {
       "exam_id": "2026-3",
@@ -1292,7 +1551,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R705",
+      "code_src": "auto",
+      "detail": "내용 일치(장문)"
     },
     {
       "exam_id": "2025-sn",
@@ -1305,20 +1567,26 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L01",
+      "code_src": "auto",
+      "detail": "목적 파악"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 2,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "논리적 응답",
+      "subtopic": "의사소통/정보",
       "difficulty": "중",
       "keywords": "남자 의견, 드라마 캠프, 다양한 시각",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L02",
+      "code_src": "auto",
+      "detail": "의견 파악"
     },
     {
       "exam_id": "2025-sn",
@@ -1331,7 +1599,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L03",
+      "code_src": "auto",
+      "detail": "요지 파악"
     },
     {
       "exam_id": "2025-sn",
@@ -1344,7 +1615,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L04",
+      "code_src": "auto",
+      "detail": "그림 불일치"
     },
     {
       "exam_id": "2025-sn",
@@ -1357,7 +1631,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L05",
+      "code_src": "auto",
+      "detail": "할 일 파악"
     },
     {
       "exam_id": "2025-sn",
@@ -1370,7 +1647,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L06",
+      "code_src": "auto",
+      "detail": "숫자 계산(금액)"
     },
     {
       "exam_id": "2025-sn",
@@ -1383,7 +1663,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L07",
+      "code_src": "auto",
+      "detail": "이유 파악"
     },
     {
       "exam_id": "2025-sn",
@@ -1396,7 +1679,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L08",
+      "code_src": "auto",
+      "detail": "언급 안 된 것"
     },
     {
       "exam_id": "2025-sn",
@@ -1409,7 +1695,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L09",
+      "code_src": "auto",
+      "detail": "내용 불일치"
     },
     {
       "exam_id": "2025-sn",
@@ -1422,7 +1711,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L10",
+      "code_src": "auto",
+      "detail": "도표 파악"
     },
     {
       "exam_id": "2025-sn",
@@ -1435,7 +1727,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2025-sn",
@@ -1448,7 +1743,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2025-sn",
@@ -1461,7 +1759,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2025-sn",
@@ -1474,20 +1775,26 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 15,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "의사소통/정보",
+      "subtopic": "논리적 응답",
       "difficulty": "상",
       "keywords": "상황 설명, Sophia, 콘서트 일찍 출발",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "L13",
+      "code_src": "auto",
+      "detail": "상황 응답"
     },
     {
       "exam_id": "2025-sn",
@@ -1500,7 +1807,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L14",
+      "code_src": "auto",
+      "detail": "담화 주제 파악"
     },
     {
       "exam_id": "2025-sn",
@@ -1513,33 +1823,42 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L15",
+      "code_src": "auto",
+      "detail": "담화 세부 내용"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 18,
       "section": "독해",
-      "topic": "간접 쓰기",
-      "subtopic": "글의 일관성",
+      "topic": "핵심 파악",
+      "subtopic": "대의 파악",
       "difficulty": "중",
       "keywords": "목적, 마라톤 취소 공지, 강우",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R101",
+      "code_src": "auto",
+      "detail": "글의 목적"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 19,
       "section": "독해",
-      "topic": "핵심 파악",
-      "subtopic": "함축 의미",
+      "topic": "순서/삽입",
+      "subtopic": "Anecdote (일화/스토리텔링)",
       "difficulty": "중",
       "keywords": "심경 변화, Peter, confident to disappointed",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R202",
+      "code_src": "auto",
+      "detail": "심경 변화"
     },
     {
       "exam_id": "2025-sn",
@@ -1552,7 +1871,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R102",
+      "code_src": "auto",
+      "detail": "필자의 주장"
     },
     {
       "exam_id": "2025-sn",
@@ -1565,7 +1887,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R201",
+      "code_src": "auto",
+      "detail": "밑줄 친 표현 의미"
     },
     {
       "exam_id": "2025-sn",
@@ -1578,7 +1903,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R103",
+      "code_src": "auto",
+      "detail": "요지"
     },
     {
       "exam_id": "2025-sn",
@@ -1591,7 +1919,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R104",
+      "code_src": "auto",
+      "detail": "주제"
     },
     {
       "exam_id": "2025-sn",
@@ -1604,7 +1935,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R105",
+      "code_src": "auto",
+      "detail": "제목"
     },
     {
       "exam_id": "2025-sn",
@@ -1617,7 +1951,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R301",
+      "code_src": "auto",
+      "detail": "도표 분석"
     },
     {
       "exam_id": "2025-sn",
@@ -1630,20 +1967,26 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R302",
+      "code_src": "auto",
+      "detail": "내용 일치·불일치"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 27,
       "section": "독해",
       "topic": "세부 정보",
-      "subtopic": "Listing / Enumeration",
+      "subtopic": "사실 관계",
       "difficulty": "중",
       "keywords": "안내문 불일치, Adenville City Pass, 모든 패스 할인",
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R303",
+      "code_src": "auto",
+      "detail": "안내문 불일치"
     },
     {
       "exam_id": "2025-sn",
@@ -1656,7 +1999,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R304",
+      "code_src": "auto",
+      "detail": "안내문 일치"
     },
     {
       "exam_id": "2025-sn",
@@ -1669,7 +2015,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R401",
+      "code_src": "auto",
+      "detail": "어법(문법)"
     },
     {
       "exam_id": "2025-sn",
@@ -1682,7 +2031,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R402",
+      "code_src": "auto",
+      "detail": "어휘(문맥 부적절)"
     },
     {
       "exam_id": "2025-sn",
@@ -1695,7 +2047,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2025-sn",
@@ -1708,7 +2062,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2025-sn",
@@ -1721,7 +2077,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2025-sn",
@@ -1734,7 +2092,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2025-sn",
@@ -1747,59 +2107,74 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R601",
+      "code_src": "auto",
+      "detail": "무관한 문장 찾기"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 36,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "글 순서, 시장 집행, 평판 자본, C-B-A",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 37,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "글 순서, 감정 전염, 콩새 연구, B-C-A",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 38,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "문장 삽입, 영업 비밀 보호, 특허 없는 발명가 위험",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 39,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "문장 삽입, 물건 수명 주기, 선형 모델 한계",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2025-sn",
@@ -1812,7 +2187,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R604",
+      "code_src": "auto",
+      "detail": "요약문 완성"
     },
     {
       "exam_id": "2025-sn",
@@ -1825,7 +2203,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R701",
+      "code_src": "auto",
+      "detail": "제목(장문)"
     },
     {
       "exam_id": "2025-sn",
@@ -1838,7 +2219,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R702",
+      "code_src": "auto",
+      "detail": "어휘(장문)"
     },
     {
       "exam_id": "2025-sn",
@@ -1851,7 +2235,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R703",
+      "code_src": "auto",
+      "detail": "순서(장문)"
     },
     {
       "exam_id": "2025-sn",
@@ -1864,7 +2251,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R704",
+      "code_src": "auto",
+      "detail": "지칭(장문)"
     },
     {
       "exam_id": "2025-sn",
@@ -1877,7 +2267,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R705",
+      "code_src": "auto",
+      "detail": "내용 일치(장문)"
     },
     {
       "exam_id": "2024-sn",
@@ -1890,20 +2283,26 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L01",
+      "code_src": "auto",
+      "detail": "목적 파악"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 2,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "논리적 응답",
+      "subtopic": "의사소통/정보",
       "difficulty": "중",
       "keywords": "남자 의견, 적절한 제스처, 대화 전달력",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L02",
+      "code_src": "auto",
+      "detail": "의견 파악"
     },
     {
       "exam_id": "2024-sn",
@@ -1916,7 +2315,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L03",
+      "code_src": "auto",
+      "detail": "요지 파악"
     },
     {
       "exam_id": "2024-sn",
@@ -1929,7 +2331,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L04",
+      "code_src": "auto",
+      "detail": "그림 불일치"
     },
     {
       "exam_id": "2024-sn",
@@ -1942,7 +2347,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L05",
+      "code_src": "auto",
+      "detail": "할 일 파악"
     },
     {
       "exam_id": "2024-sn",
@@ -1955,7 +2363,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "L06",
+      "code_src": "auto",
+      "detail": "숫자 계산(금액)"
     },
     {
       "exam_id": "2024-sn",
@@ -1968,7 +2379,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L07",
+      "code_src": "auto",
+      "detail": "이유 파악"
     },
     {
       "exam_id": "2024-sn",
@@ -1981,7 +2395,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L08",
+      "code_src": "auto",
+      "detail": "언급 안 된 것"
     },
     {
       "exam_id": "2024-sn",
@@ -1994,7 +2411,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L09",
+      "code_src": "auto",
+      "detail": "내용 불일치"
     },
     {
       "exam_id": "2024-sn",
@@ -2007,7 +2427,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L10",
+      "code_src": "auto",
+      "detail": "도표 파악"
     },
     {
       "exam_id": "2024-sn",
@@ -2020,7 +2443,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2024-sn",
@@ -2033,7 +2459,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2024-sn",
@@ -2046,7 +2475,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2024-sn",
@@ -2059,20 +2491,26 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 15,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "의사소통/정보",
+      "subtopic": "논리적 응답",
       "difficulty": "상",
       "keywords": "상황 설명, Jake, 바위 포함 사진 다시 부탁",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "L13",
+      "code_src": "auto",
+      "detail": "상황 응답"
     },
     {
       "exam_id": "2024-sn",
@@ -2085,7 +2523,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L14",
+      "code_src": "auto",
+      "detail": "담화 주제 파악"
     },
     {
       "exam_id": "2024-sn",
@@ -2098,33 +2539,42 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L15",
+      "code_src": "auto",
+      "detail": "담화 세부 내용"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 18,
       "section": "독해",
-      "topic": "간접 쓰기",
-      "subtopic": "글의 일관성",
+      "topic": "핵심 파악",
+      "subtopic": "대의 파악",
       "difficulty": "중",
       "keywords": "목적, 웹툰 제작 온라인 강좌 홍보",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R101",
+      "code_src": "auto",
+      "detail": "글의 목적"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 19,
       "section": "독해",
-      "topic": "핵심 파악",
-      "subtopic": "함축 의미",
+      "topic": "순서/삽입",
+      "subtopic": "Anecdote (일화/스토리텔링)",
       "difficulty": "중",
       "keywords": "심경 변화, David, nervous to relieved",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R202",
+      "code_src": "auto",
+      "detail": "심경 변화"
     },
     {
       "exam_id": "2024-sn",
@@ -2137,7 +2587,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R102",
+      "code_src": "auto",
+      "detail": "필자의 주장"
     },
     {
       "exam_id": "2024-sn",
@@ -2150,7 +2603,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R201",
+      "code_src": "auto",
+      "detail": "밑줄 친 표현 의미"
     },
     {
       "exam_id": "2024-sn",
@@ -2163,7 +2619,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R103",
+      "code_src": "auto",
+      "detail": "요지"
     },
     {
       "exam_id": "2024-sn",
@@ -2176,7 +2635,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R104",
+      "code_src": "auto",
+      "detail": "주제"
     },
     {
       "exam_id": "2024-sn",
@@ -2189,7 +2651,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R105",
+      "code_src": "auto",
+      "detail": "제목"
     },
     {
       "exam_id": "2024-sn",
@@ -2202,7 +2667,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R301",
+      "code_src": "auto",
+      "detail": "도표 분석"
     },
     {
       "exam_id": "2024-sn",
@@ -2215,20 +2683,26 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R302",
+      "code_src": "auto",
+      "detail": "내용 일치·불일치"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 27,
       "section": "독해",
       "topic": "세부 정보",
-      "subtopic": "Listing / Enumeration",
+      "subtopic": "사실 관계",
       "difficulty": "중",
       "keywords": "안내문 불일치, Turtle Island Boat Tour, 당일 예약 불가",
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R303",
+      "code_src": "auto",
+      "detail": "안내문 불일치"
     },
     {
       "exam_id": "2024-sn",
@@ -2241,7 +2715,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R304",
+      "code_src": "auto",
+      "detail": "안내문 일치"
     },
     {
       "exam_id": "2024-sn",
@@ -2254,7 +2731,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R401",
+      "code_src": "auto",
+      "detail": "어법(문법)"
     },
     {
       "exam_id": "2024-sn",
@@ -2267,7 +2747,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R402",
+      "code_src": "auto",
+      "detail": "어휘(문맥 부적절)"
     },
     {
       "exam_id": "2024-sn",
@@ -2280,7 +2763,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-sn",
@@ -2293,7 +2778,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-sn",
@@ -2306,7 +2793,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-sn",
@@ -2319,7 +2808,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-sn",
@@ -2332,59 +2823,74 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R601",
+      "code_src": "auto",
+      "detail": "무관한 문장 찾기"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 36,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "글 순서, 협상, C-A-B",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 37,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "글 순서, 집단 규범, C-A-B",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 38,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "문장 삽입, 과학 경쟁, 세계적 수준 경쟁",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 39,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "문장 삽입, 돌연변이 유추, 유추의 한계",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2024-sn",
@@ -2397,7 +2903,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R604",
+      "code_src": "auto",
+      "detail": "요약문 완성"
     },
     {
       "exam_id": "2024-sn",
@@ -2410,7 +2919,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R701",
+      "code_src": "auto",
+      "detail": "제목(장문)"
     },
     {
       "exam_id": "2024-sn",
@@ -2423,7 +2935,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R702",
+      "code_src": "auto",
+      "detail": "어휘(장문)"
     },
     {
       "exam_id": "2024-sn",
@@ -2436,7 +2951,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R703",
+      "code_src": "auto",
+      "detail": "순서(장문)"
     },
     {
       "exam_id": "2024-sn",
@@ -2449,7 +2967,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R704",
+      "code_src": "auto",
+      "detail": "지칭(장문)"
     },
     {
       "exam_id": "2024-sn",
@@ -2462,7 +2983,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R705",
+      "code_src": "auto",
+      "detail": "내용 일치(장문)"
     },
     {
       "exam_id": "2024-6",
@@ -2475,20 +2999,26 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L01",
+      "code_src": "auto",
+      "detail": "목적 파악"
     },
     {
       "exam_id": "2024-6",
       "question_no": 2,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "논리적 응답",
+      "subtopic": "의사소통/정보",
       "difficulty": "중",
       "keywords": "남자 의견, 소셜 미디어로 자녀 이해",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L02",
+      "code_src": "auto",
+      "detail": "의견 파악"
     },
     {
       "exam_id": "2024-6",
@@ -2501,7 +3031,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L03",
+      "code_src": "auto",
+      "detail": "요지 파악"
     },
     {
       "exam_id": "2024-6",
@@ -2514,7 +3047,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L04",
+      "code_src": "auto",
+      "detail": "그림 불일치"
     },
     {
       "exam_id": "2024-6",
@@ -2527,7 +3063,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L05",
+      "code_src": "auto",
+      "detail": "할 일 파악"
     },
     {
       "exam_id": "2024-6",
@@ -2540,7 +3079,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L06",
+      "code_src": "auto",
+      "detail": "숫자 계산(금액)"
     },
     {
       "exam_id": "2024-6",
@@ -2553,7 +3095,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L07",
+      "code_src": "auto",
+      "detail": "이유 파악"
     },
     {
       "exam_id": "2024-6",
@@ -2566,7 +3111,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L08",
+      "code_src": "auto",
+      "detail": "언급 안 된 것"
     },
     {
       "exam_id": "2024-6",
@@ -2579,7 +3127,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L09",
+      "code_src": "auto",
+      "detail": "내용 불일치"
     },
     {
       "exam_id": "2024-6",
@@ -2592,7 +3143,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L10",
+      "code_src": "auto",
+      "detail": "도표 파악"
     },
     {
       "exam_id": "2024-6",
@@ -2605,7 +3159,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2024-6",
@@ -2618,7 +3175,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2024-6",
@@ -2631,7 +3191,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2024-6",
@@ -2644,20 +3207,26 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2024-6",
       "question_no": 15,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "의사소통/정보",
+      "subtopic": "논리적 응답",
       "difficulty": "상",
       "keywords": "상황 설명, Jason, 차 타기 전 옷 먼지 털기",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "L13",
+      "code_src": "auto",
+      "detail": "상황 응답"
     },
     {
       "exam_id": "2024-6",
@@ -2670,7 +3239,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L14",
+      "code_src": "auto",
+      "detail": "담화 주제 파악"
     },
     {
       "exam_id": "2024-6",
@@ -2683,33 +3255,42 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L15",
+      "code_src": "auto",
+      "detail": "담화 세부 내용"
     },
     {
       "exam_id": "2024-6",
       "question_no": 18,
       "section": "독해",
-      "topic": "간접 쓰기",
-      "subtopic": "글의 일관성",
+      "topic": "핵심 파악",
+      "subtopic": "대의 파악",
       "difficulty": "중",
       "keywords": "목적, 부적절한 댓글 자제 요청, With Ethan 채널",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R101",
+      "code_src": "auto",
+      "detail": "글의 목적"
     },
     {
       "exam_id": "2024-6",
       "question_no": 19,
       "section": "독해",
-      "topic": "핵심 파악",
-      "subtopic": "함축 의미",
+      "topic": "순서/삽입",
+      "subtopic": "Anecdote (일화/스토리텔링)",
       "difficulty": "중",
       "keywords": "심경 변화, Timothy, frustrated to grateful",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R202",
+      "code_src": "auto",
+      "detail": "심경 변화"
     },
     {
       "exam_id": "2024-6",
@@ -2722,7 +3303,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R102",
+      "code_src": "auto",
+      "detail": "필자의 주장"
     },
     {
       "exam_id": "2024-6",
@@ -2735,7 +3319,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R201",
+      "code_src": "auto",
+      "detail": "밑줄 친 표현 의미"
     },
     {
       "exam_id": "2024-6",
@@ -2748,7 +3335,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R103",
+      "code_src": "auto",
+      "detail": "요지"
     },
     {
       "exam_id": "2024-6",
@@ -2761,7 +3351,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R104",
+      "code_src": "auto",
+      "detail": "주제"
     },
     {
       "exam_id": "2024-6",
@@ -2774,7 +3367,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "R105",
+      "code_src": "auto",
+      "detail": "제목"
     },
     {
       "exam_id": "2024-6",
@@ -2787,7 +3383,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R301",
+      "code_src": "auto",
+      "detail": "도표 분석"
     },
     {
       "exam_id": "2024-6",
@@ -2800,20 +3399,26 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R302",
+      "code_src": "auto",
+      "detail": "내용 일치·불일치"
     },
     {
       "exam_id": "2024-6",
       "question_no": 27,
       "section": "독해",
       "topic": "세부 정보",
-      "subtopic": "Listing / Enumeration",
+      "subtopic": "사실 관계",
       "difficulty": "중",
       "keywords": "안내문 불일치, Wildlife Rescue Center, 셔틀 하루 2회",
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R303",
+      "code_src": "auto",
+      "detail": "안내문 불일치"
     },
     {
       "exam_id": "2024-6",
@@ -2826,7 +3431,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R304",
+      "code_src": "auto",
+      "detail": "안내문 일치"
     },
     {
       "exam_id": "2024-6",
@@ -2839,7 +3447,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R401",
+      "code_src": "auto",
+      "detail": "어법(문법)"
     },
     {
       "exam_id": "2024-6",
@@ -2852,7 +3463,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R402",
+      "code_src": "auto",
+      "detail": "어휘(문맥 부적절)"
     },
     {
       "exam_id": "2024-6",
@@ -2865,7 +3479,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-6",
@@ -2878,7 +3494,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-6",
@@ -2891,7 +3509,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-6",
@@ -2904,7 +3524,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-6",
@@ -2917,59 +3539,74 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R601",
+      "code_src": "auto",
+      "detail": "무관한 문장 찾기"
     },
     {
       "exam_id": "2024-6",
       "question_no": 36,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "글 순서, 산불 관리, A-C-B",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2024-6",
       "question_no": 37,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "글 순서, 인적자원 관리, B-C-A",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2024-6",
       "question_no": 38,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "문장 삽입, 환경세, 연속 배출 측정 비용",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2024-6",
       "question_no": 39,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "문장 삽입, 미적 태도, 능동적 참여",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2024-6",
@@ -2982,7 +3619,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R604",
+      "code_src": "auto",
+      "detail": "요약문 완성"
     },
     {
       "exam_id": "2024-6",
@@ -2995,7 +3635,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R701",
+      "code_src": "auto",
+      "detail": "제목(장문)"
     },
     {
       "exam_id": "2024-6",
@@ -3008,7 +3651,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R702",
+      "code_src": "auto",
+      "detail": "어휘(장문)"
     },
     {
       "exam_id": "2024-6",
@@ -3021,7 +3667,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R703",
+      "code_src": "auto",
+      "detail": "순서(장문)"
     },
     {
       "exam_id": "2024-6",
@@ -3034,7 +3683,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R704",
+      "code_src": "auto",
+      "detail": "지칭(장문)"
     },
     {
       "exam_id": "2024-6",
@@ -3047,7 +3699,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R705",
+      "code_src": "auto",
+      "detail": "내용 일치(장문)"
     },
     {
       "exam_id": "2024-9",
@@ -3060,20 +3715,26 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L01",
+      "code_src": "auto",
+      "detail": "목적 파악"
     },
     {
       "exam_id": "2024-9",
       "question_no": 2,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "논리적 응답",
+      "subtopic": "의사소통/정보",
       "difficulty": "중",
       "keywords": "남자 의견, 갑작스러운 운동량 변화 신체 부담",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L02",
+      "code_src": "auto",
+      "detail": "의견 파악"
     },
     {
       "exam_id": "2024-9",
@@ -3086,7 +3747,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L03",
+      "code_src": "auto",
+      "detail": "요지 파악"
     },
     {
       "exam_id": "2024-9",
@@ -3099,7 +3763,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L04",
+      "code_src": "auto",
+      "detail": "그림 불일치"
     },
     {
       "exam_id": "2024-9",
@@ -3112,7 +3779,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L05",
+      "code_src": "auto",
+      "detail": "할 일 파악"
     },
     {
       "exam_id": "2024-9",
@@ -3125,7 +3795,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L06",
+      "code_src": "auto",
+      "detail": "숫자 계산(금액)"
     },
     {
       "exam_id": "2024-9",
@@ -3138,7 +3811,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L07",
+      "code_src": "auto",
+      "detail": "이유 파악"
     },
     {
       "exam_id": "2024-9",
@@ -3151,7 +3827,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L08",
+      "code_src": "auto",
+      "detail": "언급 안 된 것"
     },
     {
       "exam_id": "2024-9",
@@ -3164,7 +3843,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L09",
+      "code_src": "auto",
+      "detail": "내용 불일치"
     },
     {
       "exam_id": "2024-9",
@@ -3177,7 +3859,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L10",
+      "code_src": "auto",
+      "detail": "도표 파악"
     },
     {
       "exam_id": "2024-9",
@@ -3190,7 +3875,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2024-9",
@@ -3203,7 +3891,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2024-9",
@@ -3216,7 +3907,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2024-9",
@@ -3229,20 +3923,26 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2024-9",
       "question_no": 15,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "의사소통/정보",
+      "subtopic": "논리적 응답",
       "difficulty": "상",
       "keywords": "상황 설명, Roger, 룸메이트 허락 먼저 구하기",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "L13",
+      "code_src": "auto",
+      "detail": "상황 응답"
     },
     {
       "exam_id": "2024-9",
@@ -3255,7 +3955,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L14",
+      "code_src": "auto",
+      "detail": "담화 주제 파악"
     },
     {
       "exam_id": "2024-9",
@@ -3268,33 +3971,42 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L15",
+      "code_src": "auto",
+      "detail": "담화 세부 내용"
     },
     {
       "exam_id": "2024-9",
       "question_no": 18,
       "section": "독해",
-      "topic": "간접 쓰기",
-      "subtopic": "글의 일관성",
+      "topic": "핵심 파악",
+      "subtopic": "대의 파악",
       "difficulty": "중",
       "keywords": "목적, 크루즈 여행 판촉 행사 안내, ROC25 코드",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R101",
+      "code_src": "auto",
+      "detail": "글의 목적"
     },
     {
       "exam_id": "2024-9",
       "question_no": 19,
       "section": "독해",
-      "topic": "핵심 파악",
-      "subtopic": "함축 의미",
+      "topic": "순서/삽입",
+      "subtopic": "Anecdote (일화/스토리텔링)",
       "difficulty": "중",
       "keywords": "심경 변화, Sophie, anxious to relieved, 비행기 지연",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R202",
+      "code_src": "auto",
+      "detail": "심경 변화"
     },
     {
       "exam_id": "2024-9",
@@ -3307,7 +4019,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R102",
+      "code_src": "auto",
+      "detail": "필자의 주장"
     },
     {
       "exam_id": "2024-9",
@@ -3320,7 +4035,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R201",
+      "code_src": "auto",
+      "detail": "밑줄 친 표현 의미"
     },
     {
       "exam_id": "2024-9",
@@ -3333,7 +4051,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R103",
+      "code_src": "auto",
+      "detail": "요지"
     },
     {
       "exam_id": "2024-9",
@@ -3346,7 +4067,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R104",
+      "code_src": "auto",
+      "detail": "주제"
     },
     {
       "exam_id": "2024-9",
@@ -3359,7 +4083,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R105",
+      "code_src": "auto",
+      "detail": "제목"
     },
     {
       "exam_id": "2024-9",
@@ -3372,7 +4099,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R301",
+      "code_src": "auto",
+      "detail": "도표 분석"
     },
     {
       "exam_id": "2024-9",
@@ -3385,20 +4115,26 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R302",
+      "code_src": "auto",
+      "detail": "내용 일치·불일치"
     },
     {
       "exam_id": "2024-9",
       "question_no": 27,
       "section": "독해",
       "topic": "세부 정보",
-      "subtopic": "Listing / Enumeration",
+      "subtopic": "사실 관계",
       "difficulty": "중",
       "keywords": "안내문 불일치, Teverley Campus Visit Day, 점심 무료 제공",
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R303",
+      "code_src": "auto",
+      "detail": "안내문 불일치"
     },
     {
       "exam_id": "2024-9",
@@ -3411,7 +4147,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R304",
+      "code_src": "auto",
+      "detail": "안내문 일치"
     },
     {
       "exam_id": "2024-9",
@@ -3424,7 +4163,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R401",
+      "code_src": "auto",
+      "detail": "어법(문법)"
     },
     {
       "exam_id": "2024-9",
@@ -3437,7 +4179,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R402",
+      "code_src": "auto",
+      "detail": "어휘(문맥 부적절)"
     },
     {
       "exam_id": "2024-9",
@@ -3450,7 +4195,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-9",
@@ -3463,7 +4210,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-9",
@@ -3476,7 +4225,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-9",
@@ -3489,7 +4240,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2024-9",
@@ -3502,59 +4255,74 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R601",
+      "code_src": "auto",
+      "detail": "무관한 문장 찾기"
     },
     {
       "exam_id": "2024-9",
       "question_no": 36,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "글 순서, 학습과 패턴, C-B-A",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2024-9",
       "question_no": 37,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "글 순서, 동물 건강, B-C-A",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2024-9",
       "question_no": 38,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "문장 삽입, 로봇 자기 인식, 로봇이 자신을 쫓을 수 있음",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2024-9",
       "question_no": 39,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "문장 삽입, 생태계 관리, 미래 예측 불가능성",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2024-9",
@@ -3567,7 +4335,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R604",
+      "code_src": "auto",
+      "detail": "요약문 완성"
     },
     {
       "exam_id": "2024-9",
@@ -3580,7 +4351,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R701",
+      "code_src": "auto",
+      "detail": "제목(장문)"
     },
     {
       "exam_id": "2024-9",
@@ -3593,7 +4367,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R702",
+      "code_src": "auto",
+      "detail": "어휘(장문)"
     },
     {
       "exam_id": "2024-9",
@@ -3606,7 +4383,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R703",
+      "code_src": "auto",
+      "detail": "순서(장문)"
     },
     {
       "exam_id": "2024-9",
@@ -3619,7 +4399,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R704",
+      "code_src": "auto",
+      "detail": "지칭(장문)"
     },
     {
       "exam_id": "2024-9",
@@ -3632,7 +4415,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R705",
+      "code_src": "auto",
+      "detail": "내용 일치(장문)"
     },
     {
       "exam_id": "2025-6",
@@ -3645,20 +4431,26 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L01",
+      "code_src": "auto",
+      "detail": "목적 파악"
     },
     {
       "exam_id": "2025-6",
       "question_no": 2,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "논리적 응답",
+      "subtopic": "의사소통/정보",
       "difficulty": "중",
       "keywords": "여자 의견, 방 정리, 기분 전환 도움",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L02",
+      "code_src": "auto",
+      "detail": "의견 파악"
     },
     {
       "exam_id": "2025-6",
@@ -3671,7 +4463,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L03",
+      "code_src": "auto",
+      "detail": "요지 파악"
     },
     {
       "exam_id": "2025-6",
@@ -3684,7 +4479,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L04",
+      "code_src": "auto",
+      "detail": "그림 불일치"
     },
     {
       "exam_id": "2025-6",
@@ -3697,7 +4495,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L05",
+      "code_src": "auto",
+      "detail": "할 일 파악"
     },
     {
       "exam_id": "2025-6",
@@ -3710,7 +4511,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L06",
+      "code_src": "auto",
+      "detail": "숫자 계산(금액)"
     },
     {
       "exam_id": "2025-6",
@@ -3723,7 +4527,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L07",
+      "code_src": "auto",
+      "detail": "이유 파악"
     },
     {
       "exam_id": "2025-6",
@@ -3736,7 +4543,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L08",
+      "code_src": "auto",
+      "detail": "언급 안 된 것"
     },
     {
       "exam_id": "2025-6",
@@ -3749,7 +4559,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L09",
+      "code_src": "auto",
+      "detail": "내용 불일치"
     },
     {
       "exam_id": "2025-6",
@@ -3762,7 +4575,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "L10",
+      "code_src": "auto",
+      "detail": "도표 파악"
     },
     {
       "exam_id": "2025-6",
@@ -3775,7 +4591,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2025-6",
@@ -3788,7 +4607,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "L11",
+      "code_src": "auto",
+      "detail": "짧은 대화 응답"
     },
     {
       "exam_id": "2025-6",
@@ -3801,7 +4623,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2025-6",
@@ -3814,20 +4639,26 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "L12",
+      "code_src": "auto",
+      "detail": "긴 대화 응답"
     },
     {
       "exam_id": "2025-6",
       "question_no": 15,
       "section": "듣기",
       "topic": "듣기",
-      "subtopic": "의사소통/정보",
+      "subtopic": "논리적 응답",
       "difficulty": "상",
       "keywords": "상황 설명, Steven, 학생들이 읽고 싶은 책 목록에 추가",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "L13",
+      "code_src": "auto",
+      "detail": "상황 응답"
     },
     {
       "exam_id": "2025-6",
@@ -3840,7 +4671,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "L14",
+      "code_src": "auto",
+      "detail": "담화 주제 파악"
     },
     {
       "exam_id": "2025-6",
@@ -3853,33 +4687,42 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "L15",
+      "code_src": "auto",
+      "detail": "담화 세부 내용"
     },
     {
       "exam_id": "2025-6",
       "question_no": 18,
       "section": "독해",
-      "topic": "간접 쓰기",
-      "subtopic": "글의 일관성",
+      "topic": "핵심 파악",
+      "subtopic": "대의 파악",
       "difficulty": "중",
       "keywords": "목적, 자원봉사 안내자 자리 문의, Gold Rush 전시",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R101",
+      "code_src": "auto",
+      "detail": "글의 목적"
     },
     {
       "exam_id": "2025-6",
       "question_no": 19,
       "section": "독해",
-      "topic": "핵심 파악",
-      "subtopic": "함축 의미",
+      "topic": "순서/삽입",
+      "subtopic": "Anecdote (일화/스토리텔링)",
       "difficulty": "중",
       "keywords": "심경 변화, Jessie, disappointed to thrilled, 낚시",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R202",
+      "code_src": "auto",
+      "detail": "심경 변화"
     },
     {
       "exam_id": "2025-6",
@@ -3892,7 +4735,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R102",
+      "code_src": "auto",
+      "detail": "필자의 주장"
     },
     {
       "exam_id": "2025-6",
@@ -3905,7 +4751,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R201",
+      "code_src": "auto",
+      "detail": "밑줄 친 표현 의미"
     },
     {
       "exam_id": "2025-6",
@@ -3918,7 +4767,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R103",
+      "code_src": "auto",
+      "detail": "요지"
     },
     {
       "exam_id": "2025-6",
@@ -3931,7 +4783,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R104",
+      "code_src": "auto",
+      "detail": "주제"
     },
     {
       "exam_id": "2025-6",
@@ -3944,7 +4799,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R105",
+      "code_src": "auto",
+      "detail": "제목"
     },
     {
       "exam_id": "2025-6",
@@ -3957,7 +4815,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R301",
+      "code_src": "auto",
+      "detail": "도표 분석"
     },
     {
       "exam_id": "2025-6",
@@ -3970,20 +4831,26 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R302",
+      "code_src": "auto",
+      "detail": "내용 일치·불일치"
     },
     {
       "exam_id": "2025-6",
       "question_no": 27,
       "section": "독해",
       "topic": "세부 정보",
-      "subtopic": "Listing / Enumeration",
+      "subtopic": "사실 관계",
       "difficulty": "중",
       "keywords": "안내문 불일치, Hanok Contest, 우편 제출 불가",
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R303",
+      "code_src": "auto",
+      "detail": "안내문 불일치"
     },
     {
       "exam_id": "2025-6",
@@ -3996,7 +4863,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R304",
+      "code_src": "auto",
+      "detail": "안내문 일치"
     },
     {
       "exam_id": "2025-6",
@@ -4009,7 +4879,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R401",
+      "code_src": "auto",
+      "detail": "어법(문법)"
     },
     {
       "exam_id": "2025-6",
@@ -4022,7 +4895,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R402",
+      "code_src": "auto",
+      "detail": "어휘(문맥 부적절)"
     },
     {
       "exam_id": "2025-6",
@@ -4035,7 +4911,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2025-6",
@@ -4048,7 +4926,9 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2025-6",
@@ -4061,7 +4941,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2025-6",
@@ -4074,7 +4956,9 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "R50",
+      "code_src": "auto"
     },
     {
       "exam_id": "2025-6",
@@ -4087,59 +4971,74 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R601",
+      "code_src": "auto",
+      "detail": "무관한 문장 찾기"
     },
     {
       "exam_id": "2025-6",
       "question_no": 36,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "글 순서, 신체 활동 감소, C-A-B",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2025-6",
       "question_no": 37,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "글 순서, 혼돈 자석 진자, B-C-A",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "R602",
+      "code_src": "auto",
+      "detail": "글의 순서 배열"
     },
     {
       "exam_id": "2025-6",
       "question_no": 38,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "중",
       "keywords": "문장 삽입, 귀엽고 아름다운 디자인 단점",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2025-6",
       "question_no": 39,
       "section": "독해",
-      "topic": "순서/삽입",
-      "subtopic": "Process & Sequence",
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
       "difficulty": "상",
       "keywords": "문장 삽입, 수학 개념 신체 경험, 상상 속 걷기",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R603",
+      "code_src": "auto",
+      "detail": "문장 삽입"
     },
     {
       "exam_id": "2025-6",
@@ -4152,7 +5051,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "R604",
+      "code_src": "auto",
+      "detail": "요약문 완성"
     },
     {
       "exam_id": "2025-6",
@@ -4165,7 +5067,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "R701",
+      "code_src": "auto",
+      "detail": "제목(장문)"
     },
     {
       "exam_id": "2025-6",
@@ -4178,7 +5083,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "R702",
+      "code_src": "auto",
+      "detail": "어휘(장문)"
     },
     {
       "exam_id": "2025-6",
@@ -4191,7 +5099,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R703",
+      "code_src": "auto",
+      "detail": "순서(장문)"
     },
     {
       "exam_id": "2025-6",
@@ -4204,7 +5115,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "R704",
+      "code_src": "auto",
+      "detail": "지칭(장문)"
     },
     {
       "exam_id": "2025-6",
@@ -4217,7 +5131,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "R705",
+      "code_src": "auto",
+      "detail": "내용 일치(장문)"
     },
     {
       "exam_id": "2026-5",
@@ -4230,7 +5147,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "목적 파악",
+      "code": "L01",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4243,7 +5166,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "의견 파악",
+      "code": "L02",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4256,7 +5185,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "요지 파악",
+      "code": "L03",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4269,7 +5204,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "그림 불일치",
+      "code": "L04",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4280,9 +5221,15 @@
       "keywords": "",
       "question_page": 1,
       "answer_page": 1,
-      "correct_answer": "5",
+      "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "할 일 파악",
+      "code": "L05",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4295,7 +5242,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "숫자 계산(금액)",
+      "code": "L06",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4308,7 +5261,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "이유 파악",
+      "code": "L07",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4321,7 +5280,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "언급 안 된 것",
+      "code": "L08",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4334,7 +5299,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "내용 불일치",
+      "code": "L09",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4347,7 +5318,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "도표 파악",
+      "code": "L10",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4360,7 +5337,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "짧은 대화 응답",
+      "code": "L11",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4373,7 +5356,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "짧은 대화 응답",
+      "code": "L11",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4386,7 +5375,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "긴 대화 응답",
+      "code": "L12",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4399,7 +5394,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "긴 대화 응답",
+      "code": "L12",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4412,7 +5413,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "상황 응답",
+      "code": "L13",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4425,7 +5432,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "담화 주제 파악",
+      "code": "L14",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4438,7 +5451,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "담화 세부 내용",
+      "code": "L15",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4451,7 +5470,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 목적",
+      "code": "R101",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4464,7 +5489,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "심경 변화",
+      "code": "R202",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4477,7 +5508,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "필자의 주장",
+      "code": "R102",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4490,7 +5527,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "밑줄 친 표현 의미",
+      "code": "R201",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4503,7 +5546,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "요지",
+      "code": "R103",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4516,7 +5565,16 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "주제",
+      "code": "R104",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -4529,7 +5587,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "제목",
+      "code": "R105",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4542,7 +5606,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "도표 분석",
+      "code": "R301",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4555,7 +5625,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "내용 일치·불일치",
+      "code": "R302",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4568,7 +5644,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "안내문 불일치",
+      "code": "R303",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4581,7 +5663,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "안내문 일치",
+      "code": "R304",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4594,7 +5682,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어법(문법)",
+      "code": "R401",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "동사·준동사",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4607,7 +5701,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어휘(문맥 부적절)",
+      "code": "R402",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4620,46 +5720,78 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(단어)",
+      "code": "R501",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 32,
       "topic": "빈칸 추론",
-      "subtopic": "Question & Answer (질문과 답변)",
+      "subtopic": "맥락 추론",
       "difficulty": "중",
       "keywords": "",
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(절)",
+      "code": "R503",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 33,
       "topic": "빈칸 추론",
-      "subtopic": "Problem & Solution (문제와 해결)",
+      "subtopic": "맥락 추론",
       "difficulty": "중",
       "keywords": "",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(구)",
+      "code": "R502",
+      "domain": "T01",
+      "domain_name": "인문",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 34,
       "topic": "빈칸 추론",
-      "subtopic": "Generalization & Illustration (주제와 예시)",
+      "subtopic": "맥락 추론",
       "difficulty": "중",
       "keywords": "",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(절)",
+      "code": "R503",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -4672,7 +5804,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 순서 배열",
+      "code": "R602",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4685,7 +5823,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 순서 배열",
+      "code": "R602",
+      "domain": "T05",
+      "domain_name": "기술·환경·의학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4698,7 +5842,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "문장 삽입",
+      "code": "R603",
+      "domain": "T01",
+      "domain_name": "인문",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4711,7 +5861,15 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "문장 삽입",
+      "code": "R603",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -4724,7 +5882,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "요약문 완성",
+      "code": "R604",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4737,7 +5901,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "제목(장문)",
+      "code": "R701",
+      "domain": "T05",
+      "domain_name": "기술·환경·의학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4750,7 +5920,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어휘(장문)",
+      "code": "R702",
+      "domain": "T05",
+      "domain_name": "기술·환경·의학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4763,7 +5939,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "순서(장문)",
+      "code": "R703",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4776,7 +5958,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "지칭(장문)",
+      "code": "R704",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4789,7 +5977,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "내용 일치(장문)",
+      "code": "R705",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4802,7 +5996,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "목적 파악",
+      "code": "L01",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4815,7 +6015,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "의견 파악",
+      "code": "L02",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4828,7 +6034,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "요지 파악",
+      "code": "L03",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4841,7 +6053,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "그림 불일치",
+      "code": "L04",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4854,7 +6072,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "할 일 파악",
+      "code": "L05",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4867,7 +6091,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "숫자 계산(금액)",
+      "code": "L06",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4880,7 +6110,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "이유 파악",
+      "code": "L07",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4893,7 +6129,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "언급 안 된 것",
+      "code": "L08",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4906,7 +6148,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "내용 불일치",
+      "code": "L09",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4919,7 +6167,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "도표 파악",
+      "code": "L10",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4932,7 +6186,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "짧은 대화 응답",
+      "code": "L11",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4945,7 +6205,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "짧은 대화 응답",
+      "code": "L11",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4958,7 +6224,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "긴 대화 응답",
+      "code": "L12",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4971,7 +6243,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "긴 대화 응답",
+      "code": "L12",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4984,7 +6262,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "상황 응답",
+      "code": "L13",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4997,7 +6281,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "담화 주제 파악",
+      "code": "L14",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5010,7 +6300,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "담화 세부 내용",
+      "code": "L15",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5023,7 +6319,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 목적",
+      "code": "R101",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5036,7 +6338,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "심경 변화",
+      "code": "R202",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5049,7 +6357,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "필자의 주장",
+      "code": "R102",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5062,7 +6376,16 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "밑줄 친 표현 의미",
+      "code": "R201",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5075,7 +6398,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "요지",
+      "code": "R103",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5088,7 +6417,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "주제",
+      "code": "R104",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5101,7 +6436,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "제목",
+      "code": "R105",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5114,7 +6455,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "도표 분석",
+      "code": "R301",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5127,7 +6474,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "내용 일치·불일치",
+      "code": "R302",
+      "domain": "T01",
+      "domain_name": "인문",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5140,7 +6493,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "안내문 불일치",
+      "code": "R303",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5153,7 +6512,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "안내문 일치",
+      "code": "R304",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5166,7 +6531,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어법(문법)",
+      "code": "R401",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "관계사",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5179,7 +6550,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어휘(문맥 부적절)",
+      "code": "R402",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5192,7 +6569,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(단어)",
+      "code": "R501",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5205,7 +6588,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(구)",
+      "code": "R502",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5218,7 +6607,16 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(절)",
+      "code": "R503",
+      "domain": "T01",
+      "domain_name": "인문",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5231,7 +6629,15 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(절)",
+      "code": "R503",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5244,7 +6650,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "무관한 문장 찾기",
+      "code": "R601",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5257,7 +6669,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 순서 배열",
+      "code": "R602",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5270,7 +6688,16 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 순서 배열",
+      "code": "R602",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5283,7 +6710,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "문장 삽입",
+      "code": "R603",
+      "domain": "T05",
+      "domain_name": "기술·환경·의학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5296,7 +6729,15 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "문장 삽입",
+      "code": "R603",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5309,7 +6750,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "요약문 완성",
+      "code": "R604",
+      "domain": "T05",
+      "domain_name": "기술·환경·의학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5322,7 +6769,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "제목(장문)",
+      "code": "R701",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5335,7 +6788,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어휘(장문)",
+      "code": "R702",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5348,7 +6807,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "순서(장문)",
+      "code": "R703",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5361,7 +6826,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "지칭(장문)",
+      "code": "R704",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5374,7 +6845,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "내용 일치(장문)",
+      "code": "R705",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5387,7 +6864,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "목적 파악",
+      "code": "L01",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5400,7 +6883,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "의견 파악",
+      "code": "L02",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5413,7 +6902,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "요지 파악",
+      "code": "L03",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5426,7 +6921,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "그림 불일치",
+      "code": "L04",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5439,7 +6940,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "할 일 파악",
+      "code": "L05",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5452,7 +6959,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "숫자 계산(금액)",
+      "code": "L06",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5465,7 +6978,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "이유 파악",
+      "code": "L07",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5478,7 +6997,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "언급 안 된 것",
+      "code": "L08",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5491,7 +7016,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "내용 불일치",
+      "code": "L09",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5504,7 +7035,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "도표 파악",
+      "code": "L10",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5517,7 +7054,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "짧은 대화 응답",
+      "code": "L11",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5530,7 +7073,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "짧은 대화 응답",
+      "code": "L11",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5543,7 +7092,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "긴 대화 응답",
+      "code": "L12",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5556,7 +7111,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "긴 대화 응답",
+      "code": "L12",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5569,7 +7130,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "상황 응답",
+      "code": "L13",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5582,7 +7149,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "담화 주제 파악",
+      "code": "L14",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5595,7 +7168,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "담화 세부 내용",
+      "code": "L15",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5608,7 +7187,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 목적",
+      "code": "R101",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5621,7 +7206,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "심경 변화",
+      "code": "R202",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5634,7 +7225,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "필자의 주장",
+      "code": "R102",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5647,7 +7244,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "밑줄 친 표현 의미",
+      "code": "R201",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5660,7 +7263,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "요지",
+      "code": "R103",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5673,7 +7282,15 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "주제",
+      "code": "R104",
+      "domain": "T01",
+      "domain_name": "인문",
+      "point": "",
+      "tags": [
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5686,7 +7303,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "제목",
+      "code": "R105",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5697,9 +7320,15 @@
       "keywords": "",
       "question_page": 4,
       "answer_page": 1,
-      "correct_answer": "5",
+      "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "도표 분석",
+      "code": "R301",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5712,7 +7341,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "내용 일치·불일치",
+      "code": "R302",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5725,7 +7360,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "안내문 불일치",
+      "code": "R303",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5738,7 +7379,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "안내문 일치",
+      "code": "R304",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5751,7 +7398,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어법(문법)",
+      "code": "R401",
+      "domain": "T05",
+      "domain_name": "기술·환경·의학",
+      "point": "대명사",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5764,7 +7417,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어휘(문맥 부적절)",
+      "code": "R402",
+      "domain": "T01",
+      "domain_name": "인문",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5777,7 +7436,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(단어)",
+      "code": "R501",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5790,7 +7455,16 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(구)",
+      "code": "R502",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5803,7 +7477,15 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(구)",
+      "code": "R502",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5816,7 +7498,15 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(절)",
+      "code": "R503",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5829,7 +7519,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "무관한 문장 찾기",
+      "code": "R601",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5842,7 +7538,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 순서 배열",
+      "code": "R602",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5853,9 +7555,17 @@
       "keywords": "",
       "question_page": 7,
       "answer_page": 1,
-      "correct_answer": "3",
+      "correct_answer": "2",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 순서 배열",
+      "code": "R602",
+      "domain": "T05",
+      "domain_name": "기술·환경·의학",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5868,7 +7578,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "문장 삽입",
+      "code": "R603",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5881,7 +7597,16 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "문장 삽입",
+      "code": "R603",
+      "domain": "T01",
+      "domain_name": "인문",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5894,7 +7619,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "요약문 완성",
+      "code": "R604",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5907,7 +7638,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "제목(장문)",
+      "code": "R701",
+      "domain": "T01",
+      "domain_name": "인문",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5920,7 +7657,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어휘(장문)",
+      "code": "R702",
+      "domain": "T01",
+      "domain_name": "인문",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5933,7 +7676,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "순서(장문)",
+      "code": "R703",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5946,7 +7695,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "지칭(장문)",
+      "code": "R704",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5959,7 +7714,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "내용 일치(장문)",
+      "code": "R705",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -5972,7 +7733,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "목적 파악",
+      "code": "L01",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -5985,7 +7752,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "의견 파악",
+      "code": "L02",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -5998,7 +7771,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "요지 파악",
+      "code": "L03",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6011,7 +7790,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "그림 불일치",
+      "code": "L04",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6024,7 +7809,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "할 일 파악",
+      "code": "L05",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6037,7 +7828,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "숫자 계산(금액)",
+      "code": "L06",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6050,7 +7847,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "이유 파악",
+      "code": "L07",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6063,7 +7866,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "언급 안 된 것",
+      "code": "L08",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6074,9 +7883,15 @@
       "keywords": "",
       "question_page": 1,
       "answer_page": 1,
-      "correct_answer": "4",
+      "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "내용 불일치",
+      "code": "L09",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6089,7 +7904,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "도표 파악",
+      "code": "L10",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6102,7 +7923,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "짧은 대화 응답",
+      "code": "L11",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6115,7 +7942,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "짧은 대화 응답",
+      "code": "L11",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6128,7 +7961,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "긴 대화 응답",
+      "code": "L12",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6139,9 +7978,15 @@
       "keywords": "",
       "question_page": 2,
       "answer_page": 1,
-      "correct_answer": "4",
+      "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "긴 대화 응답",
+      "code": "L12",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6154,7 +7999,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "상황 응답",
+      "code": "L13",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6167,7 +8018,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "담화 주제 파악",
+      "code": "L14",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6180,7 +8037,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "듣기"
+      "section": "듣기",
+      "detail": "담화 세부 내용",
+      "code": "L15",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6193,7 +8056,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 목적",
+      "code": "R101",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6206,7 +8075,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "심경 변화",
+      "code": "R202",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6219,7 +8094,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "필자의 주장",
+      "code": "R102",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6232,7 +8113,16 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "밑줄 친 표현 의미",
+      "code": "R201",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026_09",
@@ -6245,7 +8135,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "요지",
+      "code": "R103",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6258,7 +8154,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "주제",
+      "code": "R104",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6271,7 +8173,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "제목",
+      "code": "R105",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6282,9 +8190,15 @@
       "keywords": "",
       "question_page": 4,
       "answer_page": 1,
-      "correct_answer": "5",
+      "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "도표 분석",
+      "code": "R301",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6297,7 +8211,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "내용 일치·불일치",
+      "code": "R302",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6310,7 +8230,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "안내문 불일치",
+      "code": "R303",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6323,7 +8249,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "안내문 일치",
+      "code": "R304",
+      "domain": "",
+      "domain_name": "",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6336,7 +8268,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어법(문법)",
+      "code": "R401",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "수일치",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6349,7 +8287,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어휘(문맥 부적절)",
+      "code": "R402",
+      "domain": "T05",
+      "domain_name": "기술·환경·의학",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6362,7 +8306,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(단어)",
+      "code": "R501",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6375,7 +8325,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(구)",
+      "code": "R502",
+      "domain": "T02",
+      "domain_name": "심리·교육",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6388,7 +8344,16 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(구)",
+      "code": "R502",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": [
+        "고난도",
+        "추상지문"
+      ]
     },
     {
       "exam_id": "2026_09",
@@ -6401,7 +8366,15 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "빈칸(절)",
+      "code": "R503",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_09",
@@ -6414,7 +8387,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "무관한 문장 찾기",
+      "code": "R601",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6427,7 +8406,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 순서 배열",
+      "code": "R602",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6438,9 +8423,17 @@
       "keywords": "",
       "question_page": 7,
       "answer_page": 1,
-      "correct_answer": "5",
+      "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "글의 순서 배열",
+      "code": "R602",
+      "domain": "T04",
+      "domain_name": "자연과학",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_09",
@@ -6451,9 +8444,15 @@
       "keywords": "",
       "question_page": 7,
       "answer_page": 1,
-      "correct_answer": "3",
+      "correct_answer": "5",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "문장 삽입",
+      "code": "R603",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6466,7 +8465,15 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "문장 삽입",
+      "code": "R603",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_09",
@@ -6479,7 +8486,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "요약문 완성",
+      "code": "R604",
+      "domain": "T06",
+      "domain_name": "예술·문화",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6492,7 +8505,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "제목(장문)",
+      "code": "R701",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6505,7 +8524,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "section": "독해"
+      "section": "독해",
+      "detail": "어휘(장문)",
+      "code": "R702",
+      "domain": "T03",
+      "domain_name": "사회·경제",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6518,7 +8543,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "순서(장문)",
+      "code": "R703",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6531,7 +8562,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "지칭(장문)",
+      "code": "R704",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -6544,7 +8581,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "section": "독해"
+      "section": "독해",
+      "detail": "내용 일치(장문)",
+      "code": "R705",
+      "domain": "T07",
+      "domain_name": "일상·실용",
+      "point": "",
+      "tags": []
     },
     {
       "exam_id": "2026_10",
@@ -7414,7 +9457,26 @@
       "domain_name": "일상·실용",
       "point": "",
       "tags": []
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 35,
+      "topic": "간접 쓰기",
+      "subtopic": "글의 일관성",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 6,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 2,
+      "section": "독해",
+      "detail": "무관한 문장 찾기",
+      "code": "R601",
+      "domain": "T05",
+      "domain_name": "기술·환경·의학",
+      "point": "",
+      "tags": []
     }
   ],
-  "updated_at": "2026-10-21T02:30:48.942Z"
+  "updated_at": "2026-10-21T04:36:29Z"
 }

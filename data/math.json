@@ -149,7 +149,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "A01",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
@@ -162,7 +165,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "A01",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -175,7 +181,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "A01",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -188,7 +197,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "A01",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
@@ -201,20 +213,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 1,
-      "is_common": "공통",
-      "topic": "지수와 로그",
-      "subtopic": "지수법칙",
-      "difficulty": "하",
-      "keywords": "지수, 거듭제곱, 연산",
-      "question_page": 1,
-      "answer_page": 1,
-      "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "A01",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
@@ -227,33 +229,45 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "거듭제곱근",
+      "code": "A0101",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
       "question_no": 2,
       "is_common": "공통",
       "topic": "미분",
-      "subtopic": "미분계수",
+      "subtopic": "미분법",
       "difficulty": "하",
       "keywords": "도함수, 극한, 미분계수",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "B0301",
+      "code_src": "auto",
+      "subject": "수학II",
+      "unit": "미분계수"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 2,
       "is_common": "공통",
       "topic": "미분",
-      "subtopic": "미분계수",
+      "subtopic": "미분법",
       "difficulty": "하",
       "keywords": "도함수, 극한, 미분계수",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "B0301",
+      "code_src": "auto",
+      "subject": "수학II",
+      "unit": "미분계수"
     },
     {
       "exam_id": "2024-sn",
@@ -266,59 +280,61 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "B03",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
       "question_no": 2,
       "is_common": "공통",
       "topic": "미분",
-      "subtopic": "미분계수",
+      "subtopic": "미분법",
       "difficulty": "하",
       "keywords": "미분계수,극한,도함수",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "B0301",
+      "code_src": "auto",
+      "subject": "수학II",
+      "unit": "미분계수"
     },
     {
       "exam_id": "2025-6",
       "question_no": 2,
       "is_common": "공통",
       "topic": "미분",
-      "subtopic": "미분계수",
+      "subtopic": "미분법",
       "difficulty": "하",
       "keywords": "미분계수,극한,도함수",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 2,
-      "is_common": "공통",
-      "topic": "극한",
-      "subtopic": "수열의 극한",
-      "difficulty": "하",
-      "keywords": "도함수, 극한, 미분계수",
-      "question_page": 1,
-      "answer_page": 1,
-      "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "B0301",
+      "code_src": "auto",
+      "subject": "수학II",
+      "unit": "미분계수"
     },
     {
       "exam_id": "2026-5",
       "question_no": 2,
       "topic": "미분",
-      "subtopic": "미분법",
+      "subtopic": "미분의 활용",
       "difficulty": "중",
       "keywords": "",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "접선",
+      "code": "B0401",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -331,7 +347,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "A10",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
@@ -344,7 +363,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "A09",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -357,7 +379,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "A04",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -370,7 +395,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "A10",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
@@ -383,20 +411,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 3,
-      "is_common": "공통",
-      "topic": "수열",
-      "subtopic": "등차수열",
-      "difficulty": "중",
-      "keywords": "수열, 합, 시그마",
-      "question_page": 1,
-      "answer_page": 1,
-      "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "A10",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
@@ -407,35 +425,45 @@
       "keywords": "",
       "question_page": 1,
       "answer_page": 1,
-      "correct_answer": "-3",
+      "correct_answer": "3",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "부정적분 계산",
+      "code": "B0501",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
       "question_no": 4,
       "is_common": "공통",
-      "topic": "함수",
+      "topic": "극한",
       "subtopic": "함수의 연속",
       "difficulty": "중",
       "keywords": "연속, 조각함수, 상수",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "B02",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 4,
       "is_common": "공통",
-      "topic": "함수",
+      "topic": "극한",
       "subtopic": "함수의 연속",
       "difficulty": "중",
       "keywords": "연속, 조각함수, 상수",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "B02",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -448,7 +476,10 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "X01",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
@@ -461,33 +492,26 @@
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "B01",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
       "question_no": 4,
       "is_common": "공통",
-      "topic": "함수",
+      "topic": "극한",
       "subtopic": "함수의 연속",
       "difficulty": "중",
       "keywords": "연속,조각함수,상수",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 4,
-      "is_common": "공통",
-      "topic": "함수",
-      "subtopic": "함수의 연속",
-      "difficulty": "중",
-      "keywords": "연속, 조각합수, 상수",
-      "question_page": 1,
-      "answer_page": 1,
-      "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "B02",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-5",
@@ -500,7 +524,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "그래프와 좌우극한",
+      "code": "B0103",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -513,7 +541,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "B03",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
@@ -526,7 +557,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "B03",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -539,7 +573,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "B05",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
@@ -552,7 +589,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "B03",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
@@ -565,33 +605,27 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 5,
-      "is_common": "공통",
-      "topic": "미분",
-      "subtopic": "미분법",
-      "difficulty": "중",
-      "keywords": "도함수, 곱의미분, 미분계수",
-      "question_page": 2,
-      "answer_page": 1,
-      "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "B06",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-5",
       "question_no": 5,
       "topic": "지수와 로그",
-      "subtopic": "로그의 성질",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "중",
       "keywords": "",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "그래프·평행이동",
+      "code": "A0301",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -604,7 +638,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "A02",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
@@ -617,7 +654,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "A04",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -630,7 +670,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "A09",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -643,7 +686,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "A04",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
@@ -656,33 +702,27 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 6,
-      "is_common": "공통",
-      "topic": "지수와 로그",
-      "subtopic": "로그의 성질",
-      "difficulty": "중",
-      "keywords": "로그, 진수, 밑",
-      "question_page": 2,
-      "answer_page": 1,
-      "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "A05",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
       "question_no": 6,
       "topic": "삼각함수",
-      "subtopic": "삼각함수의 값",
+      "subtopic": "삼각함수의 그래프",
       "difficulty": "중",
       "keywords": "",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "주기·최대최소",
+      "code": "A0501",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -695,7 +735,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "B07",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
@@ -708,7 +751,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "B06",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -721,7 +767,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
@@ -734,7 +783,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
@@ -747,20 +799,10 @@
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 7,
-      "is_common": "공통",
-      "topic": "적분",
-      "subtopic": "정적분의 활용",
-      "difficulty": "중",
-      "keywords": "넓이, 곡선, 정적분",
-      "question_page": 2,
-      "answer_page": 1,
-      "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-5",
@@ -773,7 +815,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "정적분으로 정의된 함수",
+      "code": "B0602",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -786,7 +832,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "A04",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
@@ -799,7 +848,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "A02",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -812,7 +864,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "B06",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
@@ -825,7 +880,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "A02",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
@@ -838,20 +896,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 8,
-      "is_common": "공통",
-      "topic": "삼각함수",
-      "subtopic": "삼각함수의 값",
-      "difficulty": "중",
-      "keywords": "삼각함수, sin, cos",
-      "question_page": 3,
-      "answer_page": 1,
-      "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "A04",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
@@ -864,20 +912,27 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "일반항",
+      "code": "A0901",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
       "question_no": 9,
       "is_common": "공통",
-      "topic": "함수",
-      "subtopic": "다항함수",
+      "topic": "미분",
+      "subtopic": "미분의 활용",
       "difficulty": "상",
       "keywords": "삼차함수, 접선, 접점",
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
@@ -890,7 +945,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "B07",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -903,7 +961,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "A02",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -916,7 +977,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "B05",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
@@ -929,59 +993,59 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 9,
-      "is_common": "공통",
-      "topic": "함수",
-      "subtopic": "다항함수",
-      "difficulty": "상",
-      "keywords": "삼차함수, 접선, 접점",
-      "question_page": 3,
-      "answer_page": 1,
-      "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "B07",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-5",
       "question_no": 9,
-      "topic": "극한",
-      "subtopic": "함수의 극한",
+      "topic": "미분",
+      "subtopic": "미분법",
       "difficulty": "중",
       "keywords": "",
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "미분계수",
+      "code": "B0301",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
       "question_no": 10,
       "is_common": "공통",
       "topic": "지수와 로그",
-      "subtopic": "지수함수",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "상",
       "keywords": "지수함수, 접근선, 삼각형",
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "A03",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 10,
       "is_common": "공통",
       "topic": "삼각함수",
-      "subtopic": "삼각함수와 도형",
+      "subtopic": "사인법칙·코사인법칙",
       "difficulty": "상",
       "keywords": "삼각함수, 최댓값, 코사인",
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "A07",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -994,7 +1058,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "B07",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
@@ -1007,7 +1074,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "A09",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
@@ -1020,20 +1090,10 @@
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 10,
-      "is_common": "공통",
-      "topic": "지수와 로그",
-      "subtopic": "지수함수",
-      "difficulty": "상",
-      "keywords": "지수함수, 접근선, 삼각형",
-      "question_page": 3,
-      "answer_page": 1,
-      "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "A02",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
@@ -1046,7 +1106,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "넓이·외접원 활용",
+      "code": "A0703",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -1059,7 +1123,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "B05",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
@@ -1072,7 +1139,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -1085,7 +1155,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 4
+      "score": 4,
+      "code": "A08",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -1098,33 +1171,27 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 4
+      "score": 4,
+      "code": "B07",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
       "question_no": 11,
       "is_common": "공통",
-      "topic": "적분의 활용",
-      "subtopic": "속도와 거리",
+      "topic": "적분",
+      "subtopic": "정적분의 활용",
       "difficulty": "상",
       "keywords": "위치,속도,가속도,수직선운동",
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 11,
-      "is_common": "공통",
-      "topic": "적분",
-      "subtopic": "부정적분",
-      "difficulty": "상",
-      "keywords": "속도, 위치, 운동",
-      "question_page": 4,
-      "answer_page": 1,
-      "correct_answer": "5",
-      "score": 4
+      "score": 4,
+      "code": "B0702",
+      "code_src": "auto",
+      "subject": "수학II",
+      "unit": "속도와 거리"
     },
     {
       "exam_id": "2026-5",
@@ -1137,7 +1204,11 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "귀납적 정의",
+      "code": "A1101",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -1150,7 +1221,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "A09",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
@@ -1163,7 +1237,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 4
+      "score": 4,
+      "code": "A10",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -1176,20 +1253,26 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "B07",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
       "question_no": 12,
       "is_common": "공통",
       "topic": "지수와 로그",
-      "subtopic": "지수함수",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "상",
       "keywords": "지수함수,직선,넓이,삼각형",
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 4
+      "score": 4,
+      "code": "A03",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
@@ -1202,20 +1285,10 @@
       "question_page": 4,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 12,
-      "is_common": "공통",
-      "topic": "수열",
-      "subtopic": "등비수열",
-      "difficulty": "상",
-      "keywords": "등비수열, 합",
-      "question_page": 4,
-      "answer_page": 1,
-      "correct_answer": "1",
-      "score": 4
+      "score": 4,
+      "code": "A11",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
@@ -1228,7 +1301,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "속도와 거리",
+      "code": "B0702",
+      "tags": [
+        "보기형"
+      ]
     },
     {
       "exam_id": "2026-sn",
@@ -1241,7 +1320,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 4
+      "score": 4,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
@@ -1254,7 +1336,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 4
+      "score": 4,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -1267,7 +1352,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 4
+      "score": 4,
+      "code": "A07",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -1280,72 +1368,76 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "B01",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
       "question_no": 13,
       "is_common": "공통",
-      "topic": "적분의 활용",
-      "subtopic": "넓이",
+      "topic": "적분",
+      "subtopic": "정적분의 활용",
       "difficulty": "상",
       "keywords": "정적분,넓이,이차함수",
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 13,
-      "is_common": "공통",
-      "topic": "미분",
-      "subtopic": "미분의 활용",
-      "difficulty": "상",
-      "keywords": "접선, 넓이, 다항함수",
-      "question_page": 5,
-      "answer_page": 1,
-      "correct_answer": "5",
-      "score": 4
+      "score": 4,
+      "code": "B0701",
+      "code_src": "auto",
+      "subject": "수학II",
+      "unit": "넓이"
     },
     {
       "exam_id": "2026-5",
       "question_no": 13,
       "topic": "극한",
-      "subtopic": "함수의 극한",
+      "subtopic": "함수의 연속",
       "difficulty": "중",
       "keywords": "",
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "연속 조건",
+      "code": "B0201",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
       "question_no": 14,
       "is_common": "공통",
       "topic": "삼각함수",
-      "subtopic": "삼각함수와 도형",
+      "subtopic": "사인법칙·코사인법칙",
       "difficulty": "상",
       "keywords": "직각삼각형, 원, 내분",
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "A07",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 14,
       "is_common": "공통",
       "topic": "삼각함수",
-      "subtopic": "삼각함수와 도형",
+      "subtopic": "사인법칙·코사인법칙",
       "difficulty": "상",
       "keywords": "삼각형, 외접원, 넓이",
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "A07",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -1358,7 +1450,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 4
+      "score": 4,
+      "code": "B01",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
@@ -1371,7 +1466,10 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "A05",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
@@ -1384,33 +1482,27 @@
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 14,
-      "is_common": "공통",
-      "topic": "삼각함수",
-      "subtopic": "삼각함수와 도형",
-      "difficulty": "상",
-      "keywords": "직각삼각형, 원, 내분",
-      "question_page": 5,
-      "answer_page": 1,
-      "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "A07",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
       "question_no": 14,
       "topic": "삼각함수",
-      "subtopic": "삼각함수 부등식",
+      "subtopic": "삼각함수의 그래프",
       "difficulty": "중",
       "keywords": "",
       "question_page": 5,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "그래프의 교점·도형",
+      "code": "A0502",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -1423,20 +1515,26 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "B07",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 15,
       "is_common": "공통",
-      "topic": "함수",
-      "subtopic": "다항함수",
+      "topic": "미분",
+      "subtopic": "미분의 활용",
       "difficulty": "상",
       "keywords": "조각함수, 미분가능, 도함수",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -1449,7 +1547,10 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "A11",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -1462,7 +1563,10 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
@@ -1475,46 +1579,45 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 15,
-      "is_common": "공통",
-      "topic": "함수",
-      "subtopic": "합성함수와 역함수",
-      "difficulty": "상",
-      "keywords": "합성함수, 역함수, 방정식",
-      "question_page": 6,
-      "answer_page": 1,
-      "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "B01",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-5",
       "question_no": 15,
-      "topic": "미분",
-      "subtopic": "미분의 활용",
+      "topic": "적분",
+      "subtopic": "정적분의 활용",
       "difficulty": "중",
       "keywords": "",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "넓이",
+      "code": "B0701",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-sn",
       "question_no": 16,
       "is_common": "공통",
       "topic": "수열",
-      "subtopic": "점화식",
+      "subtopic": "수학적 귀납법",
       "difficulty": "중",
       "keywords": "수열, 점화식",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "9",
-      "score": 3
+      "score": 3,
+      "code": "A11",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
@@ -1527,7 +1630,10 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "7",
-      "score": 3
+      "score": 3,
+      "code": "A02",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -1540,7 +1646,10 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "A01",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -1553,7 +1662,10 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "8",
-      "score": 3
+      "score": 3,
+      "code": "A11",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
@@ -1566,20 +1678,10 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 16,
-      "is_common": "공통",
-      "topic": "수열",
-      "subtopic": "점화식",
-      "difficulty": "중",
-      "keywords": "수열, 점화식",
-      "question_page": 6,
-      "answer_page": 1,
-      "correct_answer": "30",
-      "score": 3
+      "score": 3,
+      "code": "A02",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
@@ -1592,7 +1694,11 @@
       "answer_page": 1,
       "correct_answer": "24",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "호도법·일반각",
+      "code": "A0401",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -1605,7 +1711,10 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "16",
-      "score": 3
+      "score": 3,
+      "code": "B05",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
@@ -1618,7 +1727,10 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "33",
-      "score": 3
+      "score": 3,
+      "code": "B05",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -1631,7 +1743,10 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "8",
-      "score": 3
+      "score": 3,
+      "code": "B03",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
@@ -1644,59 +1759,60 @@
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "17",
-      "score": 3
+      "score": 3,
+      "code": "B05",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
       "question_no": 17,
       "is_common": "공통",
-      "topic": "미분",
+      "topic": "적분",
       "subtopic": "부정적분",
       "difficulty": "중",
       "keywords": "도함수,부정적분,다항함수",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "6",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 17,
-      "is_common": "공통",
-      "topic": "적분",
-      "subtopic": "부정적분",
-      "difficulty": "중",
-      "keywords": "부정적분, 다항함수",
-      "question_page": 6,
-      "answer_page": 1,
-      "correct_answer": "15",
-      "score": 3
+      "score": 3,
+      "code": "B05",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-5",
       "question_no": 17,
       "topic": "수열",
-      "subtopic": "등비수열",
+      "subtopic": "수열의 합",
       "difficulty": "중",
       "keywords": "",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "140",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "Σ의 성질",
+      "code": "A1001",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
       "question_no": 18,
       "is_common": "공통",
       "topic": "삼각함수",
-      "subtopic": "삼각형의 넓이",
+      "subtopic": "사인법칙·코사인법칙",
       "difficulty": "중",
       "keywords": "삼각형, 넓이, cos",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "12",
-      "score": 3
+      "score": 3,
+      "code": "A0703",
+      "code_src": "auto",
+      "subject": "수학I",
+      "unit": "넓이·외접원 활용"
     },
     {
       "exam_id": "2025-sn",
@@ -1709,7 +1825,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "96",
-      "score": 3
+      "score": 3,
+      "code": "A10",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -1722,7 +1841,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "9",
-      "score": 3
+      "score": 3,
+      "code": "A08",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -1735,7 +1857,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "30",
-      "score": 3
+      "score": 3,
+      "code": "A08",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
@@ -1748,33 +1873,27 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "133",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 18,
-      "is_common": "공통",
-      "topic": "삼각함수",
-      "subtopic": "삼각함수 부등식",
-      "difficulty": "중",
-      "keywords": "삼각형, 넓이, cos",
-      "question_page": 7,
-      "answer_page": 1,
-      "correct_answer": "124",
-      "score": 3
+      "score": 3,
+      "code": "A10",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
       "question_no": 18,
       "topic": "지수와 로그",
-      "subtopic": "로그의 성질",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "중",
       "keywords": "",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "8",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "방정식·부등식",
+      "code": "A0303",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -1787,7 +1906,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "15",
-      "score": 3
+      "score": 3,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
@@ -1800,7 +1922,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "41",
-      "score": 3
+      "score": 3,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -1813,7 +1938,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "32",
-      "score": 3
+      "score": 3,
+      "code": "A06",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-9",
@@ -1826,7 +1954,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "10",
-      "score": 3
+      "score": 3,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
@@ -1839,20 +1970,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "8",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 19,
-      "is_common": "공통",
-      "topic": "미분",
-      "subtopic": "미분의 활용",
-      "difficulty": "중",
-      "keywords": "부등식, 다항함수, 최솟값",
-      "question_page": 7,
-      "answer_page": 1,
-      "correct_answer": "14",
-      "score": 3
+      "score": 3,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-5",
@@ -1865,7 +1986,11 @@
       "answer_page": 1,
       "correct_answer": "10",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "방정식·부등식",
+      "code": "B0404",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -1878,20 +2003,26 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "130",
-      "score": 4
+      "score": 4,
+      "code": "A10",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 20,
       "is_common": "공통",
       "topic": "지수와 로그",
-      "subtopic": "지수함수",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "상",
       "keywords": "지수함수, 함수합성",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "36",
-      "score": 4
+      "score": 4,
+      "code": "A03",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -1904,7 +2035,10 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "25",
-      "score": 4
+      "score": 4,
+      "code": "B03",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
@@ -1917,33 +2051,26 @@
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "12",
-      "score": 4
+      "score": 4,
+      "code": "A07",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
       "question_no": 20,
       "is_common": "공통",
-      "topic": "함수",
+      "topic": "극한",
       "subtopic": "함수의 연속",
       "difficulty": "상",
       "keywords": "함수,점화식,수열,등차",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "85",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 20,
-      "is_common": "공통",
-      "topic": "수열",
-      "subtopic": "수열의 합",
-      "difficulty": "상",
-      "keywords": "수열, 합, 점화식",
-      "question_page": 7,
-      "answer_page": 1,
-      "correct_answer": "67",
-      "score": 4
+      "score": 4,
+      "code": "B02",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-5",
@@ -1956,33 +2083,43 @@
       "answer_page": 1,
       "correct_answer": "155",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "합",
+      "code": "A0802",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
       "question_no": 21,
       "is_common": "공통",
-      "topic": "함수",
+      "topic": "극한",
       "subtopic": "함수의 연속",
       "difficulty": "상",
       "keywords": "삼차함수, 연속, 극한",
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "65",
-      "score": 4
+      "score": 4,
+      "code": "B02",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 21,
       "is_common": "공통",
-      "topic": "함수",
-      "subtopic": "다항함수",
+      "topic": "미분",
+      "subtopic": "미분의 활용",
       "difficulty": "상",
       "keywords": "삼차함수, 극한, 최댓값",
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "16",
-      "score": 4
+      "score": 4,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2024-sn",
@@ -1995,7 +2132,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "10",
-      "score": 4
+      "score": 4,
+      "code": "B01",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
@@ -2008,7 +2148,10 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "296",
-      "score": 4
+      "score": 4,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-6",
@@ -2021,33 +2164,29 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "42",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 21,
-      "is_common": "공통",
-      "topic": "함수",
-      "subtopic": "함수의 연속",
-      "difficulty": "상",
-      "keywords": "삼차함수, 연속, 극한",
-      "question_page": 8,
-      "answer_page": 1,
-      "correct_answer": "48",
-      "score": 4
+      "score": 4,
+      "code": "B01",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-5",
       "question_no": 21,
       "topic": "미분",
-      "subtopic": "미분의 활용",
+      "subtopic": "미분법",
       "difficulty": "중",
       "keywords": "",
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "55",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "미분가능성",
+      "code": "B0303",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-sn",
@@ -2060,20 +2199,26 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "457",
-      "score": 4
+      "score": 4,
+      "code": "A03",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 22,
       "is_common": "공통",
       "topic": "수열",
-      "subtopic": "점화식",
+      "subtopic": "수학적 귀납법",
       "difficulty": "상",
       "keywords": "수열, 절댓값, 점화식",
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "64",
-      "score": 4
+      "score": 4,
+      "code": "A11",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2024-sn",
@@ -2086,59 +2231,61 @@
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "483",
-      "score": 4
+      "score": 4,
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2025-9",
       "question_no": 22,
       "is_common": "공통",
       "topic": "지수와 로그",
-      "subtopic": "지수함수",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "상",
       "keywords": "로그함수,두 점,조건,사각형",
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "73",
-      "score": 4
+      "score": 4,
+      "code": "A03",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2025-6",
       "question_no": 22,
       "is_common": "공통",
       "topic": "지수와 로그",
-      "subtopic": "지수함수",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "상",
       "keywords": "지수함수,곡선,직선,삼각형",
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "38",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 22,
-      "is_common": "공통",
-      "topic": "지수와 로그",
-      "subtopic": "지수함수와 로그함수",
-      "difficulty": "상",
-      "keywords": "로그, 곡선, 대칭",
-      "question_page": 8,
-      "answer_page": 1,
-      "correct_answer": "80",
-      "score": 4
+      "score": 4,
+      "code": "A03",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-5",
       "question_no": 22,
-      "topic": "적분",
-      "subtopic": "정적분의 활용",
+      "topic": "지수와 로그",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "중",
       "keywords": "",
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "9",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "교점·길이·넓이",
+      "code": "A0302",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-sn",
@@ -2151,20 +2298,26 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 23,
       "is_common": "선택-미적분",
       "topic": "미적분",
-      "subtopic": "극한",
+      "subtopic": "급수",
       "difficulty": "하",
       "keywords": "삼각함수, 극한, tan",
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-sn",
@@ -2177,7 +2330,10 @@
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-sn",
@@ -2190,20 +2346,26 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 2
+      "score": 2,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 23,
       "is_common": "선택-미적분",
       "topic": "미적분",
-      "subtopic": "극한",
+      "subtopic": "급수",
       "difficulty": "하",
       "keywords": "삼각함수, 극한",
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-sn",
@@ -2216,7 +2378,10 @@
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2024-sn",
@@ -2229,7 +2394,10 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2024-sn",
@@ -2242,20 +2410,27 @@
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2024-sn",
       "question_no": 23,
       "is_common": "선택-기하",
       "topic": "기하",
-      "subtopic": "중점좌표",
+      "subtopic": "공간도형과 좌표",
       "difficulty": "하",
       "keywords": "중점,좌표공간",
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "G0304",
+      "code_src": "auto",
+      "subject": "기하",
+      "unit": "공간좌표·내분점"
     },
     {
       "exam_id": "2025-9",
@@ -2268,20 +2443,26 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 2
+      "score": 2,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-9",
       "question_no": 23,
       "is_common": "선택-미적분",
       "topic": "미적분",
-      "subtopic": "극한",
+      "subtopic": "급수",
       "difficulty": "하",
       "keywords": "지수함수,극한",
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-9",
@@ -2294,7 +2475,10 @@
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
+      "score": 2,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-6",
@@ -2307,7 +2491,10 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 2
+      "score": 2,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-6",
@@ -2320,7 +2507,10 @@
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-6",
@@ -2333,46 +2523,10 @@
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 2
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 23,
-      "is_common": "선택-확통",
-      "topic": "확률과 통계",
-      "subtopic": "순열과 조합",
-      "difficulty": "하",
-      "keywords": "중복순열, 경우의수",
-      "question_page": 9,
-      "answer_page": 1,
-      "correct_answer": "2",
-      "score": 2
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 23,
-      "is_common": "선택-미적분",
-      "topic": "미적분",
-      "subtopic": "극한",
-      "difficulty": "하",
-      "keywords": "수열의극한, 극한값",
-      "question_page": 13,
-      "answer_page": 1,
-      "correct_answer": "3",
-      "score": 2
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 23,
-      "is_common": "선택-기하",
-      "topic": "기하",
-      "subtopic": "이차곡선",
-      "difficulty": "하",
-      "keywords": "포물선, 준선, 상수",
-      "question_page": 17,
-      "answer_page": 1,
-      "correct_answer": "1",
-      "score": 2
+      "score": 2,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-5",
@@ -2385,7 +2539,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "같은 것이 있는 순열",
+      "code": "P0102",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -2398,7 +2556,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "지수·로그 극한과 미분",
+      "code": "C0201",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -2411,7 +2573,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "타원",
+      "code": "G0102",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -2424,7 +2590,10 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-sn",
@@ -2437,7 +2606,10 @@
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-sn",
@@ -2450,7 +2622,10 @@
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-sn",
@@ -2463,7 +2638,10 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-sn",
@@ -2476,7 +2654,10 @@
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-sn",
@@ -2489,7 +2670,10 @@
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2024-sn",
@@ -2502,7 +2686,10 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2024-sn",
@@ -2515,7 +2702,10 @@
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2024-sn",
@@ -2528,7 +2718,10 @@
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-9",
@@ -2541,7 +2734,10 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-9",
@@ -2554,7 +2750,10 @@
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-9",
@@ -2567,7 +2766,10 @@
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-6",
@@ -2580,7 +2782,10 @@
       "question_page": 9,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-6",
@@ -2593,7 +2798,10 @@
       "question_page": 13,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-6",
@@ -2606,46 +2814,10 @@
       "question_page": 17,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 24,
-      "is_common": "선택-확통",
-      "topic": "확률과 통계",
-      "subtopic": "확률",
-      "difficulty": "중",
-      "keywords": "조건부확률, 사건",
-      "question_page": 9,
-      "answer_page": 1,
-      "correct_answer": "4",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 24,
-      "is_common": "선택-미적분",
-      "topic": "미적분",
-      "subtopic": "여러 가지 미분법",
-      "difficulty": "중",
-      "keywords": "수열, 극한, 미분",
-      "question_page": 13,
-      "answer_page": 1,
-      "correct_answer": "4",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 24,
-      "is_common": "선택-기하",
-      "topic": "기하",
-      "subtopic": "이차곡선",
-      "difficulty": "중",
-      "keywords": "타원, 단축, 초점",
-      "question_page": 17,
-      "answer_page": 1,
-      "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-5",
@@ -2658,7 +2830,11 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "덧셈정리·여사건",
+      "code": "P0201",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -2671,7 +2847,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "급수·등비급수",
+      "code": "C0103",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -2684,7 +2864,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "연산",
+      "code": "G0201",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -2697,7 +2881,10 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-sn",
@@ -2710,7 +2897,10 @@
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-sn",
@@ -2723,7 +2913,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-sn",
@@ -2736,7 +2929,10 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-sn",
@@ -2749,7 +2945,10 @@
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-sn",
@@ -2762,7 +2961,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2024-sn",
@@ -2775,7 +2977,10 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2024-sn",
@@ -2788,7 +2993,10 @@
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2024-sn",
@@ -2801,7 +3009,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-9",
@@ -2814,7 +3025,10 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-9",
@@ -2827,7 +3041,10 @@
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-9",
@@ -2840,7 +3057,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-6",
@@ -2853,7 +3073,10 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-6",
@@ -2866,7 +3089,10 @@
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-6",
@@ -2879,46 +3105,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 25,
-      "is_common": "선택-확통",
-      "topic": "확률과 통계",
-      "subtopic": "순열과 조합",
-      "difficulty": "중",
-      "keywords": "확률, 주머니, 공",
-      "question_page": 10,
-      "answer_page": 1,
-      "correct_answer": "1",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 25,
-      "is_common": "선택-미적분",
-      "topic": "미적분",
-      "subtopic": "급수",
-      "difficulty": "중",
-      "keywords": "수열의극한, 급수",
-      "question_page": 14,
-      "answer_page": 1,
-      "correct_answer": "1",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 25,
-      "is_common": "선택-기하",
-      "topic": "기하",
-      "subtopic": "이차곡선",
-      "difficulty": "중",
-      "keywords": "쌍곡선, 점근선, 주축",
-      "question_page": 18,
-      "answer_page": 1,
-      "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-5",
@@ -2931,7 +3121,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "이항정리",
+      "code": "P0105",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -2944,7 +3138,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "삼각함수 극한과 미분",
+      "code": "C0202",
+      "tags": [
+        "도형"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -2957,7 +3157,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "타원",
+      "code": "G0102",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -2970,20 +3174,26 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-sn",
       "question_no": 26,
       "is_common": "선택-미적분",
       "topic": "미적분",
-      "subtopic": "정적분의 활용",
+      "subtopic": "여러 가지 적분법",
       "difficulty": "중",
       "keywords": "입체도형, 부피, 단면",
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-sn",
@@ -2996,7 +3206,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-sn",
@@ -3009,20 +3222,26 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 26,
       "is_common": "선택-미적분",
       "topic": "미적분",
-      "subtopic": "정적분의 활용",
+      "subtopic": "여러 가지 적분법",
       "difficulty": "중",
       "keywords": "입체도형, 부피, 단면",
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-sn",
@@ -3035,7 +3254,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2024-sn",
@@ -3048,7 +3270,10 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2024-sn",
@@ -3061,7 +3286,10 @@
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2024-sn",
@@ -3074,7 +3302,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-9",
@@ -3087,7 +3318,10 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-9",
@@ -3100,7 +3334,10 @@
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-9",
@@ -3113,7 +3350,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-6",
@@ -3126,7 +3366,10 @@
       "question_page": 10,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-6",
@@ -3139,7 +3382,10 @@
       "question_page": 14,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-6",
@@ -3152,46 +3398,10 @@
       "question_page": 18,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 26,
-      "is_common": "선택-확통",
-      "topic": "확률과 통계",
-      "subtopic": "순열과 조합",
-      "difficulty": "중",
-      "keywords": "음이아닌정수, 순서쌍, 조건",
-      "question_page": 10,
-      "answer_page": 1,
-      "correct_answer": "3",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 26,
-      "is_common": "선택-미적분",
-      "topic": "미적분",
-      "subtopic": "급수",
-      "difficulty": "중",
-      "keywords": "자연수, 급수, 수렴조건",
-      "question_page": 14,
-      "answer_page": 1,
-      "correct_answer": "2",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 26,
-      "is_common": "선택-기하",
-      "topic": "기하",
-      "subtopic": "이차곡선",
-      "difficulty": "중",
-      "keywords": "포물선, 초점, 직선",
-      "question_page": 18,
-      "answer_page": 1,
-      "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-5",
@@ -3204,7 +3414,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "중복조합",
+      "code": "P0104",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -3217,7 +3431,11 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "수열의 극한",
+      "code": "C0101",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -3230,20 +3448,27 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "이차곡선의 접선",
+      "code": "G0104",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
       "question_no": 27,
       "is_common": "선택-확통",
       "topic": "확률과 통계",
-      "subtopic": "확률분포",
+      "subtopic": "통계",
       "difficulty": "중",
       "keywords": "이산확률변수, 분산",
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-sn",
@@ -3256,7 +3481,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-sn",
@@ -3269,20 +3497,26 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 3
+      "score": 3,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-sn",
       "question_no": 27,
       "is_common": "선택-확통",
       "topic": "확률과 통계",
-      "subtopic": "확률분포",
+      "subtopic": "통계",
       "difficulty": "중",
       "keywords": "확률변수, 분산, 카드",
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-sn",
@@ -3295,7 +3529,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-sn",
@@ -3308,7 +3545,10 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2024-sn",
@@ -3321,7 +3561,10 @@
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2024-sn",
@@ -3334,7 +3577,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2024-sn",
@@ -3347,20 +3593,26 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-9",
       "question_no": 27,
       "is_common": "선택-확통",
       "topic": "확률과 통계",
-      "subtopic": "확률분포",
+      "subtopic": "통계",
       "difficulty": "중",
       "keywords": "확률변수,분산,정사면체",
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-9",
@@ -3373,7 +3625,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-9",
@@ -3386,7 +3641,10 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 3
+      "score": 3,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-6",
@@ -3399,7 +3657,10 @@
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 3
+      "score": 3,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-6",
@@ -3412,7 +3673,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
+      "score": 3,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-6",
@@ -3425,46 +3689,10 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "3",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 27,
-      "is_common": "선택-확통",
-      "topic": "확률과 통계",
-      "subtopic": "확률",
-      "difficulty": "중",
-      "keywords": "집합, 부분집합, 조건부확률",
-      "question_page": 11,
-      "answer_page": 1,
-      "correct_answer": "5",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 27,
-      "is_common": "선택-미적분",
-      "topic": "미적분",
-      "subtopic": "여러 가지 미분법",
-      "difficulty": "중",
-      "keywords": "수열, 원, 직선, 조건",
-      "question_page": 15,
-      "answer_page": 1,
-      "correct_answer": "5",
-      "score": 3
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 27,
-      "is_common": "선택-기하",
-      "topic": "기하",
-      "subtopic": "이차곡선",
-      "difficulty": "중",
-      "keywords": "타원, 초점, 장축",
-      "question_page": 19,
-      "answer_page": 1,
-      "correct_answer": "5",
-      "score": 3
+      "score": 3,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-5",
@@ -3477,7 +3705,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "함수의 개수",
+      "code": "P0106",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -3490,7 +3722,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "매개변수·음함수",
+      "code": "C0204",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -3503,7 +3739,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "쌍곡선",
+      "code": "G0103",
+      "tags": []
     },
     {
       "exam_id": "2026-sn",
@@ -3516,7 +3756,10 @@
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-sn",
@@ -3529,7 +3772,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 4
+      "score": 4,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-sn",
@@ -3542,7 +3788,10 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-sn",
@@ -3555,7 +3804,10 @@
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-sn",
@@ -3568,7 +3820,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-sn",
@@ -3581,7 +3836,10 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2024-sn",
@@ -3594,7 +3852,10 @@
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2024-sn",
@@ -3607,7 +3868,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2024-sn",
@@ -3620,7 +3884,10 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 4
+      "score": 4,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-9",
@@ -3633,7 +3900,10 @@
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-9",
@@ -3646,7 +3916,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "2",
-      "score": 4
+      "score": 4,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-9",
@@ -3659,7 +3932,10 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
+      "score": 4,
+      "code": "G03",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-6",
@@ -3672,7 +3948,10 @@
       "question_page": 11,
       "answer_page": 1,
       "correct_answer": "5",
-      "score": 4
+      "score": 4,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-6",
@@ -3685,7 +3964,10 @@
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "1",
-      "score": 4
+      "score": 4,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-6",
@@ -3698,46 +3980,10 @@
       "question_page": 19,
       "answer_page": 1,
       "correct_answer": "4",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 28,
-      "is_common": "선택-확통",
-      "topic": "확률과 통계",
-      "subtopic": "순열과 조합",
-      "difficulty": "상",
-      "keywords": "함수, 집합, 조건",
-      "question_page": 11,
-      "answer_page": 1,
-      "correct_answer": "3",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 28,
-      "is_common": "선택-미적분",
-      "topic": "미적분",
-      "subtopic": "여러 가지 미분법",
-      "difficulty": "상",
-      "keywords": "함수, 연속, 극한",
-      "question_page": 15,
-      "answer_page": 1,
-      "correct_answer": "3",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 28,
-      "is_common": "선택-기하",
-      "topic": "기하",
-      "subtopic": "이차곡선",
-      "difficulty": "상",
-      "keywords": "쌍곡선, 원, 접선",
-      "question_page": 19,
-      "answer_page": 1,
-      "correct_answer": "3",
-      "score": 4
+      "score": 4,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-5",
@@ -3750,7 +3996,13 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "덧셈정리·여사건",
+      "code": "P0201",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -3763,7 +4015,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "급수·등비급수",
+      "code": "C0103",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -3776,7 +4034,13 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "포물선",
+      "code": "G0101",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-sn",
@@ -3789,7 +4053,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "977",
-      "score": 4
+      "score": 4,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-sn",
@@ -3802,7 +4069,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "97",
-      "score": 4
+      "score": 4,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-sn",
@@ -3815,7 +4085,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "360",
-      "score": 4
+      "score": 4,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-sn",
@@ -3828,7 +4101,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "25",
-      "score": 4
+      "score": 4,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-sn",
@@ -3841,7 +4117,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "25",
-      "score": 4
+      "score": 4,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-sn",
@@ -3854,7 +4133,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "107",
-      "score": 4
+      "score": 4,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2024-sn",
@@ -3867,7 +4149,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "196",
-      "score": 4
+      "score": 4,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2024-sn",
@@ -3880,7 +4165,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "162",
-      "score": 4
+      "score": 4,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2024-sn",
@@ -3893,7 +4181,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "11",
-      "score": 4
+      "score": 4,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-9",
@@ -3906,7 +4197,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "23",
-      "score": 4
+      "score": 4,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-9",
@@ -3919,7 +4213,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "91",
-      "score": 4
+      "score": 4,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-9",
@@ -3932,7 +4229,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "396",
-      "score": 4
+      "score": 4,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-6",
@@ -3945,7 +4245,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "44",
-      "score": 4
+      "score": 4,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-6",
@@ -3958,7 +4261,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "109",
-      "score": 4
+      "score": 4,
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-6",
@@ -3971,46 +4277,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "20",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 29,
-      "is_common": "선택-확통",
-      "topic": "확률과 통계",
-      "subtopic": "순열과 조합",
-      "difficulty": "상",
-      "keywords": "원형배열, 조건, 경우의수",
-      "question_page": 12,
-      "answer_page": 1,
-      "correct_answer": "864",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 29,
-      "is_common": "선택-미적분",
-      "topic": "미적분",
-      "subtopic": "여러 가지 적분법",
-      "difficulty": "상",
-      "keywords": "사각형, 등비수열, 극한",
-      "question_page": 16,
-      "answer_page": 1,
-      "correct_answer": "11",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 29,
-      "is_common": "선택-기하",
-      "topic": "기하",
-      "subtopic": "이차곡선",
-      "difficulty": "상",
-      "keywords": "포물선, 원, 넓이",
-      "question_page": 20,
-      "answer_page": 1,
-      "correct_answer": "12",
-      "score": 4
+      "score": 4,
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-5",
@@ -4023,7 +4293,11 @@
       "answer_page": 1,
       "correct_answer": "68",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "원순열",
+      "code": "P0103",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -4036,7 +4310,13 @@
       "answer_page": 1,
       "correct_answer": "17",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "삼각함수 극한과 미분",
+      "code": "C0202",
+      "tags": [
+        "도형"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -4049,7 +4329,13 @@
       "answer_page": 1,
       "correct_answer": "9",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "성분·크기",
+      "code": "G0202",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-sn",
@@ -4062,7 +4348,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "262",
-      "score": 4
+      "score": 4,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-sn",
@@ -4075,7 +4364,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "11",
-      "score": 4
+      "score": 4,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-sn",
@@ -4088,7 +4380,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "221",
-      "score": 4
+      "score": 4,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-sn",
@@ -4101,7 +4396,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "19",
-      "score": 4
+      "score": 4,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-sn",
@@ -4114,7 +4412,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "17",
-      "score": 4
+      "score": 4,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-sn",
@@ -4127,7 +4428,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "316",
-      "score": 4
+      "score": 4,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2024-sn",
@@ -4140,7 +4444,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "673",
-      "score": 4
+      "score": 4,
+      "code": "P03",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2024-sn",
@@ -4153,7 +4460,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "125",
-      "score": 4
+      "score": 4,
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2024-sn",
@@ -4166,7 +4476,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "147",
-      "score": 4
+      "score": 4,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-9",
@@ -4179,7 +4492,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "80",
-      "score": 4
+      "score": 4,
+      "code": "P02",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-9",
@@ -4192,7 +4508,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "31",
-      "score": 4
+      "score": 4,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-9",
@@ -4205,7 +4524,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "69",
-      "score": 4
+      "score": 4,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2025-6",
@@ -4218,7 +4540,10 @@
       "question_page": 12,
       "answer_page": 1,
       "correct_answer": "115",
-      "score": 4
+      "score": 4,
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2025-6",
@@ -4231,7 +4556,10 @@
       "question_page": 16,
       "answer_page": 1,
       "correct_answer": "25",
-      "score": 4
+      "score": 4,
+      "code": "C03",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2025-6",
@@ -4244,46 +4572,10 @@
       "question_page": 20,
       "answer_page": 1,
       "correct_answer": "36",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 30,
-      "is_common": "선택-확통",
-      "topic": "확률과 통계",
-      "subtopic": "순열과 조합",
-      "difficulty": "상",
-      "keywords": "조합, 분배, 주머니",
-      "question_page": 12,
-      "answer_page": 1,
-      "correct_answer": "100",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 30,
-      "is_common": "선택-미적분",
-      "topic": "미적분",
-      "subtopic": "급수",
-      "difficulty": "상",
-      "keywords": "역함수, 연속, 극한",
-      "question_page": 16,
-      "answer_page": 1,
-      "correct_answer": "57",
-      "score": 4
-    },
-    {
-      "exam_id": "2026-03-01 00:00:00",
-      "question_no": 30,
-      "is_common": "선택-기하",
-      "topic": "기하",
-      "subtopic": "이차곡선",
-      "difficulty": "상",
-      "keywords": "쌍곡선, 타원, 장축",
-      "question_page": 20,
-      "answer_page": 1,
-      "correct_answer": "52",
-      "score": 4
+      "score": 4,
+      "code": "G02",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-5",
@@ -4296,7 +4588,13 @@
       "answer_page": 1,
       "correct_answer": "398",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "중복조합",
+      "code": "P0104",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -4309,7 +4607,13 @@
       "answer_page": 1,
       "correct_answer": "31",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "역함수 미분",
+      "code": "C0205",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -4322,33 +4626,45 @@
       "answer_page": 1,
       "correct_answer": "80",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "이차곡선의 접선",
+      "code": "G0104",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-3",
       "question_no": 1,
       "topic": "지수와 로그",
       "subtopic": "지수법칙",
-      "difficulty": "중",
-      "keywords": "",
+      "difficulty": "하",
+      "keywords": "지수, 거듭제곱, 연산",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A01",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
       "question_no": 2,
       "topic": "극한",
       "subtopic": "함수의 극한",
-      "difficulty": "중",
-      "keywords": "",
+      "difficulty": "하",
+      "keywords": "도함수, 극한, 미분계수",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B01",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
@@ -4356,12 +4672,15 @@
       "topic": "수열",
       "subtopic": "등차수열",
       "difficulty": "중",
-      "keywords": "",
+      "keywords": "수열, 합, 시그마",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A08",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
@@ -4369,12 +4688,15 @@
       "topic": "극한",
       "subtopic": "함수의 극한",
       "difficulty": "중",
-      "keywords": "",
+      "keywords": "연속, 조각합수, 상수",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B01",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
@@ -4382,12 +4704,15 @@
       "topic": "미분",
       "subtopic": "미분법",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "도함수, 곱의미분, 미분계수",
+      "question_page": 2,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B03",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
@@ -4395,12 +4720,15 @@
       "topic": "지수와 로그",
       "subtopic": "로그의 성질",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "로그, 진수, 밑",
+      "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A02",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
@@ -4408,12 +4736,15 @@
       "topic": "적분",
       "subtopic": "정적분의 활용",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "넓이, 곡선, 정적분",
+      "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B07",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
@@ -4421,103 +4752,127 @@
       "topic": "삼각함수",
       "subtopic": "삼각함수의 값",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "삼각함수, sin, cos",
+      "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A04",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
       "question_no": 9,
       "topic": "미분",
       "subtopic": "미분의 활용",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "삼차함수, 접선, 접점",
+      "question_page": 3,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
       "question_no": 10,
       "topic": "지수와 로그",
       "subtopic": "로그의 성질",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "지수함수, 접근선, 삼각형",
+      "question_page": 3,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A02",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
       "question_no": 11,
       "topic": "적분",
       "subtopic": "정적분의 활용",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "속도, 위치, 운동",
+      "question_page": 4,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B07",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
       "question_no": 12,
       "topic": "수열",
       "subtopic": "수학적 귀납법",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "등비수열, 합",
+      "question_page": 4,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A11",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
       "question_no": 13,
       "topic": "미분",
       "subtopic": "미분법",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "접선, 넓이, 다항함수",
+      "question_page": 5,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B03",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
       "question_no": 14,
       "topic": "삼각함수",
       "subtopic": "삼각함수 부등식",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "직각삼각형, 원, 내분",
+      "question_page": 5,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A06",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
       "question_no": 15,
       "topic": "미분",
       "subtopic": "미분의 활용",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "합성함수, 역함수, 방정식",
+      "question_page": 6,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
@@ -4525,12 +4880,15 @@
       "topic": "수열",
       "subtopic": "수학적 귀납법",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "수열, 점화식",
+      "question_page": 6,
       "answer_page": 1,
       "correct_answer": "30",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A11",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
@@ -4538,12 +4896,15 @@
       "topic": "적분",
       "subtopic": "부정적분",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "부정적분, 다항함수",
+      "question_page": 6,
       "answer_page": 1,
       "correct_answer": "15",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B05",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
@@ -4551,12 +4912,15 @@
       "topic": "삼각함수",
       "subtopic": "사인법칙·코사인법칙",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "삼각형, 넓이, cos",
+      "question_page": 7,
       "answer_page": 1,
       "correct_answer": "124",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A07",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
@@ -4564,64 +4928,79 @@
       "topic": "미분",
       "subtopic": "미분의 활용",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "부등식, 다항함수, 최솟값",
+      "question_page": 7,
       "answer_page": 1,
       "correct_answer": "14",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
       "question_no": 20,
       "topic": "수열",
       "subtopic": "수학적 귀납법",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "수열, 합, 점화식",
+      "question_page": 7,
       "answer_page": 1,
       "correct_answer": "67",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A11",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
       "question_no": 21,
       "topic": "미분",
       "subtopic": "미분의 활용",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "삼차함수, 연속, 극한",
+      "question_page": 8,
       "answer_page": 1,
       "correct_answer": "48",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "B04",
+      "code_src": "auto",
+      "subject": "수학II"
     },
     {
       "exam_id": "2026-3",
       "question_no": 22,
       "topic": "지수와 로그",
       "subtopic": "지수법칙",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "로그, 곡선, 대칭",
+      "question_page": 8,
       "answer_page": 1,
       "correct_answer": "80",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "code": "A01",
+      "code_src": "auto",
+      "subject": "수학I"
     },
     {
       "exam_id": "2026-3",
       "question_no": 23,
       "topic": "기하",
       "subtopic": "이차곡선",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "하",
+      "keywords": "포물선, 준선, 상수",
+      "question_page": 17,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-3",
@@ -4629,12 +5008,15 @@
       "topic": "기하",
       "subtopic": "이차곡선",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "타원, 단축, 초점",
+      "question_page": 17,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-3",
@@ -4642,12 +5024,15 @@
       "topic": "기하",
       "subtopic": "이차곡선",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "쌍곡선, 점근선, 주축",
+      "question_page": 18,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-3",
@@ -4655,12 +5040,15 @@
       "topic": "기하",
       "subtopic": "이차곡선",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "포물선, 초점, 직선",
+      "question_page": 18,
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-3",
@@ -4668,64 +5056,79 @@
       "topic": "기하",
       "subtopic": "이차곡선",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "타원, 초점, 장축",
+      "question_page": 19,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-3",
       "question_no": 28,
       "topic": "기하",
       "subtopic": "이차곡선",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "쌍곡선, 원, 접선",
+      "question_page": 19,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-3",
       "question_no": 29,
       "topic": "기하",
       "subtopic": "이차곡선",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "포물선, 원, 넓이",
+      "question_page": 20,
       "answer_page": 1,
       "correct_answer": "12",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-3",
       "question_no": 30,
       "topic": "기하",
       "subtopic": "이차곡선",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "쌍곡선, 타원, 장축",
+      "question_page": 20,
       "answer_page": 1,
       "correct_answer": "52",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "code": "G01",
+      "code_src": "auto",
+      "subject": "기하"
     },
     {
       "exam_id": "2026-3",
       "question_no": 23,
       "topic": "미적분",
       "subtopic": "급수",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "하",
+      "keywords": "수열의극한, 극한값",
+      "question_page": 13,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-3",
@@ -4733,12 +5136,15 @@
       "topic": "미적분",
       "subtopic": "급수",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "수열, 극한, 미분",
+      "question_page": 13,
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-3",
@@ -4746,12 +5152,15 @@
       "topic": "미적분",
       "subtopic": "급수",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "수열의극한, 급수",
+      "question_page": 14,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-3",
@@ -4759,12 +5168,15 @@
       "topic": "미적분",
       "subtopic": "급수",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "자연수, 급수, 수렴조건",
+      "question_page": 14,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-3",
@@ -4772,64 +5184,79 @@
       "topic": "미적분",
       "subtopic": "급수",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "수열, 원, 직선, 조건",
+      "question_page": 15,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-3",
       "question_no": 28,
       "topic": "미적분",
       "subtopic": "여러 가지 미분법",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "함수, 연속, 극한",
+      "question_page": 15,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "code": "C02",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-3",
       "question_no": 29,
       "topic": "미적분",
       "subtopic": "급수",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "사각형, 등비수열, 극한",
+      "question_page": 16,
       "answer_page": 1,
       "correct_answer": "11",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-3",
       "question_no": 30,
       "topic": "미적분",
       "subtopic": "급수",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "역함수, 연속, 극한",
+      "question_page": 16,
       "answer_page": 1,
       "correct_answer": "57",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "code": "C01",
+      "code_src": "auto",
+      "subject": "미적분"
     },
     {
       "exam_id": "2026-3",
       "question_no": 23,
       "topic": "확률과 통계",
       "subtopic": "순열과 조합",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "하",
+      "keywords": "중복순열, 경우의수",
+      "question_page": 9,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-3",
@@ -4837,12 +5264,15 @@
       "topic": "확률과 통계",
       "subtopic": "순열과 조합",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "조건부확률, 사건",
+      "question_page": 9,
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-3",
@@ -4850,12 +5280,15 @@
       "topic": "확률과 통계",
       "subtopic": "순열과 조합",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "확률, 주머니, 공",
+      "question_page": 10,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-3",
@@ -4863,12 +5296,15 @@
       "topic": "확률과 통계",
       "subtopic": "순열과 조합",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "음이아닌정수, 순서쌍, 조건",
+      "question_page": 10,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-3",
@@ -4876,51 +5312,63 @@
       "topic": "확률과 통계",
       "subtopic": "순열과 조합",
       "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "keywords": "집합, 부분집합, 조건부확률",
+      "question_page": 11,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-3",
       "question_no": 28,
       "topic": "확률과 통계",
       "subtopic": "순열과 조합",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "함수, 집합, 조건",
+      "question_page": 11,
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-3",
       "question_no": 29,
       "topic": "확률과 통계",
       "subtopic": "순열과 조합",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "원형배열, 조건, 경우의수",
+      "question_page": 12,
       "answer_page": 1,
       "correct_answer": "864",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026-3",
       "question_no": 30,
       "topic": "확률과 통계",
       "subtopic": "순열과 조합",
-      "difficulty": "중",
-      "keywords": "",
-      "question_page": 1,
+      "difficulty": "상",
+      "keywords": "조합, 분배, 주머니",
+      "question_page": 12,
       "answer_page": 1,
       "correct_answer": "100",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "code": "P01",
+      "code_src": "auto",
+      "subject": "확률과 통계"
     },
     {
       "exam_id": "2026_06",
@@ -4933,7 +5381,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "거듭제곱근",
+      "code": "A0101",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4946,20 +5398,28 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "미분계수",
+      "code": "B0301",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 3,
       "topic": "수열",
-      "subtopic": "등차수열",
+      "subtopic": "수열의 합",
       "difficulty": "중",
       "keywords": "",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "Σ의 성질",
+      "code": "A1001",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4972,7 +5432,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "그래프와 좌우극한",
+      "code": "B0103",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4985,7 +5449,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "도함수 계산",
+      "code": "B0302",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -4998,7 +5466,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "삼각함수 사이의 관계",
+      "code": "A0402",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5011,7 +5483,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "증감·극값",
+      "code": "B0402",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5024,7 +5500,11 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "코사인법칙",
+      "code": "A0702",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5037,7 +5517,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "속도와 거리",
+      "code": "B0702",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5050,7 +5534,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "로그 계산",
+      "code": "A0201",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5063,7 +5551,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "미정계수 결정",
+      "code": "B0102",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5076,7 +5568,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "일반항",
+      "code": "A0901",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5089,7 +5585,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "넓이",
+      "code": "B0701",
+      "tags": [
+        "보기형"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5102,33 +5604,47 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "방정식",
+      "code": "A0601",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 15,
-      "topic": "미분",
-      "subtopic": "미분의 활용",
+      "topic": "적분",
+      "subtopic": "정적분",
       "difficulty": "중",
       "keywords": "",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "4",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "정적분 계산",
+      "code": "B0601",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 16,
       "topic": "지수와 로그",
-      "subtopic": "지수법칙",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "중",
       "keywords": "",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "방정식·부등식",
+      "code": "A0303",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5141,7 +5657,11 @@
       "answer_page": 1,
       "correct_answer": "10",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "부정적분 계산",
+      "code": "B0501",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5154,33 +5674,47 @@
       "answer_page": 1,
       "correct_answer": "15",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "일반항",
+      "code": "A0801",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 19,
       "topic": "미분",
-      "subtopic": "미분법",
+      "subtopic": "미분의 활용",
       "difficulty": "중",
       "keywords": "",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "9",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "접선",
+      "code": "B0401",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 20,
       "topic": "지수와 로그",
-      "subtopic": "로그의 성질",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "중",
       "keywords": "",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "48",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "교점·길이·넓이",
+      "code": "A0302",
+      "tags": [
+        "빈칸추론"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5193,7 +5727,14 @@
       "answer_page": 1,
       "correct_answer": "11",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "그래프 개형·최대최소",
+      "code": "B0403",
+      "tags": [
+        "그래프해석",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5206,7 +5747,13 @@
       "answer_page": 1,
       "correct_answer": "32",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "귀납적 정의",
+      "code": "A1101",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5219,7 +5766,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "같은 것이 있는 순열",
+      "code": "P0102",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5232,7 +5783,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "덧셈정리·여사건",
+      "code": "P0201",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5245,7 +5800,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "이항정리",
+      "code": "P0105",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5258,7 +5817,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "덧셈정리·여사건",
+      "code": "P0201",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5271,7 +5834,11 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "함수의 개수",
+      "code": "P0106",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5284,7 +5851,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "독립·독립시행",
+      "code": "P0203",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5297,7 +5870,11 @@
       "answer_page": 1,
       "correct_answer": "98",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "조건부확률",
+      "code": "P0202",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5310,7 +5887,13 @@
       "answer_page": 1,
       "correct_answer": "780",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "같은 것이 있는 순열",
+      "code": "P0102",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5323,7 +5906,11 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 2,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "등비수열의 극한",
+      "code": "C0102",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5336,7 +5923,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "매개변수·음함수",
+      "code": "C0204",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5349,7 +5940,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "급수·등비급수",
+      "code": "C0103",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5362,7 +5957,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "삼각함수 극한과 미분",
+      "code": "C0202",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5375,7 +5974,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "매개변수·음함수",
+      "code": "C0204",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5388,7 +5991,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "지수·로그 극한과 미분",
+      "code": "C0201",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5401,7 +6010,13 @@
       "answer_page": 1,
       "correct_answer": "54",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "급수·등비급수",
+      "code": "C0103",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5414,7 +6029,13 @@
       "answer_page": 1,
       "correct_answer": "20",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "이계도함수·그래프 개형",
+      "code": "C0206",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5427,7 +6048,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "성분·크기",
+      "code": "G0202",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5440,7 +6065,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "포물선",
+      "code": "G0101",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5453,7 +6082,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "벡터방정식·자취",
+      "code": "G0204",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5466,7 +6099,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "이차곡선의 접선",
+      "code": "G0104",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5479,7 +6116,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "내적",
+      "code": "G0203",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5492,7 +6133,13 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "타원",
+      "code": "G0102",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -5505,7 +6152,11 @@
       "answer_page": 1,
       "correct_answer": "14",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "쌍곡선",
+      "code": "G0103",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -5518,7 +6169,13 @@
       "answer_page": 1,
       "correct_answer": "29",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "내적",
+      "code": "G0203",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5531,59 +6188,79 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "지수 계산",
+      "code": "A0102",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 2,
-      "topic": "극한",
-      "subtopic": "함수의 극한",
+      "topic": "미분",
+      "subtopic": "미분법",
       "difficulty": "중",
       "keywords": "",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "2",
       "score": 2,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "미분계수",
+      "code": "B0301",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 3,
       "topic": "수열",
-      "subtopic": "등차수열",
+      "subtopic": "수열의 합",
       "difficulty": "중",
       "keywords": "",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "Σ의 성질",
+      "code": "A1001",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 4,
       "topic": "극한",
-      "subtopic": "함수의 극한",
+      "subtopic": "함수의 연속",
       "difficulty": "중",
       "keywords": "",
       "question_page": 1,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "연속 조건",
+      "code": "B0201",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 5,
-      "topic": "적분",
-      "subtopic": "정적분",
+      "topic": "미분",
+      "subtopic": "미분법",
       "difficulty": "중",
       "keywords": "",
       "question_page": 2,
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "도함수 계산",
+      "code": "B0302",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5596,7 +6273,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "로그 계산",
+      "code": "A0201",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5609,7 +6290,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "정적분 계산",
+      "code": "B0601",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5622,33 +6307,47 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "삼각함수 사이의 관계",
+      "code": "A0402",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 9,
       "topic": "미분",
-      "subtopic": "미분법",
+      "subtopic": "미분의 활용",
       "difficulty": "중",
       "keywords": "",
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "5",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "접선",
+      "code": "B0401",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 10,
       "topic": "삼각함수",
-      "subtopic": "삼각함수 부등식",
+      "subtopic": "삼각함수의 그래프",
       "difficulty": "중",
       "keywords": "",
       "question_page": 3,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "그래프의 교점·도형",
+      "code": "A0502",
+      "tags": [
+        "도형"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5661,7 +6360,13 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "속도와 거리",
+      "code": "B0702",
+      "tags": [
+        "보기형"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5674,7 +6379,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "합",
+      "code": "A0902",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5687,7 +6396,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "넓이",
+      "code": "B0701",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5700,20 +6413,32 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "넓이·외접원 활용",
+      "code": "A0703",
+      "tags": [
+        "도형"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 15,
       "topic": "미분",
-      "subtopic": "미분의 활용",
+      "subtopic": "미분법",
       "difficulty": "중",
       "keywords": "",
       "question_page": 6,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "미분가능성",
+      "code": "B0303",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5726,7 +6451,11 @@
       "answer_page": 1,
       "correct_answer": "7",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "귀납적 정의",
+      "code": "A1101",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5739,20 +6468,28 @@
       "answer_page": 1,
       "correct_answer": "38",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "부정적분 계산",
+      "code": "B0501",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 18,
       "topic": "지수와 로그",
-      "subtopic": "로그의 성질",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "중",
       "keywords": "",
       "question_page": 7,
       "answer_page": 1,
       "correct_answer": "12",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "방정식·부등식",
+      "code": "A0303",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5765,7 +6502,11 @@
       "answer_page": 1,
       "correct_answer": "24",
       "score": 3,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "그래프 개형·최대최소",
+      "code": "B0403",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5778,7 +6519,13 @@
       "answer_page": 1,
       "correct_answer": "213",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "합",
+      "code": "A0802",
+      "tags": [
+        "빈칸추론"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5791,20 +6538,33 @@
       "answer_page": 1,
       "correct_answer": "320",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학II",
+      "unit": "그래프 개형·최대최소",
+      "code": "B0403",
+      "tags": [
+        "그래프해석",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 22,
       "topic": "지수와 로그",
-      "subtopic": "로그의 성질",
+      "subtopic": "지수함수와 로그함수",
       "difficulty": "중",
       "keywords": "",
       "question_page": 8,
       "answer_page": 1,
       "correct_answer": "26",
       "score": 4,
-      "is_common": "공통"
+      "is_common": "공통",
+      "subject": "수학I",
+      "unit": "교점·길이·넓이",
+      "code": "A0302",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5817,7 +6577,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 2,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "독립·독립시행",
+      "code": "P0203",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5830,7 +6594,11 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "이항정리",
+      "code": "P0105",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5843,7 +6611,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "덧셈정리·여사건",
+      "code": "P0201",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5856,7 +6628,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "정규분포",
+      "code": "P0304",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5869,7 +6645,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "원순열",
+      "code": "P0103",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5882,7 +6662,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "중복조합",
+      "code": "P0104",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5895,7 +6681,11 @@
       "answer_page": 1,
       "correct_answer": "41",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "이산확률분포",
+      "code": "P0301",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5908,7 +6698,13 @@
       "answer_page": 1,
       "correct_answer": "725",
       "score": 4,
-      "is_common": "선택-확통"
+      "is_common": "선택-확통",
+      "subject": "선택-확통",
+      "unit": "독립·독립시행",
+      "code": "P0203",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5921,7 +6717,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 2,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "지수·로그 극한과 미분",
+      "code": "C0201",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5934,7 +6734,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "합성·몫 미분",
+      "code": "C0203",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5947,7 +6751,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "수열의 극한",
+      "code": "C0101",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5960,7 +6768,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "부분적분",
+      "code": "C0302",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -5973,20 +6785,30 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "매개변수·음함수",
+      "code": "C0204",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 28,
       "topic": "미적분",
-      "subtopic": "여러 가지 미분법",
+      "subtopic": "여러 가지 적분법",
       "difficulty": "중",
       "keywords": "",
       "question_page": 15,
       "answer_page": 1,
       "correct_answer": "1",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "정적분으로 정의된 함수",
+      "code": "C0303",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -5999,7 +6821,13 @@
       "answer_page": 1,
       "correct_answer": "30",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "급수·등비급수",
+      "code": "C0103",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -6012,7 +6840,13 @@
       "answer_page": 1,
       "correct_answer": "59",
       "score": 4,
-      "is_common": "선택-미적분"
+      "is_common": "선택-미적분",
+      "subject": "선택-미적분",
+      "unit": "매개변수·음함수",
+      "code": "C0204",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -6025,7 +6859,11 @@
       "answer_page": 1,
       "correct_answer": "1",
       "score": 2,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "성분·크기",
+      "code": "G0202",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -6038,7 +6876,11 @@
       "answer_page": 1,
       "correct_answer": "2",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "포물선",
+      "code": "G0101",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -6051,7 +6893,11 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "벡터방정식·자취",
+      "code": "G0204",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -6064,7 +6910,11 @@
       "answer_page": 1,
       "correct_answer": "4",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "이차곡선의 접선",
+      "code": "G0104",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -6077,7 +6927,11 @@
       "answer_page": 1,
       "correct_answer": "3",
       "score": 3,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "정사영",
+      "code": "G0303",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -6090,7 +6944,13 @@
       "answer_page": 1,
       "correct_answer": "5",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "내적",
+      "code": "G0203",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -6103,7 +6963,13 @@
       "answer_page": 1,
       "correct_answer": "216",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "쌍곡선",
+      "code": "G0103",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -6116,7 +6982,13 @@
       "answer_page": 1,
       "correct_answer": "52",
       "score": 4,
-      "is_common": "선택-기하"
+      "is_common": "선택-기하",
+      "subject": "선택-기하",
+      "unit": "정사영",
+      "code": "G0303",
+      "tags": [
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_09",
@@ -7738,5 +8610,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-21T02:17:48.360Z"
+  "updated_at": "2026-10-21T04:36:29Z"
 }
