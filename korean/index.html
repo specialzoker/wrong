@@ -572,8 +572,21 @@
 
       // 난이도 내림차순 정렬(상>중>하) 후 상위 30개 → 초과분(쉬운 것)은 자동 제거
       var DIFF_RANK = { '상': 3, '중': 2, '하': 1 };
+      // 세부유형까지 같은 문항(code 일치)은 이름이 달라도 후보에 넣고 맨 위로 올린다
+      var hasUnit = !!(wrongQ.code && (wrongQ.unit || wrongQ.detail));
+      var sameUnit = function(q) { return hasUnit && q.code === wrongQ.code; };
+      if (hasUnit) {
+        allQuestions.forEach(function(q) {
+          if (q.exam_id === examId || !sameUnit(q)) return;
+          var dup = similar.some(function(s) {
+            return s.exam_id === q.exam_id && s.question_no === q.question_no && s.is_common === q.is_common;
+          });
+          if (!dup) similar.push(q);
+        });
+      }
       similar.sort(function(a, b) {
-        return (DIFF_RANK[b.difficulty] || 0) - (DIFF_RANK[a.difficulty] || 0);
+        return (sameUnit(b) - sameUnit(a))
+          || ((DIFF_RANK[b.difficulty] || 0) - (DIFF_RANK[a.difficulty] || 0));
       });
       similar = similar.slice(0, 30);
       recommendations.push({ wrongQuestion: wrongQ, similarQuestions: similar });
@@ -624,7 +637,7 @@
       html += '<div class="result-group">';
       html += '<div class="result-header">';
       html += '<div class="wrong-info">❌ ' + wq.question_no + '번 오답</div>';
-      html += '<div class="wrong-detail">' + wq.topic + ' > ' + wq.subtopic + ' | 난이도: ' + wq.difficulty + ' | 배점: ' + wq.score + '점</div>';
+      html += '<div class="wrong-detail">' + wq.topic + ' > ' + wq.subtopic + ((wq.unit || wq.detail) ? ' > ' + (wq.unit || wq.detail) : '') + ' | 난이도: ' + wq.difficulty + ' | 배점: ' + wq.score + '점</div>';
       html += '</div>';
 
       if (rec.similarQuestions.length === 0) {
@@ -643,7 +656,9 @@
         html += '<div class="rec-card">';
         html += '<div class="rec-top" onclick="toggleExpand(\'' + cardId + '\')">';
         html += '<div><div class="rec-title">' + examName + ' ' + sq.question_no + '번</div>';
-        html += '<div class="rec-meta">' + sq.topic + ' > ' + sq.subtopic + '</div></div>';
+        html += '<div class="rec-meta">' + sq.topic + ' > ' + sq.subtopic + ((sq.unit || sq.detail) ? ' > ' + (sq.unit || sq.detail) : '')
+          + ((wq.code && (wq.unit || wq.detail) && sq.code === wq.code) ? ' <b style="color:var(--accent)">· 같은 세부유형</b>' : '')
+          + '</div></div>';
         html += '<span class="rec-badge badge-' + sq.difficulty + '">' + sq.difficulty + '</span>';
         html += '</div>';
 

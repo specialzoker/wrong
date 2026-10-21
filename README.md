@@ -113,3 +113,12 @@ Live Server 확장 설치 후 `index.html`에서 우클릭 → `Open with Live S
 ---
 
 Made by 정현석 (광명북고 진로진학부장 · 경기진협 자료개발국 간사)
+
+## Claude 자동 등록 (2026-10~)
+
+시험지·정답을 Claude에게 주면 Claude가 분류 JSON을 만들고 아래까지 직접 처리한다.
+
+- `pdfs/{exam_id}_{과목}_q.pdf`, `_a.pdf` 저장, `classification/`에 분류 JSON 보관
+- `python3 tools/register_exam.py register ...`로 `data/*.json`에 시험·문항 등록 (문항 페이지는 PDF에서 자동 탐지, 세분화 필드 unit·code·tags 등 보존)
+- 사람은 `배포하기.bat`만 더블클릭하면 GitHub에 반영된다.
+- 어드민은 열릴 때 배포본의 `updated_at`이 더 최신이면 자동으로 불러온다.

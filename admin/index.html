@@ -597,30 +597,43 @@
   var st = { sub: 'korean', db: { korean: null, math: null, english: null }, examId: null };
   var localPdfPaths = {}; // prefix → { path, file }
 
+  // 배포된 데이터(로컬 ../data 또는 GitHub) 중 updated_at이 가장 최신인 것을 가져온다
+  function fetchRemote(s) {
+    var urls = ['../data/' + s + '.json', 'https://raw.githubusercontent.com/specialzoker/wrong/main/data/' + s + '.json'];
+    return Promise.all(urls.map(function(u) {
+      return fetch(u + '?t=' + Date.now()).then(function(r) { return r.ok ? r.json() : null; }).catch(function() { return null; });
+    })).then(function(list) {
+      return list.filter(Boolean).sort(function(a, b) { return (b.updated_at || '') > (a.updated_at || '') ? 1 : -1; })[0] || null;
+    });
+  }
+
   window.onload = function() {
     var subs = ['korean','math','english'];
     var pending = subs.length;
     subs.forEach(function(s) {
       var saved = localStorage.getItem('ad_' + s);
-      if (saved) {
-        try { st.db[s] = JSON.parse(saved); } catch(e) {}
-        if (--pending === 0) render();
-      } else {
-        // localStorage 비어 있으면 배포된 data/*.json 자동 로드
-        fetch('../data/' + s + '.json?t=' + Date.now())
-          .then(function(r) { if (!r.ok) throw new Error(); return r.json(); })
-          .then(function(data) {
-            st.db[s] = data;
-            localStorage.setItem('ad_' + s, JSON.stringify(data));
-          })
-          .catch(function() {})
-          .finally(function() { if (--pending === 0) render(); });
-      }
+      if (saved) { try { st.db[s] = JSON.parse(saved); } catch(e) {} }
+      // Claude가 직접 등록한 데이터 등, 배포본이 더 최신이면 자동으로 갱신
+      fetchRemote(s).then(function(remote) {
+        if (!remote) return;
+        var local = st.db[s];
+        if (local && (remote.updated_at || '') <= (local.updated_at || '')) return;
+        var dirty = localStorage.getItem('ad_dirty_' + s) === '1';
+        if (local && dirty && !confirm(LABEL[s] + ': 배포된 데이터가 더 최신입니다. 불러오면 아직 배포하지 않은 어드민 수정사항이 사라집니다. 불러올까요?')) return;
+        st.db[s] = remote;
+        localStorage.setItem('ad_' + s, JSON.stringify(remote));
+        localStorage.removeItem('ad_dirty_' + s);
+        if (local) toast(LABEL[s] + ' 최신 배포 데이터로 갱신됨', 'ok');
+      }).finally(function() { if (--pending === 0) render(); });
     });
   };
 
   function save() {
-    if (st.db[st.sub]) localStorage.setItem('ad_' + st.sub, JSON.stringify(st.db[st.sub]));
+    if (st.db[st.sub]) {
+      st.db[st.sub].updated_at = new Date().toISOString();
+      localStorage.setItem('ad_' + st.sub, JSON.stringify(st.db[st.sub]));
+      localStorage.setItem('ad_dirty_' + st.sub, '1');
+    }
     toast('저장됨', 'ok');
   }
 
@@ -1124,7 +1137,9 @@
       return '<tr>'
         + '<td style="width:44px"><input class="qi" type="number" value="' + no + '" onblur="updQ(' + no + ',\'question_no\',+this.value)" style="width:40px"></td>'
         + '<td style="width:72px"><input class="qi left" value="' + h(q.topic||'') + '" list="' + topicDL + '" onblur="updQ(' + no + ',\'topic\',this.value)" style="width:68px"></td>'
-        + '<td style="width:90px"><input class="qi left" value="' + h(q.subtopic||'') + '" list="' + subDL + '" onblur="updQ(' + no + ',\'subtopic\',this.value)" style="width:86px"></td>'
+        + '<td style="width:90px"><input class="qi left" value="' + h(q.subtopic||'') + '" list="' + subDL + '" onblur="updQ(' + no + ',\'subtopic\',this.value)" style="width:86px">'
+          + ((q.unit || q.detail) ? '<div style="font-size:10px;color:#64748b;line-height:1.2;margin-top:2px" title="' + h(q.code || '') + '">' + h(q.unit || q.detail) + '</div>' : '')
+          + '</td>'
         + '<td style="width:56px"><select class="qi-sel" onchange="updQ(' + no + ',\'difficulty\',this.value)">'
           + ['하','중','상'].map(function(v) { return '<option'+(q.difficulty===v?' selected':'')+'>'+v+'</option>'; }).join('')
           + '</select></td>'
@@ -1521,6 +1536,13 @@
       'listening': '듣기', 'reading': '독해'
     };
 
+    // 스킬이 만든 세분화 필드(unit·code·tags·subject, 영어 detail·domain·point 등)를 그대로 저장
+    var SKIP_KEYS = ['q','section','answer','answer_value','correct_answer','exam_id','question_no',
+                     'is_common','question_page','answer_page','difficulty','topic','subtopic','score','keywords'];
+    function copyExtra(q, item) {
+      Object.keys(item).forEach(function(k) { if (SKIP_KEYS.indexOf(k) < 0) q[k] = item[k]; });
+    }
+
     function createNewQuestion(qno, sec, item, ansVal) {
       var fkey = FKEY[sub];                  // 'is_common' or 'section'
       var val  = SEC_TO_VAL[sec] || FOPTS[sub][0];
@@ -1537,6 +1559,7 @@
         score: item.score !== undefined ? item.score : 2
       };
       q[fkey] = val;
+      copyExtra(q, item);
       return q;
     }
 
@@ -1577,6 +1600,7 @@
         if (item.score    !== undefined) q.score    = item.score;
         if (item.keywords !== undefined) q.keywords = item.keywords;
         if (ansVal        !== undefined) q.correct_answer = ansVal;
+        copyExtra(q, item);
         updated++;
       });
     });
@@ -1807,7 +1831,7 @@
     })
     .then(function(r) { return r.json(); })
     .then(function(res) {
-      if (res.ok) toast('✅ GitHub 배포 완료! (' + res.exams + '시험 ' + res.questions + '문항)', 'ok');
+      if (res.ok) { localStorage.removeItem('ad_dirty_' + st.sub); toast('✅ GitHub 배포 완료! (' + res.exams + '시험 ' + res.questions + '문항)', 'ok'); }
       else toast('❌ 오류: ' + res.error, 'err');
     })
     .catch(function() {
