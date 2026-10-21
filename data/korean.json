@@ -5511,512 +5511,617 @@
     {
       "exam_id": "2026-5",
       "question_no": 1,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "인문·예술",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": "이항 대립 구조, 개념 분석",
       "question_page": 1,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "H0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 2,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "인문·예술",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": "이항 대립 구조, 홍길동전",
       "question_page": 1,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "3",
       "score": 3,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "H0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 3,
-      "topic": "독서",
-      "subtopic": "어휘",
+      "topic": "인문·예술",
+      "subtopic": "관점 비교·평가",
       "difficulty": "중",
       "keywords": "이항 대립 구조, 어휘 의미",
       "question_page": 1,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R06",
-      "code_src": "auto"
+      "code": "H0501",
+      "subject": "독서",
+      "unit": "견해 비교",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 4,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": "러셀, 명제론, 언어 게임",
       "question_page": 2,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0102",
+      "subject": "독서",
+      "unit": "서술 방식·전개",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 5,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": "러셀, 리오타르, 언어 게임",
       "question_page": 3,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 6,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": "러셀, 직접적 인식, 언어 게임",
       "question_page": 3,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0201",
+      "subject": "독서",
+      "unit": "개념·정의",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 7,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "관점 비교·평가",
       "difficulty": "중",
       "keywords": "리오타르, 언어 게임, 공약불가능성",
       "question_page": 3,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0501",
+      "subject": "독서",
+      "unit": "견해 비교",
+      "tags": [
+        "보기제시",
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 8,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": "러셀, 리오타르, 구체적 사례 적용",
       "question_page": 3,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "3",
       "score": 3,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "복합지문",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 9,
-      "topic": "독서",
+      "topic": "주제 통합",
       "subtopic": "어휘",
       "difficulty": "중",
       "keywords": "리오타르, 어휘 의미",
       "question_page": 3,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R06",
-      "code_src": "auto"
+      "code": "U0601",
+      "subject": "독서",
+      "unit": "문맥적 의미",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 10,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "과학·기술",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": "볼록 렌즈, 비점수차, 상점",
       "question_page": 4,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "T0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 11,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "과학·기술",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": "비점수차, 자오면, 구결면",
       "question_page": 4,
       "answer_page": 1,
-      "correct_answer": "",
-      "score": 2,
+      "correct_answer": "3",
+      "score": 3,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "T0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 12,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "과학·기술",
+      "subtopic": "추론",
       "difficulty": "중",
       "keywords": "볼록 렌즈, 비점수차, 이유 파악",
       "question_page": 5,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "T0301",
+      "subject": "독서",
+      "unit": "이유·전제 추론",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 13,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "과학·기술",
+      "subtopic": "어휘",
       "difficulty": "중",
       "keywords": "볼록 렌즈, 비점수차, 최소 착란원",
       "question_page": 5,
       "answer_page": 1,
-      "correct_answer": "",
-      "score": 3,
+      "correct_answer": "2",
+      "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "T0602",
+      "subject": "독서",
+      "unit": "바꿔 쓰기·한자어",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 14,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "사회(법·경제)",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": "구분소유권, 집합건물, 전유부분",
       "question_page": 5,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "S0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 15,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "사회(법·경제)",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": "구분소유권, 공용부분, 지분",
       "question_page": 6,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "S0201",
+      "subject": "독서",
+      "unit": "개념·정의",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 16,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "사회(법·경제)",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": "구분소유권, 구체적 적용",
       "question_page": 6,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "S0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 17,
-      "topic": "독서",
-      "subtopic": "어휘",
+      "topic": "사회(법·경제)",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": "구분소유권, 어휘 의미",
       "question_page": 6,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R06",
-      "code_src": "auto"
+      "code": "S0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 18,
-      "topic": "현대소설",
-      "subtopic": "표현 기법",
+      "topic": "현대소설·극",
+      "subtopic": "내용·사건",
       "difficulty": "중",
       "keywords": "사환아이, 서술 방식",
       "question_page": 7,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "F03",
-      "code_src": "auto"
+      "code": "F0101",
+      "subject": "문학",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 19,
-      "topic": "현대소설",
-      "subtopic": "표현 기법",
+      "topic": "현대소설·극",
+      "subtopic": "서술상 특징",
       "difficulty": "중",
       "keywords": "사환아이, 서술 방식 ㉠~㉤",
       "question_page": 7,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "F03",
-      "code_src": "auto"
+      "code": "F0302",
+      "subject": "문학",
+      "unit": "서술 방식·장면 제시",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 20,
-      "topic": "현대소설",
-      "subtopic": "내용 파악",
+      "topic": "현대소설·극",
+      "subtopic": "소재·공간",
       "difficulty": "중",
       "keywords": "사환아이, ⓐⓑ 분석",
       "question_page": 7,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "F01",
-      "code_src": "auto"
+      "code": "F0401",
+      "subject": "문학",
+      "unit": "소재의 기능",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 21,
-      "topic": "현대소설",
-      "subtopic": "외적 준거",
+      "topic": "현대소설·극",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": "사환아이, 종합 감상",
       "question_page": 7,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "F05",
-      "code_src": "auto"
+      "code": "F0501",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 22,
-      "topic": "복합지문",
-      "subtopic": "표현 기법",
+      "topic": "갈래 복합",
+      "subtopic": "표현상 공통점",
       "difficulty": "중",
       "keywords": "현대시(안개), 고전산문(난초)",
       "question_page": 8,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "Q01",
-      "code_src": "auto"
+      "code": "Q0101",
+      "subject": "문학",
+      "unit": "표현 방식 비교",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 23,
       "topic": "현대시",
-      "subtopic": "표현 기법",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": "안개, ㉠~㉤ 표현 분석",
       "question_page": 9,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "P02",
-      "code_src": "auto"
+      "code": "P0301",
+      "subject": "문학",
+      "unit": "시어·시구의 의미",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 24,
-      "topic": "복합지문",
-      "subtopic": "외적 준거",
+      "topic": "갈래 복합",
+      "subtopic": "<보기> 종합 감상",
       "difficulty": "중",
       "keywords": "안개, 시적 상상력, 보기 감상",
       "question_page": 9,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 3,
       "is_common": "공통",
-      "code": "Q03",
-      "code_src": "auto"
+      "code": "Q0301",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시",
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 25,
-      "topic": "고전산문",
-      "subtopic": "내용 파악",
+      "topic": "수필",
+      "subtopic": "글쓴이의 태도·내용",
       "difficulty": "중",
       "keywords": "난초, 주인, 객, 내용 이해",
       "question_page": 9,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "E01",
-      "code_src": "auto"
+      "code": "E0101",
+      "subject": "문학",
+      "unit": "글쓴이의 태도",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 26,
-      "topic": "복합지문",
-      "subtopic": "표현 기법",
+      "topic": "갈래 복합",
+      "subtopic": "작품 비교 감상",
       "difficulty": "중",
       "keywords": "안개, 난초, 감상 비교",
       "question_page": 9,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "Q01",
-      "code_src": "auto"
+      "code": "Q0201",
+      "subject": "문학",
+      "unit": "공통점·차이점",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 27,
-      "topic": "복합지문",
-      "subtopic": "표현 기법",
+      "topic": "갈래 복합",
+      "subtopic": "표현상 공통점",
       "difficulty": "중",
       "keywords": "고전시가(영회잡곡), (가)~(다) 표현",
       "question_page": 10,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "Q01",
-      "code_src": "auto"
+      "code": "Q0101",
+      "subject": "문학",
+      "unit": "표현 방식 비교",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 28,
       "topic": "고전시가",
-      "subtopic": "시어의 의미",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": "영회잡곡, 시어 분석, 백발",
       "question_page": 10,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "K03",
-      "code_src": "auto"
+      "code": "K0301",
+      "subject": "문학",
+      "unit": "시어·시구의 의미",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 29,
       "topic": "고전시가",
-      "subtopic": "내용 파악",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": "영회잡곡, 노년, 내용 이해",
       "question_page": 10,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "K01",
-      "code_src": "auto"
+      "code": "K0302",
+      "subject": "문학",
+      "unit": "소재의 기능·상징",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 30,
-      "topic": "복합지문",
-      "subtopic": "외적 준거",
+      "topic": "갈래 복합",
+      "subtopic": "<보기> 종합 감상",
       "difficulty": "중",
       "keywords": "고전시가, 노년의 삶, 보기 감상",
       "question_page": 11,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 3,
       "is_common": "공통",
-      "code": "Q03",
-      "code_src": "auto"
+      "code": "Q0301",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시",
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 31,
       "topic": "고전소설",
-      "subtopic": "내용 파악",
+      "subtopic": "인물",
       "difficulty": "중",
       "keywords": "방주, 효열부인, 내용 이해",
       "question_page": 12,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "N01",
-      "code_src": "auto"
+      "code": "N0201",
+      "subject": "문학",
+      "unit": "인물의 심리·태도",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 32,
       "topic": "고전소설",
-      "subtopic": "표현 기법",
+      "subtopic": "인물",
       "difficulty": "중",
       "keywords": "방주, 효열부인, 서술 방식",
       "question_page": 12,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "N03",
-      "code_src": "auto"
+      "code": "N0201",
+      "subject": "문학",
+      "unit": "인물의 심리·태도",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 33,
       "topic": "고전소설",
-      "subtopic": "인물 분석",
+      "subtopic": "소재·공간",
       "difficulty": "중",
       "keywords": "방주, 효열부인, ㉠~㉢ 인물",
       "question_page": 12,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "N02",
-      "code_src": "auto"
+      "code": "N0401",
+      "subject": "문학",
+      "unit": "소재의 기능",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 34,
       "topic": "고전소설",
-      "subtopic": "외적 준거",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": "방주, 효열부인, 종합 감상",
       "question_page": 12,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "2",
       "score": 3,
       "is_common": "공통",
-      "code": "N05",
-      "code_src": "auto"
+      "code": "N0501",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -6027,116 +6132,134 @@
       "keywords": "발표, 흉배, 왕실 복식",
       "question_page": 13,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "2",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V01",
-      "code_src": "auto"
+      "code": "V0102",
+      "subject": "화법과작문",
+      "unit": "말하기 전략",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 36,
       "topic": "화법",
-      "subtopic": "자료 활용",
+      "subtopic": "자료·매체 활용",
       "difficulty": "중",
       "keywords": "발표, 흉배, 자료 제시",
       "question_page": 13,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V02",
-      "code_src": "auto"
+      "code": "V0201",
+      "subject": "화법과작문",
+      "unit": "자료 활용 계획",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 37,
       "topic": "화법",
-      "subtopic": "반응 이해",
+      "subtopic": "청중 반응 이해",
       "difficulty": "중",
       "keywords": "발표, 흉배, 청중 반응",
       "question_page": 13,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V03",
-      "code_src": "auto"
+      "code": "V0301",
+      "subject": "화법과작문",
+      "unit": "반응의 적절성",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026-5",
       "question_no": 38,
       "topic": "작문",
-      "subtopic": "내용 생성",
+      "subtopic": "내용 생성·조직",
       "difficulty": "중",
       "keywords": "건의문, 텃밭 잡초, 토끼풀",
       "question_page": 14,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W02",
-      "code_src": "auto"
+      "code": "W0202",
+      "subject": "화법과작문",
+      "unit": "내용 조직",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 39,
-      "topic": "작문",
-      "subtopic": "고쳐쓰기",
+      "topic": "화법+작문",
+      "subtopic": "담화 내용 반영",
       "difficulty": "중",
       "keywords": "건의문, 고쳐쓰기 계획",
       "question_page": 15,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "4",
       "score": 3,
       "is_common": "화법과작문",
-      "code": "W04",
-      "code_src": "auto"
+      "code": "X0101",
+      "subject": "화법과작문",
+      "unit": "대화·회의 내용의 글 반영",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 40,
-      "topic": "화법",
-      "subtopic": "대화 분석",
+      "topic": "작문",
+      "subtopic": "조건에 맞는 표현",
       "difficulty": "중",
       "keywords": "건의문, 동아리 대화",
       "question_page": 15,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V04",
-      "code_src": "auto"
+      "code": "W0501",
+      "subject": "화법과작문",
+      "unit": "조건 반영 쓰기",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 41,
       "topic": "화법",
-      "subtopic": "대화 분석",
+      "subtopic": "담화 참여자 분석",
       "difficulty": "중",
       "keywords": "건의문, 학생 대화 분석",
       "question_page": 15,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "1",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V04",
-      "code_src": "auto"
+      "code": "V0403",
+      "subject": "화법과작문",
+      "unit": "대화·토의 참여자 역할",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 42,
-      "topic": "작문",
-      "subtopic": "말하기 방식",
+      "topic": "화법",
+      "subtopic": "담화 참여자 분석",
       "difficulty": "중",
       "keywords": "건의문, [A][B] 대화 분석",
       "question_page": 15,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "4",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V01",
-      "code_src": "auto"
+      "code": "V0403",
+      "subject": "화법과작문",
+      "unit": "대화·토의 참여자 역할",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
@@ -6147,26 +6270,32 @@
       "keywords": "사운드스케이프, 쓰기 계획",
       "question_page": 16,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "2",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W01",
-      "code_src": "auto"
+      "code": "W0101",
+      "subject": "화법과작문",
+      "unit": "계획 반영 여부",
+      "tags": []
     },
     {
       "exam_id": "2026-5",
       "question_no": 44,
       "topic": "작문",
-      "subtopic": "내용 생성",
+      "subtopic": "고쳐쓰기",
       "difficulty": "중",
       "keywords": "사운드스케이프, 내용 수정",
       "question_page": 16,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "3",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W02",
-      "code_src": "auto"
+      "code": "W0401",
+      "subject": "화법과작문",
+      "unit": "초고 점검",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026-5",
@@ -6177,17 +6306,21 @@
       "keywords": "사운드스케이프, 자료 활용",
       "question_page": 16,
       "answer_page": 1,
-      "correct_answer": "",
+      "correct_answer": "5",
       "score": 3,
       "is_common": "화법과작문",
-      "code": "W03",
-      "code_src": "auto"
+      "code": "W0301",
+      "subject": "화법과작문",
+      "unit": "자료 활용 방안",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 1,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "인문·예술",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "SQ3R",
@@ -6200,14 +6333,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "H0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 2,
-      "topic": "독서",
-      "subtopic": "적용·추론",
+      "topic": "인문·예술",
+      "subtopic": "추론",
       "difficulty": "중",
       "keywords": [
         "㉠ 새로운 활동",
@@ -6219,14 +6354,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "H0302",
+      "subject": "독서",
+      "unit": "결과·사례 예측",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 3,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "인문·예술",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "A~D그룹 실험",
@@ -6239,14 +6376,18 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "H0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 4,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "이익",
@@ -6259,14 +6400,18 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0102",
+      "subject": "독서",
+      "unit": "서술 방식·전개",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 5,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "㉠ 양반들의 노비 글",
@@ -6278,14 +6423,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0201",
+      "subject": "독서",
+      "unit": "개념·정의",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 6,
-      "topic": "독서",
-      "subtopic": "적용·추론",
+      "topic": "주제 통합",
+      "subtopic": "관점 비교·평가",
       "difficulty": "중",
       "keywords": [
         "㉮ 이익",
@@ -6297,14 +6444,18 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "U0501",
+      "subject": "독서",
+      "unit": "견해 비교",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 7,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "형평 운동",
@@ -6317,14 +6468,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 8,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "주제 통합",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "아리스토텔레스",
@@ -6337,13 +6490,19 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "U0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "복합지문",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 9,
-      "topic": "독서",
+      "topic": "주제 통합",
       "subtopic": "어휘",
       "difficulty": "중",
       "keywords": [
@@ -6355,14 +6514,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "R06",
-      "code_src": "auto"
+      "code": "U0601",
+      "subject": "독서",
+      "unit": "문맥적 의미",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 10,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "사회(법·경제)",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "정보 비대칭",
@@ -6374,14 +6535,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "S0102",
+      "subject": "독서",
+      "unit": "서술 방식·전개",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 11,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "사회(법·경제)",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "완전경쟁시장",
@@ -6393,14 +6556,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "S0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 12,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "사회(법·경제)",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "㉠ 사상의 자유 시장",
@@ -6412,14 +6577,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "S0201",
+      "subject": "독서",
+      "unit": "개념·정의",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 13,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "사회(법·경제)",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "ⓐ 생성물 표시",
@@ -6432,14 +6599,19 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "S0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 14,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "과학·기술",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "표면 장력",
@@ -6452,14 +6624,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "T0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 15,
-      "topic": "독서",
-      "subtopic": "추론",
+      "topic": "과학·기술",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "㉠ 두 기포 합쳐짐",
@@ -6471,14 +6645,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "R03",
-      "code_src": "auto"
+      "code": "T0202",
+      "subject": "독서",
+      "unit": "원리·인과·과정",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 16,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "과학·기술",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "오네소르게 수",
@@ -6491,13 +6667,18 @@
       "correct_answer": "3",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "T0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 17,
-      "topic": "독서",
+      "topic": "과학·기술",
       "subtopic": "어휘",
       "difficulty": "중",
       "keywords": [
@@ -6509,14 +6690,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R06",
-      "code_src": "auto"
+      "code": "T0602",
+      "subject": "독서",
+      "unit": "바꿔 쓰기·한자어",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 18,
-      "topic": "현대소설",
-      "subtopic": "내용 파악",
+      "topic": "현대소설·극",
+      "subtopic": "내용·사건",
       "difficulty": "중",
       "keywords": [
         "삼바우",
@@ -6529,14 +6712,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "F01",
-      "code_src": "auto"
+      "code": "F0101",
+      "subject": "문학",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 19,
-      "topic": "현대소설",
-      "subtopic": "소재의 상징",
+      "topic": "현대소설·극",
+      "subtopic": "서술상 특징",
       "difficulty": "중",
       "keywords": [
         "ⓐ 지난봄의 일",
@@ -6548,14 +6733,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "F04",
-      "code_src": "auto"
+      "code": "F0302",
+      "subject": "문학",
+      "unit": "서술 방식·장면 제시",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 20,
-      "topic": "현대소설",
-      "subtopic": "인물 분석",
+      "topic": "현대소설·극",
+      "subtopic": "인물",
       "difficulty": "중",
       "keywords": [
         "[A]",
@@ -6567,14 +6754,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "F02",
-      "code_src": "auto"
+      "code": "F0201",
+      "subject": "문학",
+      "unit": "인물의 심리·태도",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 21,
-      "topic": "현대소설",
-      "subtopic": "외적 준거",
+      "topic": "현대소설·극",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": [
         "㉠~㉤",
@@ -6587,14 +6776,18 @@
       "correct_answer": "3",
       "score": 3,
       "is_common": "공통",
-      "code": "F05",
-      "code_src": "auto"
+      "code": "F0501",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 22,
-      "topic": "현대시",
-      "subtopic": "표현 기법",
+      "topic": "갈래 복합",
+      "subtopic": "표현상 공통점",
       "difficulty": "중",
       "keywords": [
         "그 나무",
@@ -6607,14 +6800,18 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "P02",
-      "code_src": "auto"
+      "code": "Q0101",
+      "subject": "문학",
+      "unit": "표현 방식 비교",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 23,
       "topic": "현대시",
-      "subtopic": "시어의 의미",
+      "subtopic": "화자·정서",
       "difficulty": "중",
       "keywords": [
         "(나) 나무",
@@ -6627,14 +6824,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "P03",
-      "code_src": "auto"
+      "code": "P0101",
+      "subject": "문학",
+      "unit": "정서·태도",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 24,
-      "topic": "현대시",
-      "subtopic": "외적 준거",
+      "topic": "갈래 복합",
+      "subtopic": "<보기> 종합 감상",
       "difficulty": "중",
       "keywords": [
         "자연 교감·관찰",
@@ -6647,14 +6846,19 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "공통",
-      "code": "P04",
-      "code_src": "auto"
+      "code": "Q0301",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시",
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 25,
-      "topic": "현대수필",
-      "subtopic": "내용 파악",
+      "topic": "수필",
+      "subtopic": "글쓴이의 태도·내용",
       "difficulty": "중",
       "keywords": [
         "(다) 노인과 꽃",
@@ -6667,14 +6871,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "E01",
-      "code_src": "auto"
+      "code": "E0101",
+      "subject": "문학",
+      "unit": "글쓴이의 태도",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 26,
-      "topic": "복합 문학",
-      "subtopic": "시어의 의미",
+      "topic": "현대시",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": [
         "㉠~㉤",
@@ -6686,14 +6892,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "Q02",
-      "code_src": "auto"
+      "code": "P0301",
+      "subject": "문학",
+      "unit": "시어·시구의 의미",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 27,
-      "topic": "복합 문학",
-      "subtopic": "소재의 상징",
+      "topic": "갈래 복합",
+      "subtopic": "작품 비교 감상",
       "difficulty": "중",
       "keywords": [
         "ⓐ 그늘",
@@ -6706,14 +6914,18 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "Q02",
-      "code_src": "auto"
+      "code": "Q0201",
+      "subject": "문학",
+      "unit": "공통점·차이점",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 28,
       "topic": "고전소설",
-      "subtopic": "내용 파악",
+      "subtopic": "인물",
       "difficulty": "중",
       "keywords": [
         "㉠ 여차여차",
@@ -6726,14 +6938,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "N01",
-      "code_src": "auto"
+      "code": "N0201",
+      "subject": "문학",
+      "unit": "인물의 심리·태도",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 29,
       "topic": "고전소설",
-      "subtopic": "소재와 공간의 의미",
+      "subtopic": "소재·공간",
       "difficulty": "중",
       "keywords": [
         "ⓐ 해인사",
@@ -6745,14 +6959,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "N04",
-      "code_src": "auto"
+      "code": "N0401",
+      "subject": "문학",
+      "unit": "소재의 기능",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 30,
       "topic": "고전소설",
-      "subtopic": "적용·추론",
+      "subtopic": "내용·사건",
       "difficulty": "중",
       "keywords": [
         "속임수담",
@@ -6765,14 +6981,18 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "N05",
-      "code_src": "auto"
+      "code": "N0102",
+      "subject": "문학",
+      "unit": "사건 전개",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 31,
       "topic": "고전소설",
-      "subtopic": "외적 준거",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": [
         "율도국 왕",
@@ -6785,14 +7005,18 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "공통",
-      "code": "N05",
-      "code_src": "auto"
+      "code": "N0501",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 32,
       "topic": "고전시가",
-      "subtopic": "표현 기법",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": [
         "[A][B][C]",
@@ -6805,14 +7029,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "K02",
-      "code_src": "auto"
+      "code": "K0301",
+      "subject": "문학",
+      "unit": "시어·시구의 의미",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 33,
       "topic": "고전시가",
-      "subtopic": "표현 기법",
+      "subtopic": "표현상 특징",
       "difficulty": "중",
       "keywords": [
         "(나) 시름",
@@ -6825,14 +7051,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "K02",
-      "code_src": "auto"
+      "code": "K0201",
+      "subject": "문학",
+      "unit": "표현 방식",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 34,
-      "topic": "고전시가",
-      "subtopic": "외적 준거",
+      "topic": "갈래 복합",
+      "subtopic": "<보기> 종합 감상",
       "difficulty": "중",
       "keywords": [
         "참신한 발상",
@@ -6845,8 +7073,13 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "K04",
-      "code_src": "auto"
+      "code": "Q0301",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시",
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_06",
@@ -6865,14 +7098,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V01",
-      "code_src": "auto"
+      "code": "V0102",
+      "subject": "화법과작문",
+      "unit": "말하기 전략",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 36,
       "topic": "화법",
-      "subtopic": "자료 활용",
+      "subtopic": "자료·매체 활용",
       "difficulty": "중",
       "keywords": [
         "자료1~3",
@@ -6885,14 +7120,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V02",
-      "code_src": "auto"
+      "code": "V0201",
+      "subject": "화법과작문",
+      "unit": "자료 활용 계획",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 37,
       "topic": "화법",
-      "subtopic": "반응 이해",
+      "subtopic": "말하기 방식",
       "difficulty": "중",
       "keywords": [
         "청중 분석",
@@ -6904,14 +7141,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V03",
-      "code_src": "auto"
+      "code": "V0101",
+      "subject": "화법과작문",
+      "unit": "내용 구성",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 38,
       "topic": "화법",
-      "subtopic": "대화 분석",
+      "subtopic": "담화 참여자 분석",
       "difficulty": "중",
       "keywords": [
         "㉠~㉤",
@@ -6924,14 +7163,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V04",
-      "code_src": "auto"
+      "code": "V0403",
+      "subject": "화법과작문",
+      "unit": "대화·토의 참여자 역할",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 39,
       "topic": "화법",
-      "subtopic": "면담과 협상",
+      "subtopic": "담화 참여자 분석",
       "difficulty": "중",
       "keywords": [
         "인터뷰",
@@ -6944,8 +7185,10 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V04",
-      "code_src": "auto"
+      "code": "V0402",
+      "subject": "화법과작문",
+      "unit": "협상·면담",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -6963,14 +7206,16 @@
       "correct_answer": "3",
       "score": 3,
       "is_common": "화법과작문",
-      "code": "X01",
-      "code_src": "auto"
+      "code": "X0101",
+      "subject": "화법과작문",
+      "unit": "대화·회의 내용의 글 반영",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 42,
       "topic": "작문",
-      "subtopic": "초고 수정",
+      "subtopic": "고쳐쓰기",
       "difficulty": "중",
       "keywords": [
         "5문단 고쳐쓰기",
@@ -6982,8 +7227,10 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W04",
-      "code_src": "auto"
+      "code": "W0401",
+      "subject": "화법과작문",
+      "unit": "초고 점검",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -7001,14 +7248,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W01",
-      "code_src": "auto"
+      "code": "W0101",
+      "subject": "화법과작문",
+      "unit": "계획 반영 여부",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 44,
       "topic": "작문",
-      "subtopic": "초고 수정",
+      "subtopic": "고쳐쓰기",
       "difficulty": "중",
       "keywords": [
         "[A] 작성",
@@ -7021,8 +7270,10 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W04",
-      "code_src": "auto"
+      "code": "W0402",
+      "subject": "화법과작문",
+      "unit": "조건에 맞게 고쳐쓰기",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
@@ -7041,14 +7292,18 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "화법과작문",
-      "code": "W03",
-      "code_src": "auto"
+      "code": "W0301",
+      "subject": "화법과작문",
+      "unit": "자료 활용 방안",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 35,
       "topic": "언어",
-      "subtopic": "음운론",
+      "subtopic": "음운",
       "difficulty": "중",
       "keywords": [
         "음운",
@@ -7061,14 +7316,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G01",
-      "code_src": "auto"
+      "code": "G0101",
+      "subject": "언어와매체",
+      "unit": "음운 체계",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 36,
       "topic": "언어",
-      "subtopic": "음운론",
+      "subtopic": "음운",
       "difficulty": "중",
       "keywords": [
         "㉠~㉢",
@@ -7081,14 +7338,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G01",
-      "code_src": "auto"
+      "code": "G0101",
+      "subject": "언어와매체",
+      "unit": "음운 체계",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 37,
       "topic": "언어",
-      "subtopic": "통사론",
+      "subtopic": "음운",
       "difficulty": "중",
       "keywords": [
         "관형사형 어미",
@@ -7102,14 +7361,16 @@
       "correct_answer": "2",
       "score": 3,
       "is_common": "언어와매체",
-      "code": "G03",
-      "code_src": "auto"
+      "code": "G0101",
+      "subject": "언어와매체",
+      "unit": "음운 체계",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 38,
       "topic": "언어",
-      "subtopic": "국어사·중세국어",
+      "subtopic": "국어사",
       "difficulty": "중",
       "keywords": [
         "설명 의문문",
@@ -7122,14 +7383,18 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G05",
-      "code_src": "auto"
+      "code": "G0501",
+      "subject": "언어와매체",
+      "unit": "중세 국어 문법",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 39,
       "topic": "언어",
-      "subtopic": "형태론",
+      "subtopic": "국어사",
       "difficulty": "중",
       "keywords": [
         "볶음밥",
@@ -7141,14 +7406,18 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G02",
-      "code_src": "auto"
+      "code": "G0501",
+      "subject": "언어와매체",
+      "unit": "중세 국어 문법",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_06",
       "question_no": 40,
       "topic": "매체",
-      "subtopic": "온라인 소통 매체",
+      "subtopic": "소통 방식·수용자",
       "difficulty": "중",
       "keywords": [
         "라디오 방송",
@@ -7161,14 +7430,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M03",
-      "code_src": "auto"
+      "code": "M0301",
+      "subject": "언어와매체",
+      "unit": "상호작용 방식",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 42,
       "topic": "매체",
-      "subtopic": "매체 언어의 특성",
+      "subtopic": "매체 자료 생산",
       "difficulty": "중",
       "keywords": [
         "(나) 블로그",
@@ -7181,14 +7452,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M02",
-      "code_src": "auto"
+      "code": "M0401",
+      "subject": "언어와매체",
+      "unit": "자료 제작 계획",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 43,
       "topic": "매체",
-      "subtopic": "매체 언어의 특성",
+      "subtopic": "매체 언어 표현",
       "difficulty": "중",
       "keywords": [
         "ⓐ~ⓔ",
@@ -7200,14 +7473,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M02",
-      "code_src": "auto"
+      "code": "M0201",
+      "subject": "언어와매체",
+      "unit": "언어 표현",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 44,
       "topic": "매체",
-      "subtopic": "온라인 소통 매체",
+      "subtopic": "소통 방식·수용자",
       "difficulty": "중",
       "keywords": [
         "㉠~㉤",
@@ -7220,14 +7495,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M03",
-      "code_src": "auto"
+      "code": "M0301",
+      "subject": "언어와매체",
+      "unit": "상호작용 방식",
+      "tags": []
     },
     {
       "exam_id": "2026_06",
       "question_no": 45,
       "topic": "매체",
-      "subtopic": "매체 수용과 생산",
+      "subtopic": "매체 자료 생산",
       "difficulty": "중",
       "keywords": [
         "(나) 영상 제작 계획",
@@ -7239,14 +7516,16 @@
       "correct_answer": "2",
       "score": 3,
       "is_common": "언어와매체",
-      "code": "M04",
-      "code_src": "auto"
+      "code": "M0402",
+      "subject": "언어와매체",
+      "unit": "수정·보완",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 1,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "인문·예술",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "통합적 독서",
@@ -7259,14 +7538,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "H0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 2,
-      "topic": "독서",
-      "subtopic": "비판·평가",
+      "topic": "인문·예술",
+      "subtopic": "관점 비교·평가",
       "difficulty": "중",
       "keywords": [
         "통합적 독서",
@@ -7279,14 +7560,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R05",
-      "code_src": "auto"
+      "code": "H0502",
+      "subject": "독서",
+      "unit": "비판·반응",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 3,
-      "topic": "독서",
-      "subtopic": "적용·추론",
+      "topic": "인문·예술",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "성공의 기준",
@@ -7299,14 +7582,18 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "H0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 4,
-      "topic": "독서",
-      "subtopic": "글의 전개 방식",
+      "topic": "주제 통합",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "구조화 이론",
@@ -7318,14 +7605,18 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0102",
+      "subject": "독서",
+      "unit": "서술 방식·전개",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 5,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "㉠ 성찰적 실천",
@@ -7337,14 +7628,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0201",
+      "subject": "독서",
+      "unit": "개념·정의",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 6,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "[A]",
@@ -7357,14 +7650,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 7,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "벡의 생각",
@@ -7377,14 +7672,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 8,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "주제 통합",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "친환경적 행동 양식",
@@ -7397,13 +7694,19 @@
       "correct_answer": "2",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "U0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "복합지문",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 9,
-      "topic": "독서",
+      "topic": "주제 통합",
       "subtopic": "어휘",
       "difficulty": "중",
       "keywords": [
@@ -7415,14 +7718,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R06",
-      "code_src": "auto"
+      "code": "U0602",
+      "subject": "독서",
+      "unit": "바꿔 쓰기·한자어",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 10,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "과학·기술",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "횡단 경사",
@@ -7435,14 +7740,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "T0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 11,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "과학·기술",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "ⓐ 마찰 계수",
@@ -7454,14 +7761,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "T0202",
+      "subject": "독서",
+      "unit": "원리·인과·과정",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 12,
-      "topic": "독서",
-      "subtopic": "추론",
+      "topic": "과학·기술",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "[A]",
@@ -7474,14 +7783,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R03",
-      "code_src": "auto"
+      "code": "T0202",
+      "subject": "독서",
+      "unit": "원리·인과·과정",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 13,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "과학·기술",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "평면도",
@@ -7494,14 +7805,19 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "T0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 14,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "사회(법·경제)",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "ETF",
@@ -7514,14 +7830,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "S0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 15,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "사회(법·경제)",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "㉠~㉣ ETF 유형",
@@ -7534,14 +7852,18 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "S0402",
+      "subject": "독서",
+      "unit": "자료·그래프 해석",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 16,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "사회(법·경제)",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "장중 가격 그래프",
@@ -7554,13 +7876,18 @@
       "correct_answer": "3",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "S0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 17,
-      "topic": "독서",
+      "topic": "사회(법·경제)",
       "subtopic": "어휘",
       "difficulty": "중",
       "keywords": [
@@ -7573,14 +7900,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R06",
-      "code_src": "auto"
+      "code": "S0601",
+      "subject": "독서",
+      "unit": "문맥적 의미",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 18,
       "topic": "고전소설",
-      "subtopic": "내용 파악",
+      "subtopic": "내용·사건",
       "difficulty": "중",
       "keywords": [
         "김 처사",
@@ -7594,14 +7923,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "N01",
-      "code_src": "auto"
+      "code": "N0101",
+      "subject": "문학",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 19,
       "topic": "고전소설",
-      "subtopic": "내용 파악",
+      "subtopic": "내용·사건",
       "difficulty": "중",
       "keywords": [
         "㉠ 진정",
@@ -7613,14 +7944,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "N01",
-      "code_src": "auto"
+      "code": "N0102",
+      "subject": "문학",
+      "unit": "사건 전개",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 20,
       "topic": "고전소설",
-      "subtopic": "표현 기법",
+      "subtopic": "서술상 특징",
       "difficulty": "중",
       "keywords": [
         "[A][B]",
@@ -7633,14 +7966,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "N03",
-      "code_src": "auto"
+      "code": "N0302",
+      "subject": "문학",
+      "unit": "서술 방식·장면 제시",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 21,
       "topic": "고전소설",
-      "subtopic": "외적 준거",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": [
         "속임을 통한 선보기",
@@ -7654,14 +7989,18 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "N05",
-      "code_src": "auto"
+      "code": "N0501",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 22,
-      "topic": "현대소설",
-      "subtopic": "서술 방식",
+      "topic": "현대소설·극",
+      "subtopic": "서술상 특징",
       "difficulty": "중",
       "keywords": [
         "[A]",
@@ -7674,14 +8013,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "F03",
-      "code_src": "auto"
+      "code": "F0302",
+      "subject": "문학",
+      "unit": "서술 방식·장면 제시",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 23,
-      "topic": "현대소설",
-      "subtopic": "인물 분석",
+      "topic": "현대소설·극",
+      "subtopic": "인물",
       "difficulty": "중",
       "keywords": [
         "ⓐ~ⓓ",
@@ -7695,14 +8036,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "F02",
-      "code_src": "auto"
+      "code": "F0202",
+      "subject": "문학",
+      "unit": "인물 관계·갈등",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 24,
-      "topic": "현대소설",
-      "subtopic": "소재의 상징",
+      "topic": "현대소설·극",
+      "subtopic": "소재·공간",
       "difficulty": "중",
       "keywords": [
         "㉠ 소식",
@@ -7714,14 +8057,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "F04",
-      "code_src": "auto"
+      "code": "F0401",
+      "subject": "문학",
+      "unit": "소재의 기능",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 25,
-      "topic": "현대소설",
-      "subtopic": "외적 준거",
+      "topic": "현대소설·극",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": [
         "교차 서술",
@@ -7735,14 +8080,18 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "F05",
-      "code_src": "auto"
+      "code": "F0501",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 26,
-      "topic": "복합 문학",
-      "subtopic": "표현 기법",
+      "topic": "갈래 복합",
+      "subtopic": "표현상 공통점",
       "difficulty": "중",
       "keywords": [
         "과폐탄",
@@ -7755,14 +8104,18 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "Q01",
-      "code_src": "auto"
+      "code": "Q0101",
+      "subject": "문학",
+      "unit": "표현 방식 비교",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 27,
       "topic": "고전시가",
-      "subtopic": "시어의 의미",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": [
         "ⓐ~ⓔ",
@@ -7775,14 +8128,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "K03",
-      "code_src": "auto"
+      "code": "K0301",
+      "subject": "문학",
+      "unit": "시어·시구의 의미",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 28,
       "topic": "고전시가",
-      "subtopic": "내용 파악",
+      "subtopic": "표현상 특징",
       "difficulty": "중",
       "keywords": [
         "과폐탄",
@@ -7795,14 +8150,18 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "K01",
-      "code_src": "auto"
+      "code": "K0202",
+      "subject": "문학",
+      "unit": "시상 전개·구조",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 29,
-      "topic": "고전수필",
-      "subtopic": "내용 파악",
+      "topic": "수필",
+      "subtopic": "글쓴이의 태도·내용",
       "difficulty": "중",
       "keywords": [
         "한거필담",
@@ -7815,14 +8174,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "E01",
-      "code_src": "auto"
+      "code": "E0101",
+      "subject": "문학",
+      "unit": "글쓴이의 태도",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 30,
-      "topic": "고전수필",
-      "subtopic": "외적 준거",
+      "topic": "고전시가",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": [
         "[A]",
@@ -7836,14 +8197,18 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "E04",
-      "code_src": "auto"
+      "code": "K0401",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 31,
-      "topic": "복합 문학",
-      "subtopic": "외적 준거",
+      "topic": "갈래 복합",
+      "subtopic": "<보기> 종합 감상",
       "difficulty": "중",
       "keywords": [
         "학문하는 태도",
@@ -7856,14 +8221,19 @@
       "correct_answer": "3",
       "score": 3,
       "is_common": "공통",
-      "code": "Q03",
-      "code_src": "auto"
+      "code": "Q0301",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시",
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 32,
-      "topic": "현대시",
-      "subtopic": "표현 기법",
+      "topic": "갈래 복합",
+      "subtopic": "표현상 공통점",
       "difficulty": "중",
       "keywords": [
         "회귀심",
@@ -7876,14 +8246,18 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "P02",
-      "code_src": "auto"
+      "code": "Q0101",
+      "subject": "문학",
+      "unit": "표현 방식 비교",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 33,
       "topic": "현대시",
-      "subtopic": "시어의 의미",
+      "subtopic": "표현상 특징",
       "difficulty": "중",
       "keywords": [
         "[A]~[E]",
@@ -7897,14 +8271,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "P03",
-      "code_src": "auto"
+      "code": "P0202",
+      "subject": "문학",
+      "unit": "시상 전개·구조",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 34,
-      "topic": "현대시",
-      "subtopic": "외적 준거",
+      "topic": "갈래 복합",
+      "subtopic": "<보기> 종합 감상",
       "difficulty": "중",
       "keywords": [
         "반복의 양상",
@@ -7918,8 +8294,13 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "P04",
-      "code_src": "auto"
+      "code": "Q0301",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시",
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_07",
@@ -7938,14 +8319,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V01",
-      "code_src": "auto"
+      "code": "V0102",
+      "subject": "화법과작문",
+      "unit": "말하기 전략",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 36,
       "topic": "화법",
-      "subtopic": "자료 활용",
+      "subtopic": "자료·매체 활용",
       "difficulty": "중",
       "keywords": [
         "자료1~3",
@@ -7958,14 +8341,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V02",
-      "code_src": "auto"
+      "code": "V0201",
+      "subject": "화법과작문",
+      "unit": "자료 활용 계획",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 37,
       "topic": "화법",
-      "subtopic": "반응 이해",
+      "subtopic": "청중 반응 이해",
       "difficulty": "중",
       "keywords": [
         "학생1·2·3 반응",
@@ -7977,14 +8362,18 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V03",
-      "code_src": "auto"
+      "code": "V0301",
+      "subject": "화법과작문",
+      "unit": "반응의 적절성",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 38,
       "topic": "화법",
-      "subtopic": "대화 분석",
+      "subtopic": "담화 참여자 분석",
       "difficulty": "중",
       "keywords": [
         "(가) 방송 대담",
@@ -7996,14 +8385,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V04",
-      "code_src": "auto"
+      "code": "V0403",
+      "subject": "화법과작문",
+      "unit": "대화·토의 참여자 역할",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 39,
       "topic": "화법",
-      "subtopic": "대화 분석",
+      "subtopic": "담화 참여자 분석",
       "difficulty": "중",
       "keywords": [
         "[A][B]",
@@ -8016,8 +8407,10 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V04",
-      "code_src": "auto"
+      "code": "V0403",
+      "subject": "화법과작문",
+      "unit": "대화·토의 참여자 역할",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -8036,14 +8429,16 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "화법과작문",
-      "code": "X01",
-      "code_src": "auto"
+      "code": "X0101",
+      "subject": "화법과작문",
+      "unit": "대화·회의 내용의 글 반영",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 41,
       "topic": "작문",
-      "subtopic": "비평문",
+      "subtopic": "내용 생성·조직",
       "difficulty": "중",
       "keywords": [
         "(다) 비평문",
@@ -8056,14 +8451,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W02",
-      "code_src": "auto"
+      "code": "W0202",
+      "subject": "화법과작문",
+      "unit": "내용 조직",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 42,
       "topic": "작문",
-      "subtopic": "초고 수정",
+      "subtopic": "고쳐쓰기",
       "difficulty": "중",
       "keywords": [
         "4문단 고쳐쓰기",
@@ -8076,8 +8473,10 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W04",
-      "code_src": "auto"
+      "code": "W0401",
+      "subject": "화법과작문",
+      "unit": "초고 점검",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -8096,14 +8495,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W01",
-      "code_src": "auto"
+      "code": "W0101",
+      "subject": "화법과작문",
+      "unit": "계획 반영 여부",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 44,
       "topic": "작문",
-      "subtopic": "초고 수정",
+      "subtopic": "조건에 맞는 표현",
       "difficulty": "중",
       "keywords": [
         "[A] 마무리",
@@ -8115,8 +8516,10 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W04",
-      "code_src": "auto"
+      "code": "W0501",
+      "subject": "화법과작문",
+      "unit": "조건 반영 쓰기",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
@@ -8134,14 +8537,18 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "화법과작문",
-      "code": "W03",
-      "code_src": "auto"
+      "code": "W0301",
+      "subject": "화법과작문",
+      "unit": "자료 활용 방안",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 35,
       "topic": "언어",
-      "subtopic": "음운론",
+      "subtopic": "음운",
       "difficulty": "중",
       "keywords": [
         "모음 탈락",
@@ -8154,14 +8561,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G01",
-      "code_src": "auto"
+      "code": "G0103",
+      "subject": "언어와매체",
+      "unit": "탈락·첨가·축약",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 36,
       "topic": "언어",
-      "subtopic": "국어사·중세국어",
+      "subtopic": "음운",
       "difficulty": "중",
       "keywords": [
         "15세기 국어",
@@ -8174,14 +8583,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G05",
-      "code_src": "auto"
+      "code": "G0103",
+      "subject": "언어와매체",
+      "unit": "탈락·첨가·축약",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 37,
       "topic": "언어",
-      "subtopic": "담화와 화용론",
+      "subtopic": "의미·담화",
       "difficulty": "중",
       "keywords": [
         "㉠~㉦",
@@ -8194,14 +8605,18 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G04",
-      "code_src": "auto"
+      "code": "G0402",
+      "subject": "언어와매체",
+      "unit": "담화 맥락·지시",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 38,
       "topic": "언어",
-      "subtopic": "통사론",
+      "subtopic": "단어",
       "difficulty": "중",
       "keywords": [
         "본용언",
@@ -8215,14 +8630,18 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "언어와매체",
-      "code": "G03",
-      "code_src": "auto"
+      "code": "G0202",
+      "subject": "언어와매체",
+      "unit": "품사",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 39,
       "topic": "언어",
-      "subtopic": "통사론",
+      "subtopic": "문장",
       "difficulty": "중",
       "keywords": [
         "서술어 자릿수",
@@ -8235,14 +8654,18 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G03",
-      "code_src": "auto"
+      "code": "G0302",
+      "subject": "언어와매체",
+      "unit": "문장 구조",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_07",
       "question_no": 40,
       "topic": "매체",
-      "subtopic": "텔레비전 방송",
+      "subtopic": "매체 자료 생산",
       "difficulty": "중",
       "keywords": [
         "방송 제작 계획",
@@ -8255,14 +8678,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M01",
-      "code_src": "auto"
+      "code": "M0401",
+      "subject": "언어와매체",
+      "unit": "자료 제작 계획",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 41,
       "topic": "매체",
-      "subtopic": "매체 수용과 생산",
+      "subtopic": "비판적 수용",
       "difficulty": "중",
       "keywords": [
         "시청자 게시판",
@@ -8274,14 +8699,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M04",
-      "code_src": "auto"
+      "code": "M0501",
+      "subject": "언어와매체",
+      "unit": "신뢰성·공정성 평가",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 42,
       "topic": "매체",
-      "subtopic": "매체 언어의 특성",
+      "subtopic": "매체 자료 생산",
       "difficulty": "중",
       "keywords": [
         "(나) 발표 자료",
@@ -8294,14 +8721,16 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "언어와매체",
-      "code": "M02",
-      "code_src": "auto"
+      "code": "M0401",
+      "subject": "언어와매체",
+      "unit": "자료 제작 계획",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 43,
       "topic": "매체",
-      "subtopic": "매체 언어의 특성",
+      "subtopic": "매체 언어 표현",
       "difficulty": "중",
       "keywords": [
         "ⓐ~ⓔ",
@@ -8313,14 +8742,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M02",
-      "code_src": "auto"
+      "code": "M0201",
+      "subject": "언어와매체",
+      "unit": "언어 표현",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 44,
       "topic": "매체",
-      "subtopic": "온라인 소통 매체",
+      "subtopic": "소통 방식·수용자",
       "difficulty": "중",
       "keywords": [
         "화상 회의",
@@ -8334,14 +8765,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M03",
-      "code_src": "auto"
+      "code": "M0301",
+      "subject": "언어와매체",
+      "unit": "상호작용 방식",
+      "tags": []
     },
     {
       "exam_id": "2026_07",
       "question_no": 45,
       "topic": "매체",
-      "subtopic": "매체 수용과 생산",
+      "subtopic": "매체 자료 생산",
       "difficulty": "중",
       "keywords": [
         "(나) 홍보 포스터",
@@ -8353,14 +8786,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M04",
-      "code_src": "auto"
+      "code": "M0402",
+      "subject": "언어와매체",
+      "unit": "수정·보완",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 1,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "인문·예술",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "전기류",
@@ -8373,14 +8808,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "H0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 2,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "인문·예술",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "자기 성찰",
@@ -8392,14 +8829,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "H0201",
+      "subject": "독서",
+      "unit": "개념·정의",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 3,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "인문·예술",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "요리사 자서전",
@@ -8412,13 +8851,17 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "H0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 4,
-      "topic": "독서",
+      "topic": "주제 통합",
       "subtopic": "추론",
       "difficulty": "중",
       "keywords": [
@@ -8432,14 +8875,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "R03",
-      "code_src": "auto"
+      "code": "U0301",
+      "subject": "독서",
+      "unit": "이유·전제 추론",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 5,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "윤리적 행동주의",
@@ -8452,14 +8897,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 6,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "주제 통합",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "㉮ 윤리적 행동주의",
@@ -8471,14 +8918,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "U0201",
+      "subject": "독서",
+      "unit": "개념·정의",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 7,
-      "topic": "독서",
-      "subtopic": "적용·추론",
+      "topic": "주제 통합",
+      "subtopic": "관점 비교·평가",
       "difficulty": "중",
       "keywords": [
         "표준적 입장",
@@ -8490,14 +8939,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "U0501",
+      "subject": "독서",
+      "unit": "견해 비교",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 8,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "주제 통합",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "인격체",
@@ -8510,13 +8961,19 @@
       "correct_answer": "3",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "U0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "복합지문",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 9,
-      "topic": "독서",
+      "topic": "주제 통합",
       "subtopic": "어휘",
       "difficulty": "중",
       "keywords": [
@@ -8529,14 +8986,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "R06",
-      "code_src": "auto"
+      "code": "U0602",
+      "subject": "독서",
+      "unit": "바꿔 쓰기·한자어",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 10,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "과학·기술",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "어댑터",
@@ -8549,14 +9008,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "T0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 11,
-      "topic": "독서",
-      "subtopic": "추론",
+      "topic": "과학·기술",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "특별한 경우",
@@ -8569,14 +9030,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "R03",
-      "code_src": "auto"
+      "code": "T0201",
+      "subject": "독서",
+      "unit": "개념·정의",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 12,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "과학·기술",
+      "subtopic": "핵심 개념·원리 이해",
       "difficulty": "중",
       "keywords": [
         "㉠ 선형",
@@ -8589,14 +9052,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "T0202",
+      "subject": "독서",
+      "unit": "원리·인과·과정",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 13,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "과학·기술",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "스위칭 어댑터",
@@ -8609,14 +9074,19 @@
       "correct_answer": "1",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "T0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 14,
-      "topic": "독서",
-      "subtopic": "내용 파악",
+      "topic": "사회(법·경제)",
+      "subtopic": "세부 정보 확인",
       "difficulty": "중",
       "keywords": [
         "오피니언 리더",
@@ -8629,13 +9099,15 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "R01",
-      "code_src": "auto"
+      "code": "S0101",
+      "subject": "독서",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 15,
-      "topic": "독서",
+      "topic": "사회(법·경제)",
       "subtopic": "추론",
       "difficulty": "중",
       "keywords": [
@@ -8648,14 +9120,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "R03",
-      "code_src": "auto"
+      "code": "S0301",
+      "subject": "독서",
+      "unit": "이유·전제 추론",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 16,
-      "topic": "독서",
-      "subtopic": "외적 준거",
+      "topic": "사회(법·경제)",
+      "subtopic": "<보기> 적용",
       "difficulty": "중",
       "keywords": [
         "㉮ 2단계 유통",
@@ -8668,13 +9142,18 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "R04",
-      "code_src": "auto"
+      "code": "S0401",
+      "subject": "독서",
+      "unit": "사례 적용",
+      "tags": [
+        "보기제시",
+        "고난도"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 17,
-      "topic": "독서",
+      "topic": "사회(법·경제)",
       "subtopic": "어휘",
       "difficulty": "중",
       "keywords": [
@@ -8686,14 +9165,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "R06",
-      "code_src": "auto"
+      "code": "S0601",
+      "subject": "독서",
+      "unit": "문맥적 의미",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 18,
       "topic": "고전소설",
-      "subtopic": "인물 분석",
+      "subtopic": "인물",
       "difficulty": "중",
       "keywords": [
         "한 소년",
@@ -8706,14 +9187,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "N02",
-      "code_src": "auto"
+      "code": "N0201",
+      "subject": "문학",
+      "unit": "인물의 심리·태도",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 19,
       "topic": "고전소설",
-      "subtopic": "내용 파악",
+      "subtopic": "내용·사건",
       "difficulty": "중",
       "keywords": [
         "㉠~㉢",
@@ -8726,14 +9209,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "공통",
-      "code": "N01",
-      "code_src": "auto"
+      "code": "N0102",
+      "subject": "문학",
+      "unit": "사건 전개",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 20,
       "topic": "고전소설",
-      "subtopic": "인물 분석",
+      "subtopic": "인물",
       "difficulty": "중",
       "keywords": [
         "[A][B]",
@@ -8746,14 +9231,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "N02",
-      "code_src": "auto"
+      "code": "N0201",
+      "subject": "문학",
+      "unit": "인물의 심리·태도",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 21,
       "topic": "고전소설",
-      "subtopic": "외적 준거",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": [
         "보조적 인물",
@@ -8766,14 +9253,18 @@
       "correct_answer": "2",
       "score": 3,
       "is_common": "공통",
-      "code": "N05",
-      "code_src": "auto"
+      "code": "N0501",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 22,
-      "topic": "현대시",
-      "subtopic": "표현 기법",
+      "topic": "갈래 복합",
+      "subtopic": "표현상 공통점",
       "difficulty": "중",
       "keywords": [
         "가오리 날아오르다",
@@ -8786,14 +9277,18 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "P02",
-      "code_src": "auto"
+      "code": "Q0101",
+      "subject": "문학",
+      "unit": "표현 방식 비교",
+      "tags": [
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 23,
       "topic": "현대시",
-      "subtopic": "시어의 의미",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": [
         "[A]",
@@ -8806,14 +9301,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "P03",
-      "code_src": "auto"
+      "code": "P0301",
+      "subject": "문학",
+      "unit": "시어·시구의 의미",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 24,
-      "topic": "현대시",
-      "subtopic": "외적 준거",
+      "topic": "갈래 복합",
+      "subtopic": "<보기> 종합 감상",
       "difficulty": "중",
       "keywords": [
         "상상력",
@@ -8826,14 +9323,19 @@
       "correct_answer": "2",
       "score": 3,
       "is_common": "공통",
-      "code": "P04",
-      "code_src": "auto"
+      "code": "Q0301",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시",
+        "복합지문"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 25,
-      "topic": "고전수필",
-      "subtopic": "내용 파악",
+      "topic": "수필",
+      "subtopic": "글쓴이의 태도·내용",
       "difficulty": "중",
       "keywords": [
         "(다) 공작관문고 자서",
@@ -8846,14 +9348,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "E01",
-      "code_src": "auto"
+      "code": "E0101",
+      "subject": "문학",
+      "unit": "글쓴이의 태도",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 26,
-      "topic": "복합 문학",
-      "subtopic": "외적 준거",
+      "topic": "수필",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": [
         "[C]",
@@ -8866,14 +9370,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "Q03",
-      "code_src": "auto"
+      "code": "E0401",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 27,
       "topic": "현대시",
-      "subtopic": "시어의 의미",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": [
         "㉠~㉤",
@@ -8886,14 +9392,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "공통",
-      "code": "P03",
-      "code_src": "auto"
+      "code": "P0301",
+      "subject": "문학",
+      "unit": "시어·시구의 의미",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 28,
-      "topic": "현대소설",
-      "subtopic": "내용 파악",
+      "topic": "현대소설·극",
+      "subtopic": "내용·사건",
       "difficulty": "중",
       "keywords": [
         "판옥",
@@ -8906,14 +9414,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "F01",
-      "code_src": "auto"
+      "code": "F0101",
+      "subject": "문학",
+      "unit": "내용 일치",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 29,
-      "topic": "현대소설",
-      "subtopic": "서술 방식",
+      "topic": "현대소설·극",
+      "subtopic": "서술상 특징",
       "difficulty": "중",
       "keywords": [
         "[A]~[E]",
@@ -8925,14 +9435,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "F03",
-      "code_src": "auto"
+      "code": "F0302",
+      "subject": "문학",
+      "unit": "서술 방식·장면 제시",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 30,
-      "topic": "현대소설",
-      "subtopic": "소재의 상징",
+      "topic": "현대소설·극",
+      "subtopic": "소재·공간",
       "difficulty": "중",
       "keywords": [
         "㉠~㉢",
@@ -8945,14 +9457,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "공통",
-      "code": "F04",
-      "code_src": "auto"
+      "code": "F0401",
+      "subject": "문학",
+      "unit": "소재의 기능",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 31,
-      "topic": "현대소설",
-      "subtopic": "외적 준거",
+      "topic": "현대소설·극",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": [
         "디아스포라",
@@ -8966,14 +9480,18 @@
       "correct_answer": "3",
       "score": 3,
       "is_common": "공통",
-      "code": "F05",
-      "code_src": "auto"
+      "code": "F0501",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 32,
       "topic": "고전시가",
-      "subtopic": "표현 기법",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": [
         "㉠~㉤",
@@ -8986,14 +9504,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "공통",
-      "code": "K02",
-      "code_src": "auto"
+      "code": "K0301",
+      "subject": "문학",
+      "unit": "시어·시구의 의미",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 33,
       "topic": "고전시가",
-      "subtopic": "시어의 의미",
+      "subtopic": "시어·소재의 의미",
       "difficulty": "중",
       "keywords": [
         "꿈",
@@ -9006,14 +9526,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "공통",
-      "code": "K03",
-      "code_src": "auto"
+      "code": "K0302",
+      "subject": "문학",
+      "unit": "소재의 기능·상징",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 34,
       "topic": "고전시가",
-      "subtopic": "외적 준거",
+      "subtopic": "<보기> 감상(외적 준거)",
       "difficulty": "중",
       "keywords": [
         "유배 가사",
@@ -9026,8 +9548,12 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "공통",
-      "code": "K04",
-      "code_src": "auto"
+      "code": "K0401",
+      "subject": "문학",
+      "unit": "작가·시대 맥락",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_09",
@@ -9046,14 +9572,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V01",
-      "code_src": "auto"
+      "code": "V0102",
+      "subject": "화법과작문",
+      "unit": "말하기 전략",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 36,
       "topic": "화법",
-      "subtopic": "자료 활용",
+      "subtopic": "자료·매체 활용",
       "difficulty": "중",
       "keywords": [
         "㉠~㉤ 자료",
@@ -9066,14 +9594,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V02",
-      "code_src": "auto"
+      "code": "V0201",
+      "subject": "화법과작문",
+      "unit": "자료 활용 계획",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 37,
       "topic": "화법",
-      "subtopic": "반응 이해",
+      "subtopic": "청중 반응 이해",
       "difficulty": "중",
       "keywords": [
         "학생 대화",
@@ -9086,14 +9616,18 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V03",
-      "code_src": "auto"
+      "code": "V0301",
+      "subject": "화법과작문",
+      "unit": "반응의 적절성",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 38,
       "topic": "화법",
-      "subtopic": "대화 분석",
+      "subtopic": "담화 참여자 분석",
       "difficulty": "중",
       "keywords": [
         "메모",
@@ -9105,14 +9639,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V04",
-      "code_src": "auto"
+      "code": "V0403",
+      "subject": "화법과작문",
+      "unit": "대화·토의 참여자 역할",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 39,
       "topic": "화법",
-      "subtopic": "대화 분석",
+      "subtopic": "담화 참여자 분석",
       "difficulty": "중",
       "keywords": [
         "㉠~㉤",
@@ -9125,8 +9661,10 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "V04",
-      "code_src": "auto"
+      "code": "V0403",
+      "subject": "화법과작문",
+      "unit": "대화·토의 참여자 역할",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -9144,8 +9682,10 @@
       "correct_answer": "2",
       "score": 3,
       "is_common": "화법과작문",
-      "code": "X01",
-      "code_src": "auto"
+      "code": "X0101",
+      "subject": "화법과작문",
+      "unit": "대화·회의 내용의 글 반영",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -9163,14 +9703,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W03",
-      "code_src": "auto"
+      "code": "W0301",
+      "subject": "화법과작문",
+      "unit": "자료 활용 방안",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 42,
       "topic": "작문",
-      "subtopic": "초고 수정",
+      "subtopic": "고쳐쓰기",
       "difficulty": "중",
       "keywords": [
         "마지막 문단 고쳐쓰기",
@@ -9183,14 +9725,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W04",
-      "code_src": "auto"
+      "code": "W0401",
+      "subject": "화법과작문",
+      "unit": "초고 점검",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 43,
       "topic": "작문",
-      "subtopic": "글쓰기 방식",
+      "subtopic": "내용 생성·조직",
       "difficulty": "중",
       "keywords": [
         "글쓰기 방식",
@@ -9202,14 +9746,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W02",
-      "code_src": "auto"
+      "code": "W0202",
+      "subject": "화법과작문",
+      "unit": "내용 조직",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 44,
       "topic": "작문",
-      "subtopic": "초고 수정",
+      "subtopic": "조건에 맞는 표현",
       "difficulty": "중",
       "keywords": [
         "[A] 마무리",
@@ -9221,8 +9767,10 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "화법과작문",
-      "code": "W04",
-      "code_src": "auto"
+      "code": "W0501",
+      "subject": "화법과작문",
+      "unit": "조건 반영 쓰기",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
@@ -9240,14 +9788,18 @@
       "correct_answer": "5",
       "score": 3,
       "is_common": "화법과작문",
-      "code": "W03",
-      "code_src": "auto"
+      "code": "W0301",
+      "subject": "화법과작문",
+      "unit": "자료 활용 방안",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 35,
       "topic": "언어",
-      "subtopic": "형태론",
+      "subtopic": "단어",
       "difficulty": "중",
       "keywords": [
         "색채어",
@@ -9260,14 +9812,16 @@
       "correct_answer": "3",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G02",
-      "code_src": "auto"
+      "code": "G0203",
+      "subject": "언어와매체",
+      "unit": "단어 형성",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 36,
       "topic": "언어",
-      "subtopic": "국어사·중세국어",
+      "subtopic": "단어",
       "difficulty": "중",
       "keywords": [
         "15세기 국어",
@@ -9280,14 +9834,18 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G05",
-      "code_src": "auto"
+      "code": "G0203",
+      "subject": "언어와매체",
+      "unit": "단어 형성",
+      "tags": [
+        "보기제시"
+      ]
     },
     {
       "exam_id": "2026_09",
       "question_no": 37,
       "topic": "언어",
-      "subtopic": "담화와 화용론",
+      "subtopic": "단어",
       "difficulty": "중",
       "keywords": [
         "자기",
@@ -9300,14 +9858,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G04",
-      "code_src": "auto"
+      "code": "G0203",
+      "subject": "언어와매체",
+      "unit": "단어 형성",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 38,
       "topic": "언어",
-      "subtopic": "음운론",
+      "subtopic": "음운",
       "difficulty": "중",
       "keywords": [
         "한자어 ㄹ 뒤 경음화",
@@ -9320,14 +9880,16 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "G01",
-      "code_src": "auto"
+      "code": "G0102",
+      "subject": "언어와매체",
+      "unit": "교체",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 39,
       "topic": "언어",
-      "subtopic": "통사론",
+      "subtopic": "문장",
       "difficulty": "중",
       "keywords": [
         "㉠~㉢",
@@ -9341,14 +9903,16 @@
       "correct_answer": "4",
       "score": 3,
       "is_common": "언어와매체",
-      "code": "G03",
-      "code_src": "auto"
+      "code": "G0301",
+      "subject": "언어와매체",
+      "unit": "문장 성분",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 40,
       "topic": "매체",
-      "subtopic": "온라인 소통 매체",
+      "subtopic": "매체 특성·정보 구성",
       "difficulty": "중",
       "keywords": [
         "실시간 인터넷 방송",
@@ -9361,14 +9925,16 @@
       "correct_answer": "1",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M03",
-      "code_src": "auto"
+      "code": "M0101",
+      "subject": "언어와매체",
+      "unit": "정보 구성 방식",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 41,
       "topic": "매체",
-      "subtopic": "매체 언어의 특성",
+      "subtopic": "매체 자료 생산",
       "difficulty": "중",
       "keywords": [
         "(나) 카드 뉴스",
@@ -9381,14 +9947,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M02",
-      "code_src": "auto"
+      "code": "M0401",
+      "subject": "언어와매체",
+      "unit": "자료 제작 계획",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 42,
       "topic": "매체",
-      "subtopic": "매체 수용과 생산",
+      "subtopic": "소통 방식·수용자",
       "difficulty": "중",
       "keywords": [
         "시청자 반응",
@@ -9400,14 +9968,16 @@
       "correct_answer": "2",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M04",
-      "code_src": "auto"
+      "code": "M0301",
+      "subject": "언어와매체",
+      "unit": "상호작용 방식",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 43,
       "topic": "매체",
-      "subtopic": "매체 언어의 특성",
+      "subtopic": "매체 언어 표현",
       "difficulty": "중",
       "keywords": [
         "㉠~㉤",
@@ -9419,14 +9989,16 @@
       "correct_answer": "4",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M02",
-      "code_src": "auto"
+      "code": "M0201",
+      "subject": "언어와매체",
+      "unit": "언어 표현",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 44,
       "topic": "매체",
-      "subtopic": "매체 자료의 수용",
+      "subtopic": "매체 특성·정보 구성",
       "difficulty": "중",
       "keywords": [
         "둘레길 앱",
@@ -9439,14 +10011,16 @@
       "correct_answer": "2",
       "score": 3,
       "is_common": "언어와매체",
-      "code": "M05",
-      "code_src": "auto"
+      "code": "M0102",
+      "subject": "언어와매체",
+      "unit": "매체별 특성",
+      "tags": []
     },
     {
       "exam_id": "2026_09",
       "question_no": 45,
       "topic": "매체",
-      "subtopic": "온라인 소통 매체",
+      "subtopic": "소통 방식·수용자",
       "difficulty": "중",
       "keywords": [
         "매체 활용 방식",
@@ -9458,8 +10032,10 @@
       "correct_answer": "5",
       "score": 2,
       "is_common": "언어와매체",
-      "code": "M03",
-      "code_src": "auto"
+      "code": "M0301",
+      "subject": "언어와매체",
+      "unit": "상호작용 방식",
+      "tags": []
     },
     {
       "exam_id": "2026_10",
@@ -10457,7 +11033,236 @@
       "tags": [
         "보기제시"
       ]
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 35,
+      "topic": "언어",
+      "subtopic": "단어",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 17,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "품사",
+      "code": "G0202",
+      "tags": []
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 36,
+      "topic": "언어",
+      "subtopic": "국어사",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 17,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 3,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "중세 국어 문법",
+      "code": "G0501",
+      "tags": [
+        "보기제시"
+      ]
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 37,
+      "topic": "언어",
+      "subtopic": "문장",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 17,
+      "answer_page": 1,
+      "correct_answer": "1",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "문장 구조",
+      "code": "G0302",
+      "tags": [
+        "보기제시"
+      ]
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 38,
+      "topic": "언어",
+      "subtopic": "음운",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 18,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "음운 변동 종합",
+      "code": "G0104",
+      "tags": [
+        "보기제시"
+      ]
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 39,
+      "topic": "언어",
+      "subtopic": "문장",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 18,
+      "answer_page": 1,
+      "correct_answer": "2",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "피동·사동",
+      "code": "G0305",
+      "tags": [
+        "보기제시"
+      ]
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 40,
+      "topic": "매체",
+      "subtopic": "매체 특성·정보 구성",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 19,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "정보 구성 방식",
+      "code": "M0101",
+      "tags": []
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 41,
+      "topic": "매체",
+      "subtopic": "비판적 수용",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 19,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "신뢰성·공정성 평가",
+      "code": "M0501",
+      "tags": []
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 42,
+      "topic": "매체",
+      "subtopic": "매체 자료 생산",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 19,
+      "answer_page": 1,
+      "correct_answer": "3",
+      "score": 3,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "자료 제작 계획",
+      "code": "M0401",
+      "tags": []
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 43,
+      "topic": "매체",
+      "subtopic": "매체 언어 표현",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 19,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "언어 표현",
+      "code": "M0201",
+      "tags": []
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 44,
+      "topic": "매체",
+      "subtopic": "소통 방식·수용자",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 20,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "상호작용 방식",
+      "code": "M0301",
+      "tags": []
+    },
+    {
+      "exam_id": "2026-5",
+      "question_no": 45,
+      "topic": "매체",
+      "subtopic": "매체 자료 생산",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 20,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "수정·보완",
+      "code": "M0402",
+      "tags": []
+    },
+    {
+      "exam_id": "2026_06",
+      "question_no": 41,
+      "topic": "작문",
+      "subtopic": "내용 생성·조직",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 15,
+      "answer_page": 1,
+      "correct_answer": "5",
+      "score": 2,
+      "is_common": "화법과작문",
+      "subject": "화법과작문",
+      "unit": "내용 조직",
+      "code": "W0202",
+      "tags": []
+    },
+    {
+      "exam_id": "2026_06",
+      "question_no": 41,
+      "topic": "매체",
+      "subtopic": "비판적 수용",
+      "difficulty": "중",
+      "keywords": "",
+      "question_page": 19,
+      "answer_page": 1,
+      "correct_answer": "4",
+      "score": 2,
+      "is_common": "언어와매체",
+      "subject": "언어와매체",
+      "unit": "신뢰성·공정성 평가",
+      "code": "M0501",
+      "tags": []
     }
   ],
-  "updated_at": "2026-10-21T02:36:17.338Z"
+  "updated_at": "2026-10-21T02:41:33.007Z"
 }
